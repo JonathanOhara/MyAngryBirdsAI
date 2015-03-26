@@ -20,6 +20,7 @@ import java.util.Random;
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
 import ab.planner.TrajectoryPlanner;
+import ab.utils.ABUtil;
 import ab.utils.StateUtil;
 import ab.vision.ABObject;
 import ab.vision.GameStateExtractor.GameState;
@@ -110,13 +111,25 @@ public class MyAgent implements Runnable {
 	}
 
 	private double distance(Point p1, Point p2) {
-		return Math
-				.sqrt((double) ((p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y)
+		return Math.sqrt((double) ((p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y)
 						* (p1.y - p2.y)));
 	}
+	
+	private void printBlocksInfo(Vision vision) {
+		for( ABObject block : vision.findBlocksRealShape() ){
+			System.out.println("Block INFO");
+			System.out.println("\tType: "+block.type);
+			System.out.println("\tShape: "+block.shape);
+			System.out.println("\tX: "+block.x);
+			System.out.println("\tY: "+block.y);
+			System.out.println("\tWidth: "+block.width);
+			System.out.println("\tHeight: "+block.height);
+			System.out.println("\tArea: "+block.area);
+			System.out.println("\tAngle: "+block.angle);
+		}
+	}
 
-	public GameState solve()
-	{
+	public GameState solve(){
 
 		// capture Image
 		BufferedImage screenshot = ActionRobot.doScreenShot();
@@ -139,12 +152,14 @@ public class MyAgent implements Runnable {
         // get all the pigs
  		List<ABObject> pigs = vision.findPigsMBR();
 
-		GameState state = aRobot.getState();
+ 		GameState state = aRobot.getState();
 
 		// if there is a sling, then play, otherwise just skip.
 		if (sling != null) {
 
 			if (!pigs.isEmpty()) {
+				
+				printBlocksInfo(vision);
 
 				Point releasePoint = null;
 				Shot shot = new Shot();
