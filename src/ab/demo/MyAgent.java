@@ -12,6 +12,8 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,6 +38,8 @@ public class MyAgent implements Runnable {
 	TrajectoryPlanner tp;
 	private boolean firstShot;
 	private Point prevTarget;
+	
+	Rectangle sling;
 	// a standalone implementation of the Naive Agent
 	public MyAgent() {
 		
@@ -115,7 +119,9 @@ public class MyAgent implements Runnable {
 						* (p1.y - p2.y)));
 	}
 	
-	private void printBlocksInfo(Vision vision) {
+	//195,325
+	private void printBlocksInfo(Vision vision, List<ABObject> pigs) {
+		
 		for( ABObject block : vision.findBlocksRealShape() ){
 			System.out.println("Block INFO");
 			System.out.println("\tType: "+block.type);
@@ -128,6 +134,37 @@ public class MyAgent implements Runnable {
 			System.out.println("\tAngle: "+block.angle);
 		}
 	}
+	
+	private void logic(Vision vision, List<ABObject> pigs) {
+		
+		List<ABObject> objects = vision.findBlocksRealShape();
+		List<ABObject> supporters = null;
+		Collections.sort(pigs, new Comparator<ABObject>() {
+			@Override
+			public int compare(ABObject o1, ABObject o2) {
+				return Double.compare( distance(new Point(sling.x, sling.y), new Point(o1.x, o1.y)), distance(new Point(sling.x, sling.y), new Point(o2.x, o2.y)) );
+			}
+		});
+		for( ABObject pig : pigs ){
+			supporters = ABUtil.getSupporters(pig, objects);
+			System.out.println(" Pig ");
+			System.out.println("\tX: "+pig.x);
+			System.out.println("\tY: "+pig.y);
+			
+			for( ABObject block : supporters ){
+				System.out.println("Supporters INFO");
+				System.out.println("\tType: "+block.type);
+				System.out.println("\tShape: "+block.shape);
+				System.out.println("\tX: "+block.x);
+				System.out.println("\tY: "+block.y);
+				System.out.println("\tWidth: "+block.width);
+				System.out.println("\tHeight: "+block.height);
+				System.out.println("\tArea: "+block.area);
+				System.out.println("\tAngle: "+block.angle);
+			}
+		}
+		
+	}
 
 	public GameState solve(){
 
@@ -138,7 +175,7 @@ public class MyAgent implements Runnable {
 		Vision vision = new Vision(screenshot);
 
 		// find the slingshot
-		Rectangle sling = vision.findSlingshotMBR();
+		sling = vision.findSlingshotMBR();
 
 		// confirm the slingshot
 		while (sling == null && aRobot.getState() == GameState.PLAYING) {
@@ -159,7 +196,9 @@ public class MyAgent implements Runnable {
 
 			if (!pigs.isEmpty()) {
 				
-				printBlocksInfo(vision);
+				printBlocksInfo(vision, pigs);
+				System.out.println("MyAgent.solve()");
+				logic(vision, pigs);
 
 				Point releasePoint = null;
 				Shot shot = new Shot();
