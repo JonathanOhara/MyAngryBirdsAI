@@ -20,12 +20,14 @@ import java.util.Map;
 import java.util.Random;
 
 import ab.demo.other.ActionRobot;
+import ab.demo.other.MyShot;
 import ab.demo.other.Shot;
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
 import ab.vision.ABObject;
 import ab.vision.GameStateExtractor.GameState;
+import ab.vision.ShowSeg;
 import ab.vision.Vision;
 
 public class MyAgent implements Runnable {
@@ -40,6 +42,9 @@ public class MyAgent implements Runnable {
 	private Point prevTarget;
 	
 	Rectangle sling;
+	
+	
+	final int BIRDS_SIZE = 20;
 	// a standalone implementation of the Naive Agent
 	public MyAgent() {
 		
@@ -133,7 +138,7 @@ public class MyAgent implements Runnable {
 			System.out.println("\tArea: "+block.area);
 			System.out.println("\tAngle: "+block.angle);
 		}
-	}
+	} 
 	
 	private void logic(Vision vision, List<ABObject> pigs) {
 		
@@ -150,6 +155,7 @@ public class MyAgent implements Runnable {
 			System.out.println(" Pig ");
 			System.out.println("\tX: "+pig.x);
 			System.out.println("\tY: "+pig.y);
+			ABUtil.isReachable(vision, new Point(pig.x, pig.y), new Shot());
 			
 			for( ABObject block : supporters ){
 				System.out.println("Supporters INFO");
@@ -196,13 +202,123 @@ public class MyAgent implements Runnable {
 
 			if (!pigs.isEmpty()) {
 				
-				printBlocksInfo(vision, pigs);
-				System.out.println("MyAgent.solve()");
-				logic(vision, pigs);
-
 				Point releasePoint = null;
 				Shot shot = new Shot();
 				int dx,dy;
+				
+				
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				/*
+				printBlocksInfo(vision, pigs);
+				System.out.println("MyAgent.solve()");
+				logic(vision, pigs);
+				*/
+				long time = System.currentTimeMillis();
+				List<MyShot> possibleShots = new ArrayList<MyShot>();
+				List<MyShot> imPossibleShots = new ArrayList<MyShot>();
+				
+
+				for( ABObject object: vision.findBlocksMBR() ){
+					if( object.width > 200 && object.height > 200 ){
+						//ERRO ele achou que o menu da direita eh um objeto pulando...
+						continue;
+					}
+//					System.out.println(object);
+					
+					double targetX;
+					double targetY;
+					
+					List<Point> pointsToTry = new ArrayList<Point>();
+					try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					
+					targetX = object.x;
+					targetY = object.y;
+					pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+					
+					targetX += BIRDS_SIZE;
+					while( targetX <= object.x + object.width ){
+						pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+						targetX += BIRDS_SIZE;
+					}
+					
+					targetX = object.x;
+					targetY = object.y + BIRDS_SIZE;
+					
+					while( targetY <= object.y + object.height ){
+						pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+						targetY+= BIRDS_SIZE;
+					}
+					
+					for( Point _tpt : pointsToTry ){
+//						System.out.println("Point "+_tpt);
+						
+						int tapInterval = 0;
+						
+						releasePoint = calcReleasePoint(_tpt);
+						
+						Point refPoint = tp.getReferencePoint(sling);
+						
+						int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapInterval);
+						dx = (int)releasePoint.getX() - refPoint.x;
+						dy = (int)releasePoint.getY() - refPoint.y;
+						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+						
+						
+						
+						
+						if( ABUtil.isReachable(vision, _tpt, shot) ){
+//							System.out.println("is reachable");
+							possibleShots.add( new MyShot(_tpt, shot, object) );
+						}else{
+//							System.out.println("not reachable");
+							imPossibleShots.add( new MyShot(_tpt, shot, object) );
+						}
+
+					}
+				}
+			
+				System.out.println("Tempo: "+(System.currentTimeMillis() - time));
+					
+//				for( MyShot myshot : possibleShots ){
+//					ShowSeg.debugBluePoint.add(myshot.getTarget());
+//				}
+//				for( MyShot myshot : imPossibleShots ){
+//					ShowSeg.debugRedPoint.add(myshot.getTarget());
+//				}
+//				try {
+//					System.out.println("W8ing");
+//					Thread.sleep(100000);
+//				} catch (InterruptedException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//				ShowSeg.debugBluePoint = new ArrayList<Point>();
+//				ShowSeg.debugRedPoint = new ArrayList<Point>();
+					
+					
+					
+					
+					
+					
+					
+					
 				{
 					// random pick up a pig
 					ABObject pig = pigs.get(randomGenerator.nextInt(pigs.size()));
@@ -218,32 +334,7 @@ public class MyAgent implements Runnable {
 
 					prevTarget = new Point(_tpt.x, _tpt.y);
 
-					// estimate the trajectory
-					ArrayList<Point> pts = tp.estimateLaunchPoint(sling, _tpt);
-					
-					// do a high shot when entering a level to find an accurate velocity
-					if (firstShot && pts.size() > 1) 
-					{
-						releasePoint = pts.get(1);
-					}
-					else if (pts.size() == 1)
-						releasePoint = pts.get(0);
-					else if (pts.size() == 2)
-					{
-						// randomly choose between the trajectories, with a 1 in
-						// 6 chance of choosing the high one
-						if (randomGenerator.nextInt(6) == 0)
-							releasePoint = pts.get(1);
-						else
-							releasePoint = pts.get(0);
-					}
-					else
-						if(pts.isEmpty())
-						{
-							System.out.println("No release point found for the target");
-							System.out.println("Try a shot with 45 degree");
-							releasePoint = tp.findReleasePoint(sling, Math.PI/4);
-						}
+					releasePoint = calcReleasePoint(_tpt); 
 					
 					// Get the reference point
 					Point refPoint = tp.getReferencePoint(sling);
@@ -323,6 +414,42 @@ public class MyAgent implements Runnable {
 		}
 		return state;
 	}
+
+	private Point calcReleasePoint(Point _tpt) {
+		
+		// estimate the trajectory
+		ArrayList<Point> pts = tp.estimateLaunchPoint(sling, _tpt);
+//		System.out.println("Pts = "+pts.get(0));
+//		System.out.println("Pts = "+pts.get(1));
+		// do a high shot when entering a level to find an accurate velocity
+		
+		Point releasePoint = null;
+		if (firstShot && pts.size() > 1) 
+		{
+			releasePoint = pts.get(1);
+		}
+		else if (pts.size() == 1)
+			releasePoint = pts.get(0);
+		else if (pts.size() == 2)
+		{
+			// randomly choose between the trajectories, with a 1 in
+			// 6 chance of choosing the high one
+			if (randomGenerator.nextInt(6) == 0)
+				releasePoint = pts.get(1);
+			else
+				releasePoint = pts.get(0);
+		}
+		else
+			if(pts.isEmpty())
+			{
+				System.out.println("No release point found for the target");
+				System.out.println("Try a shot with 45 degree");
+				releasePoint = tp.findReleasePoint(sling, Math.PI/4);
+			}
+		
+		return releasePoint;
+	}
+
 
 	public static void main(String args[]) {
 

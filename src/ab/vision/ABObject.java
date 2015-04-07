@@ -62,5 +62,12 @@ public Point getCenter() {
 public static void resetCounter() {
 	counter = 0;	
 }
+@Override
+public String toString() {
+	return "ABObject [id=" + id + ", type=" + type + ", area=" + area
+			+ ", shape=" + shape + ", angle=" + angle + ", hollow=" + hollow
+			+ ", x=" + x + ", y=" + y + ", width=" + width + ", height="
+			+ height + "]";
+}
 
 }

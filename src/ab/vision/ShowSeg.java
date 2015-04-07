@@ -18,10 +18,12 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import javax.imageio.ImageIO;
+import javax.swing.DebugGraphics;
 
 import Jama.Matrix;
 import ab.demo.other.ActionRobot;
@@ -36,6 +38,16 @@ public class ShowSeg implements Runnable {
 	private static List<Point> trajPoints;
 	public  static boolean useRealshape = false;
 	private static VisionRealShape vision;
+	
+	public static ShowSeg instance;
+	
+	public static List<Point> debugBluePoint = new ArrayList<Point>();
+	public static List<Point> debugRedPoint = new ArrayList<Point>();
+	
+	public ShowSeg() {
+		instance = this;
+	}
+	
 	static public Proxy getGameConnection(int port) {
 		Proxy proxy = null;
 		try {
@@ -78,6 +90,22 @@ public class ShowSeg implements Runnable {
 
 		return meta;
 	}
+	
+	
+	public static BufferedImage drawPoint(BufferedImage screenshot) {
+		int SIZE = 6; 
+		
+		for( Point point : debugRedPoint){
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.RED);	
+		}
+		
+		for( Point point : debugBluePoint){
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.BLUE);	
+		}
+		
+		return screenshot;
+	}
+	
 	public static BufferedImage drawRealshape(BufferedImage screenshot)
 	{
 		// get game state
@@ -282,6 +310,8 @@ public class ShowSeg implements Runnable {
 		    else
 		    	screenshot = drawRealshape(screenshot);
 		    
+		    screenshot = drawPoint(screenshot);
+		    
 			if (frame == null) {
 
 				frame = new ImageSegFrame("Image Segmentation", screenshot,
@@ -298,5 +328,5 @@ public class ShowSeg implements Runnable {
 			}
 		}
 	}
-	
+
 }

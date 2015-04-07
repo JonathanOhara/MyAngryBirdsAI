@@ -407,6 +407,15 @@ public class VisionUtils {
 			Rectangle box, Color fgColour) {
 		return drawBoundingBox(canvas, box, fgColour, Color.WHITE);
 	}
+	
+	// draws a bounding box onto an image
+	public static BufferedImage drawCircle(BufferedImage canvas,Point pt, int radius, Color Colour) {
+		Graphics2D g2d = canvas.createGraphics();
+		g2d.setColor(Colour);
+		g2d.drawOval(pt.x, pt.y, radius, radius);
+
+		return canvas;
+	}
 
 	// draws bounding boxes onto an image
 	public static BufferedImage drawBoundingBoxes(BufferedImage canvas,
