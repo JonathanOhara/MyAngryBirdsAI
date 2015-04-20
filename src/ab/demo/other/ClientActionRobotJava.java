@@ -17,8 +17,8 @@ import java.util.List;
 
 import ab.vision.ABObject;
 import ab.vision.ABType;
-import ab.vision.Vision;
 import ab.vision.GameStateExtractor.GameState;
+import ab.vision.Vision;
 import external.ClientMessageEncoder;
 
 //Java interface of ClientActionRobot

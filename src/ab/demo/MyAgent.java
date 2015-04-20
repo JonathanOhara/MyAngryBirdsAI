@@ -11,6 +11,11 @@ package ab.demo;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -30,6 +35,8 @@ import ab.vision.GameStateExtractor.GameState;
 import ab.vision.ShowSeg;
 import ab.vision.Vision;
 
+import com.google.gson.Gson;
+
 public class MyAgent implements Runnable {
 
 	private ActionRobot aRobot;
@@ -39,18 +46,16 @@ public class MyAgent implements Runnable {
 	private Map<Integer,Integer> scores = new LinkedHashMap<Integer,Integer>();
 	TrajectoryPlanner tp;
 	private boolean firstShot;
-	private Point prevTarget;
 	
 	Rectangle sling;
 	
 	
-	final int BIRDS_SIZE = 20;
+	final int BIRDS_SIZE = 10;
 	// a standalone implementation of the Naive Agent
 	public MyAgent() {
 		
 		aRobot = new ActionRobot();
 		tp = new TrajectoryPlanner();
-		prevTarget = null;
 		firstShot = true;
 		randomGenerator = new Random();
 		// --- go to the Poached Eggs episode level selection page ---
@@ -122,58 +127,9 @@ public class MyAgent implements Runnable {
 	}
 
 	private double distance(Point p1, Point p2) {
-		return Math.sqrt((double) ((p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y)
-						* (p1.y - p2.y)));
+		return Math.sqrt( (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y) );
 	}
 	
-	//195,325
-	private void printBlocksInfo(Vision vision, List<ABObject> pigs) {
-		
-		for( ABObject block : vision.findBlocksRealShape() ){
-			System.out.println("Block INFO");
-			System.out.println("\tType: "+block.type);
-			System.out.println("\tShape: "+block.shape);
-			System.out.println("\tX: "+block.x);
-			System.out.println("\tY: "+block.y);
-			System.out.println("\tWidth: "+block.width);
-			System.out.println("\tHeight: "+block.height);
-			System.out.println("\tArea: "+block.area);
-			System.out.println("\tAngle: "+block.angle);
-		}
-	} 
-	
-	private void logic(Vision vision, List<ABObject> pigs) {
-		
-		List<ABObject> objects = vision.findBlocksRealShape();
-		List<ABObject> supporters = null;
-		Collections.sort(pigs, new Comparator<ABObject>() {
-			@Override
-			public int compare(ABObject o1, ABObject o2) {
-				return Double.compare( distance(new Point(sling.x, sling.y), new Point(o1.x, o1.y)), distance(new Point(sling.x, sling.y), new Point(o2.x, o2.y)) );
-			}
-		});
-		for( ABObject pig : pigs ){
-			supporters = ABUtil.getSupporters(pig, objects);
-			System.out.println(" Pig ");
-			System.out.println("\tX: "+pig.x);
-			System.out.println("\tY: "+pig.y);
-			ABUtil.isReachable(vision, new Point(pig.x, pig.y), new Shot());
-			
-			for( ABObject block : supporters ){
-				System.out.println("Supporters INFO");
-				System.out.println("\tType: "+block.type);
-				System.out.println("\tShape: "+block.shape);
-				System.out.println("\tX: "+block.x);
-				System.out.println("\tY: "+block.y);
-				System.out.println("\tWidth: "+block.width);
-				System.out.println("\tHeight: "+block.height);
-				System.out.println("\tArea: "+block.area);
-				System.out.println("\tAngle: "+block.angle);
-			}
-		}
-		
-	}
-
 	public GameState solve(){
 
 		// capture Image
@@ -220,16 +176,38 @@ public class MyAgent implements Runnable {
 				
 				
 				
+				//------------------------------------------------------------------------------------------------------------------------------------------
 				
-				
-				/*
-				printBlocksInfo(vision, pigs);
-				System.out.println("MyAgent.solve()");
-				logic(vision, pigs);
-				*/
 				long time = System.currentTimeMillis();
+				
+				try {
+					Gson gson = new Gson();
+					String json = gson.toJson(vision.findBlocksMBR());;
+					
+					File reportFile = new File("./reports/" + currentLevel );
+					if( !reportFile.exists() ){
+						reportFile.mkdir();
+					}
+					
+					String reportsPath = reportFile.getCanonicalPath();
+					
+					File file = new File(reportsPath + "/cenario.json");
+					if (!file.exists()) {
+						file.createNewFile();
+					}
+				    
+					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), true)));
+				    out.println(json + "\n");
+				    out.close();
+					
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				
+				//------------------------------------------------------------------------------------------------------------------------------------------
+				
+					
 				List<MyShot> possibleShots = new ArrayList<MyShot>();
-				List<MyShot> imPossibleShots = new ArrayList<MyShot>();
 				
 				ABObject closestPig = pigs.get(0);
 				double closestPigDistance = distance(closestPig.getCenter(), new Point(0,0));
@@ -305,20 +283,15 @@ public class MyAgent implements Runnable {
 						
 						if( ABUtil.isReachable(vision, _tpt, shot) ){
 							possibleShots.add( myShot );
-						}else{
-							imPossibleShots.add( myShot );
 						}
 
-					}
+					}	
 				}
 			
 				System.out.println("Tempo: "+(System.currentTimeMillis() - time));
 					
 //				for( MyShot myshot : possibleShots ){
 //					ShowSeg.debugBluePoint.add(myshot.getTarget());
-//				}
-//				for( MyShot myshot : imPossibleShots ){
-//					ShowSeg.debugRedPoint.add(myshot.getTarget());
 //				}
 //				try {
 //					System.out.println("W8ing");
@@ -342,8 +315,6 @@ public class MyAgent implements Runnable {
 				shot = possibleShots.get(0).getShot();
 				dx = possibleShots.get(0).getShot().getDx();
 				dy = possibleShots.get(0).getShot().getDy();
-					
-					
 					
 					
 					/*
