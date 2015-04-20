@@ -72,6 +72,7 @@ public class MyAgent implements Runnable {
 					e.printStackTrace();
 				}
 				int score = StateUtil.getScore(ActionRobot.proxy);
+				System.out.println("Score = "+score);
 				if(!scores.containsKey(currentLevel))
 					scores.put(currentLevel, score);
 				else
@@ -87,7 +88,8 @@ public class MyAgent implements Runnable {
 							+ " Score: " + scores.get(key) + " ");
 				}
 				System.out.println("Total Score: " + totalScore);
-				aRobot.loadLevel(++currentLevel);
+//				aRobot.loadLevel(++currentLevel);
+				aRobot.loadLevel(currentLevel);
 				// make a new trajectory planner whenever a new level is entered
 				tp = new TrajectoryPlanner();
 
@@ -229,7 +231,23 @@ public class MyAgent implements Runnable {
 				List<MyShot> possibleShots = new ArrayList<MyShot>();
 				List<MyShot> imPossibleShots = new ArrayList<MyShot>();
 				
-
+				ABObject closestPig = pigs.get(0);
+				double closestPigDistance = distance(closestPig.getCenter(), new Point(0,0));
+				
+				for( ABObject pig: pigs ){
+					double distance = distance(pig.getCenter(), new Point(0,0));
+					
+					System.out.println("distance = "+distance);
+					
+					if( distance < closestPigDistance ){
+						closestPigDistance = distance;
+						closestPig = pig;
+						System.out.println("minor");
+					}
+				}
+				
+				ShowSeg.debugRedPoint.add(closestPig.getCenter());
+				
 				for( ABObject object: vision.findBlocksMBR() ){
 					if( object.width > 200 && object.height > 200 ){
 						//ERRO ele achou que o menu da direita eh um objeto pulando...
@@ -263,12 +281,10 @@ public class MyAgent implements Runnable {
 					
 					while( targetY <= object.y + object.height ){
 						pointsToTry.add(new Point( (int)targetX, (int)targetY ));
-						targetY+= BIRDS_SIZE;
+						targetY += BIRDS_SIZE;
 					}
 					
 					for( Point _tpt : pointsToTry ){
-//						System.out.println("Point "+_tpt);
-						
 						int tapInterval = 0;
 						
 						releasePoint = calcReleasePoint(_tpt);
@@ -280,15 +296,17 @@ public class MyAgent implements Runnable {
 						dy = (int)releasePoint.getY() - refPoint.y;
 						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
 						
+						MyShot myShot = new MyShot(_tpt, shot, object);
 						
-						
+						double pigDistance = distance(closestPig.getCenter(), _tpt); 
+								
+						myShot.setClosestPig(closestPig);
+						myShot.setDistanceOfClosestPig(pigDistance);
 						
 						if( ABUtil.isReachable(vision, _tpt, shot) ){
-//							System.out.println("is reachable");
-							possibleShots.add( new MyShot(_tpt, shot, object) );
+							possibleShots.add( myShot );
 						}else{
-//							System.out.println("not reachable");
-							imPossibleShots.add( new MyShot(_tpt, shot, object) );
+							imPossibleShots.add( myShot );
 						}
 
 					}
@@ -311,14 +329,24 @@ public class MyAgent implements Runnable {
 //				}
 //				ShowSeg.debugBluePoint = new ArrayList<Point>();
 //				ShowSeg.debugRedPoint = new ArrayList<Point>();
+
+				Collections.sort(possibleShots, new Comparator<MyShot>() {
+					@Override
+					public int compare(MyShot o1, MyShot o2) {
+						return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+					}
+				});
+				
+				ShowSeg.debugBluePoint.add(possibleShots.get(0).getTarget());
+					
+				shot = possibleShots.get(0).getShot();
+				dx = possibleShots.get(0).getShot().getDx();
+				dy = possibleShots.get(0).getShot().getDy();
 					
 					
 					
 					
-					
-					
-					
-					
+					/*
 				{
 					// random pick up a pig
 					ABObject pig = pigs.get(randomGenerator.nextInt(pigs.size()));
@@ -376,6 +404,7 @@ public class MyAgent implements Runnable {
 							return state;
 						}
 				}
+				*/
 
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{

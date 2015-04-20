@@ -9,6 +9,9 @@ public class MyShot {
 	private Shot shot;
 	private ABObject aim;
 	
+	private ABObject closestPig;
+	private double distanceOfClosestPig;
+	
 	public MyShot(Point target, Shot shot, ABObject aim) {
 		super();
 		this.target = target;
@@ -34,7 +37,21 @@ public class MyShot {
 	public void setAim(ABObject aim) {
 		this.aim = aim;
 	}
-	
-	
+
+	public ABObject getClosestPig() {
+		return closestPig;
+	}
+
+	public void setClosestPig(ABObject closestPig) {
+		this.closestPig = closestPig;
+	}
+
+	public double getDistanceOfClosestPig() {
+		return distanceOfClosestPig;
+	}
+
+	public void setDistanceOfClosestPig(double distanceOfClosestPig) {
+		this.distanceOfClosestPig = distanceOfClosestPig;
+	}
 	
 }
