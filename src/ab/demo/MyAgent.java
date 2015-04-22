@@ -81,6 +81,8 @@ public class MyAgent implements Runnable {
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
+				calculateShotStats(true);
+				
 				try {
 					Thread.sleep(3000);
 				} catch (InterruptedException e) {
@@ -112,6 +114,7 @@ public class MyAgent implements Runnable {
 				firstShot = true;
 				numberOfbirds = -1;
 			} else if (state == GameState.LOST) {
+				calculateShotStats(true);
 				System.out.println("Restart");
 				aRobot.restartLevel();
 				numberOfbirds = -1;
@@ -211,7 +214,7 @@ public class MyAgent implements Runnable {
 						file.createNewFile();
 					}
 				    
-					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), true)));
+					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), false)));
 				    out.println(json + "\n");
 				    out.close();
 					
@@ -234,17 +237,7 @@ public class MyAgent implements Runnable {
 					previousShot.setScore( aRobot.getScore() - previousScore );
 				}
 				
-				
-				MapState mapState = new MapState();
-				mapState.setBlocks( vision.findBirdsMBR() );
-				mapState.setPigs( vision.findPigsMBR() );
-				mapState.setTnts( vision.findTNTs() );
-				
-				actualShot.setBirdIndex( numberOfbirds - vision.findBirdsMBR().size() + 1 );
-				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
-				actualShot.setTimesPlusOne();
-		
-				previousScore = aRobot.getScore();
+				calculateShotStats(false);
 				
 				//------------------------------------------------------------------------------------------------------------------------------------------
 			
@@ -369,6 +362,27 @@ public class MyAgent implements Runnable {
 
 		}
 		return state;
+	}
+
+
+	private void calculateShotStats(boolean finalShot) {
+		// capture Image
+		BufferedImage screenshot = ActionRobot.doScreenShot();
+
+		// process image
+		Vision vision = new Vision(screenshot);
+		
+		MapState mapState = new MapState();
+		mapState.setBlocks( vision.findBirdsMBR() );
+		mapState.setPigs( vision.findPigsMBR() );
+		mapState.setTnts( vision.findTNTs() );
+		
+		actualShot.setBirdIndex( numberOfbirds - vision.findBirdsMBR().size() + 1 );
+		actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+		actualShot.setTimesPlusOne();
+		actualShot.setFinalShot(finalShot);
+
+		previousScore = aRobot.getScore();
 	}
 
 	private MyShot chooseOneShot(MyShot actualShot2) {

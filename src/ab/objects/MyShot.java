@@ -32,6 +32,7 @@ public class MyShot {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
+	private boolean finalShot = false;
 	private boolean nodeTested = false;
 	
 	public MyShot() {
@@ -47,6 +48,8 @@ public class MyShot {
 		
 		nodeTested = false;
 		target = new Point(0,0);
+		
+		finalShot = false;
 		
 		shot = null;
 		aim = null;
@@ -175,6 +178,14 @@ public class MyShot {
 
 	public void setNodeTested(boolean nodeTested) {
 		this.nodeTested = nodeTested;
+	}
+
+	public boolean isFinalShot() {
+		return finalShot;
+	}
+
+	public void setFinalShot(boolean finalShot) {
+		this.finalShot = finalShot;
 	}
 
 	
