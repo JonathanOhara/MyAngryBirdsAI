@@ -25,8 +25,9 @@ import java.util.Map;
 import java.util.Random;
 
 import ab.demo.other.ActionRobot;
-import ab.demo.other.MyShot;
 import ab.demo.other.Shot;
+import ab.objects.MapState;
+import ab.objects.MyShot;
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
@@ -49,8 +50,17 @@ public class MyAgent implements Runnable {
 	
 	Rectangle sling;
 	
+	//---------------------------------------------------------------------------------
+
+	private MyShot previousShot = null;
+	private MyShot actualShot = null;
 	
-	final int BIRDS_SIZE = 10;
+	private final int BIRDS_SIZE = 10;
+	
+	private int previousScore = 0;
+	private int numberOfbirds = -1;
+	private int shotId = 1;
+	
 	// a standalone implementation of the Naive Agent
 	public MyAgent() {
 		
@@ -100,19 +110,23 @@ public class MyAgent implements Runnable {
 
 				// first shot on this level, try high shot first
 				firstShot = true;
+				numberOfbirds = -1;
 			} else if (state == GameState.LOST) {
 				System.out.println("Restart");
 				aRobot.restartLevel();
+				numberOfbirds = -1;
 			} else if (state == GameState.LEVEL_SELECTION) {
 				System.out
 				.println("Unexpected level selection page, go to the last current level : "
 						+ currentLevel);
 				aRobot.loadLevel(currentLevel);
+				numberOfbirds = -1;
 			} else if (state == GameState.MAIN_MENU) {
 				System.out
 				.println("Unexpected main menu page, go to the last current level : "
 						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
+				numberOfbirds = -1;
 				aRobot.loadLevel(currentLevel);
 			} else if (state == GameState.EPISODE_MENU) {
 				System.out
@@ -120,6 +134,7 @@ public class MyAgent implements Runnable {
 						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				aRobot.loadLevel(currentLevel);
+				numberOfbirds = -1;
 			}
 
 		}
@@ -165,10 +180,10 @@ public class MyAgent implements Runnable {
 				int dx,dy;
 				
 				
-
-				
-				
-				
+				if( numberOfbirds == -1 ){
+					ShowSeg.debugBluePoint.clear();
+					numberOfbirds = vision.findBirdsMBR().size();
+				}
 				
 				
 				
@@ -206,87 +221,32 @@ public class MyAgent implements Runnable {
 				
 				//------------------------------------------------------------------------------------------------------------------------------------------
 				
+				if( firstShot ){
+					System.out.println("First shoots");
+					previousShot = null;
 					
-				List<MyShot> possibleShots = new ArrayList<MyShot>();
-				
-				ABObject closestPig = pigs.get(0);
-				double closestPigDistance = distance(closestPig.getCenter(), new Point(0,0));
-				
-				for( ABObject pig: pigs ){
-					double distance = distance(pig.getCenter(), new Point(0,0));
+					actualShot = new MyShot();
+					actualShot.rootShot();
 					
-					System.out.println("distance = "+distance);
-					
-					if( distance < closestPigDistance ){
-						closestPigDistance = distance;
-						closestPig = pig;
-						System.out.println("minor");
-					}
+					actualShot.setPossibleShots( findPossibleShots(vision, pigs) );
+				}else{
+					previousShot.setTotalScore( aRobot.getScore() );
+					previousShot.setScore( aRobot.getScore() - previousScore );
 				}
 				
-				ShowSeg.debugRedPoint.add(closestPig.getCenter());
 				
-				for( ABObject object: vision.findBlocksMBR() ){
-					if( object.width > 200 && object.height > 200 ){
-						//ERRO ele achou que o menu da direita eh um objeto pulando...
-						continue;
-					}
-//					System.out.println(object);
-					
-					double targetX;
-					double targetY;
-					
-					List<Point> pointsToTry = new ArrayList<Point>();
-					try {
-						Thread.sleep(1000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					
-					targetX = object.x;
-					targetY = object.y;
-					pointsToTry.add(new Point( (int)targetX, (int)targetY ));
-					
-					targetX += BIRDS_SIZE;
-					while( targetX <= object.x + object.width ){
-						pointsToTry.add(new Point( (int)targetX, (int)targetY ));
-						targetX += BIRDS_SIZE;
-					}
-					
-					targetX = object.x;
-					targetY = object.y + BIRDS_SIZE;
-					
-					while( targetY <= object.y + object.height ){
-						pointsToTry.add(new Point( (int)targetX, (int)targetY ));
-						targetY += BIRDS_SIZE;
-					}
-					
-					for( Point _tpt : pointsToTry ){
-						int tapInterval = 0;
-						
-						releasePoint = calcReleasePoint(_tpt);
-						
-						Point refPoint = tp.getReferencePoint(sling);
-						
-						int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapInterval);
-						dx = (int)releasePoint.getX() - refPoint.x;
-						dy = (int)releasePoint.getY() - refPoint.y;
-						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
-						
-						MyShot myShot = new MyShot(_tpt, shot, object);
-						
-						double pigDistance = distance(closestPig.getCenter(), _tpt); 
-								
-						myShot.setClosestPig(closestPig);
-						myShot.setDistanceOfClosestPig(pigDistance);
-						
-						if( ABUtil.isReachable(vision, _tpt, shot) ){
-							possibleShots.add( myShot );
-						}
-
-					}	
-				}
+				MapState mapState = new MapState();
+				mapState.setBlocks( vision.findBirdsMBR() );
+				mapState.setPigs( vision.findPigsMBR() );
+				mapState.setTnts( vision.findTNTs() );
+				
+				actualShot.setBirdIndex( numberOfbirds - vision.findBirdsMBR().size() + 1 );
+				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+				actualShot.setTimesPlusOne();
+		
+				previousScore = aRobot.getScore();
+				
+				//------------------------------------------------------------------------------------------------------------------------------------------
 			
 				System.out.println("Tempo: "+(System.currentTimeMillis() - time));
 					
@@ -303,19 +263,15 @@ public class MyAgent implements Runnable {
 //				ShowSeg.debugBluePoint = new ArrayList<Point>();
 //				ShowSeg.debugRedPoint = new ArrayList<Point>();
 
-				Collections.sort(possibleShots, new Comparator<MyShot>() {
-					@Override
-					public int compare(MyShot o1, MyShot o2) {
-						return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-					}
-				});
+				previousShot = actualShot;
 				
-				ShowSeg.debugBluePoint.add(possibleShots.get(0).getTarget());
-					
-				shot = possibleShots.get(0).getShot();
-				dx = possibleShots.get(0).getShot().getDx();
-				dy = possibleShots.get(0).getShot().getDy();
-					
+				actualShot = chooseOneShot(actualShot);
+				
+				ShowSeg.debugBluePoint.add(actualShot.getTarget());
+				
+				shot = actualShot.getShot();
+				dx = actualShot.getShot().getDx();
+				dy = actualShot.getShot().getDy();
 					
 					/*
 				{
@@ -414,6 +370,114 @@ public class MyAgent implements Runnable {
 		}
 		return state;
 	}
+
+	private MyShot chooseOneShot(MyShot actualShot2) {
+		MyShot theShot = null;
+		
+		Collections.sort(actualShot.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+			}
+		});
+		
+		theShot = actualShot.getPossibleShots().get(0);
+		
+		return theShot;
+	}
+
+
+	private List<MyShot> findPossibleShots(Vision vision, List<ABObject> pigs) {
+		List<MyShot> possibleShots = new ArrayList<MyShot>();
+		Point releasePoint;
+		
+		ABObject closestPig = pigs.get(0);
+		double closestPigDistance = distance(closestPig.getCenter(), new Point(0,0));
+		
+		for( ABObject pig: pigs ){
+			double distance = distance(pig.getCenter(), new Point(0,0));
+			
+			System.out.println("distance = "+distance);
+			
+			if( distance < closestPigDistance ){
+				closestPigDistance = distance;
+				closestPig = pig;
+				System.out.println("minor");
+			}
+		}
+		
+		ShowSeg.debugRedPoint.add(closestPig.getCenter());
+		
+		for( ABObject object: vision.findBlocksMBR() ){
+			if( object.width > 200 && object.height > 200 ){
+				//ERRO ele achou que o menu da direita eh um objeto pulando...
+				continue;
+			}
+//			System.out.println(object);
+			
+			double targetX;
+			double targetY;
+			
+			List<Point> pointsToTry = new ArrayList<Point>();
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			targetX = object.x;
+			targetY = object.y;
+			pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+			
+			targetX += BIRDS_SIZE;
+			while( targetX <= object.x + object.width ){
+				pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+				targetX += BIRDS_SIZE;
+			}
+			
+			targetX = object.x;
+			targetY = object.y + BIRDS_SIZE;
+			
+			while( targetY <= object.y + object.height ){
+				pointsToTry.add(new Point( (int)targetX, (int)targetY ));
+				targetY += BIRDS_SIZE;
+			}
+			
+			for( Point _tpt : pointsToTry ){
+				
+				int tapInterval = 0;
+				
+				releasePoint = calcReleasePoint(_tpt);
+				
+				Point refPoint = tp.getReferencePoint(sling);
+				
+				int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapInterval);
+				int dx = (int)releasePoint.getX() - refPoint.x;
+				int dy = (int)releasePoint.getY() - refPoint.y;
+				Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+				
+				if( ABUtil.isReachable(vision, _tpt, shot) ){
+					MyShot myShot = new MyShot();
+					
+					myShot.setShotId(++shotId);
+					myShot.setNodeTested(false);
+					myShot.setOriginShotId(actualShot.getShotId());
+					myShot.setTarget(_tpt);
+					myShot.setShot(shot);
+					myShot.setAim(object);
+					
+					myShot.setClosestPig(closestPig);
+					myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
+					
+					possibleShots.add( myShot );
+				}
+
+			}	
+		}
+		return possibleShots;
+	}
+
 
 	private Point calcReleasePoint(Point _tpt) {
 		
