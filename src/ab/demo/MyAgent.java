@@ -19,6 +19,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,6 +53,10 @@ public class MyAgent implements Runnable {
 	
 	//---------------------------------------------------------------------------------
 
+	private Map<Integer, MyShot> allShots;
+	
+	private File allShotFile;
+	
 	private MyShot previousShot = null;
 	private MyShot actualShot = null;
 	
@@ -78,6 +83,8 @@ public class MyAgent implements Runnable {
 	public void run() {
 
 		aRobot.loadLevel(currentLevel);
+		
+		allShots = new HashMap<Integer, MyShot>(128);
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
@@ -181,47 +188,28 @@ public class MyAgent implements Runnable {
 				Point releasePoint = null;
 				Shot shot = new Shot();
 				int dx,dy;
-				
-				
-				if( numberOfbirds == -1 ){
-					ShowSeg.debugBluePoint.clear();
-					numberOfbirds = vision.findBirdsMBR().size();
-				}
-				
-				
-				
-				
-				
-				
-				
+
 				//------------------------------------------------------------------------------------------------------------------------------------------
 				
 				long time = System.currentTimeMillis();
 				
+				if( numberOfbirds == -1 ){
+					ShowSeg.debugBluePoint.clear();
+					numberOfbirds = vision.findBirdsMBR().size();
+					
+					//ler Arquivo linha a linha e colocar no Map
+				}
+				
 				try {
-					Gson gson = new Gson();
-					String json = gson.toJson(vision.findBlocksMBR());;
-					
-					File reportFile = new File("./reports/" + currentLevel );
-					if( !reportFile.exists() ){
-						reportFile.mkdir();
-					}
-					
-					String reportsPath = reportFile.getCanonicalPath();
-					
-					File file = new File(reportsPath + "/cenario.json");
-					if (!file.exists()) {
-						file.createNewFile();
-					}
-				    
-					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), false)));
-				    out.println(json + "\n");
-				    out.close();
-					
+					File allShotFile = getCenarioShots();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
-				
+/*				    
+					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), false)));
+				    out.close();
+*/
+					
 				//------------------------------------------------------------------------------------------------------------------------------------------
 				
 				if( firstShot ){
@@ -362,6 +350,22 @@ public class MyAgent implements Runnable {
 
 		}
 		return state;
+	}
+
+
+	private File getCenarioShots() throws IOException {
+		File reportFile = new File("./reports/" + currentLevel );
+		if( !reportFile.exists() ){
+			reportFile.mkdir();
+		}
+		
+		String reportsPath = reportFile.getCanonicalPath();
+		
+		File file = new File(reportsPath + "/cenario.json");
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+		return file;
 	}
 
 
