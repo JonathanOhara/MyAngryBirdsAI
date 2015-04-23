@@ -11,19 +11,12 @@ import ab.vision.ABType;
 public class MyShot {
 	
 	private int shotId;
-	private int originShotId;
+	private int originStateId;
 	
 	private int birdIndex;
 	private ABType birdType;
-	
-	private MapState mapState;
-	
-	private int times = 0;
-	
-	private int score = 0;
-	private int totalScore = 0;
-	
-	private List<MyShot> possibleShots;
+
+	private List<State> possibleStates;
 	
 	private Point target;
 	private Shot shot;
@@ -32,28 +25,12 @@ public class MyShot {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
-	private boolean finalShot = false;
-	private boolean nodeTested = false;
+	private boolean shotTested = false;
 	
 	public MyShot() {
 		super();
-		
-		possibleShots = new ArrayList<MyShot>();
-	}
-	
-	public void rootShot(){
-		birdIndex = 1;
-		shotId = 1;
-		originShotId = -1;
-		
-		nodeTested = false;
-		target = new Point(0,0);
-		
-		finalShot = false;
-		
-		shot = null;
-		aim = null;
-		
+
+		possibleStates = new ArrayList<State>();
 	}
 
 	public int getShotId() {
@@ -64,12 +41,12 @@ public class MyShot {
 		this.shotId = shotId;
 	}
 
-	public int getOriginShotId() {
-		return originShotId;
+	public int getOriginStateId() {
+		return originStateId;
 	}
 
-	public void setOriginShotId(int originShotId) {
-		this.originShotId = originShotId;
+	public void setOriginStateId(int originStateId) {
+		this.originStateId = originStateId;
 	}
 
 	public int getBirdIndex() {
@@ -86,42 +63,6 @@ public class MyShot {
 
 	public void setBirdType(ABType birdType) {
 		this.birdType = birdType;
-	}
-
-	public int getTimes() {
-		return times;
-	}
-
-	public void setTimes(int times) {
-		this.times = times;
-	}
-	
-	public void setTimesPlusOne() {
-		times++;
-	}
-
-	public int getScore() {
-		return score;
-	}
-
-	public void setScore(int score) {
-		this.score = score;
-	}
-
-	public int getTotalScore() {
-		return totalScore;
-	}
-
-	public void setTotalScore(int totalScore) {
-		this.totalScore = totalScore;
-	}
-
-	public List<MyShot> getPossibleShots() {
-		return possibleShots;
-	}
-
-	public void setPossibleShots(List<MyShot> possibleShots) {
-		this.possibleShots = possibleShots;
 	}
 
 	public Point getTarget() {
@@ -164,28 +105,20 @@ public class MyShot {
 		this.distanceOfClosestPig = distanceOfClosestPig;
 	}
 
-	public MapState getMapState() {
-		return mapState;
+	public List<State> getPossibleStates() {
+		return possibleStates;
 	}
 
-	public void setMapState(MapState mapState) {
-		this.mapState = mapState;
+	public void setPossibleStates(List<State> possibleStates) {
+		this.possibleStates = possibleStates;
 	}
 
-	public boolean isNodeTested() {
-		return nodeTested;
+	public boolean isShotTested() {
+		return shotTested;
 	}
 
-	public void setNodeTested(boolean nodeTested) {
-		this.nodeTested = nodeTested;
-	}
-
-	public boolean isFinalShot() {
-		return finalShot;
-	}
-
-	public void setFinalShot(boolean finalShot) {
-		this.finalShot = finalShot;
+	public void setShotTested(boolean shotTested) {
+		this.shotTested = shotTested;
 	}
 
 	

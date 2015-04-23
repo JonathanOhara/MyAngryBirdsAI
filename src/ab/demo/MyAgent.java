@@ -11,11 +11,8 @@ package ab.demo;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -29,6 +26,7 @@ import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
 import ab.objects.MapState;
 import ab.objects.MyShot;
+import ab.objects.State;
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
@@ -36,8 +34,6 @@ import ab.vision.ABObject;
 import ab.vision.GameStateExtractor.GameState;
 import ab.vision.ShowSeg;
 import ab.vision.Vision;
-
-import com.google.gson.Gson;
 
 public class MyAgent implements Runnable {
 
@@ -53,12 +49,14 @@ public class MyAgent implements Runnable {
 	
 	//---------------------------------------------------------------------------------
 
+	private State rootState;
+	private State actualState;
+	private MyShot actualShot;
+	
 	private Map<Integer, MyShot> allShots;
+	private Map<Integer, State> allStates;
 	
-	private File allShotFile;
-	
-	private MyShot previousShot = null;
-	private MyShot actualShot = null;
+	private File allShotsStateFile;
 	
 	private final int BIRDS_SIZE = 10;
 	
@@ -197,7 +195,14 @@ public class MyAgent implements Runnable {
 					ShowSeg.debugBluePoint.clear();
 					numberOfbirds = vision.findBirdsMBR().size();
 					
+					rootState = new State();
 					//ler Arquivo linha a linha e colocar no Map
+					rootState.setPossibleShots( findPossibleShots(vision, pigs) );
+					
+					actualState = rootState;
+				}else{
+					actualState.setTotalScore( aRobot.getScore() );
+					actualState.setScore( aRobot.getScore() - previousScore );
 				}
 				
 				try {
@@ -211,19 +216,6 @@ public class MyAgent implements Runnable {
 */
 					
 				//------------------------------------------------------------------------------------------------------------------------------------------
-				
-				if( firstShot ){
-					System.out.println("First shoots");
-					previousShot = null;
-					
-					actualShot = new MyShot();
-					actualShot.rootShot();
-					
-					actualShot.setPossibleShots( findPossibleShots(vision, pigs) );
-				}else{
-					previousShot.setTotalScore( aRobot.getScore() );
-					previousShot.setScore( aRobot.getScore() - previousScore );
-				}
 				
 				calculateShotStats(false);
 				
@@ -244,9 +236,7 @@ public class MyAgent implements Runnable {
 //				ShowSeg.debugBluePoint = new ArrayList<Point>();
 //				ShowSeg.debugRedPoint = new ArrayList<Point>();
 
-				previousShot = actualShot;
-				
-				actualShot = chooseOneShot(actualShot);
+				actualShot = chooseOneShot();
 				
 				ShowSeg.debugBluePoint.add(actualShot.getTarget());
 				
@@ -383,23 +373,24 @@ public class MyAgent implements Runnable {
 		
 		actualShot.setBirdIndex( numberOfbirds - vision.findBirdsMBR().size() + 1 );
 		actualShot.setBirdType(aRobot.getBirdTypeOnSling());
-		actualShot.setTimesPlusOne();
-		actualShot.setFinalShot(finalShot);
+		
+		actualState.setTimesPlusOne();
+		actualState.setFinalState(finalShot);
 
 		previousScore = aRobot.getScore();
 	}
 
-	private MyShot chooseOneShot(MyShot actualShot2) {
+	private MyShot chooseOneShot() {
 		MyShot theShot = null;
 		
-		Collections.sort(actualShot.getPossibleShots(), new Comparator<MyShot>() {
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 			@Override
 			public int compare(MyShot o1, MyShot o2) {
 				return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
 			}
 		});
 		
-		theShot = actualShot.getPossibleShots().get(0);
+		theShot = actualState.getPossibleShots().get(0);
 		
 		return theShot;
 	}
@@ -479,8 +470,8 @@ public class MyAgent implements Runnable {
 					MyShot myShot = new MyShot();
 					
 					myShot.setShotId(++shotId);
-					myShot.setNodeTested(false);
-					myShot.setOriginShotId(actualShot.getShotId());
+					myShot.setShotTested(false);
+					myShot.setOriginStateId(actualShot.getShotId());
 					myShot.setTarget(_tpt);
 					myShot.setShot(shot);
 					myShot.setAim(object);
