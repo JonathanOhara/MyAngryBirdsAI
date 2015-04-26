@@ -11,8 +11,16 @@ package ab.demo;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.FilenameFilter;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -21,6 +29,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+
+import javax.imageio.ImageIO;
 
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
@@ -31,9 +41,12 @@ import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
 import ab.vision.ABObject;
+import ab.vision.ABType;
 import ab.vision.GameStateExtractor.GameState;
 import ab.vision.ShowSeg;
 import ab.vision.Vision;
+
+import com.google.gson.Gson;
 
 public class MyAgent implements Runnable {
 
@@ -49,6 +62,16 @@ public class MyAgent implements Runnable {
 	
 	//---------------------------------------------------------------------------------
 
+	private boolean LEARNING = true;
+	
+	private int TIMES_IN_EACH_STAGE = 250;
+	private int timesInThisStage = 0;
+	
+	//---------------------------------------------------------------------------------
+	
+	private File allPossibleShotsFile;
+	private File allPossibleStateFile;
+	
 	private State rootState;
 	private State actualState;
 	private MyShot actualShot;
@@ -56,13 +79,13 @@ public class MyAgent implements Runnable {
 	private Map<Integer, MyShot> allShots;
 	private Map<Integer, State> allStates;
 	
-	private File allShotsStateFile;
-	
 	private final int BIRDS_SIZE = 10;
 	
 	private int previousScore = 0;
 	private int numberOfbirds = -1;
-	private int shotId = 1;
+	private int birdsIndex = 0;
+	private int lastStateId = 1;
+	private int lastShotId = 1;
 	
 	// a standalone implementation of the Naive Agent
 	public MyAgent() {
@@ -80,12 +103,16 @@ public class MyAgent implements Runnable {
 	// run the client
 	public void run() {
 
+		logConfiguration();
 		aRobot.loadLevel(currentLevel);
 		
 		allShots = new HashMap<Integer, MyShot>(128);
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
+				numberOfbirds = -1;
+				changeLevelIfNecessary();
+				
 				calculateShotStats(true);
 				
 				try {
@@ -94,7 +121,6 @@ public class MyAgent implements Runnable {
 					e.printStackTrace();
 				}
 				int score = StateUtil.getScore(ActionRobot.proxy);
-				System.out.println("Score = "+score);
 				if(!scores.containsKey(currentLevel))
 					scores.put(currentLevel, score);
 				else
@@ -117,37 +143,57 @@ public class MyAgent implements Runnable {
 
 				// first shot on this level, try high shot first
 				firstShot = true;
-				numberOfbirds = -1;
 			} else if (state == GameState.LOST) {
+				numberOfbirds = -1;
+				changeLevelIfNecessary();
+				
 				calculateShotStats(true);
 				System.out.println("Restart");
 				aRobot.restartLevel();
-				numberOfbirds = -1;
 			} else if (state == GameState.LEVEL_SELECTION) {
+				numberOfbirds = -1;
+				changeLevelIfNecessary();
+				
 				System.out
 				.println("Unexpected level selection page, go to the last current level : "
 						+ currentLevel);
 				aRobot.loadLevel(currentLevel);
-				numberOfbirds = -1;
+				
 			} else if (state == GameState.MAIN_MENU) {
+				numberOfbirds = -1;
+				changeLevelIfNecessary();
+				
 				System.out
 				.println("Unexpected main menu page, go to the last current level : "
 						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
-				numberOfbirds = -1;
+				
 				aRobot.loadLevel(currentLevel);
 			} else if (state == GameState.EPISODE_MENU) {
+				numberOfbirds = -1;
+				changeLevelIfNecessary();
+				
 				System.out
 				.println("Unexpected episode menu page, go to the last current level : "
 						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				aRobot.loadLevel(currentLevel);
-				numberOfbirds = -1;
 			}
 
 		}
 
 	}
+
+	private void changeLevelIfNecessary() {
+		System.out.println("Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE);
+		if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
+			System.out.println("Changing Level...");
+			timesInThisStage = 0;
+			currentLevel++;
+			logConfiguration();
+		}
+	}
+
 
 	private double distance(Point p1, Point p2) {
 		return Math.sqrt( (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y) );
@@ -166,8 +212,7 @@ public class MyAgent implements Runnable {
 
 		// confirm the slingshot
 		while (sling == null && aRobot.getState() == GameState.PLAYING) {
-			System.out
-			.println("No slingshot detected. Please remove pop up or zoom out");
+			System.out.println("No slingshot detected. Please remove pop up or zoom out");
 			ActionRobot.fullyZoomOut();
 			screenshot = ActionRobot.doScreenShot();
 			vision = new Vision(screenshot);
@@ -189,40 +234,59 @@ public class MyAgent implements Runnable {
 
 				//------------------------------------------------------------------------------------------------------------------------------------------
 				
-				long time = System.currentTimeMillis();
-				
+				//Entrou no jogo.
 				if( numberOfbirds == -1 ){
+					System.out.println("...ENTER IN THE GAME...");
+					rootState = null;
+					actualShot = null;
+					actualState = null;
+					
+					previousScore = 0;
+					birdsIndex = 0;
+					lastStateId = 1;
+					lastShotId  = 1;
+					
+					try {
+						allPossibleShotsFile = getAllPossibleShots();
+						allPossibleStateFile = getAllPossibleState();
+						
+						allShots = readAllPossibleShotsFromFile(  );
+						allStates = readAllPossibleStatesFromFile(  );
+						
+						buildScenarioGraph();
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+
 					ShowSeg.debugBluePoint.clear();
 					numberOfbirds = vision.findBirdsMBR().size();
 					
-					rootState = new State();
-					//ler Arquivo linha a linha e colocar no Map
-					rootState.setPossibleShots( findPossibleShots(vision, pigs) );
-					
 					actualState = rootState;
 				}else{
-					actualState.setTotalScore( aRobot.getScore() );
-					actualState.setScore( aRobot.getScore() - previousScore );
+					calculateShotStats(false);
 				}
 				
-				try {
-					File allShotFile = getCenarioShots();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-/*				    
-					PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file.getAbsoluteFile(), false)));
-				    out.close();
-*/
+				
+				if( actualShot == null && actualState == null ){
+					actualState = rootState = new State();
+					actualState.setOriginShotId(-1);
+					actualState.setStateId( lastStateId++ );
+					actualState.setBirdIndex( 0 );
+					actualState.setMapState(getMapState(vision));
 					
-				//------------------------------------------------------------------------------------------------------------------------------------------
-				
-				calculateShotStats(false);
-				
-				//------------------------------------------------------------------------------------------------------------------------------------------
+					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
+					
+					actualState.setShotImage( ActionRobot.doScreenShot() );
+					
+					allStates.put(actualState.getStateId(), actualState);
+					
+					writeImageState(1);
+				}
 			
-				System.out.println("Tempo: "+(System.currentTimeMillis() - time));
-					
+				if( actualState.getPossibleShots().isEmpty() ){
+					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
+				}
+			
 //				for( MyShot myshot : possibleShots ){
 //					ShowSeg.debugBluePoint.add(myshot.getTarget());
 //				}
@@ -241,9 +305,12 @@ public class MyAgent implements Runnable {
 				ShowSeg.debugBluePoint.add(actualShot.getTarget());
 				
 				shot = actualShot.getShot();
+				releasePoint = actualShot.getReleasePoint();
 				dx = actualShot.getShot().getDx();
 				dy = actualShot.getShot().getDy();
-					
+				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+				
+				System.out.println("Shooting Bird("+birdsIndex+") - "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" -> "+actualShot.getAim().getType() );
 					/*
 				{
 					// random pick up a pig
@@ -318,6 +385,12 @@ public class MyAgent implements Runnable {
 							if(dx < 0)
 							{
 								aRobot.cshoot(shot);
+								
+								actualState = new State();
+								actualState.setOriginShotId( actualShot.getShotId() );
+								birdsIndex++;
+								actualState.setShotImage( ActionRobot.doScreenShot() );
+								
 								state = aRobot.getState();
 								if ( state == GameState.PLAYING )
 								{
@@ -341,9 +414,128 @@ public class MyAgent implements Runnable {
 		}
 		return state;
 	}
+	
+	private void logConfiguration() {
+		try{
+			File reportFile = new File("./reports/" + currentLevel );
+			if( !reportFile.exists() ){
+				reportFile.mkdir();
+			}
+			
+			String reportsPath = reportFile.getCanonicalPath();
+			
+			File file = new File(reportsPath + "/log.txt");
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+			PrintStream fileStream = new PrintStream( new FileOutputStream( file, true ) );
+			
+			System.setOut(fileStream);
+			System.setErr(fileStream);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+	private void buildScenarioGraph() {
+		System.out.println("MyAgent.buildScenarioGraph()");
+		if( !allStates.isEmpty() && !allShots.isEmpty() ){
+			for( State state : allStates.values() ){
+				if( state.getOriginShotId() == -1 ) continue;
+				MyShot shotBeforeState = allShots.get( state.getOriginShotId() );
+				
+				if( shotBeforeState == null ){
+					System.err.println("There is no Shot with id = "+state.getOriginShotId());
+					continue;
+				}
+				shotBeforeState.getPossibleStates().add(state);
+			}
+			
+			for( MyShot shot : allShots.values() ){
+				State stateBeforeShot = allStates.get( shot.getOriginStateId() );				
+				
+				if( stateBeforeShot == null ){
+					System.err.println("There is no State with = "+shot.getOriginStateId());
+					continue;
+				}
+				stateBeforeShot.getPossibleShots().add(shot);
+			}
+			
+			actualState = rootState = allStates.get(1);
+		}
+	}
+
+	private List<String> read(File file) throws IOException { 
+		BufferedReader buffRead = new BufferedReader(new FileReader(file));
+		String linha = "";
+		List<String> stringList = new ArrayList<String>();
+		
+		while (true) {
+			if (linha == null) break;
+			linha = buffRead.readLine();
+			if (linha != null && !linha.trim().isEmpty()) stringList.add(linha);
+		}
+		
+		buffRead.close();
+		
+		return stringList;
+	}
+
+	private Map<Integer, State> readAllPossibleStatesFromFile() {
+		System.out.println("MyAgent.readAllPossibleStatesFromFile()");
+		Map<Integer, State> map = new HashMap<Integer, State>();
+
+		try {
+			List<String> lines = read( allPossibleStateFile );
+			
+			Gson gson = new Gson();
+			
+			for(String line : lines){
+				State state = gson.fromJson(line, State.class);
+				
+				map.put(state.getStateId(), state);
+				
+				if( state.getStateId() >= lastStateId ){
+					lastStateId = state.getStateId() + 1; 
+				}
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return map;
+	}
 
 
-	private File getCenarioShots() throws IOException {
+	private Map<Integer, MyShot> readAllPossibleShotsFromFile() {
+		System.out.println("MyAgent.readAllPossibleShotsFromFile()");
+		Map<Integer, MyShot> map = new HashMap<Integer, MyShot>();
+
+		try {
+			List<String> lines = read( allPossibleShotsFile );
+			
+			Gson gson = new Gson();
+			
+			for(String line : lines){
+				MyShot shot = gson.fromJson(line, MyShot.class);
+				
+				map.put(shot.getShotId(), shot);
+				
+				if( shot.getShotId() >= lastShotId ){
+					lastShotId = shot.getShotId() + 1; 
+				}
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return map;
+	}
+
+
+	private File getAllPossibleShots() throws IOException {
 		File reportFile = new File("./reports/" + currentLevel );
 		if( !reportFile.exists() ){
 			reportFile.mkdir();
@@ -351,7 +543,22 @@ public class MyAgent implements Runnable {
 		
 		String reportsPath = reportFile.getCanonicalPath();
 		
-		File file = new File(reportsPath + "/cenario.json");
+		File file = new File(reportsPath + "/shots.json");
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+		return file;
+	}
+	
+	private File getAllPossibleState() throws IOException {
+		File reportFile = new File("./reports/" + currentLevel );
+		if( !reportFile.exists() ){
+			reportFile.mkdir();
+		}
+		
+		String reportsPath = reportFile.getCanonicalPath();
+		
+		File file = new File(reportsPath + "/states.json");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -360,43 +567,200 @@ public class MyAgent implements Runnable {
 
 
 	private void calculateShotStats(boolean finalShot) {
+		System.out.println("MyAgent.calculateShotStats()");
 		// capture Image
 		BufferedImage screenshot = ActionRobot.doScreenShot();
 
 		// process image
 		Vision vision = new Vision(screenshot);
 		
-		MapState mapState = new MapState();
-		mapState.setBlocks( vision.findBirdsMBR() );
-		mapState.setPigs( vision.findPigsMBR() );
-		mapState.setTnts( vision.findTNTs() );
+		MapState mapState = getMapState(vision);
 		
-		actualShot.setBirdIndex( numberOfbirds - vision.findBirdsMBR().size() + 1 );
-		actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+		actualState.setMapState(mapState);
+		actualShot.setBirdIndex( birdsIndex );
 		
-		actualState.setTimesPlusOne();
+		if( finalShot ){
+			actualState.setTotalScore( aRobot.getScore() );
+			actualState.setScore( aRobot.getScore() - previousScore );
+			
+			previousScore = aRobot.getScore();
+			
+		}else{
+			actualState.setTotalScore( aRobot.getScoreInGame() );
+			actualState.setScore( aRobot.getScoreInGame() - previousScore );
+			
+			previousScore = aRobot.getScoreInGame();
+		}
+		
 		actualState.setFinalState(finalShot);
-
-		previousScore = aRobot.getScore();
+		
+		actualShot.setTimesPlusOne();
+		actualShot.setShotTested(true);
+		
+		actualState = getStateIfAlreadyTested( actualState, actualShot.getPossibleStates() ); 
+		actualState.setTimesPlusOne();
+		
+		writeStatesInFile();
+		writeShotsInFile();
 	}
 
-	private MyShot chooseOneShot() {
-		MyShot theShot = null;
+
+	private MapState getMapState(Vision vision) {
+		MapState mapState = new MapState();
+		mapState.setBlocks( vision.findBlocksMBR() );
+		mapState.setPigs( vision.findPigsMBR() );
+		mapState.setTnts( vision.findTNTs() );
+		return mapState;
+	}
+
+	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
+		System.out.println("MyAgent.getStateIfAlreadyTested()");
+		State returnState = null;
 		
-		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-			@Override
-			public int compare(MyShot o1, MyShot o2) {
-				return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+		for( State otherState : possibleStates ){
+			if( Math.abs( state.getScore() - otherState.getScore()) <= 200 && otherState.getOriginShotId() == state.getOriginShotId() ){
+				returnState = state;
+				returnState.setTimesPlusOne();
+				break;
 			}
-		});
+		}
 		
-		theShot = actualState.getPossibleShots().get(0);
+		if( returnState == null ){
+			returnState = state;
+			
+			if( state.getStateId() == 0 ){
+				state.setStateId( lastStateId++ );
+			}else{
+				System.err.println("Something Wrong... The state "+state.getStateId()+" was tried to be overwritten.");
+			}
+
+			allStates.put(state.getStateId(), state);
+			
+			writeImageState( state.getStateId() );
+		}
 		
+		return returnState;
+	}
+
+
+	private void writeImageState(int stateId) {
+		System.out.println("MyAgent.writeImageState()");
+		try{
+			File reportFile = new File("./reports/" + currentLevel );
+			if( !reportFile.exists() ){
+				reportFile.mkdir();
+			}
+			String reportsPath = reportFile.getCanonicalPath();
+			
+			
+			File stateDir = new File(reportsPath + "/states");
+			if( !stateDir.exists() ){
+				stateDir.mkdir();
+			}
+			String statesPath = stateDir.getCanonicalPath();
+			
+			File stateIdDir = new File(statesPath + "/" + stateId);
+			if( !stateIdDir.exists() ){
+				stateIdDir.mkdir();
+			}
+			String stateIdPath = stateIdDir.getCanonicalPath();
+			
+			String fileNumber = String.format("%05d", 1 + stateIdDir.listFiles(new FilenameFilter() {
+				@Override
+				public boolean accept(File dir, String name) {
+					return name.endsWith(".jpg");
+				}
+			}).length );
+			
+			File outputfile = new File( stateIdPath + "/" + fileNumber + ".jpg" );
+			ImageIO.write(actualState.getShotImage(), "jpg", outputfile);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		
+	}
+
+
+	private void writeShotsInFile() {
+		System.out.println("MyAgent.writeShotsInFile()");
+		PrintWriter out;
+		try {
+			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleShots() , false)));
+			
+			Gson gson = new Gson();
+			for( MyShot myShot: allShots.values() ){
+				String json = gson.toJson( myShot );
+				out.write(json + "\n");
+			}
+			
+			out.flush();
+			out.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	    	
+	}
+
+
+	private void writeStatesInFile() {
+		PrintWriter out;
+		try {
+			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleState() , false)));
+			
+			Gson gson = new Gson();
+			for( State state: allStates.values() ){
+				String json = gson.toJson( state );
+				out.write(json + "\n");
+			}
+			
+			out.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+
+	private MyShot chooseOneShot() {
+		System.out.println("MyAgent.chooseOneShot()");
+		MyShot theShot = null;
+
+		if( LEARNING ){
+
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					return Double.compare(o1.getTimes(), o2.getTimes());
+				}
+			});
+			
+			theShot = actualState.getPossibleShots().get(0);
+			
+		}else{
+		
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+				}
+			});
+			
+			theShot = actualState.getPossibleShots().get(0);
+		} 
+		
+		
+		System.out.println("Shot choosed id = "+theShot.getShotId());
 		return theShot;
 	}
 
 
 	private List<MyShot> findPossibleShots(Vision vision, List<ABObject> pigs) {
+		System.out.println("MyAgent.findPossibleShots()");
+		long time = System.currentTimeMillis();
+		
+		ABType birdType = aRobot.getBirdTypeOnSling();
+		
+		
 		List<MyShot> possibleShots = new ArrayList<MyShot>();
 		Point releasePoint;
 		
@@ -406,34 +770,24 @@ public class MyAgent implements Runnable {
 		for( ABObject pig: pigs ){
 			double distance = distance(pig.getCenter(), new Point(0,0));
 			
-			System.out.println("distance = "+distance);
-			
 			if( distance < closestPigDistance ){
 				closestPigDistance = distance;
 				closestPig = pig;
-				System.out.println("minor");
 			}
 		}
 		
 		ShowSeg.debugRedPoint.add(closestPig.getCenter());
 		
-		for( ABObject object: vision.findBlocksMBR() ){
+		for( ABObject object: actualState.getMapState().getAllObjects() ){
 			if( object.width > 200 && object.height > 200 ){
 				//ERRO ele achou que o menu da direita eh um objeto pulando...
 				continue;
 			}
-//			System.out.println(object);
 			
 			double targetX;
 			double targetY;
 			
 			List<Point> pointsToTry = new ArrayList<Point>();
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 			
 			targetX = object.x;
 			targetY = object.y;
@@ -466,24 +820,79 @@ public class MyAgent implements Runnable {
 				int dy = (int)releasePoint.getY() - refPoint.y;
 				Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
 				
+				
+				/**
+				 * TODO Logica de tap interval para outros passaros
+				 */
+				
 				if( ABUtil.isReachable(vision, _tpt, shot) ){
-					MyShot myShot = new MyShot();
+					List<Integer> tapIntervalList = new ArrayList<Integer>();
 					
-					myShot.setShotId(++shotId);
-					myShot.setShotTested(false);
-					myShot.setOriginStateId(actualShot.getShotId());
-					myShot.setTarget(_tpt);
-					myShot.setShot(shot);
-					myShot.setAim(object);
+					switch( birdType ){
+					case RedBird:
+						tapIntervalList.add(0);	break;
+					case YellowBird:
+						tapIntervalList.add(65);
+						tapIntervalList.add(70);
+						tapIntervalList.add(75);
+						tapIntervalList.add(80);
+						tapIntervalList.add(85);
+						tapIntervalList.add(90);
+						break; // 65-90% of the way
+					case WhiteBird:
+						tapIntervalList.add(70);
+						tapIntervalList.add(75);
+						tapIntervalList.add(80);
+						tapIntervalList.add(85);
+						tapIntervalList.add(90);
+						break; // 70-90% of the way
+					case BlackBird:
+						tapIntervalList.add(70);
+						tapIntervalList.add(75);
+						tapIntervalList.add(80);
+						tapIntervalList.add(85);
+						tapIntervalList.add(90);
+						break; // 70-90% of the way
+					case BlueBird:
+						tapIntervalList.add(65);
+						tapIntervalList.add(70);
+						tapIntervalList.add(75);
+						tapIntervalList.add(80);
+						tapIntervalList.add(85);
+						break; // 65-85% of the way
+					default:
+						tapIntervalList.add(0);
+					}
 					
-					myShot.setClosestPig(closestPig);
-					myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
-					
-					possibleShots.add( myShot );
+					for( Integer tapIn : tapIntervalList ){
+						tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapIn);
+						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+						
+						MyShot myShot = new MyShot();
+						
+						myShot.setShotId(lastShotId++);
+						myShot.setShotTested(false);
+						myShot.setOriginStateId(actualState.getStateId());
+						myShot.setTarget(_tpt);
+						myShot.setReleasePoint(releasePoint);
+						myShot.setShot(shot);
+						myShot.setAim(object);
+						myShot.setTapInterval(tapIn);
+						
+						myShot.setClosestPig(closestPig);
+						myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
+						
+						possibleShots.add( myShot );
+						
+						allShots.put(myShot.getShotId(), myShot);
+					}
 				}
 
 			}	
 		}
+		
+		System.out.println("MyAgent.findPossibleShots() = "+possibleShots.size());
+		System.out.println("Tempo: "+(System.currentTimeMillis() - time));
 		return possibleShots;
 	}
 

@@ -15,17 +15,21 @@ public class MyShot {
 	
 	private int birdIndex;
 	private ABType birdType;
+	
+	private int times = 0;
+	private boolean shotTested = false;
 
-	private List<State> possibleStates;
+	private int tapInterval;
 	
 	private Point target;
+	private Point releasePoint;
 	private Shot shot;
 	private ABObject aim;
 	
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
-	private boolean shotTested = false;
+	private transient List<State> possibleStates;
 	
 	public MyShot() {
 		super();
@@ -121,6 +125,32 @@ public class MyShot {
 		this.shotTested = shotTested;
 	}
 
+	public int getTimes() {
+		return times;
+	}
+
+	public void setTimes(int times) {
+		this.times = times;
+	}
 	
+	public void setTimesPlusOne() {
+		times++;
+	}
+
+	public Point getReleasePoint() {
+		return releasePoint;
+	}
+
+	public void setReleasePoint(Point releasePoint) {
+		this.releasePoint = releasePoint;
+	}
+
+	public int getTapInterval() {
+		return tapInterval;
+	}
+
+	public void setTapInterval(int tapInterval) {
+		this.tapInterval = tapInterval;
+	}	
 	
 }

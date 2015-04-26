@@ -148,7 +148,7 @@ public class ActionRobot {
 		ss.shoot(proxy, shots);
 		System.out.println("Shooting Completed");
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(30000);
 		} catch (InterruptedException e) {
 
 			e.printStackTrace();
@@ -271,6 +271,10 @@ public class ActionRobot {
 				+ (System.currentTimeMillis() - time));
 		System.exit(0);
 
+	}
+	
+	public int getScoreInGame() {
+		return StateUtil.getScoreInGame(ActionRobot.proxy);
 	}
 
 	public int getScore() {

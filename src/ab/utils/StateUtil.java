@@ -40,6 +40,10 @@ public class StateUtil {
 	        GameStateExtractor.GameState state = gameStateExtractor.getGameState(image);
 		  return state;
 	}
+	
+	public static int getScoreInGame(Proxy proxy) {
+		return _getScore(proxy);
+	}
 
 	private static int _getScore(Proxy proxy)
 	{
@@ -92,6 +96,8 @@ public class StateUtil {
 		}
 		return current_score;
 	}
+
+
 	
 
 }

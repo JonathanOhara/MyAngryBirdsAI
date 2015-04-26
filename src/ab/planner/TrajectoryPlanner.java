@@ -97,7 +97,11 @@ public class TrajectoryPlanner {
         //System.out.println("a: " + a + " b: " + b);
         
         // launch angle
-        double theta = -Math.atan2(refPoint.y - releasePoint.y, refPoint.x - releasePoint.x);
+        double theta = -Math.atan2(
+        		refPoint.y - 
+        		releasePoint.y, 
+        		refPoint.x - 
+        		releasePoint.x);
      
         
         //System.out.println("angles: " + theta + ", " + theta2);

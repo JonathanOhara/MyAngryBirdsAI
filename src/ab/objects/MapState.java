@@ -1,5 +1,6 @@
 package ab.objects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import ab.vision.ABObject;
@@ -9,6 +10,16 @@ public class MapState {
 	List<ABObject> pigs;
 	List<ABObject> tnts;
 
+	public List<ABObject> getAllObjects(){
+		List<ABObject> all = new ArrayList<ABObject>( blocks.size() + pigs.size() + tnts.size() );
+		
+		all.addAll(blocks);
+		all.addAll(pigs);
+		all.addAll(tnts);
+		
+		return all;
+	}
+	
 	public List<ABObject> getBlocks() {
 		return blocks;
 	}

@@ -1,5 +1,6 @@
 package ab.objects;
 
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,16 +11,17 @@ public class State {
 	
 	private int birdIndex;
 	
-	private MapState mapState;
-	
 	private int times = 0;
 	
 	private int score = 0;
 	private int totalScore = 0;
 	
-	private List<MyShot> possibleShots;
-	
 	private boolean finalState;
+	
+	private MapState mapState;
+	
+	private transient List<MyShot> possibleShots;
+	private transient BufferedImage shotImage;
 
 	public State() {
 		super();
@@ -33,14 +35,6 @@ public class State {
 
 	public void setMapState(MapState mapState) {
 		this.mapState = mapState;
-	}
-
-	public int getTimes() {
-		return times;
-	}
-
-	public void setTimes(int times) {
-		this.times = times;
 	}
 
 	public int getScore() {
@@ -99,8 +93,24 @@ public class State {
 		this.birdIndex = birdIndex;
 	}
 
+	public int getTimes() {
+		return times;
+	}
+
+	public void setTimes(int times) {
+		this.times = times;
+	}
+	
 	public void setTimesPlusOne() {
 		times++;
+	}
+
+	public BufferedImage getShotImage() {
+		return shotImage;
+	}
+
+	public void setShotImage(BufferedImage shotImage) {
+		this.shotImage = shotImage;
 	}
 	
 	
