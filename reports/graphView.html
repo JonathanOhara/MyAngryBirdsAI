@@ -70,6 +70,10 @@ textarea{
 
 	border: 1px black solid;
 }
+
+.preview{
+	width: 100%;
+}
 </style>
 
 
@@ -232,6 +236,8 @@ textarea{
 
 <script>
 
+var level = 1;
+
 var shotsMap = {};
 var statesMap = {};
 
@@ -242,7 +248,23 @@ var greaterNodeHeight = 0;
 
 var SVG_LINE_HEIGHT = 200;
 
-var CIRCLE_RADIUS = 25;
+var CIRCLE_RADIUS = 40;
+
+var showProperties = function( element, type ){
+	
+	$("#prop").html("");
+	for( var i in element ){
+		if( typeof element[i] != "object" ){
+			$("#prop").append("<p>" + i +": "+ element[i] + "</p>")
+		}
+	}
+	
+	if( type == 1){
+		var imgUrl = "./"+level+"/states/" + element.stateId +"/00001.jpg";
+		$("#prop").append("<p> <a target='_blank' href='"+imgUrl+"'> <img class='preview'src='"+imgUrl+"'/></a></p>")
+	}
+	
+};
 
 function generateGrapth(){
 	var propWidth = 300;
@@ -351,16 +373,16 @@ function drawConnections( elements ){
 		line.attr("y1", parseInt( elements[i].svgElement.attr("cy") ) - CIRCLE_RADIUS );
 
 		line.attr("x2", parentNode.svgElement.attr("cx"));
-		line.attr("y2", parseInt( parentNode.svgElement.attr("cy") ) + CIRCLE_RADIUS );
+		line.attr("y2", parseInt( parentNode.svgElement.attr("cy") ) + parseInt( parentNode.svgElement.attr("r") ) );
 		
-		line.attr("style", "stroke: orange;stroke-width:2");
+		line.attr("style", "stroke: black;stroke-width:2");
 		
 		g.append(line);
 	}
 	$("#graph").append(g);
 }
 
-function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust ){
+function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 	var cy = (h * SVG_LINE_HEIGHT) + parseInt(SVG_LINE_HEIGHT * 0.5, 10);
 	
 	var cx = CIRCLE_RADIUS;
@@ -371,8 +393,9 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust ){
 	var group = undefined;
 	
 	var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
-
+	var groupWidth;
 	var circle = undefined;
+	
 	for( var i = 0; i < elements.length; i++ ){
 
 		var parentId = elements[i].originShotId || elements[i].originStateId;
@@ -381,48 +404,72 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust ){
 			
 			lastParent = parentId;
 			if( group != undefined ){
-				group.attr("width", ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS + 10  ) - parseInt(group.attr("x")));
-				g.append( group );
+				groupWidth = ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS ) - parseInt(group.attr("x"));
+				if( groupWidth > CIRCLE_RADIUS * 2 ){
+					group.attr("width", groupWidth);
+									
+					g.append( group );
+				}
 			}
 			group = createGroupOfCircleSVG( h );
-			group.attr("x", cx - ( CIRCLE_RADIUS + 10 ) );
+			group.attr("x", cx - ( CIRCLE_RADIUS ) );
 		}
 		
 		circle = $( document.createElementNS("http://www.w3.org/2000/svg", "circle") );
 		circle.attr("cx", cx);
 		circle.attr("cy", cy);
-		
-		circle.attr("r", CIRCLE_RADIUS);
-		
-		circle.attr("fill", "white");	
-		
-		if( elements[i].originShotId != undefined ){
-			if( elements[i].finalState ){
-				if( elements[i].totalScore > 0 ){
-					circle.attr("fill", "blue");		
-				}else{
-					circle.attr("fill", "red");		
-				}
-			}
-		}
-		
+		circle.attr("r", CIRCLE_RADIUS * sizeMultiplier);
 		circle.attr("stroke-width", "1");
 		circle.attr("stroke", "black");
+		circle.attr("fill", "white");
+		circlesToAppend.push(circle);
+		
+		if( elements[i].originShotId != undefined ){
+			var circleText = circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
+			circleText.html("Pts: "+elements[i].totalScore);
+			circleText.attr("x", cx - (CIRCLE_RADIUS * 4/5));
+			circleText.attr("y", cy );
+			circleText.attr("fill", "black");	
+			circlesToAppend.push(circleText);
+		
+			if( elements[i].finalState ){
+				if( elements[i].totalScore > 0 ){
+					circle.attr("fill", "#ADD8E6");		
+				}else{
+					circle.attr("fill", "#F08080");		
+				}
+			}
+			
+			circle.css("cursor", "pointer");
+			var id = elements[i].stateId;
+			circle.bind("click", function(stateId){
+				showProperties( statesMap[stateId], 1 );
+			}.bind(this, id));
+		}else{
+			circle.css("cursor", "pointer");
+			var id = elements[i].shotId;
+			circle.bind("click", function(shotId){
+				showProperties( shotsMap[shotId], 2 );
+			}.bind(this, id));
+		}
 	
 		cx += CIRCLE_SPACE;
 	
 		elements[i].svgElement = circle;
-	
-		circlesToAppend.push(circle);
 	}
 	cx -= CIRCLE_SPACE;
 	cx += CIRCLE_RADIUS;
 	
 	if( group != undefined ){
 		cx += CIRCLE_RADIUS;
-		group.attr("width", ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS + 10  ) - parseInt(group.attr("x")));
-			
-		g.append( group );
+		
+		groupWidth = ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS ) - parseInt(group.attr("x"));
+		
+		if( groupWidth > CIRCLE_RADIUS * 2 ){
+			group.attr("width", groupWidth);
+							
+			g.append( group );
+		}
 	}
 	
 	for( var i = 0; i < circlesToAppend.length; i++ ){
@@ -437,6 +484,8 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust ){
 			if( this.tagName == "circle" ){
 				$(this).attr("cx", parseInt( $(this).attr("cx") ) + left );
 			}else if( this.tagName == "rect" ){
+				$(this).attr("x", parseInt( $(this).attr("x") ) + left );
+			}else if( this.tagName == "text" ){
 				$(this).attr("x", parseInt( $(this).attr("x") ) + left );
 			}
 		});
@@ -462,31 +511,21 @@ function elementsGraphGeneration(node, h){
 		
 	}
 	
-	var totalWidth = drawNodes(elements, h, 60, false);
+	var totalWidth = drawNodes(elements, h, (CIRCLE_RADIUS * 2) + 10, false, 1);
 	
 	$("#graph").css("width", totalWidth + "px");
 	
-	//draw Root
-	var CENTER = totalWidth / 2;
-	
-	var circle = $( document.createElementNS("http://www.w3.org/2000/svg", "circle") );
-	circle.attr("cx", CENTER );
-	circle.attr("cy", SVG_LINE_HEIGHT / 2);
-	
-	circle.attr("r", CIRCLE_RADIUS * 3);
-	circle.attr("fill", "white");
-	circle.attr("stroke-width", "3");
-	circle.attr("stroke", "black");
-	root.svgElement = circle;
-
-	$("#graph").append( circle); 
-	
 	//Draw Other elements
-	for( var j = 1; j < elementInEeachHeight.length; j++ ){
+	for( var j = 0; j < elementInEeachHeight.length; j++ ){
 		if( j == h )continue;
 		elements = elementInEeachHeight[j];
 		
-		drawNodes( elements, j, parseInt( totalWidth / (elements.length * 2) ), true );
+		var sizeMultiplier = 1;
+		if( j == 0 ){
+			sizeMultiplier = 2;
+		}
+		
+		drawNodes( elements, j, parseInt( totalWidth / (elements.length * 2) ), true, sizeMultiplier );
 	}
 
 	for( var j = 1; j < elementInEeachHeight.length; j++ ){
@@ -504,9 +543,14 @@ function createGroupOfCircleSVG(y){
 	group.attr("width", 0);
 	group.attr("height", (SVG_LINE_HEIGHT - 80) + "px");
 	
-	group.attr("stroke-width", "1");
+	group.attr("stroke-width", "6");
 	group.attr("stroke", "black");
-	
+	if( y % 2 == 0){
+		group.attr("fill", "#FAFAFA");
+	}else{
+		group.attr("fill", "#EAEAEA");
+	}
+		
 	return group;
 }
 function setGraphHeight(node, h){
