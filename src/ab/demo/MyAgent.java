@@ -36,7 +36,7 @@ import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
 import ab.objects.MapState;
 import ab.objects.MyShot;
-import ab.objects.State;
+import ab.objects.State;	
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
@@ -64,7 +64,7 @@ public class MyAgent implements Runnable {
 
 	private boolean LEARNING = true;
 	
-	private int TIMES_IN_EACH_STAGE = 250;
+	private int TIMES_IN_EACH_STAGE = 20;
 	private int timesInThisStage = 0;
 	
 	//---------------------------------------------------------------------------------
@@ -74,6 +74,7 @@ public class MyAgent implements Runnable {
 	
 	private State rootState;
 	private State actualState;
+	private State lastState;
 	private MyShot actualShot;
 	
 	private Map<Integer, MyShot> allShots;
@@ -111,9 +112,9 @@ public class MyAgent implements Runnable {
 			GameState state = solve();
 			if (state == GameState.WON) {
 				numberOfbirds = -1;
-				changeLevelIfNecessary();
-				
+
 				calculateShotStats(true);
+				changeLevelIfNecessary();
 				
 				try {
 					Thread.sleep(3000);
@@ -136,48 +137,58 @@ public class MyAgent implements Runnable {
 							+ " Score: " + scores.get(key) + " ");
 				}
 				System.out.println("Total Score: " + totalScore);
-//				aRobot.loadLevel(++currentLevel);
-				aRobot.loadLevel(currentLevel);
-				// make a new trajectory planner whenever a new level is entered
-				tp = new TrajectoryPlanner();
 
-				// first shot on this level, try high shot first
-				firstShot = true;
+				aRobot.loadLevel(currentLevel);
+				
 			} else if (state == GameState.LOST) {
+				System.out.println("LOST.");
+				
 				numberOfbirds = -1;
-				changeLevelIfNecessary();
 				
 				calculateShotStats(true);
-				System.out.println("Restart");
-				aRobot.restartLevel();
+				changeLevelIfNecessary();
+				
+				aRobot.loadLevel(currentLevel);
 			} else if (state == GameState.LEVEL_SELECTION) {
+				System.out.println("Unexpected level selection page, go to the last current level : "+ currentLevel);
+
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				System.out
-				.println("Unexpected level selection page, go to the last current level : "
-						+ currentLevel);
 				aRobot.loadLevel(currentLevel);
 				
 			} else if (state == GameState.MAIN_MENU) {
+				System.out.println("Unexpected main menu page, go to the last current level : "	+ currentLevel);
+				
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				System.out
-				.println("Unexpected main menu page, go to the last current level : "
-						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				
 				aRobot.loadLevel(currentLevel);
 			} else if (state == GameState.EPISODE_MENU) {
+				System.out.println("Unexpected episode menu page, go to the last current level : "+ currentLevel);
+				
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				System.out
-				.println("Unexpected episode menu page, go to the last current level : "
-						+ currentLevel);
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				aRobot.loadLevel(currentLevel);
+			} else if (state == GameState.UNKNOWN) {
+				System.out.println("Unknow Game state, may the game ends in last shot : "+ currentLevel);
+				numberOfbirds = -1;
+				
+				if( aRobot.getState() == GameState.WON || aRobot.getState() == GameState.LOST ){
+					System.out.println("Updating last Shot Status");
+					actualState = lastState;
+					
+					calculateShotStats(true);
+					
+					changeLevelIfNecessary();
+				}
+
+				System.out.println("Restart");
+				aRobot.restartLevel();				
 			}
 
 		}
@@ -185,11 +196,24 @@ public class MyAgent implements Runnable {
 	}
 
 	private void changeLevelIfNecessary() {
-		System.out.println("Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE);
+		System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
+
+		ShowSeg.debugBluePoint.clear();
+		ShowSeg.debugRedPoint.clear();
+		
 		if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
 			System.out.println("Changing Level...");
+			previousScore = 0;
 			timesInThisStage = 0;
 			currentLevel++;
+			
+			tp = new TrajectoryPlanner();
+			firstShot = true;
+			
+			if( currentLevel == 10 ){
+				System.out.println("Level 10(Blue blird) rebooting");
+				currentLevel = 1;
+			}
 			logConfiguration();
 		}
 	}
@@ -232,13 +256,10 @@ public class MyAgent implements Runnable {
 				Shot shot = new Shot();
 				int dx,dy;
 
-				//------------------------------------------------------------------------------------------------------------------------------------------
-				
-				//Entrou no jogo.
 				if( numberOfbirds == -1 ){
-					System.out.println("...ENTER IN THE GAME...");
 					rootState = null;
 					actualShot = null;
+					lastState = null;
 					actualState = null;
 					
 					previousScore = 0;
@@ -259,9 +280,10 @@ public class MyAgent implements Runnable {
 					}
 
 					ShowSeg.debugBluePoint.clear();
+					ShowSeg.debugRedPoint.clear();
 					numberOfbirds = vision.findBirdsMBR().size();
 					
-					actualState = rootState;
+					lastState = actualState = rootState;
 				}else{
 					calculateShotStats(false);
 				}
@@ -287,22 +309,13 @@ public class MyAgent implements Runnable {
 					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
 				}
 			
-//				for( MyShot myshot : possibleShots ){
-//					ShowSeg.debugBluePoint.add(myshot.getTarget());
-//				}
-//				try {
-//					System.out.println("W8ing");
-//					Thread.sleep(100000);
-//				} catch (InterruptedException e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//				ShowSeg.debugBluePoint = new ArrayList<Point>();
-//				ShowSeg.debugRedPoint = new ArrayList<Point>();
-
 				actualShot = chooseOneShot();
+			
+				ShowSeg.debugBluePoint.clear();
+				ShowSeg.debugRedPoint.clear();
 				
 				ShowSeg.debugBluePoint.add(actualShot.getTarget());
+				ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();
@@ -310,66 +323,7 @@ public class MyAgent implements Runnable {
 				dy = actualShot.getShot().getDy();
 				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
 				
-				System.out.println("Shooting Bird("+birdsIndex+") - "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" -> "+actualShot.getAim().getType() );
-					/*
-				{
-					// random pick up a pig
-					ABObject pig = pigs.get(randomGenerator.nextInt(pigs.size()));
-					
-					Point _tpt = pig.getCenter();// if the target is very close to before, randomly choose a
-					// point near it
-					if (prevTarget != null && distance(prevTarget, _tpt) < 10) {
-						double _angle = randomGenerator.nextDouble() * Math.PI * 2;
-						_tpt.x = _tpt.x + (int) (Math.cos(_angle) * 10);
-						_tpt.y = _tpt.y + (int) (Math.sin(_angle) * 10);
-						System.out.println("Randomly changing to " + _tpt);
-					}
-
-					prevTarget = new Point(_tpt.x, _tpt.y);
-
-					releasePoint = calcReleasePoint(_tpt); 
-					
-					// Get the reference point
-					Point refPoint = tp.getReferencePoint(sling);
-
-
-					//Calculate the tapping time according the bird type 
-					if (releasePoint != null) {
-						double releaseAngle = tp.getReleaseAngle(sling,
-								releasePoint);
-						System.out.println("Release Point: " + releasePoint);
-						System.out.println("Release Angle: "
-								+ Math.toDegrees(releaseAngle));
-						int tapInterval = 0;
-						switch (aRobot.getBirdTypeOnSling()) 
-						{
-
-						case RedBird:
-							tapInterval = 0; break;               // start of trajectory
-						case YellowBird:
-							tapInterval = 65 + randomGenerator.nextInt(25);break; // 65-90% of the way
-						case WhiteBird:
-							tapInterval =  70 + randomGenerator.nextInt(20);break; // 70-90% of the way
-						case BlackBird:
-							tapInterval =  70 + randomGenerator.nextInt(20);break; // 70-90% of the way
-						case BlueBird:
-							tapInterval =  65 + randomGenerator.nextInt(20);break; // 65-85% of the way
-						default:
-							tapInterval =  60;
-						}
-
-						int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapInterval);
-						dx = (int)releasePoint.getX() - refPoint.x;
-						dy = (int)releasePoint.getY() - refPoint.y;
-						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
-					}
-					else
-						{
-							System.err.println("No Release Point Found");
-							return state;
-						}
-				}
-				*/
+				System.out.println("Shooting Bird("+birdsIndex+") - "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " -> "+actualShot.getAim().getType() );
 
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
@@ -386,6 +340,7 @@ public class MyAgent implements Runnable {
 							{
 								aRobot.cshoot(shot);
 								
+								lastState = actualState;
 								actualState = new State();
 								actualState.setOriginShotId( actualShot.getShotId() );
 								birdsIndex++;
@@ -402,11 +357,14 @@ public class MyAgent implements Runnable {
 								}
 							}
 						}
-						else
+						else{
 							System.out.println("Scale is changed, can not execute the shot, will re-segement the image");
+						}
 					}
-					else
-						System.out.println("no sling detected, can not execute the shot, will re-segement the image");
+					else{
+						state = GameState.UNKNOWN;
+						System.out.println("no sling detected, can not execute the shot, will re-segement the image. State = "+aRobot.getState());
+					}
 				}
 
 			}
@@ -445,7 +403,7 @@ public class MyAgent implements Runnable {
 				MyShot shotBeforeState = allShots.get( state.getOriginShotId() );
 				
 				if( shotBeforeState == null ){
-					System.err.println("There is no Shot with id = "+state.getOriginShotId());
+					System.err.println("[ERROR] There is no Shot with id = "+state.getOriginShotId());
 					continue;
 				}
 				shotBeforeState.getPossibleStates().add(state);
@@ -455,7 +413,7 @@ public class MyAgent implements Runnable {
 				State stateBeforeShot = allStates.get( shot.getOriginStateId() );				
 				
 				if( stateBeforeShot == null ){
-					System.err.println("There is no State with = "+shot.getOriginStateId());
+					System.err.println("[ERROR] There is no State with = "+shot.getOriginStateId());
 					continue;
 				}
 				stateBeforeShot.getPossibleShots().add(shot);
@@ -568,6 +526,9 @@ public class MyAgent implements Runnable {
 
 	private void calculateShotStats(boolean finalShot) {
 		System.out.println("MyAgent.calculateShotStats()");
+		
+		int score = 0;
+		
 		// capture Image
 		BufferedImage screenshot = ActionRobot.doScreenShot();
 
@@ -580,17 +541,19 @@ public class MyAgent implements Runnable {
 		actualShot.setBirdIndex( birdsIndex );
 		
 		if( finalShot ){
-			actualState.setTotalScore( aRobot.getScore() );
-			actualState.setScore( aRobot.getScore() - previousScore );
-			
-			previousScore = aRobot.getScore();
-			
+			if( aRobot.getState() == GameState.LOST ){
+				score = previousScore * -1;
+			}else{
+				score = aRobot.getScore();
+			}
 		}else{
-			actualState.setTotalScore( aRobot.getScoreInGame() );
-			actualState.setScore( aRobot.getScoreInGame() - previousScore );
-			
-			previousScore = aRobot.getScoreInGame();
+			score = aRobot.getScoreInGame(); 
 		}
+		
+		actualState.setTotalScore( score );
+		actualState.setScore( score - previousScore );
+		
+		previousScore = score;
 		
 		actualState.setFinalState(finalShot);
 		
@@ -619,7 +582,8 @@ public class MyAgent implements Runnable {
 		
 		for( State otherState : possibleStates ){
 			if( Math.abs( state.getScore() - otherState.getScore()) <= 200 && otherState.getOriginShotId() == state.getOriginShotId() ){
-				returnState = state;
+				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
+				returnState = otherState;
 				returnState.setTimesPlusOne();
 				break;
 			}
@@ -631,7 +595,7 @@ public class MyAgent implements Runnable {
 			if( state.getStateId() == 0 ){
 				state.setStateId( lastStateId++ );
 			}else{
-				System.err.println("Something Wrong... The state "+state.getStateId()+" was tried to be overwritten.");
+				System.err.println("[ERROR] Something Wrong... The state "+state.getStateId()+" was tried to be overwritten by "+(lastStateId+1));
 			}
 
 			allStates.put(state.getStateId(), state);
@@ -720,12 +684,12 @@ public class MyAgent implements Runnable {
 		
 	}
 
-
 	private MyShot chooseOneShot() {
 		System.out.println("MyAgent.chooseOneShot()");
 		MyShot theShot = null;
 
 		if( LEARNING ){
+			
 
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
@@ -747,7 +711,6 @@ public class MyAgent implements Runnable {
 			
 			theShot = actualState.getPossibleShots().get(0);
 		} 
-		
 		
 		System.out.println("Shot choosed id = "+theShot.getShotId());
 		return theShot;
@@ -775,8 +738,6 @@ public class MyAgent implements Runnable {
 				closestPig = pig;
 			}
 		}
-		
-		ShowSeg.debugRedPoint.add(closestPig.getCenter());
 		
 		for( ABObject object: actualState.getMapState().getAllObjects() ){
 			if( object.width > 200 && object.height > 200 ){
@@ -868,6 +829,10 @@ public class MyAgent implements Runnable {
 						tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapIn);
 						shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
 						
+						if( actualState.getStateId() == 0 ){
+							System.err.println("[ERROR] Something Wrong origin state id = 0");
+						}
+						
 						MyShot myShot = new MyShot();
 						
 						myShot.setShotId(lastShotId++);
@@ -932,7 +897,7 @@ public class MyAgent implements Runnable {
 		return releasePoint;
 	}
 
-
+/*
 	public static void main(String args[]) {
 
 		MyAgent na = new MyAgent();
@@ -941,4 +906,5 @@ public class MyAgent implements Runnable {
 		na.run();
 
 	}
+*/
 }
