@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <script src="jquery-1.11.2.min.js"></script>
 <style>
@@ -8,6 +8,11 @@ body{
 }
 
 h1{
+	text-align: center;
+}
+
+h2{
+	margin: 0px;
 	text-align: center;
 }
 
@@ -81,7 +86,12 @@ textarea{
 <body>
 
 <h1>Graph View for Angry Birds AI</h1>
+<h2 style="display: none;">
+<button id="downloadGraph" style="width: 355px; height: 75px; background-image: url(./images/buttons.png); background-position: -1335px -741px; color: white; font-weight: bold; font-size: 22px;">
+		Download Graph as Image
+</button>
 
+</h2>
 <div id="dataDiv">  
 	<p>
 		<label for="shotsTextArea">STATES - Copy here the content of states.json</label>
@@ -226,12 +236,33 @@ textarea{
 
 <br/>
 <div id="graphDiv">
-<svg id="graph" >
-</svg>
+<div id="legendDiv" style="width: 200px; position:fixed; border: 1px black solid; margin: 5px; background-color: white;">
+	<div style="border: 1px black solid; text-align: center; background-color: rgb(200,200,200);"> <b> Legend </b> </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #EAEAEA; border: 1px black solid;">&nbsp;</div> States </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #CACACA; border: 1px black solid;">&nbsp;</div> Shots </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/whiteNode.png" style="width:42px; height: 42px;" /></div> Not final Shot/State </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/cyanNode.png" style="width:42px; height: 42px;" /></div> WIN State </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/redNode.png" style="width:42px; height: 42px;" /></div> LOST State </div>
+	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/yellowNode.png" style="width:42px; height: 42px;" /></div> Not tested Shot </div>
+</div>
+<div id="zoomDiv" style="width: 35px; position:fixed; margin: 5px; left: 220px;">
+	<button id="zoomIn" style="width: 35px; height: 35px; background-image: url(./images/buttons.png); background-position: -1610px -615px;"></button>
+	<div style="width: 35px; height: 40px; background-image: url(./images/buttons.png); background-position: -1618px -668px;"></div>
+	<button id="zoomOut" style="width: 35px; height: 35px; background-image: url(./images/buttons.png); background-position: -1610px -548px;"></button>
+</div>
+<div id="graphParent">
+	<svg id="graph" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	</svg>
+</div>
 </div>
 
 <div id="prop">
 &nbsp;	
+</div>
+<div id ="auxElements" style='display:none;'>
+	<div id='svgdataurl'></div>
+	<div id='pngdataurl'></div>
+	<canvas id="auxCanvas"></canvas>
 </div>
 
 <script>
@@ -275,13 +306,16 @@ function generateGrapth(){
 	
 	$("#graphDiv").show();
 	$("#prop").show();
+	$("h2").show();
 	
 	var height = $(window).height() - $("#graphDiv").position().top - space;
 	$("#graphDiv").css("width", svgWidth + "px");
+	$("#graph").attr("width", ( svgWidth - 20 ) );
 	$("#graph").css("width", ( svgWidth - 20 ) + "px");
 	$("#prop").css("width", propWidth + "px");
 	
 	$("#graphDiv").css("height", height + "px");
+	$("#graph").attr("height", ( height - 22 ) );
 	$("#graph").css("height", ( height - 22 ) + "px" );
 	$("#prop").css("height", height + "px");
 
@@ -329,7 +363,10 @@ function generateGrapth(){
 	if( root != undefined ){
 		setGraphHeight(root, 1);
 		
-		$("#graph").css("height", (greaterNodeHeight * SVG_LINE_HEIGHT)  + "px" );
+		$("#graph").attr("height", (greaterNodeHeight * SVG_LINE_HEIGHT) );
+		$("#graph").css("height", (greaterNodeHeight * SVG_LINE_HEIGHT) + "px" );
+		
+		var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
 		
 		for( var i = 0; i < greaterNodeHeight; i++ ){
 			var line = $( document.createElementNS("http://www.w3.org/2000/svg", "rect") );
@@ -340,17 +377,18 @@ function generateGrapth(){
 			line.attr("height", SVG_LINE_HEIGHT);
 
 			if( i % 2 == 0){
-				line.attr("fill", "#FAFAFA");
-			}else{
 				line.attr("fill", "#EAEAEA");
+			}else{
+				line.attr("fill", "#CACACA");
 			}
 			
 			
 			line.css("z-index", 0);
 			
-			$("#graph").prepend(line);
+			g.append(line);
 		}
 		
+		$("#graph").prepend(g);
 		elementsGraphGeneration(root, 1);
 	}
 }
@@ -446,8 +484,13 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 				showProperties( statesMap[stateId], 1 );
 			}.bind(this, id));
 		}else{
+			if( !elements[i].shotTested ){
+				circle.attr("fill", "yellow");		
+			}
+		
 			circle.css("cursor", "pointer");
 			var id = elements[i].shotId;
+
 			circle.bind("click", function(shotId){
 				showProperties( shotsMap[shotId], 2 );
 			}.bind(this, id));
@@ -513,6 +556,7 @@ function elementsGraphGeneration(node, h){
 	
 	var totalWidth = drawNodes(elements, h, (CIRCLE_RADIUS * 2) + 10, false, 1);
 	
+	$("#graph").attr("width", totalWidth );
 	$("#graph").css("width", totalWidth + "px");
 	
 	//Draw Other elements
@@ -546,9 +590,9 @@ function createGroupOfCircleSVG(y){
 	group.attr("stroke-width", "6");
 	group.attr("stroke", "black");
 	if( y % 2 == 0){
-		group.attr("fill", "#FAFAFA");
-	}else{
 		group.attr("fill", "#EAEAEA");
+	}else{
+		group.attr("fill", "#CACACA");
 	}
 		
 	return group;
@@ -578,7 +622,11 @@ function setGraphHeight(node, h){
 
 var expandDataDiv = function(){
 	$("#dataDiv").css("height", "");
+	$("#dataDiv").css("display", "");
 	$("#dataDiv").css("cursor", "");
+	
+	$("h1").css("display", "");
+	
 	
 	$("#graph").hide();
 	$("#prop").hide();
@@ -586,10 +634,111 @@ var expandDataDiv = function(){
 	$("#dataDiv").unbind("click", expandDataDiv);
 }
 
+$("#zoomIn").click( function(){
+	$("#graph g").each( function(){
+		var scale = 1.0;
+		if( $(this).data("scale") != undefined ){
+			scale = $(this).data("scale");
+		}
+		
+		scale += 0.05;
+		$(this).attr("transform", "scale(" + scale + ")");
+		$(this).data("scale", scale);
+	});
+});
+
+$("#zoomOut").click( function(){
+	$("#graph g").each( function(){
+		var scale = 1.0;
+		if( $(this).data("scale") != undefined ){
+			scale = $(this).data("scale");
+		}
+		
+		scale -= 0.05;
+		$(this).attr("transform", "scale(" + scale + ")");
+		$(this).data("scale", scale);
+	});
+});
+
+$("#downloadGraph").click( function(){
+  var html = $("#graph").parent().html();
+ 
+  var imgsrc = 'data:image/svg+xml;base64,'+ btoa(html);
+  var img = '<img src="'+imgsrc+'">'; 
+  $("#svgdataurl").html(img);
+ 
+  var canvas = $("#auxCanvas")[0];
+
+  $("#auxCanvas").attr("width", $("#graph").attr("width"));
+  $("#auxCanvas").attr("height", $("#graph").attr("height"));
+
+  var context = canvas.getContext("2d");
+
+  var image = new Image();
+  image.src = imgsrc;
+  
+  image.onload = function() {
+	  context.drawImage(image, 0, 0);
+ 
+	  var canvasdata = canvas.toDataURL("image/png");
+ 
+	  var pngimg = '<img src="'+canvasdata+'">'; 
+  	  $("#pngdataurl").html(pngimg);
+ 
+	  var a = document.createElement("a");
+	  a.download = "sample.png";
+	  a.href = canvasdata;
+	  a.click();
+
+  };
+ 
+});
+/*
+$(document.body).append("<div id='svgdataurl'></div>");
+$(document.body).append("<div id='pngdataurl'></div>");
+$(document.body).append("<canvas style='display:none;'></canvas>");
+
+$("svg").attr("version", 1.1);
+$("svg").attr("xmlns", "http://www.w3.org/2000/svg");
+
+  var html = $("svg").parent().html();
+ 
+  var imgsrc = 'data:image/svg+xml;base64,'+ btoa(html);
+  var img = '<img src="'+imgsrc+'">'; 
+  $("#svgdataurl").html(img);
+ 
+ 
+  var canvas = $("canvas")[0];
+
+  $("canvas").attr("width", $("svg").attr("width"));
+  $("canvas").attr("height", $("svg").attr("height"));
+
+  var context = canvas.getContext("2d");
+ 
+  var image = new Image;
+  image.src = imgsrc;
+  image.onload = function() {
+	  context.drawImage(image, 0, 0);
+ 
+	  var canvasdata = canvas.toDataURL("image/png");
+ 
+	  var pngimg = '<img src="'+canvasdata+'">'; 
+  	  $("#pngdataurl").html(pngimg);
+ 
+	  var a = document.createElement("a");
+	  a.download = "sample.png";
+	  a.href = canvasdata;
+	  a.click();
+  };
+ */
+
 $("#generateButton").click(function(){
 
-	$("#dataDiv").css("height", "30px");
+	$("#dataDiv").css("height", "0px");
+	$("#dataDiv").css("display", "none");
 	$("#dataDiv").css("cursor", "pointer");
+	
+	$("h1").css("display", "none");
 	
 	setTimeout( function(){
 		$("#dataDiv").bind("click", expandDataDiv);
