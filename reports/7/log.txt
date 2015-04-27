@@ -1,0 +1,1277 @@
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 25200 
+Total Score: 305560
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 82933
+MyAgent.writeImageState()
+MyAgent.chooseOneShot()
+Shot choosed id = 1
+Shooting Bird(0) - RedBird at Point x: 556.0 y: 327.0 dx: -206 dy: 520 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0057360307730863
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 23
+Tempo: 92494
+MyAgent.chooseOneShot()
+Shot choosed id = 22
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 248 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0099827913972235
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 0 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 2
+Shooting Bird(0) - RedBird at Point x: 556.0 y: 337.0 dx: -203 dy: 521 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0076599408522633
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 26
+Tempo: 95883
+MyAgent.chooseOneShot()
+Shot choosed id = 45
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 326.0 dx: -501 dy: 248 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0005940480929372
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 32
+Tempo: 73121
+MyAgent.chooseOneShot()
+Shot choosed id = 71
+Shooting Bird(2) - WhiteBird at Point x: 567.0 y: 338.0 dx: -508 dy: 233 -> Stone
+no sling detected, can not execute the shot, will re-segement the image. State = WON
+Unknow Game state, may the game ends in last shot : 7
+Updating last Shot Status
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+[ERROR] Something Wrong... The state 4 was tried to be overwritten by 7
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 1 of 20--------------------
+
+Restart
+ restart the level 
+Zooming out
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 3
+Shooting Bird(0) - RedBird at Point x: 570.0 y: 282.0 dx: -235 dy: 508 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.007962025971573
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 88973
+MyAgent.chooseOneShot()
+Shot choosed id = 103
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.000831518655598
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 22
+Tempo: 90322
+MyAgent.chooseOneShot()
+Shot choosed id = 124
+Shooting Bird(2) - RedBird at Point x: 554.0 y: 325.0 dx: -500 dy: 251 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0041884921826816
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 2 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 4
+Shooting Bird(0) - RedBird at Point x: 590.0 y: 282.0 dx: -250 dy: 500 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0087351848667911
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 18
+Tempo: 85095
+MyAgent.chooseOneShot()
+Shot choosed id = 146
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 246 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.011621697224131
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 13
+Tempo: 76665
+MyAgent.chooseOneShot()
+Shot choosed id = 164
+Shooting Bird(2) - RedBird at Point x: 557.0 y: 326.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0065433550000957
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 3 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 5
+Shooting Bird(0) - RedBird at Point x: 555.0 y: 321.0 dx: -207 dy: 519 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.006183653787861
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 22
+Tempo: 83927
+MyAgent.chooseOneShot()
+Shot choosed id = 177
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0094198375754306
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 4 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 6
+Shooting Bird(0) - RedBird at Point x: 601.0 y: 240.0 dx: -308 dy: 467 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0097389845473388
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 92559
+MyAgent.chooseOneShot()
+Shot choosed id = 199
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -503 dy: 246 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0054248330437585
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 23
+Tempo: 84357
+MyAgent.chooseOneShot()
+Shot choosed id = 220
+Shooting Bird(2) - RedBird at Point x: 555.0 y: 326.0 dx: -205 dy: 520 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0059482225690748
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 19
+Tempo: 77892
+MyAgent.chooseOneShot()
+Shot choosed id = 243
+Shooting Bird(3) - RedBird at Point x: 556.0 y: 327.0 dx: -205 dy: 520 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0054804034126799
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 5 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 7
+Shooting Bird(0) - RedBird at Point x: 585.0 y: 241.0 dx: -279 dy: 485 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0086987026791814
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 79195
+MyAgent.chooseOneShot()
+Shot choosed id = 262
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 246 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0068129321917423
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 6 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 8
+Shooting Bird(0) - RedBird at Point x: 586.0 y: 256.0 dx: -265 dy: 493 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0077812847258854
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 22
+Tempo: 84125
+MyAgent.chooseOneShot()
+Shot choosed id = 282
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0216940602478664
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 7 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 9
+Shooting Bird(0) - RedBird at Point x: 586.0 y: 266.0 dx: -257 dy: 497 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0073293162256494
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 81704
+MyAgent.chooseOneShot()
+Shot choosed id = 304
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.010295543095455
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 8 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 10
+Shooting Bird(0) - RedBird at Point x: 585.0 y: 258.0 dx: -262 dy: 494 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007749015050375
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 77218
+MyAgent.chooseOneShot()
+Shot choosed id = 324
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0134855141787154
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 9 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 11
+Shooting Bird(0) - RedBird at Point x: 585.0 y: 268.0 dx: -254 dy: 498 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0071206233467176
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 17
+Tempo: 78511
+MyAgent.chooseOneShot()
+Shot choosed id = 344
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.000438844171716
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 10 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 12
+Shooting Bird(0) - RedBird at Point x: 585.0 y: 278.0 dx: -248 dy: 502 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0086189906444925
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 80676
+MyAgent.chooseOneShot()
+Shot choosed id = 361
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 246 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0189451613295037
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 11 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 13
+Shooting Bird(0) - RedBird at Point x: 557.0 y: 287.0 dx: -222 dy: 514 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.00722199536819
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 81877
+MyAgent.chooseOneShot()
+Shot choosed id = 382
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -205 dy: 521 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0048667069160777
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 23
+Tempo: 82855
+MyAgent.chooseOneShot()
+Shot choosed id = 403
+Shooting Bird(2) - WhiteBird at Point x: 555.0 y: 325.0 dx: -500 dy: 251 -> Stone
+no sling detected, can not execute the shot, will re-segement the image. State = WON
+Unknow Game state, may the game ends in last shot : 7
+Updating last Shot Status
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+[ERROR] Something Wrong... The state 30 was tried to be overwritten by 33
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 12 of 20--------------------
+
+Restart
+ restart the level 
+Zooming out
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 14
+Shooting Bird(0) - RedBird at Point x: 567.0 y: 287.0 dx: -230 dy: 510 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007233359319702
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 19
+Tempo: 86195
+MyAgent.chooseOneShot()
+Shot choosed id = 426
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0160234631581495
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 18
+Tempo: 82213
+MyAgent.chooseOneShot()
+Shot choosed id = 445
+Shooting Bird(2) - WhiteBird at Point x: 553.0 y: 336.0 dx: -514 dy: 222 -> Stone
+no sling detected, can not execute the shot, will re-segement the image. State = WON
+Unknow Game state, may the game ends in last shot : 7
+Updating last Shot Status
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+[ERROR] Something Wrong... The state 32 was tried to be overwritten by 35
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 13 of 20--------------------
+
+Restart
+ restart the level 
+Zooming out
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 15
+Shooting Bird(0) - RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0067992319731263
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 17
+Tempo: 79115
+MyAgent.chooseOneShot()
+Shot choosed id = 463
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.013296531537848
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 23
+Tempo: 82719
+MyAgent.chooseOneShot()
+Shot choosed id = 480
+Shooting Bird(2) - RedBird at Point x: 555.0 y: 325.0 dx: -502 dy: 246 -> Stone
+Shooting Completed
+
+scale factor changed to: 0.9983245702441519
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 14 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 16
+Shooting Bird(0) - RedBird at Point x: 557.0 y: 307.0 dx: -213 dy: 517 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0058082645172086
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 80283
+MyAgent.chooseOneShot()
+Shot choosed id = 503
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -205 dy: 520 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0057827304360398
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 81141
+MyAgent.chooseOneShot()
+Shot choosed id = 523
+Shooting Bird(2) - RedBird at Point x: 555.0 y: 326.0 dx: -501 dy: 249 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0062516513655981
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 24
+Tempo: 81774
+MyAgent.chooseOneShot()
+Shot choosed id = 543
+Shooting Bird(3) - RedBird at Point x: 560.0 y: 325.0 dx: -499 dy: 252 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0048093947160717
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+distance 4.247132742140029
+velocity 2.691829640549142
+distance 4.542907390027352
+velocity 2.691829640549142
+distance 4.824597530872423
+velocity 2.691829640549142
+distance 5.106287671717493
+velocity 2.691829640549142
+distance 5.387977812562564
+velocity 2.691829640549142
+distance 4.3439945734839265
+velocity 2.679376606531395
+distance 4.6397692213712505
+velocity 2.679376606531395
+distance 4.9355438692585745
+velocity 2.679376606531395
+distance 5.2172340101036445
+velocity 2.679376606531395
+distance 5.5130086579909685
+velocity 2.679376606531395
+distance 4.3841016720723776
+velocity 2.637897754144036
+distance 4.6798763199597015
+velocity 2.637897754144036
+distance 4.9756509678470255
+velocity 2.637897754144036
+distance 5.2714256157343495
+velocity 2.637897754144036
+distance 5.5672002636216735
+velocity 2.637897754144036
+distance 4.9020032053172695
+velocity 2.1758303594199515
+distance 5.2400313743313545
+velocity 2.1758303594199515
+distance 5.5639750363031855
+velocity 2.1758303594199515
+distance 5.9020032053172695
+velocity 2.1758303594199515
+distance 6.2400313743313545
+velocity 2.1758303594199515
+distance 4.306301983591458
+velocity 2.5853051236361893
+distance 4.5879921244365285
+velocity 2.5853051236361893
+distance 4.8837667723238525
+velocity 2.5853051236361893
+distance 5.165456913168923
+velocity 2.5853051236361893
+distance 5.461231561056247
+velocity 2.5853051236361893
+distance 3.4452027331062323
+velocity 2.8132913433197526
+distance 3.6705548457822887
+velocity 2.8132913433197526
+distance 3.8959069584583452
+velocity 2.8132913433197526
+distance 4.121259071134402
+velocity 2.8132913433197526
+distance 4.346611183810458
+velocity 2.8132913433197526
+distance 3.5434554370651625
+velocity 2.8108399234794703
+distance 3.782892056783472
+velocity 2.8108399234794703
+distance 4.0082441694595285
+velocity 2.8108399234794703
+distance 4.2476807891778385
+velocity 2.8108399234794703
+distance 4.473032901853895
+velocity 2.8108399234794703
+distance 3.3845563323913312
+velocity 0.8986163936045747
+distance 3.6239929521096412
+velocity 0.8986163936045747
+distance 3.8634295718279508
+velocity 0.8986163936045747
+distance 4.102866191546261
+velocity 0.8986163936045747
+distance 4.34230281126457
+velocity 0.8986163936045747
+distance 3.4867726530458203
+velocity 0.9234744380539978
+distance 3.7402937798063833
+velocity 0.9234744380539978
+distance 3.9797303995246933
+velocity 0.9234744380539978
+distance 4.233251526285256
+velocity 0.9234744380539978
+distance 4.472688146003566
+velocity 0.9234744380539978
+distance 3.1773032113338378
+velocity 0.8295579506593834
+distance 3.4026553240098942
+velocity 0.8295579506593834
+distance 3.6280074366859503
+velocity 0.8295579506593834
+distance 3.8533595493620068
+velocity 0.8295579506593834
+distance 4.078711662038063
+velocity 0.8295579506593834
+distance 4.7873299215124
+velocity 2.268646919060855
+distance 5.111273583484231
+velocity 2.268646919060855
+distance 5.435217245456062
+velocity 2.268646919060855
+distance 5.759160907427893
+velocity 2.268646919060855
+distance 6.083104569399724
+velocity 2.268646919060855
+distance 4.787674393938656
+velocity 1.546621053882226
+distance 5.111618055910487
+velocity 1.546621053882226
+distance 5.449646224924571
+velocity 1.546621053882226
+distance 5.787674393938656
+velocity 1.546621053882226
+distance 6.111618055910487
+velocity 1.546621053882226
+distance 4.796159152501492
+velocity 2.330748778782559
+distance 5.120102814473323
+velocity 2.330748778782559
+distance 5.444046476445154
+velocity 2.330748778782559
+distance 5.767990138416985
+velocity 2.330748778782559
+distance 6.091933800388816
+velocity 2.330748778782559
+distance 4.670165315310434
+velocity 1.4135955917859322
+distance 4.994108977282265
+velocity 1.4135955917859322
+distance 5.318052639254096
+velocity 1.4135955917859322
+distance 5.641996301225927
+velocity 1.4135955917859322
+distance 5.965939963197758
+velocity 1.4135955917859322
+distance 4.313179173193715
+velocity 2.4095038047613677
+distance 4.608953821081038
+velocity 2.4095038047613677
+distance 4.904728468968362
+velocity 2.4095038047613677
+distance 5.186418609813433
+velocity 2.4095038047613677
+distance 5.482193257700757
+velocity 2.4095038047613677
+distance 4.4093663607049365
+velocity 2.3925319294627267
+distance 4.7192255156345135
+velocity 2.3925319294627267
+distance 5.0150001635218375
+velocity 2.3925319294627267
+distance 5.3107748114091615
+velocity 2.3925319294627267
+distance 5.6065494592964855
+velocity 2.3925319294627267
+distance 4.149063686605936
+velocity 1.2176567529931004
+distance 4.44483833449326
+velocity 1.2176567529931004
+distance 4.740612982380584
+velocity 1.2176567529931004
+distance 5.022303123225654
+velocity 1.2176567529931004
+distance 5.318077771112978
+velocity 1.2176567529931004
+distance 4.326094357712033
+velocity 2.5006693283993124
+distance 4.621869005599357
+velocity 2.5006693283993124
+distance 4.917643653486681
+velocity 2.5006693283993124
+distance 5.199333794331751
+velocity 2.5006693283993124
+distance 5.495108442219075
+velocity 2.5006693283993124
+distance 4.416857710148605
+velocity 1.3181223708457528
+distance 4.726716865078183
+velocity 1.3181223708457528
+distance 5.03657602000776
+velocity 1.3181223708457528
+distance 5.346435174937338
+velocity 1.3181223708457528
+distance 5.656294329866915
+velocity 1.3181223708457528
+distance 4.328011482558309
+velocity 2.539254448067286
+distance 4.623786130445633
+velocity 2.539254448067286
+distance 4.919560778332957
+velocity 2.539254448067286
+distance 5.201250919178027
+velocity 2.539254448067286
+distance 5.497025567065351
+velocity 2.539254448067286
+distance 4.333379642693406
+velocity 2.577524720104819
+distance 4.62915429058073
+velocity 2.577524720104819
+distance 4.924928938468054
+velocity 2.577524720104819
+distance 5.206619079313124
+velocity 2.577524720104819
+distance 5.502393727200448
+velocity 2.577524720104819
+distance 4.108633370213594
+velocity 2.7087174014327116
+distance 4.376239004016411
+velocity 2.7087174014327116
+distance 4.657929144861481
+velocity 2.7087174014327116
+distance 4.925534778664298
+velocity 2.7087174014327116
+distance 5.207224919509368
+velocity 2.7087174014327116
+distance 3.7893591320530304
+velocity 2.742334728177745
+distance 4.042880258813594
+velocity 2.742334728177745
+distance 4.296401385574157
+velocity 2.742334728177745
+distance 4.549922512334721
+velocity 2.742334728177745
+distance 4.803443639095284
+velocity 2.742334728177745
+distance 3.886842294119193
+velocity 2.7343549394149442
+distance 4.15444792792201
+velocity 2.7343549394149442
+distance 4.407969054682574
+velocity 2.7343549394149442
+distance 4.661490181443137
+velocity 2.7343549394149442
+distance 4.929095815245954
+velocity 2.7343549394149442
+distance 3.4415374078266834
+velocity 0.9030262986572831
+distance 3.695058534587247
+velocity 0.9030262986572831
+distance 3.934495154305557
+velocity 0.9030262986572831
+distance 4.173931774023867
+velocity 0.9030262986572831
+distance 4.42745290078443
+velocity 0.9030262986572831
+distance 3.3778292673033654
+velocity 2.855040157263066
+distance 3.5890968729371684
+velocity 2.855040157263066
+distance 3.8144489856132253
+velocity 2.855040157263066
+distance 4.039801098289281
+velocity 2.855040157263066
+distance 4.251068703923084
+velocity 2.855040157263066
+distance 3.474709093515638
+velocity 2.822966546008735
+distance 3.7000612061916947
+velocity 2.822966546008735
+distance 3.925413318867751
+velocity 2.822966546008735
+distance 4.150765431543808
+velocity 2.822966546008735
+distance 4.376117544219864
+velocity 2.822966546008735
+distance 3.38051066243165
+velocity 2.87457376712795
+distance 3.591778268065453
+velocity 2.87457376712795
+distance 3.817130380741509
+velocity 2.87457376712795
+distance 4.042482493417566
+velocity 2.87457376712795
+distance 4.253750099051368
+velocity 2.87457376712795
+distance 3.282296183150625
+velocity 2.8773206724542755
+distance 3.5076482958266815
+velocity 2.8773206724542755
+distance 3.718915901460484
+velocity 2.8773206724542755
+distance 3.9301835070942865
+velocity 2.8773206724542755
+distance 4.14145111272809
+velocity 2.8773206724542755
+distance 4.836330796819228
+velocity 2.1104099299069423
+distance 5.174358965833313
+velocity 2.1104099299069423
+distance 5.498302627805144
+velocity 2.1104099299069423
+distance 5.836330796819228
+velocity 2.1104099299069423
+distance 6.160274458791059
+velocity 2.1104099299069423
+distance 4.880985045366608
+velocity 1.7156228577342008
+distance 5.219013214380692
+velocity 1.7156228577342008
+distance 5.557041383394777
+velocity 1.7156228577342008
+distance 5.895069552408861
+velocity 1.7156228577342008
+distance 6.233097721422946
+velocity 1.7156228577342008
+distance 4.846300849821447
+velocity 2.1802855002910095
+distance 5.184329018835532
+velocity 2.1802855002910095
+distance 5.508272680807363
+velocity 2.1802855002910095
+distance 5.846300849821447
+velocity 2.1802855002910095
+distance 6.170244511793278
+velocity 2.1802855002910095
+MyAgent.findPossibleShots() = 160
+Tempo: 72483
+MyAgent.chooseOneShot()
+Shot choosed id = 567
+Shooting Bird(4) - WhiteBird at Point x: 567.0 y: 337.0 dx: -509 dy: 233 -> Stone
+no sling detected, can not execute the shot, will re-segement the image. State = LOST
+Unknow Game state, may the game ends in last shot : 7
+Updating last Shot Status
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+[ERROR] Something Wrong... The state 39 was tried to be overwritten by 42
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 15 of 20--------------------
+
+Restart
+ restart the level 
+Zooming out
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 17
+Shooting Bird(0) - RedBird at Point x: 558.0 y: 309.0 dx: -213 dy: 517 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.006429996366818
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 19
+Tempo: 81766
+MyAgent.chooseOneShot()
+Shot choosed id = 727
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0089457364263996
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 16 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 18
+Shooting Bird(0) - RedBird at Point x: 558.0 y: 319.0 dx: -210 dy: 518 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0058840670531919
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 19
+Tempo: 75928
+MyAgent.chooseOneShot()
+Shot choosed id = 746
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -205 dy: 520 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0061407443890924
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 21
+Tempo: 82311
+MyAgent.chooseOneShot()
+Shot choosed id = 765
+Shooting Bird(2) - RedBird at Point x: 556.0 y: 326.0 dx: -501 dy: 249 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0192095765064408
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 19
+Tempo: 59833
+MyAgent.chooseOneShot()
+Shot choosed id = 786
+Shooting Bird(3) - WhiteBird at Point x: 544.0 y: 293.0 dx: -480 dy: 287 -> Wood
+no sling detected, can not execute the shot, will re-segement the image. State = WON
+Unknow Game state, may the game ends in last shot : 7
+Updating last Shot Status
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+[ERROR] Something Wrong... The state 44 was tried to be overwritten by 47
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 17 of 20--------------------
+
+Restart
+ restart the level 
+Zooming out
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 19
+Shooting Bird(0) - RedBird at Point x: 559.0 y: 271.0 dx: -231 dy: 509 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.007530461150316
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 20
+Tempo: 75668
+MyAgent.chooseOneShot()
+Shot choosed id = 805
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -502 dy: 247 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0068370090094745
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 18 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 20
+Shooting Bird(0) - RedBird at Point x: 569.0 y: 271.0 dx: -236 dy: 507 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0086489900028173
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 22
+Tempo: 81195
+MyAgent.chooseOneShot()
+Shot choosed id = 825
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -204 dy: 521 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0072386061446632
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 24
+Tempo: 87316
+MyAgent.chooseOneShot()
+Shot choosed id = 847
+Shooting Bird(2) - RedBird at Point x: 556.0 y: 326.0 dx: -501 dy: 248 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.006074930145778
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 34
+Tempo: 76584
+MyAgent.chooseOneShot()
+Shot choosed id = 871
+Shooting Bird(3) - RedBird at Point x: 564.0 y: 333.0 dx: -507 dy: 236 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.006074930145778
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 19 of 20--------------------
+
+ Level 1 Score: 31950 
+ Level 2 Score: 52360 
+ Level 3 Score: 41440 
+ Level 4 Score: 29290 
+ Level 5 Score: 66950 
+ Level 6 Score: 58370 
+ Level 7 Score: 43360 
+Total Score: 323720
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 21
+Shooting Bird(0) - RedBird at Point x: 559.0 y: 281.0 dx: -226 dy: 512 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0070361534668084
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+MyAgent.findPossibleShots() = 22
+Tempo: 81538
+MyAgent.chooseOneShot()
+Shot choosed id = 905
+Shooting Bird(1) - RedBird at Point x: 556.0 y: 327.0 dx: -205 dy: 521 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0058990594015913
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 20 of 20--------------------
+
+Changing Level...
