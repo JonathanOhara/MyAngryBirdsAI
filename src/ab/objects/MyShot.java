@@ -8,7 +8,7 @@ import ab.demo.other.Shot;
 import ab.vision.ABObject;
 import ab.vision.ABType;
 
-public class MyShot {
+public class MyShot implements GraphNode {
 	
 	private int shotId;
 	private int originStateId;
@@ -29,7 +29,6 @@ public class MyShot {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
-	private transient int minMaxValue;
 	private transient List<State> possibleStates;
 	
 	public MyShot() {
@@ -154,12 +153,8 @@ public class MyShot {
 		this.tapInterval = tapInterval;
 	}
 
-	public int getMinMaxValue() {
-		return minMaxValue;
-	}
-
-	public void setMinMaxValue(int minMaxValue) {
-		this.minMaxValue = minMaxValue;
+	public boolean isFinalState() {
+		return false;
 	}	
 	
 }

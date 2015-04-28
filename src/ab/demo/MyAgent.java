@@ -34,6 +34,7 @@ import javax.imageio.ImageIO;
 
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
+import ab.objects.GraphNode;
 import ab.objects.MapState;
 import ab.objects.MyShot;
 import ab.objects.State;	
@@ -760,53 +761,53 @@ MinMove (GamePosition game) {
   return best_move;
 }
 	 */
-	
-	private MyShot minMax( State state ){
-		return maxMove(state);
-	}
-	
-	private MyShot maxMove ( State state ) {
-		if ( state.isFinalState() ) {
-			return allShots.get( state.getOriginShotId() );
+	/*
+function expectiminimax(node, depth)
+    if node is a terminal node or depth = 0
+        return the heuristic value of node
+    if the adversary is to play at node
+        // Return value of minimum-valued child node
+        let alpha := +INFINITE
+        foreach child of node
+            alpha := min(alpha, expectiminimax(child, depth-1))
+    else if we are to play at node
+        // Return value of maximum-valued child node
+        let alpha := -INIFINITE
+        foreach child of node
+            alpha := max(alpha, expectiminimax(child, depth-1))
+    else if random event at node
+        // Return weighted average of all child nodes' values
+        let alpha := 0
+        foreach child of node
+            alpha := alpha + (Probability[child] * expectiminimax(child, depth-1))
+    return alpha
+*/
+	private float expectMiniMax(GraphNode node){
+		float alpha = 0;
+		if( node.isFinalState() ){
+			return ((State)node).getScore();
 		}
-		else {
-			MyShot bestShot = null;
+		
+		if( node instanceof State ){
+			State st = (State) node;
 			
-			for( MyShot evalShoot: state.getPossibleShots() ){
-				if( !evalShoot.isShotTested() ) continue;
+			for( MyShot myShot: st.getPossibleShots() ){
+				alpha = Math.max(alpha, expectMiniMax(myShot) );
+			}
+		}else if( node instanceof MyShot ){
+			MyShot ms = (MyShot) node;
+			
+			float totalTimes = 0;
+			for( State state: ms.getPossibleStates() ){
+				totalTimes += state.getTimes();
 			}
 			
-			if( bestShot == null ){
-				//FAZER ALGO
-			}
-			/*
-			best_move < - {};
-			moves <- GenerateMoves(game);
-			ForEach moves {
-				move <- MinMove(ApplyMove(game));
-				if (Value(move) > Value(best_move)) {
-					best_move < - move;
-				}
-			}
-			*/
-			return bestShot;
-		}
-	}
-		 
-	private State minMove ( MyShot shot ) {
-		State bestState = null;
-		/*
-		best_move <- {};
-		moves <- GenerateMoves(game);
-		ForEach moves {
-			move <- MaxMove(ApplyMove(game));
-			if (Value(move) > Value(best_move)) {
-				best_move < - move;
+			for( State state: ms.getPossibleStates() ){
+				alpha = alpha + ( state.getTimes() / totalTimes *  expectMiniMax(state) );
 			}
 		}
-		*/
-		 
-		return bestState;
+			
+		return alpha;
 	}
 
 	private MyShot chooseOneShot() {
@@ -814,8 +815,6 @@ MinMove (GamePosition game) {
 		MyShot theShot = null;
 
 		if( LEARNING ){
-			
-
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
 				public int compare(MyShot o1, MyShot o2) {

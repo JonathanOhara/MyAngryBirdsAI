@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class State {
+public class State implements GraphNode {
 	
 	private int stateId;
 	private int originShotId;
