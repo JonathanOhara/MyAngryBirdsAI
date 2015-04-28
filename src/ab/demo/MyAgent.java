@@ -64,7 +64,7 @@ public class MyAgent implements Runnable {
 
 	private boolean LEARNING = true;
 	
-	private int TIMES_IN_EACH_STAGE = 20;
+	private int TIMES_IN_EACH_STAGE = 100;
 	private int timesInThisStage = 0;
 	
 	//---------------------------------------------------------------------------------

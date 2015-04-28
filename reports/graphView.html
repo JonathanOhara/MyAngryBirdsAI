@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <script src="jquery-1.11.2.min.js"></script>
 <style>
@@ -41,7 +41,7 @@ textarea{
 }
 
 #generateButton{
-	width: 100%;
+	width: 49%;
 	height: 100px;
 	
 	font-size: 50px;
@@ -78,6 +78,15 @@ textarea{
 
 .preview{
 	width: 100%;
+}
+
+#propTable{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#propTable tbody tr td{
+	border: 1px gray solid;
 }
 </style>
 
@@ -228,7 +237,19 @@ textarea{
 		</textarea>
 	</p>
 	
+
 	<p>
+		<select id="level" style="  width: 49%;height: 100px; font-size: 50px;" dir="rtl">
+			<option value="1">Level 01</option>
+			<option value="2">Level 02</option>
+			<option value="3">Level 03</option>
+			<option value="4">Level 04</option>
+			<option value="5">Level 05</option>
+			<option value="6">Level 06</option>
+			<option value="7">Level 07</option>
+			<option value="8">Level 08</option>
+			<option value="9">Level 09</option>
+		</select>
 		<input type="button" value="Generate" id="generateButton"></input>
 	</p>
 
@@ -236,7 +257,7 @@ textarea{
 
 <br/>
 <div id="graphDiv">
-<div id="legendDiv" style="width: 200px; position:fixed; border: 1px black solid; margin: 5px; background-color: white;">
+<div id="legendDiv" style="width: 150px; position:fixed; border: 1px black solid; margin: 5px; background-color: white;">
 	<div style="border: 1px black solid; text-align: center; background-color: rgb(200,200,200);"> <b> Legend </b> </div>
 	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #EAEAEA; border: 1px black solid;">&nbsp;</div> States </div>
 	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #CACACA; border: 1px black solid;">&nbsp;</div> Shots </div>
@@ -245,7 +266,7 @@ textarea{
 	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/redNode.png" style="width:42px; height: 42px;" /></div> LOST State </div>
 	<div style="border: 1px black solid; text-align: center; "> <div style="background-color: #FAFAFA; border: 1px black solid;"><img src="./images/yellowNode.png" style="width:42px; height: 42px;" /></div> Not tested Shot </div>
 </div>
-<div id="zoomDiv" style="width: 35px; position:fixed; margin: 5px; left: 220px;">
+<div id="zoomDiv" style="width: 35px; position:fixed; margin: 5px; left: 170px;">
 	<button id="zoomIn" style="width: 35px; height: 35px; background-image: url(./images/buttons.png); background-position: -1610px -615px;"></button>
 	<div style="width: 35px; height: 40px; background-image: url(./images/buttons.png); background-position: -1618px -668px;"></div>
 	<button id="zoomOut" style="width: 35px; height: 35px; background-image: url(./images/buttons.png); background-position: -1610px -548px;"></button>
@@ -257,7 +278,20 @@ textarea{
 </div>
 
 <div id="prop">
-&nbsp;	
+	<table id="propTable" style="width: 100%;border-collapse: collapse;">
+		<thead style="background-color: #CACACA; font-weight: bold; font-size: 20px; border: 1px black solid;">
+			<tr>
+				<th colspan="2">
+					Properties
+				</th>  
+			</tr>
+		</thead>
+		<tbody id="propTbody">
+		
+		</tbody>
+		<tfoot id="propTfoot">
+		</tfoot
+	</table>
 </div>
 <div id ="auxElements" style='display:none;'>
 	<div id='svgdataurl'></div>
@@ -266,8 +300,6 @@ textarea{
 </div>
 
 <script>
-
-var level = 1;
 
 var shotsMap = {};
 var statesMap = {};
@@ -283,16 +315,45 @@ var CIRCLE_RADIUS = 40;
 
 var showProperties = function( element, type ){
 	
-	$("#prop").html("");
+	$("#propTbody").html("");
+	$("#propTfoot").html("");
+	/*
 	for( var i in element ){
 		if( typeof element[i] != "object" ){
-			$("#prop").append("<p>" + i +": "+ element[i] + "</p>")
+			$("#propTbody").append("<tr><td style='border: 1px gray solid;'>" + i +"</td><td style='border: 1px gray solid;'>"+ element[i] + "</td></tr>")
+		}else{/*
+			for( var j in element[i] ){
+				if( typeof element[i][j] != "object" ){
+					$("#prop").append("<p>" + i +" - " + j + " : "+ element[i][j] + "</p>")
+				}	
+			}
 		}
-	}
+	}*/
 	
 	if( type == 1){
-		var imgUrl = "./"+level+"/states/" + element.stateId +"/00001.jpg";
-		$("#prop").append("<p> <a target='_blank' href='"+imgUrl+"'> <img class='preview'src='"+imgUrl+"'/></a></p>")
+		//{"stateId":1,"originShotId":-1,"birdIndex":0,"times":0,"score":0,"totalScore":0,"finalState":false,"mapState":{"blocks":[{"id":4,"type":"Stone","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":541,"y":240,"width":10,"height":8},{"id":5,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":544,"y":226,"width":3,"height":9},{"id":6,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":534,"y":252,"width":22,"height":3},{"id":7,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":531,"y":257,"width":3,"height":50},{"id":8,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":555,"y":256,"width":3,"height":50},{"id":9,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":540,"y":303,"width":9,"height":2},{"id":10,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":518,"y":309,"width":51,"height":4},{"id":11,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":519,"y":315,"width":2,"height":50},{"id":12,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":533,"y":328,"width":21,"height":3},{"id":13,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":564,"y":315,"width":4,"height":50},{"id":14,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":490,"y":355,"width":2,"height":9},{"id":15,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":594,"y":355,"width":2,"height":9},{"id":16,"type":"Wood","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":532,"y":361,"width":23,"height":2},{"id":17,"type":"Ice","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":533,"y":334,"width":4,"height":24},{"id":18,"type":"Ice","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":551,"y":334,"width":3,"height":24}],"pigs":[{"id":19,"type":"Pig","area":0,"shape":"Rect","angle":0.0,"hollow":false,"x":537,"y":291,"width":11,"height":10}],"tnts":[]}}
+		$("#propTbody").append("<tr><td> State Id </td><td>"+ element.stateId + "</td></tr>");
+		$("#propTbody").append("<tr><td> Origin Shot Id </td><td>"+ element.originShotId + "</td></tr>");
+		$("#propTbody").append("<tr><td> Bird Index </td><td>"+ element.birdIndex + "</td></tr>");
+		$("#propTbody").append("<tr><td> Times in this state </td><td>"+ element.times + "</td></tr>");
+		$("#propTbody").append("<tr><td> Score </td><td>"+ element.score + "</td></tr>");
+		$("#propTbody").append("<tr><td> Total Score </td><td>"+ element.totalScore + "</td></tr>");
+		$("#propTbody").append("<tr><td> Final State </td><td>"+ element.finalState + "</td></tr>");
+	
+		var imgUrl = "./"+$("#level").val()+"/states/" + element.stateId +"/00001.jpg";
+		$("#propTfoot").append("<tr><td colspan='2'><a target='_blank' href='"+imgUrl+"'> <img class='preview'src='"+imgUrl+"'/></a></td><tr>")
+	}else if( type == 2 ){
+		$("#propTbody").append("<tr><td> Shot Id </td><td>"+ element.shotId + "</td></tr>");
+		$("#propTbody").append("<tr><td> Origin State Id </td><td>"+ element.originStateId + "</td></tr>");
+		$("#propTbody").append("<tr><td> Bird Index </td><td>"+ element.birdIndex + "</td></tr>");
+		$("#propTbody").append("<tr><td> Bird Type </td><td>"+ element.birdType + "</td></tr>");
+		$("#propTbody").append("<tr><td> Times used </td><td>"+ element.times + "</td></tr>");
+		$("#propTbody").append("<tr><td> Shot tested </td><td>"+ element.shotTested + "</td></tr>");
+		$("#propTbody").append("<tr><td> Tap Interval </td><td>"+ element.tapInterval + "</td></tr>");
+		$("#propTbody").append("<tr><td> Target Y </td><td>"+ element.target.x + "</td></tr>");
+		$("#propTbody").append("<tr><td> Target Y </td><td>"+ element.target.y + "</td></tr>");
+		$("#propTbody").append("<tr><td> Aim Type </td><td>"+ element.aim.type + "</td></tr>");
+		$("#propTbody").append("<tr><td> Closest pig </td><td>"+ element.distanceOfClosestPig + "</td></tr>");
 	}
 	
 };
@@ -464,10 +525,11 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		
 		if( elements[i].originShotId != undefined ){
 			var circleText = circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
-			circleText.html("Pts: "+elements[i].totalScore);
 			circleText.attr("x", cx - (CIRCLE_RADIUS * 4/5));
 			circleText.attr("y", cy );
 			circleText.attr("fill", "black");	
+			circleText.css("font-size", "14px");				
+			circleText.html("Pts: "+elements[i].totalScore);
 			circlesToAppend.push(circleText);
 		
 			if( elements[i].finalState ){
@@ -484,6 +546,24 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 				showProperties( statesMap[stateId], 1 );
 			}.bind(this, id));
 		}else{
+			var circleText = circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
+			circleText.attr("x", cx - (CIRCLE_RADIUS * 2/3));
+			circleText.attr("y", cy );
+			circleText.attr("fill", "black");	
+			circleText.css("font-size", "14px");				
+			circleText.html("X: "+elements[i].target.x);
+			
+			circlesToAppend.push(circleText);
+			
+			circleText = circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
+			circleText.attr("x", cx - (CIRCLE_RADIUS * 2/3));
+			circleText.attr("y", cy + 20 );
+			circleText.attr("fill", "black");	
+			circleText.css("font-size", "14px");				
+			circleText.html("Y: "+elements[i].target.y);
+			
+			circlesToAppend.push(circleText);
+		
 			if( !elements[i].shotTested ){
 				circle.attr("fill", "yellow");		
 			}
