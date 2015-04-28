@@ -29,6 +29,7 @@ public class MyShot {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
+	private transient int minMaxValue;
 	private transient List<State> possibleStates;
 	
 	public MyShot() {
@@ -151,6 +152,14 @@ public class MyShot {
 
 	public void setTapInterval(int tapInterval) {
 		this.tapInterval = tapInterval;
+	}
+
+	public int getMinMaxValue() {
+		return minMaxValue;
+	}
+
+	public void setMinMaxValue(int minMaxValue) {
+		this.minMaxValue = minMaxValue;
 	}	
 	
 }

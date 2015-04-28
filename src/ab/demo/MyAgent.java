@@ -52,7 +52,7 @@ public class MyAgent implements Runnable {
 
 	private ActionRobot aRobot;
 	private Random randomGenerator;
-	public int currentLevel = 1;
+	public int currentLevel = 9;
 	public static int time_limit = 12;
 	private Map<Integer,Integer> scores = new LinkedHashMap<Integer,Integer>();
 	TrajectoryPlanner tp;
@@ -64,8 +64,10 @@ public class MyAgent implements Runnable {
 
 	private boolean LEARNING = true;
 	
-	private int TIMES_IN_EACH_STAGE = 100;
-	private int timesInThisStage = 0;
+	private int MAX_LEVEL = 10;
+	
+	private int TIMES_IN_EACH_STAGE = 10;
+	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
 	
@@ -175,20 +177,19 @@ public class MyAgent implements Runnable {
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				aRobot.loadLevel(currentLevel);
 			} else if (state == GameState.UNKNOWN) {
-				System.out.println("Unknow Game state, may the game ends in last shot : "+ currentLevel);
+				System.out.println("Unknow Game state, may the game ends in last shot. CurrentLevel: "+ currentLevel);
 				numberOfbirds = -1;
 				
 				if( aRobot.getState() == GameState.WON || aRobot.getState() == GameState.LOST ){
 					System.out.println("Updating last Shot Status");
 					actualState = lastState;
 					
-					calculateShotStats(true);
+					reCalculateShotStats(true);
 					
 					changeLevelIfNecessary();
 				}
 
-				System.out.println("Restart");
-				aRobot.restartLevel();				
+				aRobot.loadLevel(currentLevel);				
 			}
 
 		}
@@ -210,9 +211,11 @@ public class MyAgent implements Runnable {
 			tp = new TrajectoryPlanner();
 			firstShot = true;
 			
-			if( currentLevel == 10 ){
-				System.out.println("Level 10(Blue blird) rebooting");
+			if( currentLevel == MAX_LEVEL ){
+				System.out.println("Rebooting From start");
 				currentLevel = 1;
+				
+				MAX_LEVEL++;
 			}
 			logConfiguration();
 		}
@@ -308,7 +311,12 @@ public class MyAgent implements Runnable {
 				if( actualState.getPossibleShots().isEmpty() ){
 					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
 				}
-			
+		
+				if( aRobot.getState() != GameState.PLAYING ){
+					System.out.println("Game State change before choose best shot.");
+					return GameState.UNKNOWN;				
+				}
+				
 				actualShot = chooseOneShot();
 			
 				ShowSeg.debugBluePoint.clear();
@@ -323,7 +331,7 @@ public class MyAgent implements Runnable {
 				dy = actualShot.getShot().getDy();
 				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
 				
-				System.out.println("Shooting Bird("+birdsIndex+") - "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " -> "+actualShot.getAim().getType() );
+				System.out.println("Shooting Bird("+birdsIndex+"): "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " Tap: " +actualShot.getTapInterval()+  " -> "+actualShot.getAim().getType() );
 
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
@@ -366,10 +374,10 @@ public class MyAgent implements Runnable {
 						System.out.println("no sling detected, can not execute the shot, will re-segement the image. State = "+aRobot.getState());
 					}
 				}
-
+				System.out.println("Solve return state: "+state);
 			}
-
 		}
+		
 		return state;
 	}
 	
@@ -524,6 +532,39 @@ public class MyAgent implements Runnable {
 	}
 
 
+	private void reCalculateShotStats( boolean finalShot ){
+		int score = 0;
+		
+		// capture Image
+		BufferedImage screenshot = ActionRobot.doScreenShot();
+
+		// process image
+		Vision vision = new Vision(screenshot);
+		
+		MapState mapState = getMapState(vision);
+		
+		actualState.setMapState(mapState);
+		
+		if( finalShot ){
+			if( aRobot.getState() == GameState.LOST ){
+				score = previousScore * -1;
+			}else{
+				score = aRobot.getScore();
+			}
+		}else{
+			score = aRobot.getScoreInGame(); 
+		}
+		
+		actualState.setTotalScore( score );
+		actualState.setScore( score - previousScore );
+		
+		previousScore = score;
+		actualState.setFinalState(finalShot);
+		
+		writeStatesInFile();
+		writeShotsInFile();
+	}
+	
 	private void calculateShotStats(boolean finalShot) {
 		System.out.println("MyAgent.calculateShotStats()");
 		
@@ -594,6 +635,7 @@ public class MyAgent implements Runnable {
 			
 			if( state.getStateId() == 0 ){
 				state.setStateId( lastStateId++ );
+				System.out.println("Generate new state with id = "+state.getStateId());
 			}else{
 				System.err.println("[ERROR] Something Wrong... The state "+state.getStateId()+" was tried to be overwritten by "+(lastStateId+1));
 			}
@@ -683,6 +725,89 @@ public class MyAgent implements Runnable {
 		}
 		
 	}
+	/*
+MinMax (GamePosition game) {
+  return MaxMove (game);
+}
+ 
+MaxMove (GamePosition game) {
+  if (GameEnded(game)) {
+    return EvalGameState(game);
+  }
+  else {
+    best_move < - {};
+    moves <- GenerateMoves(game);
+    ForEach moves {
+       move <- MinMove(ApplyMove(game));
+       if (Value(move) > Value(best_move)) {
+          best_move < - move;
+       }
+    }
+    return best_move;
+  }
+}
+ 
+MinMove (GamePosition game) {
+  best_move <- {};
+  moves <- GenerateMoves(game);
+  ForEach moves {
+     move <- MaxMove(ApplyMove(game));
+     if (Value(move) > Value(best_move)) {
+        best_move < - move;
+     }
+  }
+ 
+  return best_move;
+}
+	 */
+	
+	private MyShot minMax( State state ){
+		return maxMove(state);
+	}
+	
+	private MyShot maxMove ( State state ) {
+		if ( state.isFinalState() ) {
+			return allShots.get( state.getOriginShotId() );
+		}
+		else {
+			MyShot bestShot = null;
+			
+			for( MyShot evalShoot: state.getPossibleShots() ){
+				if( !evalShoot.isShotTested() ) continue;
+			}
+			
+			if( bestShot == null ){
+				//FAZER ALGO
+			}
+			/*
+			best_move < - {};
+			moves <- GenerateMoves(game);
+			ForEach moves {
+				move <- MinMove(ApplyMove(game));
+				if (Value(move) > Value(best_move)) {
+					best_move < - move;
+				}
+			}
+			*/
+			return bestShot;
+		}
+	}
+		 
+	private State minMove ( MyShot shot ) {
+		State bestState = null;
+		/*
+		best_move <- {};
+		moves <- GenerateMoves(game);
+		ForEach moves {
+			move <- MaxMove(ApplyMove(game));
+			if (Value(move) > Value(best_move)) {
+				best_move < - move;
+			}
+		}
+		*/
+		 
+		return bestState;
+	}
 
 	private MyShot chooseOneShot() {
 		System.out.println("MyAgent.chooseOneShot()");
@@ -694,7 +819,11 @@ public class MyAgent implements Runnable {
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
 				public int compare(MyShot o1, MyShot o2) {
-					return Double.compare(o1.getTimes(), o2.getTimes());
+					int compare = Double.compare(o1.getTimes(), o2.getTimes());
+					if( compare == 0 ){
+						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+					}
+					return compare;
 				}
 			});
 			
@@ -702,6 +831,8 @@ public class MyAgent implements Runnable {
 			
 		}else{
 		
+			
+			
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
 				public int compare(MyShot o1, MyShot o2) {
@@ -712,7 +843,7 @@ public class MyAgent implements Runnable {
 			theShot = actualState.getPossibleShots().get(0);
 		} 
 		
-		System.out.println("Shot choosed id = "+theShot.getShotId());
+		System.out.println("Shot choosed id = "+theShot.getShotId()+ " x: "+theShot.getTarget().x+" y: "+theShot.getTarget().y);
 		return theShot;
 	}
 

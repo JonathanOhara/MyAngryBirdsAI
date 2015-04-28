@@ -1,0 +1,91 @@
+ Level 12 Score: 55010 
+ Level 13 Score: 53680 
+ Level 14 Score: 28900 
+Total Score: 137590
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+No release point found for the target
+Try a shot with 45 degree
+MyAgent.findPossibleShots() = 18
+Tempo: 32188
+MyAgent.writeImageState()
+MyAgent.chooseOneShot()
+Shot choosed id = 16 x: 500 y: 375
+Shooting Bird(0): RedBird at Point x: 500.0 y: 375.0 dx: -156 dy: 506 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9832834055063208
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+Generate new state with id = 2
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+No release point found for the target
+Try a shot with 45 degree
+MyAgent.findPossibleShots() = 18
+Tempo: 40278
+MyAgent.chooseOneShot()
+Shot choosed id = 36 x: 600 y: 379
+Shooting Bird(1): RedBird at Point x: 600.0 y: 379.0 dx: -499 dy: 144 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9832834055063208
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+Generate new state with id = 3
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 0 of 1--------------------
+
+ Level 12 Score: 55010 
+ Level 13 Score: 53680 
+ Level 14 Score: 65640 
+Total Score: 174330
+MyAgent.readAllPossibleShotsFromFile()
+MyAgent.readAllPossibleStatesFromFile()
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot choosed id = 17 x: 511 y: 375
+Shooting Bird(0): RedBird at Point x: 511.0 y: 375.0 dx: -162 dy: 504 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9956252108017546
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+Generate new state with id = 4
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+No release point found for the target
+Try a shot with 45 degree
+MyAgent.findPossibleShots() = 10
+Tempo: 29987
+MyAgent.chooseOneShot()
+Shot choosed id = 43 x: 602 y: 376
+Shooting Bird(1): RedBird at Point x: 602.0 y: 376.0 dx: -499 dy: 143 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9956252108017546
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+MyAgent.getStateIfAlreadyTested()
+Generate new state with id = 5
+MyAgent.writeImageState()
+MyAgent.writeShotsInFile()
+
+-------------------- Times in this level: 1 of 1--------------------
+
+Changing Level...
