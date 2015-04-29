@@ -1,18 +1,240 @@
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
- Level 4 Score: 33080 
- Level 5 Score: 18710 
-Total Score: 178720
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.findPossibleShots()
- Level 2 Score: 31950 
- Level 3 Score: 61020 
- Level 4 Score: 41440 
- Level 5 Score: 32160 
-Total Score: 166570
 Loading shots and states from file.
 MyAgent.buildScenarioGraph()
-MyAgent.findPossibleShots()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 62810.0
+Shot id: 2 minimaxValue = 38850.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 62580.0
+Shot id: 5 minimaxValue = 31270.0
+Shot id: 6 minimaxValue = 36930.0
+Shot id: 7 minimaxValue = 54370.0
+Shot id: 8 minimaxValue = 59500.0
+Shot id: 9 minimaxValue = 55400.0
+Shot id: 10 minimaxValue = 56400.0
+Shot id: 11 minimaxValue = 55450.0
+Shot id: 12 minimaxValue = 56650.0
+Shot id: 13 minimaxValue = 38730.0
+Shot id: 14 minimaxValue = 66950.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 52570.0
+Shot id: 17 minimaxValue = 58080.0
+Shot id: 18 minimaxValue = 56560.0
+Shot id: 19 minimaxValue = 42100.0
+Shot id: 20 minimaxValue = 53540.0
+Shot id: 21 minimaxValue = 55200.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0063419869947463
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 46
+ Level 1 Score: 31950 
+ Level 2 Score: 61020 
+ Level 3 Score: 41440 
+ Level 4 Score: 32040 
+ Level 5 Score: 64920 
+Total Score: 231370
+Changing Level 29/3/2015 - 9:16:19
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 62810.0
+Shot id: 2 minimaxValue = 38850.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 62580.0
+Shot id: 5 minimaxValue = 31270.0
+Shot id: 6 minimaxValue = 36930.0
+Shot id: 7 minimaxValue = 54370.0
+Shot id: 8 minimaxValue = 59500.0
+Shot id: 9 minimaxValue = 55400.0
+Shot id: 10 minimaxValue = 56400.0
+Shot id: 11 minimaxValue = 55450.0
+Shot id: 12 minimaxValue = 56650.0
+Shot id: 13 minimaxValue = 38730.0
+Shot id: 14 minimaxValue = 66950.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 52570.0
+Shot id: 17 minimaxValue = 58080.0
+Shot id: 18 minimaxValue = 56560.0
+Shot id: 19 minimaxValue = 42100.0
+Shot id: 20 minimaxValue = 53540.0
+Shot id: 21 minimaxValue = 55200.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0062501807510174
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 46
+ Level 1 Score: 31950 
+ Level 2 Score: 52060 
+ Level 3 Score: 41440 
+ Level 4 Score: 31890 
+ Level 5 Score: 65170 
+Total Score: 222510
+Changing Level 29/3/2015 - 9:32:42
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 62810.0
+Shot id: 2 minimaxValue = 38850.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 62580.0
+Shot id: 5 minimaxValue = 31270.0
+Shot id: 6 minimaxValue = 36930.0
+Shot id: 7 minimaxValue = 54370.0
+Shot id: 8 minimaxValue = 59500.0
+Shot id: 9 minimaxValue = 55400.0
+Shot id: 10 minimaxValue = 56400.0
+Shot id: 11 minimaxValue = 55450.0
+Shot id: 12 minimaxValue = 56650.0
+Shot id: 13 minimaxValue = 38730.0
+Shot id: 14 minimaxValue = 66950.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 52570.0
+Shot id: 17 minimaxValue = 58080.0
+Shot id: 18 minimaxValue = 56560.0
+Shot id: 19 minimaxValue = 42100.0
+Shot id: 20 minimaxValue = 53540.0
+Shot id: 21 minimaxValue = 55200.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0059845532350757
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 32
+ Level 1 Score: 31940 
+ Level 2 Score: 52070 
+ Level 3 Score: 41440 
+ Level 4 Score: 31880 
+ Level 5 Score: 66950 
+Total Score: 224280
+Changing Level 29/3/2015 - 9:45:29
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 62810.0
+Shot id: 2 minimaxValue = 38850.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 62580.0
+Shot id: 5 minimaxValue = 31270.0
+Shot id: 6 minimaxValue = 36930.0
+Shot id: 7 minimaxValue = 54370.0
+Shot id: 8 minimaxValue = 59500.0
+Shot id: 9 minimaxValue = 55400.0
+Shot id: 10 minimaxValue = 56400.0
+Shot id: 11 minimaxValue = 55450.0
+Shot id: 12 minimaxValue = 56650.0
+Shot id: 13 minimaxValue = 38730.0
+Shot id: 14 minimaxValue = 66950.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 52570.0
+Shot id: 17 minimaxValue = 58080.0
+Shot id: 18 minimaxValue = 56560.0
+Shot id: 19 minimaxValue = 42100.0
+Shot id: 20 minimaxValue = 53540.0
+Shot id: 21 minimaxValue = 55200.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.00605335798205
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 46
+ Level 1 Score: 31940 
+ Level 2 Score: 52060 
+ Level 3 Score: 41440 
+ Level 4 Score: 32080 
+ Level 5 Score: 64540 
+Total Score: 222060
+Changing Level 29/3/2015 - 9:56:41
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 62810.0
+Shot id: 2 minimaxValue = 38850.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 62580.0
+Shot id: 5 minimaxValue = 31270.0
+Shot id: 6 minimaxValue = 36930.0
+Shot id: 7 minimaxValue = 54370.0
+Shot id: 8 minimaxValue = 59500.0
+Shot id: 9 minimaxValue = 55400.0
+Shot id: 10 minimaxValue = 56400.0
+Shot id: 11 minimaxValue = 55450.0
+Shot id: 12 minimaxValue = 56650.0
+Shot id: 13 minimaxValue = 38730.0
+Shot id: 14 minimaxValue = 66950.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 52570.0
+Shot id: 17 minimaxValue = 58080.0
+Shot id: 18 minimaxValue = 56560.0
+Shot id: 19 minimaxValue = 42100.0
+Shot id: 20 minimaxValue = 53540.0
+Shot id: 21 minimaxValue = 55200.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0060817796925596
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 32
+ Level 1 Score: 31950 
+ Level 2 Score: 61020 
+ Level 3 Score: 41440 
+ Level 4 Score: 31890 
+ Level 5 Score: 66950 
+Total Score: 233250
+Changing Level 29/3/2015 - 10:9:13

@@ -1,7 +1,28 @@
- Level 12 Score: 55010 
- Level 13 Score: 53680 
- Level 14 Score: 65640 
- Level 15 Score: 65640 
- Level 16 Score: 32700 
-Total Score: 272670
-No slingshot detected. Please remove pop up or zoom out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 0.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 0.0
+Shot id: 5 minimaxValue = 0.0
+Shot id: 6 minimaxValue = 0.0
+Shot id: 7 minimaxValue = 5890.0
+Shot id: 8 minimaxValue = 6230.0
+Shot id: 9 minimaxValue = 0.0
+Shot id: 10 minimaxValue = 0.0
+Shot id: 11 minimaxValue = 0.0
+Shot id: 12 minimaxValue = 0.0
+Shot id: 13 minimaxValue = 0.0
+Shot id: 14 minimaxValue = 0.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 2.0
+Shot id: 17 minimaxValue = 0.0
+Shot id: 18 minimaxValue = 0.0
+Shot id: 19 minimaxValue = 0.0
+Shot id: 20 minimaxValue = 0.0
+Shot id: 21 minimaxValue = 5020.0
+Shot id: 22 minimaxValue = 22330.0
+ExpectMiniMax Algorithm choose shot with id: 22
+Shooting Bird(0): RedBird at Point x: 538.0 y: 347.0 dx: -179 dy: 551 Tap: 0 -> Ice
+Shooting Completed

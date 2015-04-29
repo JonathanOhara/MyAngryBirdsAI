@@ -1,283 +1,34 @@
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 24
-Tempo: 62953
-MyAgent.writeImageState()
-MyAgent.chooseOneShot()
-Shot choosed id = 20 x: 504 y: 260
-Shooting Bird(0): RedBird at Point x: 504.0 y: 260.0 dx: -191 dy: 536 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0014159497611974
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 2
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 22
-Tempo: 73813
-Game State change before choose best shot.
-Unknow Game state, may the game ends in last shot. CurrentLevel: 11
-Updating last Shot Status
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 0 of 1--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
+Loading shots and states from file.
 MyAgent.buildScenarioGraph()
 MyAgent.chooseOneShot()
-Shot choosed id = 21 x: 514 y: 260
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 0.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 0.0
+Shot id: 5 minimaxValue = 0.0
+Shot id: 6 minimaxValue = 0.0
+Shot id: 7 minimaxValue = 0.0
+Shot id: 8 minimaxValue = 0.0
+Shot id: 9 minimaxValue = 0.0
+Shot id: 10 minimaxValue = 0.0
+Shot id: 11 minimaxValue = 0.0
+Shot id: 12 minimaxValue = 0.0
+Shot id: 13 minimaxValue = 0.0
+Shot id: 14 minimaxValue = 0.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 0.0
+Shot id: 17 minimaxValue = 0.0
+Shot id: 18 minimaxValue = 0.0
+Shot id: 19 minimaxValue = 0.0
+Shot id: 20 minimaxValue = 0.0
+Shot id: 21 minimaxValue = 29090.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 21
 Shooting Bird(0): RedBird at Point x: 514.0 y: 260.0 dx: -196 dy: 535 Tap: 0 -> Pig
 Shooting Completed
 
-scale factor changed to: 1.0023336888917
+scale factor changed to: 1.0016781978887221
 Solve return state: PLAYING
 MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 3
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-distance 3.1654107763954524
-velocity 2.7974708167723565
-distance 3.3876329986176748
-velocity 2.7974708167723565
-distance 3.609855220839897
-velocity 2.7974708167723565
-distance 3.8320774430621194
-velocity 2.7974708167723565
-distance 4.054299665284342
-velocity 2.7974708167723565
-distance 3.203448843717748
-velocity 2.6320977421372795
-distance 3.4256710659399703
-velocity 2.6320977421372795
-distance 3.6478932881621926
-velocity 2.6320977421372795
-distance 3.8840043992733038
-velocity 2.6320977421372795
-distance 4.1062266214955265
-velocity 2.6320977421372795
-distance 3.049882155155291
-velocity 0.9113174888611848
-distance 3.285993266266402
-velocity 0.9113174888611848
-distance 3.5221043773775134
-velocity 0.9113174888611848
-distance 3.7582154884886245
-velocity 0.9113174888611848
-distance 3.980437710710847
-velocity 0.9113174888611848
-distance 3.1275855213447152
-velocity 2.7117138229702666
-distance 3.3498077435669376
-velocity 2.7117138229702666
-distance 3.57202996578916
-velocity 2.7117138229702666
-distance 3.7803632991224934
-velocity 2.7117138229702666
-distance 4.002585521344716
-velocity 2.7117138229702666
-distance 3.3063418866303973
-velocity 2.6987925406403863
-distance 3.5424529977415085
-velocity 2.6987925406403863
-distance 3.7785641088526196
-velocity 2.6987925406403863
-distance 4.000786331074842
-velocity 2.6987925406403863
-distance 4.236897442185953
-velocity 2.6987925406403863
-distance 4.243631339613618
-velocity 1.2913256568188973
-distance 4.5630757840580625
-velocity 1.2913256568188973
-distance 4.882520228502507
-velocity 1.2913256568188973
-distance 5.201964672946952
-velocity 1.2913256568188973
-distance 5.521409117391396
-velocity 1.2913256568188973
-distance 4.495139641396384
-velocity 2.533497718957443
-distance 4.828472974729717
-velocity 2.533497718957443
-distance 5.147917419174162
-velocity 2.533497718957443
-distance 5.481250752507496
-velocity 2.533497718957443
-distance 5.800695196951939
-velocity 2.533497718957443
-distance 4.438270558910279
-velocity 1.3880238916394219
-distance 4.771603892243613
-velocity 1.3880238916394219
-distance 5.104937225576946
-velocity 1.3880238916394219
-distance 5.438270558910279
-velocity 1.3880238916394219
-distance 5.771603892243613
-velocity 1.3880238916394219
-distance 4.7625543088481175
-velocity 2.435531225216743
-distance 5.10977653107034
-velocity 2.435531225216743
-distance 5.456998753292562
-velocity 2.435531225216743
-distance 5.804220975514784
-velocity 2.435531225216743
-distance 6.151443197737006
-velocity 2.435531225216743
-distance 3.2751718916835664
-velocity 2.787728163460933
-distance 3.5112830027946775
-velocity 2.787728163460933
-distance 3.7473941139057882
-velocity 2.787728163460933
-distance 3.9696163361280106
-velocity 2.787728163460933
-distance 4.205727447239122
-velocity 2.787728163460933
-distance 4.389967833104879
-velocity 2.5757354126037257
-distance 4.709412277549323
-velocity 2.5757354126037257
-distance 5.028856721993767
-velocity 2.5757354126037257
-distance 5.348301166438212
-velocity 2.5757354126037257
-distance 5.6677456108826565
-velocity 2.5757354126037257
-distance 3.2641808832301944
-velocity 2.8086415944066068
-distance 3.5002919943413056
-velocity 2.8086415944066068
-distance 3.722514216563528
-velocity 2.8086415944066068
-distance 3.958625327674639
-velocity 2.8086415944066068
-distance 4.180847549896861
-velocity 2.8086415944066068
-distance 3.1456473507110103
-velocity 2.741682716731641
-distance 3.367869572933232
-velocity 2.741682716731641
-distance 3.590091795155454
-velocity 2.741682716731641
-distance 3.8123140173776764
-velocity 2.741682716731641
-distance 4.034536239599898
-velocity 2.741682716731641
-distance 3.1505730616463663
-velocity 2.7906233278754713
-distance 3.3727952838685886
-velocity 2.7906233278754713
-distance 3.5950175060908105
-velocity 2.7906233278754713
-distance 3.817239728313033
-velocity 2.7906233278754713
-distance 4.039461950535255
-velocity 2.7906233278754713
-distance 4.044721046370834
-velocity 2.589783835710259
-distance 4.3363877130375
-velocity 2.589783835710259
-distance 4.628054379704167
-velocity 2.589783835710259
-distance 4.919721046370834
-velocity 2.589783835710259
-distance 5.2113877130375
-velocity 2.589783835710259
-distance 4.1260789442159895
-velocity 2.5757354126037257
-distance 4.431634499771545
-velocity 2.5757354126037257
-distance 4.723301166438212
-velocity 2.5757354126037257
-distance 5.028856721993767
-velocity 2.5757354126037257
-distance 5.320523388660434
-velocity 2.5757354126037257
-distance 3.283390537058189
-velocity 2.7334546008645297
-distance 3.5195016481693
-velocity 2.7334546008645297
-distance 3.7417238703915223
-velocity 2.7334546008645297
-distance 3.9778349815026335
-velocity 2.7334546008645297
-distance 4.213946092613744
-velocity 2.7334546008645297
-distance 3.365028714630151
-velocity 0.9769288506222067
-distance 3.615028714630151
-velocity 0.9769288506222067
-distance 3.87891760351904
-velocity 0.9769288506222067
-distance 4.12891760351904
-velocity 0.9769288506222067
-distance 4.37891760351904
-velocity 0.9769288506222067
-distance 4.067192100226481
-velocity 1.2219933201500093
-distance 4.372747655782036
-velocity 1.2219933201500093
-distance 4.6783032113375915
-velocity 1.2219933201500093
-distance 4.983858766893147
-velocity 1.2219933201500093
-distance 5.289414322448703
-velocity 1.2219933201500093
-distance 4.357109982887438
-velocity 1.4029420124125445
-distance 4.690443316220771
-velocity 1.4029420124125445
-distance 5.0237766495541045
-velocity 1.4029420124125445
-distance 5.343221093998548
-velocity 1.4029420124125445
-distance 5.676554427331882
-velocity 1.4029420124125445
-distance 4.461035021031911
-velocity 1.4489634511463323
-distance 4.794368354365244
-velocity 1.4489634511463323
-distance 5.127701687698578
-velocity 1.4489634511463323
-distance 5.461035021031911
-velocity 1.4489634511463323
-distance 5.794368354365244
-velocity 1.4489634511463323
-distance 4.502807713671361
-velocity 2.4646987479888507
-distance 4.836141047004694
-velocity 2.4646987479888507
-distance 5.169474380338027
-velocity 2.4646987479888507
-distance 5.488918824782472
-velocity 2.4646987479888507
-distance 5.8222521581158055
-velocity 2.4646987479888507
-MyAgent.findPossibleShots() = 110
-Tempo: 66090
-MyAgent.chooseOneShot()
-Shot choosed id = 147 x: 646 y: 314
-Shooting Bird(1): BlueBird at Point x: 646.0 y: 314.0 dx: -284 dy: 494 Tap: 65 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0052399901982518
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 4
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 1 of 1--------------------
-
-Changing Level...

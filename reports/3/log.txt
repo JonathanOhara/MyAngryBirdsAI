@@ -1,1139 +1,3 @@
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 15
-Tempo: 28264
-MyAgent.writeImageState()
-MyAgent.chooseOneShot()
-Shot choosed id = 11 x: 604 y: 375
-Shooting Bird(0): RedBird at Point x: 604.0 y: 375.0 dx: -225 dy: 512 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9989320676302886
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 2
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 16
-Tempo: 29869
-MyAgent.chooseOneShot()
-Shot choosed id = 29 x: 619 y: 374
-Shooting Bird(1): RedBird at Point x: 619.0 y: 374.0 dx: -237 dy: 507 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.99956439281268
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 3
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 0 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 12 x: 614 y: 375
-Shooting Bird(0): RedBird at Point x: 614.0 y: 375.0 dx: -232 dy: 509 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9992524306907554
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 4
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 1 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 13 x: 619 y: 374
-Shooting Bird(0): RedBird at Point x: 619.0 y: 374.0 dx: -233 dy: 508 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.999394992495285
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 5
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 2 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 15 x: 619 y: 384
-Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -233 dy: 508 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9999723622114939
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 6
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 3 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 14 x: 629 y: 374
-Shooting Bird(0): RedBird at Point x: 629.0 y: 374.0 dx: -240 dy: 505 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0001511726978733
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 7
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 13
-Tempo: 27922
-MyAgent.chooseOneShot()
-Shot choosed id = 44 x: 614 y: 374
-Shooting Bird(1): RedBird at Point x: 614.0 y: 374.0 dx: -235 dy: 507 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9996403748655608
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 8
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 4 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 2 x: 651 y: 372
-Shooting Bird(0): RedBird at Point x: 651.0 y: 372.0 dx: -258 dy: 496 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.999407663749722
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 9
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 14
-Tempo: 29064
-MyAgent.chooseOneShot()
-Shot choosed id = 47 x: 658 y: 376
-Shooting Bird(1): RedBird at Point x: 658.0 y: 376.0 dx: -500 dy: 250 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.996167877326469
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 10
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 26573
-MyAgent.chooseOneShot()
-Shot choosed id = 64 x: 669 y: 355
-Shooting Bird(2): RedBird at Point x: 669.0 y: 355.0 dx: -476 dy: 294 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 0.9985402249843403
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 11
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 9
-Tempo: 18610
-MyAgent.chooseOneShot()
-Shot choosed id = 71 x: 673 y: 378
-Shooting Bird(3): RedBird at Point x: 673.0 y: 378.0 dx: -495 dy: 260 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9931120689058246
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 12
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-distance 5.564824090275802
-velocity 2.36836436901768
-distance 5.945105780416647
-velocity 2.36836436901768
-distance 6.325387470557492
-velocity 2.36836436901768
-distance 6.705669160698337
-velocity 2.36836436901768
-distance 7.085950850839182
-velocity 2.36836436901768
-distance 5.57146679846145
-velocity 2.414707968545124
-distance 5.951748488602295
-velocity 2.414707968545124
-distance 6.33203017874314
-velocity 2.414707968545124
-distance 6.712311868883985
-velocity 2.414707968545124
-distance 7.09259355902483
-velocity 2.414707968545124
-distance 3.784786856680044
-velocity 2.6778755806481365
-distance 4.038307983440608
-velocity 2.6778755806481365
-distance 4.277744603158918
-velocity 2.6778755806481365
-distance 4.531265729919481
-velocity 2.6778755806481365
-distance 4.784786856680045
-velocity 2.6778755806481365
-distance 3.6544010120899424
-velocity 1.0006254698967203
-distance 3.907922138850506
-velocity 1.0006254698967203
-distance 4.161443265611069
-velocity 1.0006254698967203
-distance 4.429048899413886
-velocity 1.0006254698967203
-distance 4.682570026174449
-velocity 1.0006254698967203
-distance 3.7886640971996823
-velocity 2.7054646592952882
-distance 4.042185223960246
-velocity 2.7054646592952882
-distance 4.281621843678556
-velocity 2.7054646592952882
-distance 4.535142970439119
-velocity 2.7054646592952882
-distance 4.788664097199683
-velocity 2.7054646592952882
-distance 5.616465079691175
-velocity 2.327283224946932
-distance 6.010831276874273
-velocity 2.327283224946932
-distance 6.391112967015118
-velocity 2.327283224946932
-distance 6.771394657155964
-velocity 2.327283224946932
-distance 7.165760854339062
-velocity 2.327283224946932
-distance 5.6251902131376665
-velocity 2.3964668239332028
-distance 6.0195564103207655
-velocity 2.3964668239332028
-distance 6.3998381004616105
-velocity 2.3964668239332028
-distance 6.7801197906024555
-velocity 2.3964668239332028
-distance 7.1744859877855545
-velocity 2.3964668239332028
-distance 5.719119342844836
-velocity 1.7446880522312593
-distance 6.113485540027935
-velocity 1.7446880522312593
-distance 6.521936244253287
-velocity 1.7446880522312593
-distance 6.916302441436386
-velocity 1.7446880522312593
-distance 7.310668638619484
-velocity 1.7446880522312593
-distance 4.82594658000427
-velocity 2.6700925005308784
-distance 5.149890241976101
-velocity 2.6700925005308784
-distance 5.473833903947932
-velocity 2.6700925005308784
-distance 5.797777565919763
-velocity 2.6700925005308784
-distance 6.121721227891594
-velocity 2.6700925005308784
-MyAgent.findPossibleShots() = 45
-Tempo: 17608
-Game State change before choose best shot.
-Unknow Game state, may the game ends in last shot. CurrentLevel: 3
-Updating last Shot Status
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 5 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 1 x: 651 y: 362
-Shooting Bird(0): RedBird at Point x: 651.0 y: 362.0 dx: -263 dy: 494 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9999178061676691
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 13
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 25810
-MyAgent.chooseOneShot()
-Shot choosed id = 132 x: 598 y: 373
-Shooting Bird(1): RedBird at Point x: 598.0 y: 373.0 dx: -521 dy: 202 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9999178061676691
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 14
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 23810
-MyAgent.chooseOneShot()
-Shot choosed id = 142 x: 622 y: 373
-Shooting Bird(2): RedBird at Point x: 622.0 y: 373.0 dx: -514 dy: 220 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 0.9999178061676691
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 15
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 12
-Tempo: 25493
-MyAgent.chooseOneShot()
-Shot choosed id = 152 x: 599 y: 374
-Shooting Bird(3): RedBird at Point x: 599.0 y: 374.0 dx: -522 dy: 202 Tap: 0 -> Pig
-Shooting Completed
-Solve return state: LOST
-LOST.
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 16
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 6 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 6 x: 640 y: 340
-Shooting Bird(0): RedBird at Point x: 640.0 y: 340.0 dx: -264 dy: 493 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0001688324230755
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 17
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 14
-Tempo: 28443
-MyAgent.chooseOneShot()
-Shot choosed id = 167 x: 604 y: 374
-Shooting Bird(1): RedBird at Point x: 604.0 y: 374.0 dx: -229 dy: 510 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9993633762214692
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 18
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 13
-Tempo: 24114
-MyAgent.chooseOneShot()
-Shot choosed id = 181 x: 595 y: 372
-Shooting Bird(2): RedBird at Point x: 595.0 y: 372.0 dx: -223 dy: 513 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9985928936206775
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 19
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 7 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 7 x: 650 y: 340
-Shooting Bird(0): RedBird at Point x: 650.0 y: 340.0 dx: -274 dy: 488 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0006395245851132
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 20
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 13
-Tempo: 28284
-MyAgent.chooseOneShot()
-Shot choosed id = 194 x: 604 y: 384
-Shooting Bird(1): RedBird at Point x: 604.0 y: 384.0 dx: -225 dy: 512 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9993069985176242
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 21
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 8 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 8 x: 660 y: 340
-Shooting Bird(0): RedBird at Point x: 660.0 y: 340.0 dx: -280 dy: 484 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0012877625536991
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 22
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 9
-Tempo: 23641
-MyAgent.chooseOneShot()
-Shot choosed id = 203 x: 619 y: 384
-Shooting Bird(1): RedBird at Point x: 619.0 y: 384.0 dx: -522 dy: 201 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0012877625536991
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 23
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 20174
-MyAgent.chooseOneShot()
-Shot choosed id = 212 x: 604 y: 375
-Shooting Bird(2): RedBird at Point x: 604.0 y: 375.0 dx: -521 dy: 203 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0012877625536991
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 24
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 12
-Tempo: 20461
-MyAgent.chooseOneShot()
-Shot choosed id = 224 x: 604 y: 375
-Shooting Bird(3): RedBird at Point x: 604.0 y: 375.0 dx: -521 dy: 203 Tap: 0 -> Pig
-Shooting Completed
-Solve return state: LOST
-LOST.
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 25
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 9 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 9 x: 670 y: 340
-Shooting Bird(0): RedBird at Point x: 670.0 y: 340.0 dx: -290 dy: 478 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0023008552408903
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 26
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-No release point found for the target
-Try a shot with 45 degree
-MyAgent.findPossibleShots() = 17
-Tempo: 29858
-MyAgent.chooseOneShot()
-Shot choosed id = 240 x: 604 y: 374
-Shooting Bird(1): RedBird at Point x: 604.0 y: 374.0 dx: -227 dy: 511 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9999483070450904
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 27
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 13
-Tempo: 23188
-MyAgent.chooseOneShot()
-Shot choosed id = 254 x: 629 y: 374
-Shooting Bird(2): RedBird at Point x: 629.0 y: 374.0 dx: -243 dy: 504 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0000110504810347
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 28
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 10 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 10 x: 680 y: 340
-Shooting Bird(0): RedBird at Point x: 680.0 y: 340.0 dx: -302 dy: 471 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0002184087957235
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 29
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 12
-Tempo: 30436
-MyAgent.chooseOneShot()
-Shot choosed id = 267 x: 619 y: 384
-Shooting Bird(1): RedBird at Point x: 619.0 y: 384.0 dx: -236 dy: 507 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0000419507131924
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 30
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 11 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 4 x: 529 y: 329
-Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 0.9987259502815964
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 31
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 12 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 5 x: 519 y: 339
-Shooting Bird(0): RedBird at Point x: 519.0 y: 339.0 dx: -181 dy: 529 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 0.9972492910053659
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 32
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 13 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 3 x: 519 y: 329
-Shooting Bird(0): RedBird at Point x: 519.0 y: 329.0 dx: -183 dy: 529 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 0.9988135796977387
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 33
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 14 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 11 x: 604 y: 375
-Shooting Bird(0): RedBird at Point x: 604.0 y: 375.0 dx: -225 dy: 512 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9987729402314569
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 2
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 30 x: 629 y: 374
-Shooting Bird(1): RedBird at Point x: 629.0 y: 374.0 dx: -245 dy: 503 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0002572083805996
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 34
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 11
-Tempo: 28129
-MyAgent.chooseOneShot()
-Shot choosed id = 278 x: 621 y: 373
-Shooting Bird(2): RedBird at Point x: 621.0 y: 373.0 dx: -237 dy: 506 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0001986255865425
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 35
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 11
-Tempo: 26729
-MyAgent.chooseOneShot()
-Shot choosed id = 279 x: 656 y: 373
-Shooting Bird(3): RedBird at Point x: 656.0 y: 373.0 dx: -499 dy: 252 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9903420971145724
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 36
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-No release point found for the target
-Try a shot with 45 degree
-MyAgent.findPossibleShots() = 13
-Tempo: 23018
-Game State change before choose best shot.
-Unknow Game state, may the game ends in last shot. CurrentLevel: 3
-Updating last Shot Status
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 15 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 12 x: 614 y: 375
-Shooting Bird(0): RedBird at Point x: 614.0 y: 375.0 dx: -232 dy: 509 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9999345384016477
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 4
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 16 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 13 x: 619 y: 374
-Shooting Bird(0): RedBird at Point x: 619.0 y: 374.0 dx: -233 dy: 508 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0000614330977462
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 5
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 17 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 15 x: 619 y: 384
-Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -233 dy: 508 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.999298793733484
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 6
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 18 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 14 x: 629 y: 374
-Shooting Bird(0): RedBird at Point x: 629.0 y: 374.0 dx: -240 dy: 505 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0002890186850661
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 7
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 33 x: 651 y: 373
-Shooting Bird(1): RedBird at Point x: 651.0 y: 373.0 dx: -262 dy: 494 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 1.000027815656786
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 37
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 19 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 2 x: 651 y: 372
-Shooting Bird(0): RedBird at Point x: 651.0 y: 372.0 dx: -258 dy: 496 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9998001265047424
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 9
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 45 x: 666 y: 372
-Shooting Bird(1): RedBird at Point x: 666.0 y: 372.0 dx: -494 dy: 262 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9977667373728547
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 38
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 12
-Tempo: 27633
-MyAgent.chooseOneShot()
-Shot choosed id = 314 x: 589 y: 372
-Shooting Bird(2): RedBird at Point x: 589.0 y: 372.0 dx: -523 dy: 199 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9977667373728547
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 39
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 20 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 1 x: 651 y: 362
-Shooting Bird(0): RedBird at Point x: 651.0 y: 362.0 dx: -263 dy: 494 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9999906548248109
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 13
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 123 x: 658 y: 373
-Shooting Bird(1): RedBird at Point x: 658.0 y: 373.0 dx: -498 dy: 254 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9965173229060715
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 40
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 24118
-MyAgent.chooseOneShot()
-Shot choosed id = 317 x: 658 y: 375
-Shooting Bird(2): RedBird at Point x: 658.0 y: 375.0 dx: -498 dy: 254 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9889844753337964
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 41
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 11
-Tempo: 23995
-MyAgent.chooseOneShot()
-Shot choosed id = 327 x: 678 y: 378
-Shooting Bird(3): RedBird at Point x: 678.0 y: 378.0 dx: -489 dy: 272 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 0.9949580965181997
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 42
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 11
-Tempo: 22146
-Game State change before choose best shot.
-Unknow Game state, may the game ends in last shot. CurrentLevel: 3
-Updating last Shot Status
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 21 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 6 x: 640 y: 340
-Shooting Bird(0): RedBird at Point x: 640.0 y: 340.0 dx: -264 dy: 493 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0002053925786587
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 17
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 168 x: 604 y: 384
-Shooting Bird(1): RedBird at Point x: 604.0 y: 384.0 dx: -225 dy: 512 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9987465784449484
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 43
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 22 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 7 x: 650 y: 340
-Shooting Bird(0): RedBird at Point x: 650.0 y: 340.0 dx: -274 dy: 488 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0006346131226014
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 20
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 183 x: 657 y: 373
-Shooting Bird(1): RedBird at Point x: 657.0 y: 373.0 dx: -499 dy: 253 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 1.000351276098532
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 44
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 8
-Tempo: 18150
-MyAgent.chooseOneShot()
-Shot choosed id = 348 x: 657 y: 376
-Shooting Bird(2): RedBird at Point x: 657.0 y: 376.0 dx: -501 dy: 249 Tap: 0 -> Stone
-Shooting Completed
-
-scale factor changed to: 1.0005438204539432
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 45
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 19924
-MyAgent.chooseOneShot()
-Shot choosed id = 363 x: 600 y: 374
-Shooting Bird(3): RedBird at Point x: 600.0 y: 374.0 dx: -522 dy: 202 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0005438204539432
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 46
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 10
-Tempo: 21923
-Game State change before choose best shot.
-Unknow Game state, may the game ends in last shot. CurrentLevel: 3
-Updating last Shot Status
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 23 of 25--------------------
-
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 8 x: 660 y: 340
-Shooting Bird(0): RedBird at Point x: 660.0 y: 340.0 dx: -280 dy: 484 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0014412290432952
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 22
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 202 x: 629 y: 374
-Shooting Bird(1): RedBird at Point x: 629.0 y: 374.0 dx: -243 dy: 504 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 1.0003977512463764
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 47
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-MyAgent.findPossibleShots()
-MyAgent.findPossibleShots() = 11
-Tempo: 20570
-MyAgent.chooseOneShot()
-Shot choosed id = 385 x: 614 y: 374
-Shooting Bird(2): RedBird at Point x: 614.0 y: 374.0 dx: -236 dy: 507 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9993398713421778
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 48
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 24 of 25--------------------
-
- Level 1 Score: 31950 
- Level 2 Score: 51600 
- Level 3 Score: 43380 
-Total Score: 126930
-MyAgent.readAllPossibleShotsFromFile()
-MyAgent.readAllPossibleStatesFromFile()
-MyAgent.buildScenarioGraph()
-MyAgent.chooseOneShot()
-Shot choosed id = 9 x: 670 y: 340
-Shooting Bird(0): RedBird at Point x: 670.0 y: 340.0 dx: -290 dy: 478 Tap: 0 -> Wood
-Shooting Completed
-
-scale factor changed to: 1.0028253938875102
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-State previously reached. Reloading state: 26
-MyAgent.writeShotsInFile()
-MyAgent.chooseOneShot()
-Shot choosed id = 241 x: 614 y: 374
-Shooting Bird(1): RedBird at Point x: 614.0 y: 374.0 dx: -235 dy: 508 Tap: 0 -> Pig
-Shooting Completed
-
-scale factor changed to: 0.9998861154316382
-Solve return state: PLAYING
-MyAgent.calculateShotStats()
-MyAgent.getStateIfAlreadyTested()
-Generate new state with id = 49
-MyAgent.writeImageState()
-MyAgent.writeShotsInFile()
-
--------------------- Times in this level: 25 of 25--------------------
-
-Changing Level...
- Level 2 Score: 31950 
- Level 3 Score: 61020 
-Total Score: 92970
 Loading shots and states from file.
 MyAgent.buildScenarioGraph()
 MyAgent.chooseOneShot()
@@ -1156,8 +20,136 @@ ExpectMiniMax Algorithm choose shot with id: 4
 Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
 Shooting Completed
 
-scale factor changed to: 0.998920103970522
+scale factor changed to: 0.9985796027879663
 Solve return state: PLAYING
 MyAgent.calculateShotStats()
 State previously reached. Reloading state: 31
-Changing Level 29/3/2015 - 2:27:57
+ Level 1 Score: 31950 
+ Level 2 Score: 61020 
+ Level 3 Score: 41440 
+Total Score: 134410
+Changing Level 29/3/2015 - 9:14:50
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 18730.0
+Shot id: 3 minimaxValue = 41320.0
+Shot id: 4 minimaxValue = 41440.0
+Shot id: 5 minimaxValue = 41220.0
+Shot id: 6 minimaxValue = 26260.0
+Shot id: 7 minimaxValue = 25640.0
+Shot id: 8 minimaxValue = 15040.0
+Shot id: 9 minimaxValue = 30920.0
+Shot id: 10 minimaxValue = 30590.0
+Shot id: 11 minimaxValue = 25040.0
+Shot id: 12 minimaxValue = 40510.0
+Shot id: 13 minimaxValue = 40740.0
+Shot id: 14 minimaxValue = 25850.0
+Shot id: 15 minimaxValue = 40750.0
+ExpectMiniMax Algorithm choose shot with id: 4
+Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9988183656361963
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 31
+ Level 1 Score: 31950 
+ Level 2 Score: 52060 
+ Level 3 Score: 41440 
+Total Score: 125450
+Changing Level 29/3/2015 - 9:31:11
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 18730.0
+Shot id: 3 minimaxValue = 41320.0
+Shot id: 4 minimaxValue = 41440.0
+Shot id: 5 minimaxValue = 41220.0
+Shot id: 6 minimaxValue = 26260.0
+Shot id: 7 minimaxValue = 25640.0
+Shot id: 8 minimaxValue = 15040.0
+Shot id: 9 minimaxValue = 30920.0
+Shot id: 10 minimaxValue = 30590.0
+Shot id: 11 minimaxValue = 25040.0
+Shot id: 12 minimaxValue = 40510.0
+Shot id: 13 minimaxValue = 40740.0
+Shot id: 14 minimaxValue = 25850.0
+Shot id: 15 minimaxValue = 40750.0
+ExpectMiniMax Algorithm choose shot with id: 4
+Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9987509396714506
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 31
+ Level 1 Score: 31940 
+ Level 2 Score: 52070 
+ Level 3 Score: 41440 
+Total Score: 125450
+Changing Level 29/3/2015 - 9:43:57
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 18730.0
+Shot id: 3 minimaxValue = 41320.0
+Shot id: 4 minimaxValue = 41440.0
+Shot id: 5 minimaxValue = 41220.0
+Shot id: 6 minimaxValue = 26260.0
+Shot id: 7 minimaxValue = 25640.0
+Shot id: 8 minimaxValue = 15040.0
+Shot id: 9 minimaxValue = 30920.0
+Shot id: 10 minimaxValue = 30590.0
+Shot id: 11 minimaxValue = 25040.0
+Shot id: 12 minimaxValue = 40510.0
+Shot id: 13 minimaxValue = 40740.0
+Shot id: 14 minimaxValue = 25850.0
+Shot id: 15 minimaxValue = 40750.0
+ExpectMiniMax Algorithm choose shot with id: 4
+Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.999068336269468
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 31
+ Level 1 Score: 31940 
+ Level 2 Score: 52060 
+ Level 3 Score: 41440 
+Total Score: 125440
+Changing Level 29/3/2015 - 9:55:14
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 18730.0
+Shot id: 3 minimaxValue = 41320.0
+Shot id: 4 minimaxValue = 41440.0
+Shot id: 5 minimaxValue = 41220.0
+Shot id: 6 minimaxValue = 26260.0
+Shot id: 7 minimaxValue = 25640.0
+Shot id: 8 minimaxValue = 15040.0
+Shot id: 9 minimaxValue = 30920.0
+Shot id: 10 minimaxValue = 30590.0
+Shot id: 11 minimaxValue = 25040.0
+Shot id: 12 minimaxValue = 40510.0
+Shot id: 13 minimaxValue = 40740.0
+Shot id: 14 minimaxValue = 25850.0
+Shot id: 15 minimaxValue = 40750.0
+ExpectMiniMax Algorithm choose shot with id: 4
+Shooting Bird(0): RedBird at Point x: 529.0 y: 329.0 dx: -190 dy: 526 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9984904461437171
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 31
+ Level 1 Score: 31950 
+ Level 2 Score: 61020 
+ Level 3 Score: 41440 
+Total Score: 134410
+Changing Level 29/3/2015 - 10:7:40

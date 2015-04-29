@@ -1,0 +1,8 @@
+Instruções para executar o projeto via Jar.
+
+1 - Nome do jar MyAgent.jar
+2 - Parametros
+2.1 - Se não for passado nenhum parametro o programa colocará os parametros "-level=1 -showMBR"
+2.2 - -level=N onde N é a fase que deseja começar o jogo.
+2.3 - -showMBR ou -showReal mesmas opções que o Agente default.
+3 - [IMPORTANTE] a pasta reports TEM que estar junto com o .jar.

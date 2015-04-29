@@ -67,7 +67,7 @@ public class MyAgent implements Runnable {
 	private boolean LEARNING = false;
 	private boolean LEARNING_ROUND_ROBIN = false;
 	
-	private int MAX_LEVEL = 10;
+	private int MAX_LEVEL = 9;
 	
 	private int TIMES_IN_EACH_STAGE = 100;
 	private int timesInThisStage = 1;
@@ -145,16 +145,7 @@ public class MyAgent implements Runnable {
 				calculateShotStats(true);
 				
 				int totalScore = 0;
-				for(Integer key: scores.keySet()){
-
-					totalScore += scores.get(key);
-					System.out.println(" Level " + key
-							+ " Score: " + scores.get(key) + " ");
-				}
-				System.out.println("Total Score: " + totalScore);
 				
-				changeLevelIfNecessary();
-			
 				int score = StateUtil.getScore(ActionRobot.proxy);
 				if(!scores.containsKey(currentLevel))
 					scores.put(currentLevel, score);
@@ -163,7 +154,17 @@ public class MyAgent implements Runnable {
 					if(scores.get(currentLevel) < score)
 						scores.put(currentLevel, score);
 				}
+				
+				for(Integer key: scores.keySet()){
 
+					totalScore += scores.get(key);
+					System.out.println(" Level " + key
+							+ " Score: " + scores.get(key) + " ");
+				}
+				System.out.println("Total Score: " + totalScore);
+
+				changeLevelIfNecessary();
+				
 				aRobot.loadLevel(currentLevel);
 				
 			} else if (state == GameState.LOST) {
@@ -241,7 +242,7 @@ public class MyAgent implements Runnable {
 					System.out.println("Rebooting From start");
 					currentLevel = 1;
 					
-					MAX_LEVEL++;
+					//MAX_LEVEL++;
 				}
 				logConfiguration();
 			}

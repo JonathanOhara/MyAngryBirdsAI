@@ -1,0 +1,12 @@
+Author: Jonathan ohara de Araujo
+
+O Artigo está na pasta do projeto MyAngryBirdsAI com o nome Artigo.pdf ou Artigo.docx
+O jar está em MyAngryBirdsAI/MyAgent.jar
+Dentro da Pasta MyAngryBirdsAI MyAngryBirdsAI/reports tem vários arquivos LEIA ME e de instruções para saber como utilizar.
+Na pasta MyAngryBirdsAI/reports tem o excel das comparações assim como os dados para o agente funcionar.
+É extramemente recomendável após ler o artigo executar o arquivo MyAngryBirdsAI/reports/graphView.html para ver os grafos. Não é necessário JAVA, apenas o Chrome.
+
+Gostei muito de fazer o trabalho e do resultado, se o senhor achar viável gostaria de submeter para a competição.
+Independentemente de nota ou de qualquer cosia. Gostaria muita da opnião do senhor sobre o trabalho.
+
+EMAIL de contato: jonathan.ohara.araujo@gmail.com
