@@ -143,6 +143,16 @@ public class MyAgent implements Runnable {
 				}
 				numberOfbirds = -1;
 				calculateShotStats(true);
+				
+				int totalScore = 0;
+				for(Integer key: scores.keySet()){
+
+					totalScore += scores.get(key);
+					System.out.println(" Level " + key
+							+ " Score: " + scores.get(key) + " ");
+				}
+				System.out.println("Total Score: " + totalScore);
+				
 				changeLevelIfNecessary();
 			
 				int score = StateUtil.getScore(ActionRobot.proxy);
@@ -153,14 +163,6 @@ public class MyAgent implements Runnable {
 					if(scores.get(currentLevel) < score)
 						scores.put(currentLevel, score);
 				}
-				int totalScore = 0;
-				for(Integer key: scores.keySet()){
-
-					totalScore += scores.get(key);
-					System.out.println(" Level " + key
-							+ " Score: " + scores.get(key) + " ");
-				}
-				System.out.println("Total Score: " + totalScore);
 
 				aRobot.loadLevel(currentLevel);
 				
@@ -465,7 +467,7 @@ public class MyAgent implements Runnable {
 		}
 		
 		if( LEARNING ){
-			System.out.println("Cutting Nodes that score 0 points... ");
+			System.out.println("Cutting Nodes that scores 0 points... ");
 			cutNodesWithZeroPoints( rootState );
 		}
 	}
@@ -958,6 +960,7 @@ function expectiminimax(node, depth)
 					miniMaxValue = expectMiniMax( evalShot );
 				}
 				
+				System.out.println("Shot id: "+evalShot.getShotId()+ " minimaxValue = "+miniMaxValue);
 				evalShot.setMiniMaxValue(miniMaxValue);
 			}
 			
@@ -977,14 +980,8 @@ function expectiminimax(node, depth)
 			});
 			
 			theShot = actualState.getPossibleShots().get(0);
+			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
 			
-			try {
-				System.out.println("------------------- CHECK THE GRAPH --------------------------");
-				Thread.sleep(10000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		} 
 		
 		return theShot;

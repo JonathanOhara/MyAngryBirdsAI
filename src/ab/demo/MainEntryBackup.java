@@ -23,7 +23,7 @@ public class MainEntryBackup {
 			command = args[0];
 			if (args.length == 1 && command.equalsIgnoreCase("-na"))
 			{
-				MyAgent na = new MyAgent();
+				NaiveAgent na = new NaiveAgent();
 				na.run();
 			}
 			else
@@ -60,7 +60,7 @@ public class MainEntryBackup {
 							else 
 						if (args.length == 2 && command.equalsIgnoreCase("-na"))
 						{
-							MyAgent na = new MyAgent();
+							NaiveAgent na = new NaiveAgent();
 							if(! (args[1].equalsIgnoreCase("-showMBR") || args[1].equals("-showReal")))
 							{
 								int initialLevel = 1;
@@ -87,7 +87,7 @@ public class MainEntryBackup {
 						else if (args.length == 3 && (args[2].equalsIgnoreCase("-showMBR") || args[2].equalsIgnoreCase("-showReal")) && command.equalsIgnoreCase("-na") )
 						{
 							//aki
-							MyAgent na = new MyAgent();
+							NaiveAgent na = new NaiveAgent();
 							int initialLevel = 1;
 							try{
 								initialLevel = Integer.parseInt(args[1]);

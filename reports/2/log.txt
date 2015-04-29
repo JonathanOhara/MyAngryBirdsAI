@@ -3475,3 +3475,76 @@ MyAgent.chooseOneShot()
 	Counting Unvisited Children...
 Shooting Bird(3): RedBird at Point x: 593.0 y: 348.0 dx: -555 dy: 166 Tap: 0 -> Stone
 Shooting Completed
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that score 0 points... 
+MyAgent.chooseOneShot()
+Shooting Bird(0): RedBird at Point x: 510.0 y: 325.0 dx: -558 dy: 158 Tap: 0 -> Wood
+Shooting Completed
+ Level 2 Score: 31950 
+Total Score: 31950
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 31250.0
+Shot id: 2 minimaxValue = 31250.0
+Shot id: 3 minimaxValue = 26120.0
+Shot id: 4 minimaxValue = 36090.0
+Shot id: 5 minimaxValue = 26290.0
+Shot id: 6 minimaxValue = 35440.0
+Shot id: 7 minimaxValue = 16694.13
+Shot id: 8 minimaxValue = 15220.0
+Shot id: 9 minimaxValue = 16040.0
+Shot id: 10 minimaxValue = 31250.0
+Shot id: 11 minimaxValue = 25340.0
+Shot id: 12 minimaxValue = 26040.0
+Shot id: 13 minimaxValue = 25330.0
+Shot id: 14 minimaxValue = 16040.0
+Shot id: 15 minimaxValue = 16040.0
+Shot id: 16 minimaxValue = 25810.0
+Shot id: 17 minimaxValue = 25220.0
+Shot id: 18 minimaxValue = 16160.0
+Shot id: 19 minimaxValue = 31250.0
+Shot id: 20 minimaxValue = 31360.0
+Shot id: 21 minimaxValue = 26150.0
+Shot id: 22 minimaxValue = 16350.0
+Shot id: 23 minimaxValue = 26340.0
+Shot id: 24 minimaxValue = 16280.0
+Shot id: 25 minimaxValue = 16310.0
+Shot id: 26 minimaxValue = 16320.0
+Shot id: 27 minimaxValue = 16280.0
+Shot id: 28 minimaxValue = 16040.0
+Shot id: 29 minimaxValue = 25040.0
+ExpectMiniMax Algorithm choose shot with id: 4
+Shooting Bird(0): RedBird at Point x: 651.0 y: 349.0 dx: -229 dy: 532 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0106790537939916
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 94
+MyAgent.chooseOneShot()
+Shot id: 1263 minimaxValue = 0.0
+Shot id: 1264 minimaxValue = 0.0
+Shot id: 1265 minimaxValue = 0.0
+Shot id: 1266 minimaxValue = 0.0
+Shot id: 1267 minimaxValue = 0.0
+Shot id: 1268 minimaxValue = 0.0
+Shot id: 1269 minimaxValue = 0.0
+Shot id: 1270 minimaxValue = 0.0
+Shot id: 1271 minimaxValue = 0.0
+Shot id: 1272 minimaxValue = 0.0
+Shot id: 1273 minimaxValue = 0.0
+Shot id: 1274 minimaxValue = 36090.0
+Shot id: 1275 minimaxValue = 0.0
+Shot id: 1276 minimaxValue = 0.0
+Shot id: 1277 minimaxValue = 0.0
+Shot id: 1278 minimaxValue = 0.0
+Shot id: 1279 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 1274
+Shooting Bird(1): Unknown at Point x: 510.0 y: 325.0 dx: -558 dy: 156 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 143
+Changing Level 29/3/2015 - 2:27:19

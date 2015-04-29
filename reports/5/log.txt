@@ -8,3 +8,11 @@ MyAgent.readAllPossibleShotsFromFile()
 MyAgent.readAllPossibleStatesFromFile()
 MyAgent.buildScenarioGraph()
 MyAgent.findPossibleShots()
+ Level 2 Score: 31950 
+ Level 3 Score: 61020 
+ Level 4 Score: 41440 
+ Level 5 Score: 32160 
+Total Score: 166570
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()

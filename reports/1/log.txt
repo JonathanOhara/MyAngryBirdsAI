@@ -4348,3 +4348,83 @@ MyAgent.buildScenarioGraph()
 Cutting Nodes that score 0 points... 
 MyAgent.chooseOneShot()
 	Counting Unvisited Children...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that score 0 points... 
+MyAgent.chooseOneShot()
+Shooting Bird(0): RedBird at Point x: 531.0 y: 277.0 dx: -181 dy: 634 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9994939173475781
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 139
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 1 of 100--------------------
+
+ Level 1 Score: 29370 
+Total Score: 29370
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that score 0 points... 
+MyAgent.chooseOneShot()
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+------------------- CHECK THE GRAPH --------------------------
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+------------------- CHECK THE GRAPH --------------------------13
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 29070.0
+Shot id: 2 minimaxValue = 15180.0
+Shot id: 3 minimaxValue = 29320.0
+Shot id: 4 minimaxValue = 28960.0
+Shot id: 5 minimaxValue = 29735.0
+Shot id: 6 minimaxValue = 29023.334
+Shot id: 7 minimaxValue = 28531.43
+Shot id: 8 minimaxValue = 28040.0
+Shot id: 9 minimaxValue = 29175.0
+Shot id: 10 minimaxValue = 30390.0
+Shot id: 11 minimaxValue = 28475.0
+Shot id: 12 minimaxValue = 30760.0
+Shot id: 13 minimaxValue = 31950.0
+Shot id: 14 minimaxValue = 29920.0
+Shot id: 15 minimaxValue = 29931.666
+Shot id: 16 minimaxValue = 22750.0
+Shot id: 18 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 13
+------------------- CHECK THE GRAPH --------------------------
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 29070.0
+Shot id: 2 minimaxValue = 15180.0
+Shot id: 3 minimaxValue = 29320.0
+Shot id: 4 minimaxValue = 28960.0
+Shot id: 5 minimaxValue = 29735.0
+Shot id: 6 minimaxValue = 29023.334
+Shot id: 7 minimaxValue = 28531.43
+Shot id: 8 minimaxValue = 28040.0
+Shot id: 9 minimaxValue = 29175.0
+Shot id: 10 minimaxValue = 30390.0
+Shot id: 11 minimaxValue = 28475.0
+Shot id: 12 minimaxValue = 30760.0
+Shot id: 13 minimaxValue = 31950.0
+Shot id: 14 minimaxValue = 29920.0
+Shot id: 15 minimaxValue = 29931.666
+Shot id: 16 minimaxValue = 22750.0
+ExpectMiniMax Algorithm choose shot with id: 13
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 10
+Changing Level 29/3/2015 - 2:26:32
