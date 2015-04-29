@@ -17,6 +17,8 @@ public class MyShot implements GraphNode {
 	private ABType birdType;
 	
 	private int times = 0;
+	private int numberofUnvisitedChildren;
+	
 	private boolean shotTested = false;
 
 	private int tapInterval;
@@ -29,10 +31,13 @@ public class MyShot implements GraphNode {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
+	private transient float miniMaxValue;
 	private transient List<State> possibleStates;
 	
 	public MyShot() {
 		super();
+		
+		miniMaxValue = 0;
 
 		possibleStates = new ArrayList<State>();
 	}
@@ -155,6 +160,22 @@ public class MyShot implements GraphNode {
 
 	public boolean isFinalState() {
 		return false;
+	}
+
+	public float getMiniMaxValue() {
+		return miniMaxValue;
+	}
+
+	public void setMiniMaxValue(float miniMaxValue) {
+		this.miniMaxValue = miniMaxValue;
+	}
+
+	public int getNumberofUnvisitedChildren() {
+		return numberofUnvisitedChildren;
+	}
+
+	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
+		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
 	}	
 	
 }

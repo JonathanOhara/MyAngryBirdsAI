@@ -12,6 +12,7 @@ public class State implements GraphNode {
 	private int birdIndex;
 	
 	private int times = 0;
+	private int numberofUnvisitedChildren;
 	
 	private int score = 0;
 	private int totalScore = 0;
@@ -111,6 +112,14 @@ public class State implements GraphNode {
 
 	public void setShotImage(BufferedImage shotImage) {
 		this.shotImage = shotImage;
+	}
+
+	public int getNumberofUnvisitedChildren() {
+		return numberofUnvisitedChildren;
+	}
+
+	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
+		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
 	}
 	
 	

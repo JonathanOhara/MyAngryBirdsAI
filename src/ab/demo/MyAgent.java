@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -37,7 +38,7 @@ import ab.demo.other.Shot;
 import ab.objects.GraphNode;
 import ab.objects.MapState;
 import ab.objects.MyShot;
-import ab.objects.State;	
+import ab.objects.State;
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
 import ab.utils.StateUtil;
@@ -63,11 +64,12 @@ public class MyAgent implements Runnable {
 	
 	//---------------------------------------------------------------------------------
 
-	private boolean LEARNING = true;
+	private boolean LEARNING = false;
+	private boolean LEARNING_ROUND_ROBIN = false;
 	
 	private int MAX_LEVEL = 10;
 	
-	private int TIMES_IN_EACH_STAGE = 10;
+	private int TIMES_IN_EACH_STAGE = 100;
 	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
@@ -91,8 +93,27 @@ public class MyAgent implements Runnable {
 	private int lastStateId = 1;
 	private int lastShotId = 1;
 	
-	// a standalone implementation of the Naive Agent
 	public MyAgent() {
+		
+		this(false, false);
+
+	}
+	
+	// a standalone implementation of the Naive Agent
+	public MyAgent(boolean learning, boolean roundRobin) {
+		
+		System.out.println("Execution starts: "+getDatetimeFormated());
+		
+		if( LEARNING ){
+			LEARNING_ROUND_ROBIN = roundRobin;
+			System.out.println("..:: LEARNING MODE ::..");
+		}else{
+			System.out.println("..:: EXECUTION MODE ::..");
+		}
+		
+		LEARNING = learning;
+		
+		createReportsDir();
 		
 		aRobot = new ActionRobot();
 		tp = new TrajectoryPlanner();
@@ -103,7 +124,6 @@ public class MyAgent implements Runnable {
 
 	}
 
-	
 	// run the client
 	public void run() {
 
@@ -114,16 +134,15 @@ public class MyAgent implements Runnable {
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
-				numberOfbirds = -1;
-
-				calculateShotStats(true);
-				changeLevelIfNecessary();
-				
 				try {
-					Thread.sleep(3000);
+					Thread.sleep(5000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
+				numberOfbirds = -1;
+				calculateShotStats(true);
+				changeLevelIfNecessary();
+			
 				int score = StateUtil.getScore(ActionRobot.proxy);
 				if(!scores.containsKey(currentLevel))
 					scores.put(currentLevel, score);
@@ -198,26 +217,34 @@ public class MyAgent implements Runnable {
 	}
 
 	private void changeLevelIfNecessary() {
-		System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
-
-		ShowSeg.debugBluePoint.clear();
-		ShowSeg.debugRedPoint.clear();
 		
-		if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
-			System.out.println("Changing Level...");
-			previousScore = 0;
-			timesInThisStage = 0;
-			currentLevel++;
+		if( LEARNING ){
+			System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
+	
+			ShowSeg.debugBluePoint.clear();
+			ShowSeg.debugRedPoint.clear();
 			
-			tp = new TrajectoryPlanner();
-			firstShot = true;
-			
-			if( currentLevel == MAX_LEVEL ){
-				System.out.println("Rebooting From start");
-				currentLevel = 1;
+			if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
+				System.out.println("Changing Level "+getDatetimeFormated());
+				previousScore = 0;
+				timesInThisStage = 0;
+				currentLevel++;
 				
-				MAX_LEVEL++;
+				tp = new TrajectoryPlanner();
+				firstShot = true;
+				
+				if( currentLevel == MAX_LEVEL ){
+					System.out.println("Rebooting From start");
+					currentLevel = 1;
+					
+					MAX_LEVEL++;
+				}
+				logConfiguration();
 			}
+		}else{
+			System.out.println("Changing Level "+getDatetimeFormated());
+			
+			currentLevel++;
 			logConfiguration();
 		}
 	}
@@ -274,6 +301,8 @@ public class MyAgent implements Runnable {
 					try {
 						allPossibleShotsFile = getAllPossibleShots();
 						allPossibleStateFile = getAllPossibleState();
+						
+						System.out.println("Loading shots and states from file.");
 						
 						allShots = readAllPossibleShotsFromFile(  );
 						allStates = readAllPossibleStatesFromFile(  );
@@ -405,11 +434,13 @@ public class MyAgent implements Runnable {
 	}
 
 	private void buildScenarioGraph() {
+		MyShot shotBeforeState;
+		State stateBeforeShot;
 		System.out.println("MyAgent.buildScenarioGraph()");
 		if( !allStates.isEmpty() && !allShots.isEmpty() ){
 			for( State state : allStates.values() ){
 				if( state.getOriginShotId() == -1 ) continue;
-				MyShot shotBeforeState = allShots.get( state.getOriginShotId() );
+				shotBeforeState = allShots.get( state.getOriginShotId() );
 				
 				if( shotBeforeState == null ){
 					System.err.println("[ERROR] There is no Shot with id = "+state.getOriginShotId());
@@ -419,7 +450,7 @@ public class MyAgent implements Runnable {
 			}
 			
 			for( MyShot shot : allShots.values() ){
-				State stateBeforeShot = allStates.get( shot.getOriginStateId() );				
+				stateBeforeShot = allStates.get( shot.getOriginStateId() );				
 				
 				if( stateBeforeShot == null ){
 					System.err.println("[ERROR] There is no State with = "+shot.getOriginStateId());
@@ -430,6 +461,8 @@ public class MyAgent implements Runnable {
 			
 			actualState = rootState = allStates.get(1);
 		}
+		
+		
 	}
 
 	private List<String> read(File file) throws IOException { 
@@ -447,10 +480,16 @@ public class MyAgent implements Runnable {
 		
 		return stringList;
 	}
+	
+	private void createReportsDir() {
+		File reportFile = new File("./reports" );
+		if( !reportFile.exists() ){
+			reportFile.mkdir();
+		}
+	}
 
 	private Map<Integer, State> readAllPossibleStatesFromFile() {
-		System.out.println("MyAgent.readAllPossibleStatesFromFile()");
-		Map<Integer, State> map = new HashMap<Integer, State>();
+		Map<Integer, State> map = new HashMap<Integer, State>(128);
 
 		try {
 			List<String> lines = read( allPossibleStateFile );
@@ -475,9 +514,9 @@ public class MyAgent implements Runnable {
 	}
 
 
+	
 	private Map<Integer, MyShot> readAllPossibleShotsFromFile() {
-		System.out.println("MyAgent.readAllPossibleShotsFromFile()");
-		Map<Integer, MyShot> map = new HashMap<Integer, MyShot>();
+		Map<Integer, MyShot> map = new HashMap<Integer, MyShot>(1024);
 
 		try {
 			List<String> lines = read( allPossibleShotsFile );
@@ -562,8 +601,9 @@ public class MyAgent implements Runnable {
 		previousScore = score;
 		actualState.setFinalState(finalShot);
 		
-		writeStatesInFile();
-		writeShotsInFile();
+		if( LEARNING ){
+			writeShotsAandStatesInFile();
+		}
 	}
 	
 	private void calculateShotStats(boolean finalShot) {
@@ -603,10 +643,12 @@ public class MyAgent implements Runnable {
 		actualShot.setShotTested(true);
 		
 		actualState = getStateIfAlreadyTested( actualState, actualShot.getPossibleStates() ); 
-		actualState.setTimesPlusOne();
 		
-		writeStatesInFile();
-		writeShotsInFile();
+		if( LEARNING ){
+			actualState.setTimesPlusOne();
+			
+			writeShotsAandStatesInFile();
+		}
 	}
 
 
@@ -619,7 +661,6 @@ public class MyAgent implements Runnable {
 	}
 
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
-		System.out.println("MyAgent.getStateIfAlreadyTested()");
 		State returnState = null;
 		
 		for( State otherState : possibleStates ){
@@ -651,7 +692,6 @@ public class MyAgent implements Runnable {
 
 
 	private void writeImageState(int stateId) {
-		System.out.println("MyAgent.writeImageState()");
 		try{
 			File reportFile = new File("./reports/" + currentLevel );
 			if( !reportFile.exists() ){
@@ -687,16 +727,22 @@ public class MyAgent implements Runnable {
 		
 	}
 
+	
+	private void writeShotsAandStatesInFile(){
+		System.out.println("MyAgent.writeShotsAandStatesInFile()");
+		writeShotsInFile();
+		writeStatesInFile();
+	}
 
 	private void writeShotsInFile() {
-		System.out.println("MyAgent.writeShotsInFile()");
 		PrintWriter out;
+		String json;
 		try {
 			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleShots() , false)));
 			
 			Gson gson = new Gson();
 			for( MyShot myShot: allShots.values() ){
-				String json = gson.toJson( myShot );
+				json = gson.toJson( myShot );
 				out.write(json + "\n");
 			}
 			
@@ -711,12 +757,13 @@ public class MyAgent implements Runnable {
 
 	private void writeStatesInFile() {
 		PrintWriter out;
+		String json;
 		try {
 			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleState() , false)));
 			
 			Gson gson = new Gson();
 			for( State state: allStates.values() ){
-				String json = gson.toJson( state );
+				json = gson.toJson( state );
 				out.write(json + "\n");
 			}
 			
@@ -802,9 +849,11 @@ function expectiminimax(node, depth)
 				totalTimes += state.getTimes();
 			}
 			
-			for( State state: ms.getPossibleStates() ){
-				alpha = alpha + ( state.getTimes() / totalTimes *  expectMiniMax(state) );
-			}
+			if( totalTimes > 0){
+				for( State state: ms.getPossibleStates() ){
+					alpha = alpha + ( state.getTimes() / totalTimes *  expectMiniMax(state) );
+				}
+			} 
 		}
 			
 		return alpha;
@@ -815,37 +864,115 @@ function expectiminimax(node, depth)
 		MyShot theShot = null;
 
 		if( LEARNING ){
+			
+			if( LEARNING_ROUND_ROBIN ){
+				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+					@Override
+					public int compare(MyShot o1, MyShot o2) {
+						int compare = Double.compare(o1.getTimes(), o2.getTimes());
+						if( compare == 0 ){
+							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+						}
+						return compare;
+					}
+				});
+			}else{
+				System.out.println("\tCounting Unvisited Children...");
+				rootState.setNumberofUnvisitedChildren( countUnvisitedChildren( rootState ) );
+				
+				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+					@Override
+					public int compare(MyShot o1, MyShot o2) {
+						int compare = Double.compare(o1.getNumberofUnvisitedChildren(), o2.getNumberofUnvisitedChildren()) * -1;
+						if( compare == 0 ){
+							compare = Double.compare(o1.getTimes(), o2.getTimes());
+						}
+						if( compare == 0 ){
+							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+						}
+						return compare;
+					}
+				});
+			}
+			
+			theShot = actualState.getPossibleShots().get(0);
+			
+		}else{
+		
+			for( MyShot evalShot: actualState.getPossibleShots() ){
+				float miniMaxValue = 0;
+				
+				if( evalShot.isShotTested() ){
+					miniMaxValue = expectMiniMax( evalShot );
+				}
+				
+				evalShot.setMiniMaxValue(miniMaxValue);
+			}
+			
+			
+			
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
 				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getTimes(), o2.getTimes());
-					if( compare == 0 ){
+					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
+					
+					if( compare == 0){
 						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
 					}
+					
 					return compare;
 				}
 			});
 			
 			theShot = actualState.getPossibleShots().get(0);
 			
-		}else{
-		
-			
-			
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					return Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-				}
-			});
-			
-			theShot = actualState.getPossibleShots().get(0);
+			try {
+				System.out.println("------------------- CHECK THE GRAPH --------------------------");
+				Thread.sleep(10000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		} 
 		
-		System.out.println("Shot choosed id = "+theShot.getShotId()+ " x: "+theShot.getTarget().x+" y: "+theShot.getTarget().y);
 		return theShot;
 	}
 
+
+	private int countUnvisitedChildren(GraphNode node) {
+		if( node.isFinalState() ){
+			return 0;
+		}
+		
+		int returnValue = 0;
+		if( node instanceof State ){
+			State state = (State) node;
+			if( state.getPossibleShots().isEmpty() ){
+				return 1;
+			}else{
+				
+				for( MyShot shot: state.getPossibleShots() ){
+					returnValue += countUnvisitedChildren( shot );
+				}
+			}
+			
+			state.setNumberofUnvisitedChildren(returnValue);
+		}else if( node instanceof MyShot ){
+			MyShot shot = (MyShot) node;
+			if( shot.getPossibleStates().isEmpty() ){
+				return 1;
+			}else{
+				
+				for( State state: shot.getPossibleStates() ){
+					returnValue += countUnvisitedChildren( state );
+				}
+			}
+			
+			shot.setNumberofUnvisitedChildren(returnValue);
+		}
+		
+		return returnValue;
+	}
 
 	private List<MyShot> findPossibleShots(Vision vision, List<ABObject> pigs) {
 		System.out.println("MyAgent.findPossibleShots()");
@@ -910,11 +1037,6 @@ function expectiminimax(node, depth)
 				int dx = (int)releasePoint.getX() - refPoint.x;
 				int dy = (int)releasePoint.getY() - refPoint.y;
 				Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
-				
-				
-				/**
-				 * TODO Logica de tap interval para outros passaros
-				 */
 				
 				if( ABUtil.isReachable(vision, _tpt, shot) ){
 					List<Integer> tapIntervalList = new ArrayList<Integer>();
@@ -986,8 +1108,7 @@ function expectiminimax(node, depth)
 			}	
 		}
 		
-		System.out.println("MyAgent.findPossibleShots() = "+possibleShots.size());
-		System.out.println("Tempo: "+(System.currentTimeMillis() - time));
+		System.out.println("Number of Possible shots: "+possibleShots.size() + " calculated in: " + (System.currentTimeMillis() - time) + " miliseconds");
 		return possibleShots;
 	}
 
@@ -996,10 +1117,8 @@ function expectiminimax(node, depth)
 		
 		// estimate the trajectory
 		ArrayList<Point> pts = tp.estimateLaunchPoint(sling, _tpt);
-//		System.out.println("Pts = "+pts.get(0));
-//		System.out.println("Pts = "+pts.get(1));
-		// do a high shot when entering a level to find an accurate velocity
-		
+
+		// do a high shot when entering a level to find an accurate velocity		
 		Point releasePoint = null;
 		if (firstShot && pts.size() > 1) 
 		{
@@ -1026,15 +1145,14 @@ function expectiminimax(node, depth)
 		
 		return releasePoint;
 	}
+	
+	private String getDatetimeFormated() {
+		String dateTime = "";
 
-/*
-	public static void main(String args[]) {
-
-		MyAgent na = new MyAgent();
-		if (args.length > 0)
-			na.currentLevel = Integer.parseInt(args[0]);
-		na.run();
-
+		Calendar c = Calendar.getInstance(); 
+		dateTime = c.get(Calendar.DAY_OF_MONTH) + "/" + +c.get(Calendar.MONTH) + "/" + c.get(Calendar.YEAR) + " - " + c.get(Calendar.HOUR_OF_DAY)+ ":" + c.get(Calendar.MINUTE)+ ":" + c.get(Calendar.SECOND);
+		
+		return dateTime;
 	}
-*/
+
 }
