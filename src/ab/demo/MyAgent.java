@@ -104,6 +104,8 @@ public class MyAgent implements Runnable {
 		
 		System.out.println("Execution starts: "+getDatetimeFormated());
 		
+		LEARNING = learning;
+		
 		if( LEARNING ){
 			LEARNING_ROUND_ROBIN = roundRobin;
 			System.out.println("..:: LEARNING MODE ::..");
@@ -111,7 +113,7 @@ public class MyAgent implements Runnable {
 			System.out.println("..:: EXECUTION MODE ::..");
 		}
 		
-		LEARNING = learning;
+		
 		
 		createReportsDir();
 		
@@ -462,6 +464,52 @@ public class MyAgent implements Runnable {
 			actualState = rootState = allStates.get(1);
 		}
 		
+		if( LEARNING ){
+			System.out.println("Cutting Nodes that score 0 points... ");
+			cutNodesWithZeroPoints( rootState );
+		}
+	}
+
+	private void cutNodesWithZeroPoints(GraphNode node) {
+		
+		if( node instanceof State ){
+			State state = (State) node;
+			
+			for( MyShot myShot: state.getPossibleShots() ){
+				cutNodesWithZeroPoints(myShot);
+			}
+		}else if( node instanceof MyShot ){
+			MyShot myshot = (MyShot) node;
+			if( myshot.getPossibleStates().size() == 1 ){
+				if( myshot.getPossibleStates().get(0).getScore() == 0 ){
+					removeNodesFromMap(myshot);
+					myshot.getPossibleStates().remove(0);
+				}
+			}
+		}
+		
+	}
+	
+	private void removeNodesFromMap(GraphNode node) {
+		if( node instanceof State ){
+			State state = (State) node;
+				
+			for( MyShot myshot : state.getPossibleShots() ){
+				removeNodesFromMap(myshot);
+			}
+			
+			System.out.println("State id: "+state.getStateId()+" removed from graph.");
+			allStates.remove(state.getStateId());
+		}else if( node instanceof MyShot ){
+			MyShot myshot = (MyShot) node;
+			
+			for( State state: myshot.getPossibleStates() ){
+				removeNodesFromMap(state);
+			}
+			
+			System.out.println("Shot id: "+myshot.getShotId()+" removed from graph.");
+			allShots.remove(myshot.getShotId());
+		}
 		
 	}
 
@@ -667,7 +715,11 @@ public class MyAgent implements Runnable {
 			if( Math.abs( state.getScore() - otherState.getScore()) <= 200 && otherState.getOriginShotId() == state.getOriginShotId() ){
 				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
 				returnState = otherState;
+				
 				returnState.setTimesPlusOne();
+				
+				returnState.setTotalScore( state.getTotalScore() );
+				returnState.setScore( state.getScore() );
 				break;
 			}
 		}
