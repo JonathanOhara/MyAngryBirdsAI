@@ -1,0 +1,18 @@
+Instruções para importar/executar o projeto no Eclipse.
+
+Importar:
+1 - Copie a pasta do projeto MyAngryBirdsAI no seu workspace de preferência.
+1 - Abra o eclipse nesse workspace.
+2 - No Menu, File -> Import
+3 - Existing projects into Workspace, Next
+4 - Clique em Browse, navegue até o diretório do workspace e de OK.
+5 - Em Projects verifique se o projeto MyAngryBirdsAI está checado. Se sim, dê Finish.
+6 - O projeto já está em seu workspace.
+
+Executar:
+1 - Com o projeto MyAngryBirdsAI aberto expanda a pasta(source folder) src.
+2 - Expanda o package ab.demo
+3 - Clique com o botão direito no arquivo MainEntry.java -> Run As -> Java Application
+3.1 - Por padrão caso não seja passado nenhum argumento para execução, o programa colocará os argumentos: -level=1 -showMBR
+4 - Para colocar seus próprios argumentos ao invés de Java Application clique em Run configurations
+5 - Na janela que irá abrir vá em Arguments e coloque na caixa de texto "Program arguments" os argumentos desejados.

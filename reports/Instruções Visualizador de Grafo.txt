@@ -1,0 +1,22 @@
+Instruções para executar o programa Visualizador de grafos.
+
+1 - Utilize a versão mais atual do Chrome.
+2 - Ao abrir o programa temos 2 grandes caixa de texto(textarea), um campo combo(select) e por último o botão executar.
+3 - Os 2 textarea já estão populados com os dados da primeira fase e o combo já está selecionado a primeira fase. Clicando em executar já terá o resultado do programa.
+4 - Caso queira ver o grafo de execução de outras frases siga os seguintes passos:
+4.1 - No combo escolha a fase no qual deseja visualizar.
+4.2 - No textarea "STATES - Copy here the content of states.json" é necessário colar o conteúdo do arquivo states.json da fase desejada(Esse arquivo se encontra em: ESSA_PASTA/NUMERO_DA_FASE/states.json).
+4.3 - No textarea "SHOTS - Copy here the content of shots.json" é necessário colar o conteúdo do arquivo shots.json da fase desejada(Esse arquivo se encontra em: ESSA_PASTA/NUMERO_DA_FASE/shots.json).
+5 - Clique em gerar para executar.
+
+Funcionalidades
+
+1 - Gerar o Grafo contendo os dados dos tiros e do resultado dos tiros.
+2 - É possível fazer download do grafo como imagem PNG através do botão Download Graph as Image
+2.1 - Caso o SVG que com um tamanho maior que 16384(2 ^ 14 )pixels o navegador cortará a imagem(isso acontece por uma limitação do navegador).
+3 - É possível aumentar/diminui o zoom apenas do grafo.
+3.1 - O Download da imagem(ITEM 2) será afetado caso seja aumentado ou diminuido o zoom.
+4 - Ao clicar em cada Nó(Cicrulo) você pode visualizar mais dados sobre aquela jogada/estado no menu lateral.
+4.1 - [IMPORTANTE] No menu de Propriedades você pode visualizar a imagem de como estava o jogo naquele momento(Apenas nos nós de estados). Clicando na imagem ele abrirá a imagem em uma nova aba.
+5 - Você pode clicar na Palavra "Legend" para esconder/aparecer a Legenda.
+6 - Para gerar o grafo de outra fase, aperte F5 ou o botão de atualizar do navegador.

@@ -1,0 +1,6 @@
+Esse diretório é o raiz do projeto do Eclipse.
+
+Arquivos Importatnes:
+- MyAgent.jar: jar executável do algoritmo desenvolvido.
+- reports: Essa pasta contém o visualizador de grafos de cada fase assim como todos os dados de execução do algoritmo.
+- Importar Executar projeto no eclipse.txt: Mostra como importar o projeto no eclipse.

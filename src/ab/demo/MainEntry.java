@@ -16,44 +16,44 @@ import ab.vision.ShowSeg;
 
 public class MainEntry {
 	// the entry of the software.
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		int level = 1;
 		boolean learnMode = false;
 		boolean roundRoubinLearn = false;
 		
-		if(args.length > 0)	{
-			List<String> argsList = new ArrayList<String>();
-			
-			for( String arg: args ){
-				argsList.add(arg);
-				
-				if( arg.startsWith("-level") ){
-					level = Integer.parseInt( arg.split("=")[1] );
-				}
-			}
-			
-			if( argsList.contains("-learn") ){
-				learnMode = true;
-			}
-			
-			if( argsList.contains("-roundRobin") ){
-				roundRoubinLearn = true;
-			}
-
-			MyAgent na = new MyAgent( learnMode, roundRoubinLearn );
-
-			na.currentLevel = level;
-			Thread nathre = new Thread(na);
-			nathre.start();
-			if( argsList.contains("-showReal") ){
-				ShowSeg.useRealshape = true;
-			}
-			Thread thre = new Thread(new ShowSeg());
-			thre.start();
-
-		}else{ 
-			System.out.println("Please input the correct command");
+		if( args.length == 0 ){
+			args[0] = "-level=1";
+			args[1] = "-showMBR";
 		}
+		
+		List<String> argsList = new ArrayList<String>();
+		
+		for( String arg: args ){
+			argsList.add(arg);
+			
+			if( arg.startsWith("-level") ){
+				level = Integer.parseInt( arg.split("=")[1] );
+			}
+		}
+		
+		if( argsList.contains("-learn") ){
+			learnMode = true;
+		}
+		
+		if( argsList.contains("-roundRobin") ){
+			roundRoubinLearn = true;
+		}
+
+		MyAgent na = new MyAgent( learnMode, roundRoubinLearn );
+
+		na.currentLevel = level;
+		Thread nathre = new Thread(na);
+		nathre.start();
+		if( argsList.contains("-showReal") ){
+			ShowSeg.useRealshape = true;
+		}
+		Thread thre = new Thread(new ShowSeg());
+		thre.start();
+
 	}
 }

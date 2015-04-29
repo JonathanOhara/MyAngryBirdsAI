@@ -1,0 +1,21 @@
+Nesse diretório estão os relatórios(reports) do algoritmo.
+
+-->> graphView.html [IMPORTANTE]
+Esse arquivo contém um programa em JavaScript para plotar o grafo de execução de cada fase do jogo.
+Não é necessário ter instalado o JAVA para executar esse programa.
+É fortemente recomendado usar a versão mais atual do Chrome para abrir esse programa.
+Ler o arquivo "Instruções Visualizador de Grafo.txt" para ler as instruções.
+
+-->> IA Comparision results.xls
+Esse contém os dados/gráficos de execução do algoritmo feito pelo autor do trabalho e do algoritmo padrão do AngryBirdsAI
+
+-->> Pastas Numeradas [1...N]
+Essas pastas contém os dados de aprendizagem do algoritmo. Os números representam cada fase do jogo.
+Dentro de essa pasta contém os seguinte conteúdo:
+- log.txt -> log gerado pela java para debug. (Repare que ao rodar o programa via eclipse OU cmd os print's ficaram nesse arquivo).
+- shots.json -> Arquivo com os dados de todos possíveis tiros para realizar nesa fase.(Cada objeto está seprado por \n)
+- states.json -> Arquivo com os dados de todos estados da fase.(Cada objeto está seprado por \n)
+- Pasta states -> Tem os prints de cada estado para ser mostrado no Visualizador de Grafo.
+
+-->> Pasta image e scripts
+Arquivos necessários para executar o Visualizador de Grafo.
