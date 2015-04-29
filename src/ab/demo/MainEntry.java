@@ -21,7 +21,8 @@ public class MainEntry {
 		boolean learnMode = false;
 		boolean roundRoubinLearn = false;
 		
-		if( args.length == 0 ){
+		if( args == null || args.length == 0 ){
+			args = new String[2];
 			args[0] = "-level=1";
 			args[1] = "-showMBR";
 		}

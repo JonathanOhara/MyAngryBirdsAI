@@ -1211,3 +1211,55 @@ MyAgent.calculateShotStats()
 Generate new state with id = 101
 MyAgent.writeShotsAandStatesInFile()
 MyAgent.findPossibleShots()
+Number of Possible shots: 11 calculated in: 53725 miliseconds
+MyAgent.chooseOneShot()
+Shooting Bird(2): RedBird at Point x: 557.0 y: 357.0 dx: -554 dy: 169 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.029979170011143
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 102
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 18 calculated in: 56464 miliseconds
+MyAgent.chooseOneShot()
+Shooting Bird(3): RedBird at Point x: 624.0 y: 314.0 dx: -506 dy: 281 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.033074229702435
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 103
+MyAgent.writeShotsAandStatesInFile()
+ Level 6 Score: 25220 
+Total Score: 25220
+
+-------------------- Times in this level: 7 of 100--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+Shooting Bird(0): RedBird at Point x: 538.0 y: 319.0 dx: -185 dy: 549 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0296933614541448
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 63
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot()
+Shooting Bird(1): RedBird at Point x: 557.0 y: 357.0 dx: -554 dy: 169 Tap: 0 -> Stone
+Shooting Completed
+Loading shots and states from file.
+Exception in thread "Thread-10" java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at ab.demo.MyAgent.readAllPossibleShotsFromFile(MyAgent.java:575)
+	at ab.demo.MyAgent.solve(MyAgent.java:312)
+	at ab.demo.MyAgent.run(MyAgent.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 4 more
