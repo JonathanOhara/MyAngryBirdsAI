@@ -113,8 +113,6 @@ public class MyAgent implements Runnable {
 			System.out.println("..:: EXECUTION MODE ::..");
 		}
 		
-		
-		
 		createReportsDir();
 		
 		aRobot = new ActionRobot();
@@ -175,7 +173,7 @@ public class MyAgent implements Runnable {
 				calculateShotStats(true);
 				changeLevelIfNecessary();
 				
-				aRobot.loadLevel(currentLevel);
+				aRobot.restartLevel();
 			} else if (state == GameState.LEVEL_SELECTION) {
 				System.out.println("Unexpected level selection page, go to the last current level : "+ currentLevel);
 
@@ -207,7 +205,6 @@ public class MyAgent implements Runnable {
 				
 				if( aRobot.getState() == GameState.WON || aRobot.getState() == GameState.LOST ){
 					System.out.println("Updating last Shot Status");
-					actualState = lastState;
 					
 					reCalculateShotStats(true);
 					
@@ -263,7 +260,7 @@ public class MyAgent implements Runnable {
 
 		// capture Image
 		BufferedImage screenshot = ActionRobot.doScreenShot();
-
+			
 		// process image
 		Vision vision = new Vision(screenshot);
 
@@ -550,6 +547,8 @@ public class MyAgent implements Runnable {
 			for(String line : lines){
 				State state = gson.fromJson(line, State.class);
 				
+				state.setVisitedInLastRun(false);
+				
 				map.put(state.getStateId(), state);
 				
 				if( state.getStateId() >= lastStateId ){
@@ -576,6 +575,8 @@ public class MyAgent implements Runnable {
 			
 			for(String line : lines){
 				MyShot shot = gson.fromJson(line, MyShot.class);
+				
+				shot.setVisitedInLastRun(false);
 				
 				map.put(shot.getShotId(), shot);
 				
@@ -638,13 +639,16 @@ public class MyAgent implements Runnable {
 		
 		if( finalShot ){
 			if( aRobot.getState() == GameState.LOST ){
-				score = previousScore * -1;
+				score = previousScore;
 			}else{
 				score = aRobot.getScore();
 			}
 		}else{
 			score = aRobot.getScoreInGame(); 
 		}
+		
+		//TODO Remover possible shots do map AKI!!!
+		actualState.getPossibleShots().clear();
 		
 		actualState.setTotalScore( score );
 		actualState.setScore( score - previousScore );
@@ -675,7 +679,7 @@ public class MyAgent implements Runnable {
 		
 		if( finalShot ){
 			if( aRobot.getState() == GameState.LOST ){
-				score = previousScore * -1;
+				score = previousScore;
 			}else{
 				score = aRobot.getScore();
 			}
@@ -694,6 +698,9 @@ public class MyAgent implements Runnable {
 		actualShot.setShotTested(true);
 		
 		actualState = getStateIfAlreadyTested( actualState, actualShot.getPossibleStates() ); 
+		
+		actualState.setVisitedInLastRun(true);
+		actualShot.setVisitedInLastRun(true);
 		
 		if( LEARNING ){
 			actualState.setTimesPlusOne();
@@ -828,62 +835,7 @@ public class MyAgent implements Runnable {
 		}
 		
 	}
-	/*
-MinMax (GamePosition game) {
-  return MaxMove (game);
-}
- 
-MaxMove (GamePosition game) {
-  if (GameEnded(game)) {
-    return EvalGameState(game);
-  }
-  else {
-    best_move < - {};
-    moves <- GenerateMoves(game);
-    ForEach moves {
-       move <- MinMove(ApplyMove(game));
-       if (Value(move) > Value(best_move)) {
-          best_move < - move;
-       }
-    }
-    return best_move;
-  }
-}
- 
-MinMove (GamePosition game) {
-  best_move <- {};
-  moves <- GenerateMoves(game);
-  ForEach moves {
-     move <- MaxMove(ApplyMove(game));
-     if (Value(move) > Value(best_move)) {
-        best_move < - move;
-     }
-  }
- 
-  return best_move;
-}
-	 */
-	/*
-function expectiminimax(node, depth)
-    if node is a terminal node or depth = 0
-        return the heuristic value of node
-    if the adversary is to play at node
-        // Return value of minimum-valued child node
-        let alpha := +INFINITE
-        foreach child of node
-            alpha := min(alpha, expectiminimax(child, depth-1))
-    else if we are to play at node
-        // Return value of maximum-valued child node
-        let alpha := -INIFINITE
-        foreach child of node
-            alpha := max(alpha, expectiminimax(child, depth-1))
-    else if random event at node
-        // Return weighted average of all child nodes' values
-        let alpha := 0
-        foreach child of node
-            alpha := alpha + (Probability[child] * expectiminimax(child, depth-1))
-    return alpha
-*/
+
 	private float expectMiniMax(GraphNode node){
 		float alpha = 0;
 		if( node.isFinalState() ){
@@ -919,6 +871,8 @@ function expectiminimax(node, depth)
 		MyShot theShot = null;
 
 		if( LEARNING ){
+			System.out.println("\tCounting Unvisited Children...");
+			rootState.setNumberofUnvisitedChildren( countUnvisitedChildren( rootState ) );
 			
 			if( LEARNING_ROUND_ROBIN ){
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
@@ -932,8 +886,6 @@ function expectiminimax(node, depth)
 					}
 				});
 			}else{
-				System.out.println("\tCounting Unvisited Children...");
-				rootState.setNumberofUnvisitedChildren( countUnvisitedChildren( rootState ) );
 				
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 					@Override

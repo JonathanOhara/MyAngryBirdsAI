@@ -13,13 +13,14 @@ public class State implements GraphNode {
 	
 	private int times = 0;
 	private int numberofUnvisitedChildren;
+	private boolean visitedInLastRun = false;
 	
 	private int score = 0;
 	private int totalScore = 0;
 	
 	private boolean finalState;
 	
-	private MapState mapState;
+	private transient MapState mapState;
 	
 	private transient List<MyShot> possibleShots;
 	private transient BufferedImage shotImage;
@@ -120,6 +121,14 @@ public class State implements GraphNode {
 
 	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
 		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
+	}
+
+	public boolean isVisitedInLastRun() {
+		return visitedInLastRun;
+	}
+
+	public void setVisitedInLastRun(boolean visitedInLastRun) {
+		this.visitedInLastRun = visitedInLastRun;
 	}
 	
 	

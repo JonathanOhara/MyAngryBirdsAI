@@ -18,6 +18,7 @@ public class MyShot implements GraphNode {
 	
 	private int times = 0;
 	private int numberofUnvisitedChildren;
+	private boolean visitedInLastRun = false;
 	
 	private boolean shotTested = false;
 
@@ -176,6 +177,14 @@ public class MyShot implements GraphNode {
 
 	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
 		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
+	}
+
+	public boolean isVisitedInLastRun() {
+		return visitedInLastRun;
+	}
+
+	public void setVisitedInLastRun(boolean visitedInLastRun) {
+		this.visitedInLastRun = visitedInLastRun;
 	}	
 	
 }
