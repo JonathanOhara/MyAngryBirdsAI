@@ -41,6 +41,7 @@ import ab.objects.MyShot;
 import ab.objects.State;
 import ab.planner.TrajectoryPlanner;
 import ab.utils.ABUtil;
+import ab.utils.FileUtil;
 import ab.utils.StateUtil;
 import ab.vision.ABObject;
 import ab.vision.ABType;
@@ -69,7 +70,7 @@ public class MyAgent implements Runnable {
 	
 	private int MAX_LEVEL = 9;
 	
-	private int TIMES_IN_EACH_STAGE = 100;
+	private int TIMES_IN_EACH_STAGE = 500;
 	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
@@ -513,22 +514,6 @@ public class MyAgent implements Runnable {
 		
 	}
 
-	private List<String> read(File file) throws IOException { 
-		BufferedReader buffRead = new BufferedReader(new FileReader(file));
-		String linha = "";
-		List<String> stringList = new ArrayList<String>();
-		
-		while (true) {
-			if (linha == null) break;
-			linha = buffRead.readLine();
-			if (linha != null && !linha.trim().isEmpty()) stringList.add(linha);
-		}
-		
-		buffRead.close();
-		
-		return stringList;
-	}
-	
 	private void createReportsDir() {
 		File reportFile = new File("./reports" );
 		if( !reportFile.exists() ){
@@ -540,7 +525,7 @@ public class MyAgent implements Runnable {
 		Map<Integer, State> map = new HashMap<Integer, State>(128);
 
 		try {
-			List<String> lines = read( allPossibleStateFile );
+			List<String> lines = FileUtil.read( allPossibleStateFile );
 			
 			Gson gson = new Gson();
 			
@@ -569,7 +554,7 @@ public class MyAgent implements Runnable {
 		Map<Integer, MyShot> map = new HashMap<Integer, MyShot>(1024);
 
 		try {
-			List<String> lines = read( allPossibleShotsFile );
+			List<String> lines = FileUtil.read( allPossibleShotsFile );
 			
 			Gson gson = new Gson();
 			
@@ -647,7 +632,9 @@ public class MyAgent implements Runnable {
 			score = aRobot.getScoreInGame(); 
 		}
 		
-		//TODO Remover possible shots do map AKI!!!
+		for( MyShot myShot : actualState.getPossibleShots() ){
+			allShots.remove( myShot.getShotId() );
+		}
 		actualState.getPossibleShots().clear();
 		
 		actualState.setTotalScore( score );
@@ -866,6 +853,32 @@ public class MyAgent implements Runnable {
 		return alpha;
 	}
 
+	private float itemTypeDistanceMultiplier(ABObject obj){
+		float multi = 0;
+		switch( obj.getType() ){
+		case TNT:
+			multi = 0.25f;
+			break;
+		case Pig:
+			multi = 0.5f;
+			break;
+		case Ice:
+			multi = 1;
+			break;
+		case Wood:
+			multi = 1.5f;
+		case Stone:
+			multi = 2.0f;
+		break;
+			default:
+				multi = 1;
+			break;
+		}
+		
+		return multi;
+		
+	}
+	
 	private MyShot chooseOneShot() {
 		System.out.println("MyAgent.chooseOneShot()");
 		MyShot theShot = null;
@@ -880,7 +893,8 @@ public class MyAgent implements Runnable {
 					public int compare(MyShot o1, MyShot o2) {
 						int compare = Double.compare(o1.getTimes(), o2.getTimes());
 						if( compare == 0 ){
-							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+							compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o1.getAim() ), 
+													 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o2.getAim() ) ) ;
 						}
 						return compare;
 					}
