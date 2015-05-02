@@ -70,7 +70,7 @@ public class MyAgent implements Runnable {
 	
 	private int MAX_LEVEL = 9;
 	
-	private int TIMES_IN_EACH_STAGE = 500;
+	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
@@ -229,6 +229,7 @@ public class MyAgent implements Runnable {
 			
 			if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
 				System.out.println("Changing Level "+getDatetimeFormated());
+				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 				previousScore = 0;
 				timesInThisStage = 0;
 				currentLevel++;
@@ -240,7 +241,7 @@ public class MyAgent implements Runnable {
 					System.out.println("Rebooting From start");
 					currentLevel = 1;
 					
-					//MAX_LEVEL++;
+					MAX_LEVEL++;
 				}
 				logConfiguration();
 			}
@@ -343,6 +344,10 @@ public class MyAgent implements Runnable {
 			
 				if( actualState.getPossibleShots().isEmpty() ){
 					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
+				}
+				
+				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size();
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
