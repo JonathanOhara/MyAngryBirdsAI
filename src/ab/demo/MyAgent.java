@@ -1119,8 +1119,6 @@ public class MyAgent implements Runnable {
 							myShot.setClosestPig(closestPig);
 							myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
 							
-							ShowSeg.debugBluePoint.add(_tpt);
-							
 							possibleShots.add( myShot );
 							
 							allShots.put(myShot.getShotId(), myShot);

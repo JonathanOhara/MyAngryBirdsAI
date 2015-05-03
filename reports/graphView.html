@@ -51,30 +51,33 @@ textarea{
 }
 #prop{
 	display: none;
-	height: 100%;
+	width: 100%;
+	height: 210px;
 	position: relative;
-	float: right;
+	float: left;
 	overflow-y: scroll;
 	border: 1px black solid;
 }
 .preview{
 	width: 100%;
+	height: 100%;
 }
-#propTable{
-	width: 100%;
-	border-collapse: collapse;
+.propLabel{
+	font-weight: bold;
+	width: 150px;
+	border: 1px black solid;
+	position: relative;
+	float: left;
 }
-#propTable tbody tr td{
-	border: 1px gray solid;
+.propValue{
+	width: 150px;	
+	border: 1px black solid;
+	position: relative;
+	float: left;
 }
 </style>
 <body>
 <h1>Graph View for Angry Birds AI</h1>
-<h2 style="display: none;">
-<button id="downloadGraph" style="width: 355px; height: 75px; background-image: url(./images/buttons.png); background-position: -1335px -741px; color: white; font-weight: bold; font-size: 22px;">
-		Download Graph as Image
-</button>
-</h2>
 <div id="dataDiv">  
 	<p>
 		<label for="shotsTextArea">STATES - Copy here the content of states.json</label>
@@ -83,9 +86,11 @@ textarea{
 	<p>
 
 <textarea id='statesTextArea'>
+
 </textarea>	
 
 <textarea id='shotsTextArea'>
+
 </textarea>	
 
 </p>		
@@ -109,7 +114,6 @@ textarea{
 		<input type="button" value="Generate" id="generateButton"></input>
 	</p>
 </div>
-<br/>
 <div id="graphDiv">
 <div id="zoomDiv" style="left: 10px; width: 35px; position:fixed; margin: 5px;">
 	<button id="zoomIn" style="cursor:pointer; width: 35px; height: 35px; background-image: url(./images/buttons.png); background-position: -1610px -615px;"></button>
@@ -163,16 +167,16 @@ textarea{
 		</div>
 				<div id="legendColumn3" style="width:150px; height: 200px; position: relative; float: left; border-bottom: 1px black solid; ">
 			<div style="text-align: center; height: 74px; border-bottom: 1px black solid;"> 
-				<img src="./images/redNode.png" style="width:50px; height: 50px;" />
+				<img src="./images/orangeStrokeNode.png" style="width:50px; height: 50px;" />
 			</div>
 			<div style="text-align: center; height: 25px; border-bottom: 1px black solid;"> 
-				LastRUN
+				Last run choices
 			</div>
 			<div style="text-align: center; height: 74px; border-bottom: 1px black solid; "> 
-				<img src="./images/yellowNode.png" style="width:50px; height: 50px;" />
+				<img src="./images/greenStrokeNode.png" style="width:50px; height: 50px;" />
 			</div>
 			<div style="text-align: center; height: 25px;"> 
-				FOCUS
+				SubTree Clicked
 			</div>
 		</div>
 	</div>
@@ -183,19 +187,20 @@ textarea{
 </div>
 </div>
 <div id="prop">
-	<table id="propTable" style="width: 100%;border-collapse: collapse;">
-		<thead style="background-color: #CACACA; font-weight: bold; font-size: 20px; border: 1px black solid;">
-			<tr>
-				<th colspan="2">
-					Properties
-				</th>  
-			</tr>
-		</thead>
-		<tbody id="propTbody">
-		</tbody>
-		<tfoot id="propTfoot">
-		</tfoot>
-	</table>
+	<div style="width: 100%; height: 22px; position: relative; float: left; background-color: #CACACA; font-weight: bold; font-size: 20px; border-bottom: 1px black solid; text-align: center;">
+		Properties
+	</div>
+	<div id="propTbody" style="width: 50%; height: 186px; position: relative; float: left;">
+	</div>	
+	<div style="width: 50%; height: 186px; position: relative; float: left;">
+		<div style="width: 355px; height: 100%; position: relative; float: right;">
+			<button id="downloadGraph" style="margin-top: 52px; width: 355px; height: 75px; background-image: url(./images/buttons.png); background-position: -1335px -741px; color: white; font-weight: bold; font-size: 22px;">
+				Download Graph as Image
+			</button>
+		</div>
+		<div id="propTfoot" style="width: 300px; height: 100%; position: relative; float: right; overflow: hidden;">
+		</div>
+	</div>
 </div>
 <div id ="auxElements" style='display:none;'>
 	<div id='svgdataurl'></div>
@@ -210,61 +215,93 @@ var elementInEeachHeight = [];
 var greaterNodeHeight = 0;
 var SVG_LINE_HEIGHT = 140;
 var CIRCLE_RADIUS = 30;
-var putFocus = function( element, type ){
-}
+var elementsWithFocus = [];
+var lastElementClicked = undefined;
 var showProperties = function( element, type ){
 	$("#propTbody").html("");
 	$("#propTfoot").html("");
 	if( type == 1){
-		$("#propTbody").append("<tr><td> State Id </td><td>"+ element.stateId + "</td></tr>");
-		$("#propTbody").append("<tr><td> Origin Shot Id </td><td>"+ element.originShotId + "</td></tr>");
-		$("#propTbody").append("<tr><td> Bird Index </td><td>"+ element.birdIndex + "</td></tr>");
-		$("#propTbody").append("<tr><td> Times in this state </td><td>"+ element.times + "</td></tr>");
-		$("#propTbody").append("<tr><td> Unvisited children </td><td>"+ element.numberofUnvisitedChildren + "</td></tr>");
-		$("#propTbody").append("<tr><td> Score </td><td>"+ element.score + "</td></tr>");
-		$("#propTbody").append("<tr><td> Total Score </td><td>"+ element.totalScore + "</td></tr>");
-		$("#propTbody").append("<tr><td> Final State </td><td>"+ element.finalState + "</td></tr>");
-		$("#propTbody").append("<tr><td> Visited in last Run </td><td>"+ element.visitedInLastRun + "</td></tr>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> State Id </div><div class='propValue'> "+ element.stateId + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Origin Shot Id </div><div class='propValue'> "+ element.originShotId + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Times in this state  </div><div class='propValue'> "+ element.times + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.numberofUnvisitedChildren + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Score </div><div class='propValue'> "+ element.score + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Total Score </div><div class='propValue'> "+ element.totalScore + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Final State </div><div class='propValue'> "+ element.finalState + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Bird Index  </div><div class='propValue'> "+ element.birdIndex + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.visitedInLastRun + " </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
 		var imgUrl = "./"+$("#level").val()+"/states/" + element.stateId +"/00001.jpg";
-		$("#propTfoot").append("<tr><td colspan='2'><a target='_blank' href='"+imgUrl+"'> <img class='preview'src='"+imgUrl+"'/></a></td><tr>")
+		$("#propTfoot").append("<a target='_blank' href='"+imgUrl+"'> <img class='preview' src='"+imgUrl+"'/></a>")
 	}else if( type == 2 ){
-		$("#propTbody").append("<tr><td> Shot Id </td><td>"+ element.shotId + "</td></tr>");
-		$("#propTbody").append("<tr><td> Origin State Id </td><td>"+ element.originStateId + "</td></tr>");
-		
-		$("#propTbody").append("<tr><td> Target Y </td><td>"+ element.target.x + "</td></tr>");
-		$("#propTbody").append("<tr><td> Target Y </td><td>"+ element.target.y + "</td></tr>");
-		
-		$("#propTbody").append("<tr><td> Release Y </td><td>"+ element.releasePoint.x + "</td></tr>");
-		$("#propTbody").append("<tr><td> Release Y </td><td>"+ element.releasePoint.y + "</td></tr>");
-		
-		$("#propTbody").append("<tr><td> Bird Index </td><td>"+ element.birdIndex + "</td></tr>");
-		$("#propTbody").append("<tr><td> Bird Type </td><td>"+ element.birdType + "</td></tr>");
-		$("#propTbody").append("<tr><td> Times used </td><td>"+ element.times + "</td></tr>");
-		$("#propTbody").append("<tr><td> Unvisited children </td><td>"+ element.numberofUnvisitedChildren + "</td></tr>");
-		$("#propTbody").append("<tr><td> Shot tested </td><td>"+ element.shotTested + "</td></tr>");
-		$("#propTbody").append("<tr><td> Tap Interval </td><td>"+ element.tapInterval + "</td></tr>");
-		$("#propTbody").append("<tr><td> Aim Type </td><td>"+ element.aim.type + "</td></tr>");
-		$("#propTbody").append("<tr><td> Closest pig </td><td>"+ element.distanceOfClosestPig + "</td></tr>");
-		$("#propTbody").append("<tr><td> Visited in last Run </td><td>"+ element.visitedInLastRun + "</td></tr>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Shot Id </div><div class='propValue'> "+ element.shotId + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Origin State Id </div><div class='propValue'> "+ element.originStateId + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Target Y </div><div class='propValue'> "+ element.target.x + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Target Y </div><div class='propValue'> "+ element.target.y + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Release Y </div><div class='propValue'> "+ element.releasePoint.x + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Release Y </div><div class='propValue'> "+ element.releasePoint.y + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Bird Index </div><div class='propValue'> "+ element.birdIndex + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Bird Type </div><div class='propValue'> "+ element.birdType + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Shot tested </div><div class='propValue'> "+ element.shotTested + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Times used </div><div class='propValue'> "+ element.times + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.visitedInLastRun + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.numberofUnvisitedChildren + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Aim Type </div><div class='propValue'> "+ element.aim.type + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Closest pig </div><div class='propValue'> "+ element.distanceOfClosestPig + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Tap Interval </div><div class='propValue'> "+ element.tapInterval + " </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+	}
+	removeFocusSubTree();
+	if(lastElementClicked != element){
+		putFocusSubTree(element);
+		lastElementClicked = element;
+	}else{
+		lastElementClicked = undefined;
 	}
 };
+function removeFocusSubTree(  ){
+	for( var i = 0; i < elementsWithFocus.length; i++ ){
+		elementsWithFocus[i].attr("style", "");
+	}
+	elementsWithFocus = [];
+}
+function putFocusSubTree(element){
+	var children = element.possibleStates || element.possibleShots;
+	if( children != undefined ){
+		for( var i = 0; i < children.length; i++ ){
+			putFocusSubTree( children[i] );
+		}
+	}
+	element.svgElement.attr("style", "stroke-width: 3; stroke: green;");
+	elementsWithFocus.push(element.svgElement);
+	if( element.svgLine != undefined ){
+		element.svgLine.attr("style", "stroke-width: 3; stroke: green;");
+		elementsWithFocus.push(element.svgLine);
+	}
+}
 function generateGrapth(){
-	var propWidth = 300;
 	var bodyWidth = $("body").outerWidth();
-	var space = 44;
-	var svgWidth = bodyWidth - propWidth - space;
+	var space = 22;
+	var svgWidth = bodyWidth - space;
 	$("#graphDiv").show();
 	$("#prop").show();
-	$("h2").show();
 	var height = $(window).height() - $("#graphDiv").position().top - space;
-	$("#graphDiv").css("width", svgWidth + "px");
+	$("#graphDiv").css("width", "100%");
 	$("#graph").attr("width", ( svgWidth - 20 ) );
 	$("#graph").css("width", ( svgWidth - 20 ) + "px");
-	$("#prop").css("width", propWidth + "px");
-	$("#graphDiv").css("height", height + "px");
+	$("#graphDiv").css("height", (height - 200) + "px");
 	$("#graph").attr("height", ( height - 22 ) );
 	$("#graph").css("height", ( height - 22 ) + "px" );
-	$("#prop").css("height", height + "px");
 	var shotsArray = $("#shotsTextArea").val().split(/\r\n|\n|\r/);
 	var statesArray = $("#statesTextArea").val().split(/\r\n|\n|\r/);
 	for( var i = 0; i < shotsArray.length; i++ ){
@@ -345,6 +382,7 @@ function drawConnections( elements ){
 			line.css("stroke", "orange");
 		}
 		g.append(line);
+		elements[i].svgLine = line;
 	}
 	$("#graph").append(g);
 }
@@ -402,7 +440,6 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 			}
 			var id = elements[i].stateId;
 			circle.bind("click", function(stateId){
-				putFocus( statesMap[stateId], 1 );
 				showProperties( statesMap[stateId], 1 );
 			}.bind(this, id));
 		}else{
@@ -431,7 +468,6 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 			}
 			var id = elements[i].shotId;
 			circle.bind("click", function(shotId){
-				putFocus( shotsMap[shotId], 2 );
 				showProperties( shotsMap[shotId], 2 );
 			}.bind(this, id));
 		}
