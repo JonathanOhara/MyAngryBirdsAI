@@ -1,0 +1,602 @@
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.findPossibleShots()
+Number of Possible shots: 31 calculated in: 98411 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 297.0 dx: -603 dy: 267 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 30290 
+Total Score: 30290
+
+-------------------- Times in this level: 1 of 31--------------------
+
+ In state:   LOADING Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 297.0 dx: -177 dy: 636 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9997434713144548
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 30290 
+Total Score: 30290
+
+-------------------- Times in this level: 2 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 538.0 y: 309.0 dx: -611 dy: 247 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9997434713144548
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 3 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 548.0 y: 309.0 dx: -609 dy: 252 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 5
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 4 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 287.0 dx: -591 dy: 292 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.000252416449858
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 6
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 5 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 287.0 dx: -179 dy: 635 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0000580197782543
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 7
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 6 of 31--------------------
+
+ In state:   LOADING Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 307.0 dx: -611 dy: 248 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0000580197782543
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 8
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 7 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 307.0 dx: -174 dy: 636 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9990566780057765
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 9
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 8 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 528.0 y: 309.0 dx: -613 dy: 243 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 10
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 9 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 528.0 y: 309.0 dx: -172 dy: 637 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9992868303803798
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 11
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 10 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 277.0 dx: -581 dy: 311 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 12
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 11 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 277.0 dx: -181 dy: 634 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.999498406498405
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 13
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 12 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 518.0 y: 309.0 dx: -614 dy: 239 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 14
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 13 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 519.0 y: 315.0 dx: -621 dy: 222 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.999498406498405
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 15
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 14 of 31--------------------
+
+ In state:   LOADING Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 267.0 dx: -572 dy: 329 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 16
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 15 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 267.0 dx: -183 dy: 634 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9995738090762377
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 17
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 16 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 18
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 17 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 257.0 dx: -562 dy: 345 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0066719386641105
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 19
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 18 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 531.0 y: 257.0 dx: -185 dy: 633 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0001106604140124
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 20
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 19 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 544.0 y: 252.0 dx: -554 dy: 357 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0057776637578504
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 21
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 20 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 534.0 y: 252.0 dx: -556 dy: 355 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 22
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 21 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 534.0 y: 252.0 dx: -189 dy: 632 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0003044973450688
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 23
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 22 of 31--------------------
+
+ In state:   LOADING Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 554.0 y: 252.0 dx: -553 dy: 359 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.994050708858409
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 24
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 23 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 519.0 y: 335.0 dx: -634 dy: 181 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.994050708858409
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 25
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 24 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 519.0 y: 345.0 dx: -641 dy: 154 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 26
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 25 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 541.0 y: 240.0 dx: -542 dy: 376 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 0.9948340170670356
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 27
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 85095 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 546.0 y: 291.0 dx: -590 dy: 294 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 28
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 26 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 541.0 y: 240.0 dx: -196 dy: 630 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0012037216665344
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 29
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 27 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 519.0 y: 355.0 dx: -646 dy: 134 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0012037216665344
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 30
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 31 calculated in: 85329 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 531.0 y: 297.0 dx: -602 dy: 269 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0012037216665344
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 31
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 28 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 544.0 y: 226.0 dx: -524 dy: 400 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0081510218182301
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 32
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 29 calculated in: 83057 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 531.0 y: 297.0 dx: -603 dy: 266 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 33
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 29 of 31--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 544.0 y: 226.0 dx: -202 dy: 628 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0016572143561902
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 34
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 86414 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 530.0 y: 297.0 dx: -602 dy: 268 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 35
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 30 of 31--------------------
+
+ In state:   LOADING Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 490.0 y: 355.0 dx: -652 dy: 96 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0016572143561902
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 36
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 33 calculated in: 89381 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 531.0 y: 297.0 dx: -602 dy: 269 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 37
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+Total Score: 32830
+
+-------------------- Times in this level: 31 of 31--------------------
+
+Changing Level 2/4/2015 - 8:43:42
