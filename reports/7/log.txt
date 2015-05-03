@@ -1,0 +1,3622 @@
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 185457 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 559.0 y: 271.0 dx: -448 dy: 335 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0054522315446524
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 47 calculated in: 180751 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 588.0 y: 299.0 dx: -238 dy: 506 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0078395046503923
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 167043 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 578.0 y: 310.0 dx: -481 dy: 285 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 29320 
+Total Score: 299260
+
+-------------------- Times in this level: 0 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 559.0 y: 271.0 dx: -231 dy: 509 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0076382580419094
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 5
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 170989 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 589.0 y: 286.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0037059012055904
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 6
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 171781 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 575.0 y: 294.0 dx: -234 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007756437717042
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 7
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 48 calculated in: 160874 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 590.0 y: 297.0 dx: -239 dy: 506 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0076508090321035
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 8
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 151428 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 1 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 569.0 y: 271.0 dx: -444 dy: 340 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0078233714889386
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 9
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 45 calculated in: 161329 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 572.0 y: 286.0 dx: -233 dy: 509 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0075792041219573
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 10
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 159150 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 584.0 y: 286.0 dx: -456 dy: 323 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0122470450456011
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 11
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 2 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 569.0 y: 271.0 dx: -236 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0080003356447627
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 12
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 175718 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 589.0 y: 286.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005806219220466
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 13
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 189021 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 286.0 dx: -457 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074715215373162
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 14
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 166472 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 585.0 y: 281.0 dx: -243 dy: 504 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0080199755387056
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 15
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 151997 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 3 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 559.0 y: 281.0 dx: -460 dy: 319 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.007337753774979
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 16
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 42 calculated in: 184639 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 584.0 y: 277.0 dx: -446 dy: 338 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0097368586354722
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 17
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 164974 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 591.0 y: 286.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0049741666383598
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 18
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 164722 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 613.0 y: 307.0 dx: -464 dy: 312 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 19
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 4 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 559.0 y: 281.0 dx: -226 dy: 512 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0072704997235615
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 20
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 168374 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 581.0 y: 286.0 dx: -458 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132906390616672
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 21
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 167557 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 590.0 y: 286.0 dx: -456 dy: 323 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0021414121783256
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 22
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 52 calculated in: 180210 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 564.0 y: 294.0 dx: -470 dy: 304 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 23
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 5 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 569.0 y: 286.0 dx: -461 dy: 317 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0123257966230539
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 24
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 173341 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 580.0 y: 299.0 dx: -230 dy: 510 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007411209291034
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 25
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 171775 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 581.0 y: 286.0 dx: -458 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0141653124865317
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 26
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 157734 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 598.0 y: 279.0 dx: -445 dy: 339 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 27
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 6 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 287.0 dx: -466 dy: 309 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0107597244267426
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 28
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 172753 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 579.0 y: 286.0 dx: -460 dy: 319 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0062073760769306
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 29
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 170795 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 286.0 dx: -457 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0123956722271776
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 30
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 161175 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 581.0 y: 298.0 dx: -231 dy: 509 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 31
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 7 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 287.0 dx: -222 dy: 514 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007202773550798
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 32
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 168589 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 568.0 y: 310.0 dx: -485 dy: 279 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0042246892156068
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 33
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 176453 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 299.0 dx: -469 dy: 304 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0100449367044027
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 34
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 145235 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 612.0 y: 306.0 dx: -466 dy: 310 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 35
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 8 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 570.0 y: 282.0 dx: -235 dy: 508 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.007922821810716
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 36
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 181773 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 589.0 y: 286.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.999234953294873
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 37
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 189773 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 572.0 y: 296.0 dx: -234 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007480926845223
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 38
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 49 calculated in: 157915 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 611.0 y: 296.0 dx: -259 dy: 496 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0077673300976726
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 39
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 9 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 278.0 dx: -248 dy: 502 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0086158099683686
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 40
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 173429 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 591.0 y: 286.0 dx: -453 dy: 328 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0037225884992251
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 41
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 172363 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 572.0 y: 296.0 dx: -231 dy: 509 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.00734436861382
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 42
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 10 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -476 dy: 294 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9992710832003802
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 43
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 175174 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 569.0 y: 307.0 dx: -227 dy: 511 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007066462056236
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 44
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 168228 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 570.0 y: 307.0 dx: -481 dy: 285 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0142532852790955
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 45
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 161795 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 577.0 y: 309.0 dx: -483 dy: 282 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 46
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 11 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0065513532819723
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 47
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 170889 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 585.0 y: 278.0 dx: -446 dy: 338 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0040941112110138
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 48
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 48 calculated in: 175727 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 600.0 y: 277.0 dx: -265 dy: 493 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0081742220252623
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 49
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 168739 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 572.0 y: 286.0 dx: -461 dy: 316 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0061211947732591
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 50
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+Number of Possible shots: 37 calculated in: 145055 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 12 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 268.0 dx: -434 dy: 353 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0047400394613124
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 51
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 169718 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 554.0 y: 270.0 dx: -449 dy: 334 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.00841053742198
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 52
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 28 calculated in: 151647 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 593.0 y: 285.0 dx: -451 dy: 331 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 53
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 13 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 268.0 dx: -254 dy: 498 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0075931924257757
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 54
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 163620 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 579.0 y: 286.0 dx: -458 dy: 321 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0055570606657491
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 55
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 34 calculated in: 164666 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 286.0 dx: -457 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0099922019738266
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 56
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 167989 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 643.0 y: 269.0 dx: -396 dy: 395 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0018308355075276
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 57
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 152443 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 14 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 258.0 dx: -420 dy: 369 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9990328919030647
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 58
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 162306 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 560.0 y: 272.0 dx: -446 dy: 337 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0045305251911607
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 59
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 139816 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 611.0 y: 298.0 dx: -261 dy: 495 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0072264154472148
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 60
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 33 calculated in: 148636 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 617.0 y: 297.0 dx: -265 dy: 492 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 61
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 15 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 258.0 dx: -262 dy: 494 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0079118963975866
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 62
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 160755 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 558.0 y: 272.0 dx: -451 dy: 331 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.006781401881358
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 63
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 163124 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 583.0 y: 285.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.014129250326492
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 64
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 154714 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 579.0 y: 297.0 dx: -229 dy: 510 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0070022660779188
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 65
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 154802 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 16 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 586.0 y: 256.0 dx: -417 dy: 373 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0006598358748091
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 66
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 47 calculated in: 179744 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 560.0 y: 271.0 dx: -446 dy: 338 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0053019785178772
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 67
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 166863 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 581.0 y: 299.0 dx: -470 dy: 304 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0078490288815196
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 68
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 158112 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 582.0 y: 308.0 dx: -478 dy: 290 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 69
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 17 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 586.0 y: 256.0 dx: -265 dy: 493 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0076828721436824
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 70
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 175417 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 577.0 y: 310.0 dx: -482 dy: 284 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0026396667171125
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 71
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 177447 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 579.0 y: 308.0 dx: -478 dy: 291 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0134267734058904
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 72
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 154128 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 595.0 y: 308.0 dx: -476 dy: 294 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 73
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 18 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 307.0 dx: -485 dy: 279 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0083814525595556
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 74
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 176836 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 568.0 y: 299.0 dx: -475 dy: 295 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0106837806150029
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 75
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 165698 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 578.0 y: 309.0 dx: -482 dy: 284 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0085640997681256
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 76
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 28 calculated in: 148105 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 568.0 y: 309.0 dx: -219 dy: 515 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0063564837256054
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 77
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.144420699125407
+velocity 2.640214576965827
+distance 4.412026332928223
+velocity 2.640214576965827
+distance 4.693716473773294
+velocity 2.640214576965827
+distance 4.975406614618364
+velocity 2.640214576965827
+distance 5.243012248421181
+velocity 2.640214576965827
+distance 3.932080019717919
+velocity 1.083284592602991
+distance 4.199685653520736
+velocity 1.083284592602991
+distance 4.481375794365806
+velocity 1.083284592602991
+distance 4.763065935210877
+velocity 1.083284592602991
+distance 5.030671569013694
+velocity 1.083284592602991
+distance 4.150440238136607
+velocity 2.709667357771518
+distance 4.418045871939424
+velocity 2.709667357771518
+distance 4.699736012784494
+velocity 2.709667357771518
+distance 4.981426153629565
+velocity 2.709667357771518
+distance 5.249031787432382
+velocity 2.709667357771518
+distance 3.9291393603556495
+velocity 1.063050025930998
+distance 4.1967449941584665
+velocity 1.063050025930998
+distance 4.4784351350035365
+velocity 1.063050025930998
+distance 4.7601252758486075
+velocity 1.063050025930998
+distance 5.027730909651424
+velocity 1.063050025930998
+distance 4.15444792792201
+velocity 2.7385649821326763
+distance 4.422053561724827
+velocity 2.7385649821326763
+distance 4.703743702569897
+velocity 2.7385649821326763
+distance 4.985433843414968
+velocity 2.7385649821326763
+distance 5.253039477217785
+velocity 2.7385649821326763
+distance 4.680788176290781
+velocity 1.4917183753076115
+distance 5.004731838262612
+velocity 1.4917183753076115
+distance 5.328675500234443
+velocity 1.4917183753076115
+distance 5.652619162206274
+velocity 1.4917183753076115
+distance 5.976562824178105
+velocity 1.4917183753076115
+distance 4.9029739700869435
+velocity 2.1859945752995347
+distance 5.2410021391010275
+velocity 2.1859945752995347
+distance 5.5649458010728585
+velocity 2.1859945752995347
+distance 5.9029739700869435
+velocity 2.1859945752995347
+distance 6.2410021391010275
+velocity 2.1859945752995347
+distance 4.822202010283613
+velocity 1.5929156406189935
+distance 5.160230179297697
+velocity 1.5929156406189935
+distance 5.484173841269528
+velocity 1.5929156406189935
+distance 5.822202010283613
+velocity 1.5929156406189935
+distance 6.160230179297697
+velocity 1.5929156406189935
+distance 4.336717837361279
+velocity 2.3720072517021067
+distance 4.632492485248603
+velocity 2.3720072517021067
+distance 4.914182626093673
+velocity 2.3720072517021067
+distance 5.209957273980997
+velocity 2.3720072517021067
+distance 5.505731921868321
+velocity 2.3720072517021067
+distance 4.18067369296119
+velocity 1.2454816750984807
+distance 4.476448340848514
+velocity 1.2454816750984807
+distance 4.758138481693585
+velocity 1.2454816750984807
+distance 5.053913129580909
+velocity 1.2454816750984807
+distance 5.349687777468233
+velocity 1.2454816750984807
+distance 4.43226744470256
+velocity 2.3505783056389538
+distance 4.728042092589884
+velocity 2.3505783056389538
+distance 5.023816740477208
+velocity 2.3505783056389538
+distance 5.333675895406785
+velocity 2.3505783056389538
+distance 5.629450543294109
+velocity 2.3505783056389538
+distance 4.285518079197437
+velocity 1.2885858686260299
+distance 4.581292727084761
+velocity 1.2885858686260299
+distance 4.877067374972085
+velocity 1.2885858686260299
+distance 5.186926529901662
+velocity 1.2885858686260299
+distance 5.482701177788986
+velocity 1.2885858686260299
+distance 4.527991402390197
+velocity 2.3303775697862683
+distance 4.837850557319774
+velocity 2.3303775697862683
+distance 5.133625205207098
+velocity 2.3303775697862683
+distance 5.443484360136676
+velocity 2.3303775697862683
+distance 5.753343515066253
+velocity 2.3303775697862683
+distance 4.392885298535057
+velocity 1.3490813178787189
+distance 4.702744453464635
+velocity 1.3490813178787189
+distance 4.998519101351959
+velocity 1.3490813178787189
+distance 5.308378256281536
+velocity 1.3490813178787189
+distance 5.618237411211114
+velocity 1.3490813178787189
+distance 4.622167407675603
+velocity 2.2992722903781937
+distance 4.93202656260518
+velocity 2.2992722903781937
+distance 5.241885717534757
+velocity 2.2992722903781937
+distance 5.565829379506588
+velocity 2.2992722903781937
+distance 5.875688534436166
+velocity 2.2992722903781937
+distance 4.499240157777143
+velocity 1.4025980203812685
+distance 4.809099312706721
+velocity 1.4025980203812685
+distance 5.118958467636298
+velocity 1.4025980203812685
+distance 5.442902129608129
+velocity 1.4025980203812685
+distance 5.752761284537707
+velocity 1.4025980203812685
+distance 4.344007489742164
+velocity 2.432014028459177
+distance 4.639782137629488
+velocity 2.432014028459177
+distance 4.921472278474559
+velocity 2.432014028459177
+distance 5.217246926361883
+velocity 2.432014028459177
+distance 5.513021574249207
+velocity 2.432014028459177
+distance 4.179245734957567
+velocity 1.2333831729053208
+distance 4.475020382844891
+velocity 1.2333831729053208
+distance 4.756710523689961
+velocity 1.2333831729053208
+distance 5.052485171577285
+velocity 1.2333831729053208
+distance 5.348259819464609
+velocity 1.2333831729053208
+distance 4.15376611093061
+velocity 2.6063769666084484
+distance 4.43545625177568
+velocity 2.6063769666084484
+distance 4.717146392620751
+velocity 2.6063769666084484
+distance 4.984752026423568
+velocity 2.6063769666084484
+distance 5.266442167268638
+velocity 2.6063769666084484
+distance 3.9488470582398767
+velocity 1.1017429910058303
+distance 4.230537199084947
+velocity 1.1017429910058303
+distance 4.512227339930018
+velocity 1.1017429910058303
+distance 4.779832973732835
+velocity 1.1017429910058303
+distance 5.061523114577905
+velocity 1.1017429910058303
+distance 4.250371166574241
+velocity 2.5921932047686145
+distance 4.532061307419312
+velocity 2.5921932047686145
+distance 4.827835955306636
+velocity 2.5921932047686145
+distance 5.109526096151706
+velocity 2.5921932047686145
+distance 5.391216236996777
+velocity 2.5921932047686145
+distance 4.052413050737486
+velocity 1.1359719479244912
+distance 4.334103191582557
+velocity 1.1359719479244912
+distance 4.62987783946988
+velocity 1.1359719479244912
+distance 4.911567980314951
+velocity 1.1359719479244912
+distance 5.193258121160021
+velocity 1.1359719479244912
+distance 4.347194955900659
+velocity 2.5795712231336356
+distance 4.642969603787983
+velocity 2.5795712231336356
+distance 4.938744251675307
+velocity 2.5795712231336356
+distance 5.220434392520377
+velocity 2.5795712231336356
+distance 5.516209040407701
+velocity 2.5795712231336356
+distance 4.1565425425917715
+velocity 1.1740783227612497
+distance 4.4523171904790955
+velocity 1.1740783227612497
+distance 4.7480918383664195
+velocity 1.1740783227612497
+distance 5.02978197921149
+velocity 1.1740783227612497
+distance 5.325556627098814
+velocity 1.1740783227612497
+distance 4.443549673857944
+velocity 2.5636000253667564
+distance 4.739324321745268
+velocity 2.5636000253667564
+distance 5.049183476674846
+velocity 2.5636000253667564
+distance 5.344958124562169
+velocity 2.5636000253667564
+distance 5.640732772449493
+velocity 2.5636000253667564
+distance 4.2603046337082
+velocity 1.209656626913973
+distance 4.556079281595524
+velocity 1.209656626913973
+distance 4.865938436525102
+velocity 1.209656626913973
+distance 5.161713084412426
+velocity 1.209656626913973
+distance 5.45748773229975
+velocity 1.209656626913973
+distance 4.540002667879888
+velocity 2.548330528455653
+distance 4.849861822809466
+velocity 2.548330528455653
+distance 5.159720977739043
+velocity 2.548330528455653
+distance 5.455495625626367
+velocity 2.548330528455653
+distance 5.765354780555945
+velocity 2.548330528455653
+distance 4.5808037364877405
+velocity 2.5129201000726225
+distance 4.890662891417318
+velocity 2.5129201000726225
+distance 5.2005220463468955
+velocity 2.5129201000726225
+distance 5.510381201276473
+velocity 2.5129201000726225
+distance 5.8202403562060505
+velocity 2.5129201000726225
+distance 3.9664892301305525
+velocity 2.818780336287131
+distance 4.220010356891116
+velocity 2.818780336287131
+distance 4.487615990693933
+velocity 2.818780336287131
+distance 4.75522162449675
+velocity 2.818780336287131
+distance 5.008742751257313
+velocity 2.818780336287131
+distance 3.7191274920300135
+velocity 0.9729937032655984
+distance 3.972648618790577
+velocity 0.9729937032655984
+distance 4.2402542525933935
+velocity 0.9729937032655984
+distance 4.5078598863962105
+velocity 0.9729937032655984
+distance 4.761381013156774
+velocity 0.9729937032655984
+distance 4.4217264656831405
+velocity 2.2763224275718996
+distance 4.7175011135704645
+velocity 2.2763224275718996
+distance 5.0132757614577885
+velocity 2.2763224275718996
+distance 5.3231349163873665
+velocity 2.2763224275718996
+distance 5.61890956427469
+velocity 2.2763224275718996
+distance 4.29373921590092
+velocity 1.3452586190682718
+distance 4.589513863788244
+velocity 1.3452586190682718
+distance 4.885288511675568
+velocity 1.3452586190682718
+distance 5.195147666605145
+velocity 1.3452586190682718
+distance 5.490922314492469
+velocity 1.3452586190682718
+distance 4.516720599815126
+velocity 2.250980453048774
+distance 4.826579754744703
+velocity 2.250980453048774
+distance 5.122354402632027
+velocity 2.250980453048774
+distance 5.432213557561604
+velocity 2.250980453048774
+distance 5.742072712491182
+velocity 2.250980453048774
+distance 4.39981324579996
+velocity 1.3968394127239858
+distance 4.709672400729537
+velocity 1.3968394127239858
+distance 5.005447048616861
+velocity 1.3968394127239858
+distance 5.315306203546439
+velocity 1.3968394127239858
+distance 5.625165358476016
+velocity 1.3968394127239858
+distance 4.610965406443497
+velocity 2.2124299877966926
+distance 4.920824561373075
+velocity 2.2124299877966926
+distance 5.230683716302652
+velocity 2.2124299877966926
+distance 5.554627378274483
+velocity 2.2124299877966926
+distance 5.864486533204061
+velocity 2.2124299877966926
+distance 4.506901318828429
+velocity 1.4554105551945333
+distance 4.8167604737580065
+velocity 1.4554105551945333
+distance 5.126619628687584
+velocity 1.4554105551945333
+distance 5.450563290659415
+velocity 1.4554105551945333
+distance 5.7604224455889925
+velocity 1.4554105551945333
+distance 4.4302810521647285
+velocity 2.336585172571262
+distance 4.726055700052052
+velocity 2.336585172571262
+distance 5.021830347939376
+velocity 2.336585172571262
+distance 5.331689502868954
+velocity 2.336585172571262
+distance 5.6274641507562775
+velocity 2.336585172571262
+distance 4.739288675294102
+velocity 1.5066526613474804
+distance 5.063232337265933
+velocity 1.5066526613474804
+distance 5.401260506280018
+velocity 1.5066526613474804
+distance 5.725204168251849
+velocity 1.5066526613474804
+distance 6.063232337265933
+velocity 1.5066526613474804
+distance 4.220068754566407
+velocity 1.2235399456651521
+distance 4.515843402453731
+velocity 1.2235399456651521
+distance 4.811618050341055
+velocity 1.2235399456651521
+distance 5.107392698228379
+velocity 1.2235399456651521
+distance 5.403167346115703
+velocity 1.2235399456651521
+distance 4.394561198697103
+velocity 2.490693487014298
+distance 4.690335846584427
+velocity 2.490693487014298
+distance 4.986110494471751
+velocity 2.490693487014298
+distance 5.281885142359075
+velocity 2.490693487014298
+distance 5.577659790246399
+velocity 2.490693487014298
+distance 4.220068754566407
+velocity 1.2235399456651521
+distance 4.515843402453731
+velocity 1.2235399456651521
+distance 4.811618050341055
+velocity 1.2235399456651521
+distance 5.107392698228379
+velocity 1.2235399456651521
+distance 5.403167346115703
+velocity 1.2235399456651521
+distance 3.4079170602245603
+velocity 2.8734355896298722
+distance 3.6332691729006172
+velocity 2.8734355896298722
+distance 3.8445367785344198
+velocity 2.8734355896298722
+distance 4.069888891210476
+velocity 2.8734355896298722
+distance 4.295241003886533
+velocity 2.8734355896298722
+distance 3.1322412966368907
+velocity 0.8115460851550246
+distance 3.357593409312947
+velocity 0.8115460851550246
+distance 3.56886101494675
+velocity 0.8115460851550246
+distance 3.794213127622806
+velocity 0.8115460851550246
+distance 4.019565240298863
+velocity 0.8115460851550246
+distance 3.2351383635291886
+velocity 0.8411180290273289
+distance 3.460490476205245
+velocity 0.8411180290273289
+distance 3.6858425888813016
+velocity 0.8411180290273289
+distance 3.9252792085996115
+velocity 0.8411180290273289
+distance 4.150631321275668
+velocity 0.8411180290273289
+distance 3.254790914198701
+velocity 2.8865935778108986
+distance 3.4660585198325036
+velocity 2.8865935778108986
+distance 3.6773261254663066
+velocity 2.8865935778108986
+distance 3.8885937311001095
+velocity 2.8865935778108986
+distance 4.0998613367339125
+velocity 2.8865935778108986
+distance 3.073746477025917
+velocity 0.7967324154774416
+distance 3.299098589701973
+velocity 0.7967324154774416
+distance 3.510366195335776
+velocity 0.7967324154774416
+distance 3.7357183080118324
+velocity 0.7967324154774416
+distance 3.9469859136456353
+velocity 0.7967324154774416
+distance 3.257673051744894
+velocity 2.9076218969087533
+distance 3.4689406573786967
+velocity 2.9076218969087533
+distance 3.6802082630124997
+velocity 2.9076218969087533
+distance 3.8914758686463022
+velocity 2.9076218969087533
+distance 4.102743474280105
+velocity 2.9076218969087533
+distance 3.282072895622962
+velocity 2.8801217125612655
+distance 3.5074250082990184
+velocity 2.8801217125612655
+distance 3.718692613932821
+velocity 2.8801217125612655
+distance 3.929960219566624
+velocity 2.8801217125612655
+distance 4.141227825200427
+velocity 2.8801217125612655
+distance 3.511959943037951
+velocity 0.904416673856121
+distance 3.751396562756261
+velocity 0.904416673856121
+distance 4.004917689516824
+velocity 0.904416673856121
+distance 4.258438816277388
+velocity 0.904416673856121
+distance 4.497875435995698
+velocity 0.904416673856121
+distance 3.6148106642309523
+velocity 0.933670297715187
+distance 3.8683317909915154
+velocity 0.933670297715187
+distance 4.121852917752079
+velocity 0.933670297715187
+distance 4.375374044512642
+velocity 0.933670297715187
+distance 4.628895171273205
+velocity 0.933670297715187
+distance 4.506480184505079
+velocity 2.4853412600874933
+distance 4.816339339434656
+velocity 2.4853412600874933
+distance 5.11211398732198
+velocity 2.4853412600874933
+distance 5.421973142251558
+velocity 2.4853412600874933
+distance 5.717747790138881
+velocity 2.4853412600874933
+Number of Possible shots: 255 calculated in: 146888 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 19 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 557.0 y: 307.0 dx: -213 dy: 517 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0065156194018803
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 78
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 176135 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 568.0 y: 310.0 dx: -484 dy: 279 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0103308078307982
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 79
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 163161 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 569.0 y: 307.0 dx: -483 dy: 283 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005347706817732
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 80
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 156003 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 580.0 y: 319.0 dx: -488 dy: 273 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 81
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 20 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 558.0 y: 309.0 dx: -213 dy: 517 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0055358829254097
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 82
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 178090 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 568.0 y: 310.0 dx: -484 dy: 280 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0003400749282205
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 83
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 167930 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 568.0 y: 309.0 dx: -482 dy: 284 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074122444147189
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 84
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 166095 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 581.0 y: 319.0 dx: -488 dy: 273 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 85
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 21 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 580.0 y: 282.0 dx: -452 dy: 330 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0091871367389706
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 86
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 179426 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 570.0 y: 286.0 dx: -462 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0073342367063924
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 87
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 45 calculated in: 180779 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 591.0 y: 286.0 dx: -452 dy: 329 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0122409484359864
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 88
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 160478 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 613.0 y: 307.0 dx: -251 dy: 500 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007266247232554
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 89
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 22 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 586.0 y: 246.0 dx: -402 dy: 388 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0079640490941302
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 90
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 175675 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 272.0 dx: -450 dy: 332 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.007724336394035
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 91
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 170369 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 591.0 y: 286.0 dx: -452 dy: 329 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0057152244944714
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 92
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 172287 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 572.0 y: 295.0 dx: -230 dy: 510 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007151592622701
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 93
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 149573 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 23 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 241.0 dx: -395 dy: 396 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0080912013494163
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 94
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 42 calculated in: 179352 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 271.0 dx: -449 dy: 333 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0115045969296437
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 95
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 29 calculated in: 169675 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 591.0 y: 286.0 dx: -455 dy: 325 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0124391065501714
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 96
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 27 calculated in: 157730 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 581.0 y: 299.0 dx: -231 dy: 509 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 97
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 24 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 585.0 y: 241.0 dx: -279 dy: 485 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0094956460861226
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 98
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 171314 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 553.0 y: 280.0 dx: -462 dy: 315 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0033165594498574
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 99
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 168723 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 579.0 y: 286.0 dx: -457 dy: 323 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0084660091346884
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 100
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 34 calculated in: 168069 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 591.0 y: 286.0 dx: -453 dy: 328 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 101
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 25 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 558.0 y: 319.0 dx: -495 dy: 261 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0119230190208892
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 102
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 174270 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 580.0 y: 299.0 dx: -472 dy: 299 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0092902136617083
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 103
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 179985 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 579.0 y: 299.0 dx: -472 dy: 300 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0090756273155848
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 104
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 162957 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 581.0 y: 298.0 dx: -470 dy: 303 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 105
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 26 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 558.0 y: 319.0 dx: -210 dy: 518 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0056689977685864
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 106
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 167493 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 568.0 y: 308.0 dx: -483 dy: 283 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0020089299539785
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 107
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 169389 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 27 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 606.0 y: 246.0 dx: -377 dy: 413 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0033740740084438
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 108
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 42 calculated in: 179968 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 552.0 y: 283.0 dx: -463 dy: 314 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.006013182167606
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 109
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 181180 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 573.0 y: 295.0 dx: -231 dy: 510 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0076855815518553
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 110
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 155601 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 578.0 y: 308.0 dx: -480 dy: 288 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 111
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 28 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 601.0 y: 240.0 dx: -370 dy: 420 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0067168099175878
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 112
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 182816 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 272.0 dx: -450 dy: 332 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0071662738696523
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 113
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 44 calculated in: 177822 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 590.0 y: 286.0 dx: -453 dy: 329 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9987496725625441
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 114
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 163086 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 582.0 y: 286.0 dx: -452 dy: 329 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 115
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 29 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 601.0 y: 240.0 dx: -308 dy: 467 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.009725644823129
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 116
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 33 calculated in: 184853 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 272.0 dx: -451 dy: 331 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0092346292871968
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 117
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 183430 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 581.0 y: 297.0 dx: -234 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0077261656488639
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 118
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 163750 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 640.0 y: 272.0 dx: -402 dy: 389 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0079715246184653
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 119
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 145000 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 30 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 590.0 y: 282.0 dx: -447 dy: 336 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0096144527677926
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 120
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 33 calculated in: 172799 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 592.0 y: 286.0 dx: -453 dy: 328 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0091795064003937
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 121
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 164315 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 592.0 y: 285.0 dx: -452 dy: 330 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0077617056610997
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 122
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 33090 
+Total Score: 303030
+
+-------------------- Times in this level: 31 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 590.0 y: 282.0 dx: -250 dy: 500 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0082676599945917
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 123
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 175558 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 644.0 y: 270.0 dx: -394 dy: 397 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.010410686963089
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 124
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 30 calculated in: 155486 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 592.0 y: 286.0 dx: -453 dy: 328 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0037405334641385
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 125
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 151273 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 583.0 y: 286.0 dx: -454 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 126
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 32 of 41--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 608.0 y: 241.0 dx: -357 dy: 431 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0058224694870095
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 127
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 190124 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 271.0 dx: -448 dy: 334 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0090969538056238
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 128
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 39 calculated in: 179903 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 590.0 y: 286.0 dx: -455 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0118606420288754
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 129
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 30 calculated in: 173999 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 642.0 y: 270.0 dx: -319 dy: 460 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0116155986561048
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 130
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 156604 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 33 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 555.0 y: 321.0 dx: -497 dy: 256 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0120058905420675
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 131
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 45860 
+Total Score: 315800
+
+-------------------- Times in this level: 34 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 555.0 y: 321.0 dx: -207 dy: 519 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0057280671955495
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 132
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 40 calculated in: 176647 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 299.0 dx: -472 dy: 301 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.006660539685246
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 133
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 185104 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 299.0 dx: -470 dy: 303 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0092425147516162
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 134
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 138365 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 589.0 y: 304.0 dx: -473 dy: 299 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0143246061266755
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 135
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 45860 
+Total Score: 315800
+
+-------------------- Times in this level: 35 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0157672443742256
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 136
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+ Level 6 Score: 36090 
+ Level 7 Score: 45880 
+Total Score: 315820
+
+-------------------- Times in this level: 36 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -206 dy: 520 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.005863840401468
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 137
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 187776 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 560.0 y: 271.0 dx: -448 dy: 335 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0088327634671175
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 138
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 173023 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 37 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 556.0 y: 337.0 dx: -511 dy: 227 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0088327634671175
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 139
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 37 calculated in: 173308 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 579.0 y: 285.0 dx: -458 dy: 321 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0131867164236723
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 140
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 30 calculated in: 165856 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 567.0 y: 310.0 dx: -487 dy: 275 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.001003600441247
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 141
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+Number of Possible shots: 42 calculated in: 171849 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 569.0 y: 298.0 dx: -471 dy: 301 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.008462150324688
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 142
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.144420699125407
+velocity 2.645738873513852
+distance 4.426110839970477
+velocity 2.645738873513852
+distance 4.707800980815547
+velocity 2.645738873513852
+distance 4.975406614618364
+velocity 2.645738873513852
+distance 5.257096755463435
+velocity 2.645738873513852
+distance 3.9318391072470615
+velocity 1.0838900427967253
+distance 4.213529248092132
+velocity 1.0838900427967253
+distance 4.495219388937202
+velocity 1.0838900427967253
+distance 4.762825022740019
+velocity 1.0838900427967253
+distance 5.044515163585089
+velocity 1.0838900427967253
+distance 4.150440238136607
+velocity 2.7153369749918106
+distance 4.432130378981677
+velocity 2.7153369749918106
+distance 4.713820519826748
+velocity 2.7153369749918106
+distance 4.981426153629565
+velocity 2.7153369749918106
+distance 5.263116294474635
+velocity 2.7153369749918106
+distance 4.15444792792201
+velocity 2.744295063774269
+distance 4.436138068767081
+velocity 2.744295063774269
+distance 4.717828209612151
+velocity 2.744295063774269
+distance 4.985433843414968
+velocity 2.744295063774269
+distance 5.267123984260038
+velocity 2.744295063774269
+distance 4.36239568352174
+velocity 2.3593846202957147
+distance 4.658170331409064
+velocity 2.3593846202957147
+distance 4.953944979296388
+velocity 2.3593846202957147
+distance 5.249719627183712
+velocity 2.3593846202957147
+distance 5.545494275071036
+velocity 2.3593846202957147
+distance 4.210842673846169
+velocity 1.2619033813568448
+distance 4.506617321733493
+velocity 1.2619033813568448
+distance 4.802391969620817
+velocity 1.2619033813568448
+distance 5.098166617508141
+velocity 1.2619033813568448
+distance 5.393941265395465
+velocity 1.2619033813568448
+distance 4.458130983487408
+velocity 2.3392216849065903
+distance 4.753905631374732
+velocity 2.3392216849065903
+distance 5.063764786304309
+velocity 2.3392216849065903
+distance 5.359539434191633
+velocity 2.3392216849065903
+distance 5.669398589121211
+velocity 2.3392216849065903
+distance 4.315944686722881
+velocity 1.306877440658579
+distance 4.611719334610205
+velocity 1.306877440658579
+distance 4.921578489539783
+velocity 1.306877440658579
+distance 5.217353137427107
+velocity 1.306877440658579
+distance 5.527212292356684
+velocity 1.306877440658579
+distance 4.5526478938353225
+velocity 2.3104578508205056
+distance 4.8625070487649005
+velocity 2.3104578508205056
+distance 5.1723662036944775
+velocity 2.3104578508205056
+distance 5.4822253586240555
+velocity 2.3104578508205056
+distance 5.7920845135536325
+velocity 2.3104578508205056
+distance 4.423286111938293
+velocity 1.3673212836507747
+distance 4.733145266867871
+velocity 1.3673212836507747
+distance 5.043004421797448
+velocity 1.3673212836507747
+distance 5.352863576727026
+velocity 1.3673212836507747
+distance 5.662722731656603
+velocity 1.3673212836507747
+distance 4.647669950304277
+velocity 2.28525996193858
+distance 4.957529105233855
+velocity 2.28525996193858
+distance 5.281472767205686
+velocity 2.28525996193858
+distance 5.591331922135263
+velocity 2.28525996193858
+distance 5.915275584107094
+velocity 2.28525996193858
+distance 4.529617310171046
+velocity 1.4207865132675082
+distance 4.839476465100623
+velocity 1.4207865132675082
+distance 5.163420127072454
+velocity 1.4207865132675082
+distance 5.473279282002031
+velocity 1.4207865132675082
+distance 5.797222943973862
+velocity 1.4207865132675082
+distance 4.36982425182139
+velocity 2.420438289417753
+distance 4.665598899708714
+velocity 2.420438289417753
+distance 4.961373547596038
+velocity 2.420438289417753
+distance 5.257148195483362
+velocity 2.420438289417753
+distance 5.552922843370686
+velocity 2.420438289417753
+distance 4.206834375794861
+velocity 1.2319619800981507
+distance 4.502609023682185
+velocity 1.2319619800981507
+distance 4.798383671569509
+velocity 1.2319619800981507
+distance 5.094158319456833
+velocity 1.2319619800981507
+distance 5.389932967344157
+velocity 1.2319619800981507
+distance 4.141682633491551
+velocity 2.6261479072380127
+distance 4.409288267294368
+velocity 2.6261479072380127
+distance 4.690978408139438
+velocity 2.6261479072380127
+distance 4.972668548984509
+velocity 2.6261479072380127
+distance 5.240274182787325
+velocity 2.6261479072380127
+distance 3.932691426236553
+velocity 1.089767089023915
+distance 4.20029706003937
+velocity 1.089767089023915
+distance 4.48198720088444
+velocity 1.089767089023915
+distance 4.763677341729511
+velocity 1.089767089023915
+distance 5.031282975532328
+velocity 1.089767089023915
+distance 4.448107263357545
+velocity 2.268461888411688
+distance 4.743881911244869
+velocity 2.268461888411688
+distance 5.053741066174446
+velocity 2.268461888411688
+distance 5.34951571406177
+velocity 2.268461888411688
+distance 5.659374868991348
+velocity 2.268461888411688
+distance 4.32330305696875
+velocity 1.3577088101436623
+distance 4.619077704856074
+velocity 1.3577088101436623
+distance 4.928936859785652
+velocity 1.3577088101436623
+distance 5.224711507672976
+velocity 1.3577088101436623
+distance 5.534570662602553
+velocity 1.3577088101436623
+distance 4.543340440068901
+velocity 2.244754346945177
+distance 4.853199594998479
+velocity 2.244754346945177
+distance 5.163058749928056
+velocity 2.244754346945177
+distance 5.472917904857634
+velocity 2.244754346945177
+distance 5.782777059787211
+velocity 2.244754346945177
+distance 4.430191552157026
+velocity 1.4150238280304304
+distance 4.740050707086603
+velocity 1.4150238280304304
+distance 5.049909862016181
+velocity 1.4150238280304304
+distance 5.359769016945758
+velocity 1.4150238280304304
+distance 5.669628171875336
+velocity 1.4150238280304304
+distance 4.63692726152638
+velocity 2.201533993916412
+distance 4.946786416455957
+velocity 2.201533993916412
+distance 5.270730078427788
+velocity 2.201533993916412
+distance 5.580589233357366
+velocity 2.201533993916412
+distance 5.904532895329197
+velocity 2.201533993916412
+distance 4.5345432819085625
+velocity 1.454814957215862
+distance 4.8444024368381395
+velocity 1.454814957215862
+distance 5.1683460988099705
+velocity 1.454814957215862
+distance 5.4782052537395485
+velocity 1.454814957215862
+distance 5.8021489157113795
+velocity 1.454814957215862
+distance 4.66012154784495
+velocity 2.3731587157544887
+distance 4.969980702774527
+velocity 2.3731587157544887
+distance 5.293924364746358
+velocity 2.3731587157544887
+distance 5.603783519675935
+velocity 2.3731587157544887
+distance 5.927727181647766
+velocity 2.3731587157544887
+distance 4.375077830054104
+velocity 2.457656983898016
+distance 4.670852477941428
+velocity 2.457656983898016
+distance 4.966627125828751
+velocity 2.457656983898016
+distance 5.262401773716075
+velocity 2.457656983898016
+distance 5.558176421603399
+velocity 2.457656983898016
+distance 4.206565440840344
+velocity 1.2301075767828522
+distance 4.502340088727668
+velocity 1.2301075767828522
+distance 4.798114736614992
+velocity 1.2301075767828522
+distance 5.093889384502316
+velocity 1.2301075767828522
+distance 5.38966403238964
+velocity 1.2301075767828522
+distance 4.381689281089263
+velocity 2.504495455744993
+distance 4.677463928976587
+velocity 2.504495455744993
+distance 4.973238576863911
+velocity 2.504495455744993
+distance 5.269013224751235
+velocity 2.504495455744993
+distance 5.564787872638559
+velocity 2.504495455744993
+distance 4.161859533012874
+velocity 2.568964016193186
+distance 4.443549673857944
+velocity 2.568964016193186
+distance 4.725239814703015
+velocity 2.568964016193186
+distance 5.006929955548085
+velocity 2.568964016193186
+distance 5.288620096393155
+velocity 2.568964016193186
+distance 3.9658486153052515
+velocity 1.1241623510476946
+distance 4.2475387561503215
+velocity 1.1241623510476946
+distance 4.529228896995392
+velocity 1.1241623510476946
+distance 4.8109190378404625
+velocity 1.1241623510476946
+distance 5.092609178685533
+velocity 1.1241623510476946
+distance 4.258312527034818
+velocity 2.553662569898191
+distance 4.554087174922142
+velocity 2.553662569898191
+distance 4.835777315767212
+velocity 2.553662569898191
+distance 5.117467456612283
+velocity 2.553662569898191
+distance 5.413242104499607
+velocity 2.553662569898191
+distance 4.069996269032487
+velocity 1.1624736910382067
+distance 4.36577091691981
+velocity 1.1624736910382067
+distance 4.647461057764881
+velocity 1.1624736910382067
+distance 4.929151198609951
+velocity 1.1624736910382067
+distance 5.224925846497275
+velocity 1.1624736910382067
+distance 4.286481541119325
+velocity 2.553662569898191
+distance 4.568171681964395
+velocity 2.553662569898191
+distance 4.863946329851719
+velocity 2.553662569898191
+distance 5.14563647069679
+velocity 2.553662569898191
+distance 5.441411118584114
+velocity 2.553662569898191
+distance 4.099017307037521
+velocity 1.1683487026586759
+distance 4.380707447882592
+velocity 1.1683487026586759
+distance 4.676482095769915
+velocity 1.1683487026586759
+distance 4.958172236614986
+velocity 1.1683487026586759
+distance 5.25394688450231
+velocity 1.1683487026586759
+distance 3.7671388778159587
+velocity 2.8089419857301245
+distance 4.006575497534269
+velocity 2.8089419857301245
+distance 4.260096624294832
+velocity 2.8089419857301245
+distance 4.513617751055396
+velocity 2.8089419857301245
+distance 4.753054370773705
+velocity 2.8089419857301245
+distance 3.5149416671303273
+velocity 0.9268315189598434
+distance 3.754378286848637
+velocity 0.9268315189598434
+distance 4.0078994136092
+velocity 0.9268315189598434
+distance 4.261420540369763
+velocity 0.9268315189598434
+distance 4.500857160088073
+velocity 0.9268315189598434
+distance 3.8645560332660334
+velocity 2.800414797180792
+distance 4.118077160026597
+velocity 2.800414797180792
+distance 4.37159828678716
+velocity 2.800414797180792
+distance 4.625119413547724
+velocity 2.800414797180792
+distance 4.878640540308287
+velocity 2.800414797180792
+distance 3.617785211365
+velocity 0.9560969548817332
+distance 3.8713063381255637
+velocity 0.9560969548817332
+distance 4.124827464886127
+velocity 0.9560969548817332
+distance 4.378348591646691
+velocity 0.9560969548817332
+distance 4.631869718407254
+velocity 0.9560969548817332
+distance 3.7696226732295384
+velocity 2.8269766441090916
+distance 4.009059292947848
+velocity 2.8269766441090916
+distance 4.262580419708412
+velocity 2.8269766441090916
+distance 4.516101546468975
+velocity 2.8269766441090916
+distance 4.755538166187285
+velocity 2.8269766441090916
+distance 3.512809228495726
+velocity 0.9121544680425531
+distance 3.752245848214036
+velocity 0.9121544680425531
+distance 4.005766974974599
+velocity 0.9121544680425531
+distance 4.259288101735163
+velocity 0.9121544680425531
+distance 4.498724721453473
+velocity 0.9121544680425531
+distance 3.9371116782478723
+velocity 2.8159031525367784
+distance 4.190632805008436
+velocity 2.8159031525367784
+distance 4.458238438811253
+velocity 2.8159031525367784
+distance 4.711759565571816
+velocity 2.8159031525367784
+distance 4.979365199374633
+velocity 2.8159031525367784
+distance 3.690326895519258
+velocity 0.9706825361185951
+distance 3.9438480222798216
+velocity 0.9706825361185951
+distance 4.2114536560826386
+velocity 0.9706825361185951
+distance 4.464974782843202
+velocity 0.9706825361185951
+distance 4.732580416646019
+velocity 0.9706825361185951
+distance 3.899093761513521
+velocity 2.866426024213336
+distance 4.152614888274084
+velocity 2.866426024213336
+distance 4.406136015034647
+velocity 2.866426024213336
+distance 4.673741648837464
+velocity 2.866426024213336
+distance 4.927262775598028
+velocity 2.866426024213336
+distance 3.1163635099094558
+velocity 2.9103097942376372
+distance 3.313546608501005
+velocity 2.9103097942376372
+distance 3.5107297070925543
+velocity 2.9103097942376372
+distance 3.7219973127263573
+velocity 2.9103097942376372
+distance 3.9191804113179067
+velocity 2.9103097942376372
+distance 3.5113168957716128
+velocity 0.9018831087537311
+distance 3.7507535154899228
+velocity 0.9018831087537311
+distance 4.004274642250486
+velocity 0.9018831087537311
+distance 4.257795769011049
+velocity 0.9018831087537311
+distance 4.497232388729359
+velocity 0.9018831087537311
+distance 3.8716309237864444
+velocity 2.8715891271407776
+distance 4.125152050547007
+velocity 2.8715891271407776
+distance 4.378673177307571
+velocity 2.8715891271407776
+distance 4.632194304068134
+velocity 2.8715891271407776
+distance 4.885715430828697
+velocity 2.8715891271407776
+distance 3.145176453838154
+velocity 2.9150177910837876
+distance 3.342359552429703
+velocity 2.9150177910837876
+distance 3.553627158063506
+velocity 2.9150177910837876
+distance 3.750810256655055
+velocity 2.9150177910837876
+distance 3.9620778622888575
+velocity 2.9150177910837876
+Number of Possible shots: 225 calculated in: 155280 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 38 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 556.0 y: 337.0 dx: -203 dy: 521 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0078584215260855
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 143
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 192462 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 559.0 y: 271.0 dx: -449 dy: 333 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0103834763592983
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 144
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 33 calculated in: 174353 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 591.0 y: 286.0 dx: -455 dy: 326 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.013133012591303
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 145
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 347070 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 591.0 y: 286.0 dx: -456 dy: 324 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0138544635449083
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 146
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 36 calculated in: 390159 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 39 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 556.0 y: 347.0 dx: -518 dy: 211 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0138544635449083
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 147
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 469467 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 270.0 dx: -448 dy: 335 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.012938804099599
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 148
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 35 calculated in: 451468 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 590.0 y: 286.0 dx: -456 dy: 323 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074676019861486
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 149
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 41 calculated in: 470249 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 590.0 y: 286.0 dx: -453 dy: 328 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0097161377329424
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 150
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.144665052354068
+velocity 2.650779288146833
+distance 4.4263551931991385
+velocity 2.650779288146833
+distance 4.7080453340442086
+velocity 2.650779288146833
+distance 4.9756509678470255
+velocity 2.650779288146833
+distance 5.2573411086920965
+velocity 2.650779288146833
+distance 3.9297535833627713
+velocity 1.070839502706919
+distance 4.211443724207841
+velocity 1.070839502706919
+distance 4.493133865052912
+velocity 1.070839502706919
+distance 4.760739498855729
+velocity 1.070839502706919
+distance 5.042429639700799
+velocity 1.070839502706919
+distance 4.150663907893722
+velocity 2.720331566370537
+distance 4.432354048738793
+velocity 2.720331566370537
+distance 4.714044189583863
+velocity 2.720331566370537
+distance 4.98164982338668
+velocity 2.720331566370537
+distance 5.26333996423175
+velocity 2.720331566370537
+distance 4.154532063762113
+velocity 2.748316189197185
+distance 4.436222204607183
+velocity 2.748316189197185
+distance 4.717912345452253
+velocity 2.748316189197185
+distance 4.98551797925507
+velocity 2.748316189197185
+distance 5.267208120100141
+velocity 2.748316189197185
+distance 4.445480996134028
+velocity 2.3522696290048253
+distance 4.755340151063605
+velocity 2.3522696290048253
+distance 5.051114798950929
+velocity 2.3522696290048253
+distance 5.346889446838253
+velocity 2.3522696290048253
+distance 5.656748601767831
+velocity 2.3522696290048253
+distance 4.541190923378301
+velocity 2.3319022869870887
+distance 4.851050078307878
+velocity 2.3319022869870887
+distance 5.160909233237455
+velocity 2.3319022869870887
+distance 5.470768388167033
+velocity 2.3319022869870887
+distance 5.78062754309661
+velocity 2.3319022869870887
+distance 4.141934940223312
+velocity 2.6312209395768753
+distance 4.409540574026129
+velocity 2.6312209395768753
+distance 4.691230714871199
+velocity 2.6312209395768753
+distance 4.97292085571627
+velocity 2.6312209395768753
+distance 5.240526489519087
+velocity 2.6312209395768753
+distance 3.932691426236553
+velocity 1.0911221762794219
+distance 4.20029706003937
+velocity 1.0911221762794219
+distance 4.48198720088444
+velocity 1.0911221762794219
+distance 4.763677341729511
+velocity 1.0911221762794219
+distance 5.031282975532328
+velocity 1.0911221762794219
+distance 4.48212845662829
+velocity 1.9945767946417459
+distance 4.791987611557867
+velocity 1.9945767946417459
+distance 5.087762259445191
+velocity 1.9945767946417459
+distance 5.397621414374769
+velocity 1.9945767946417459
+distance 5.707480569304346
+velocity 1.9945767946417459
+distance 4.421477210840064
+velocity 1.5541736027494928
+distance 4.731336365769642
+velocity 1.5541736027494928
+distance 5.027111013656966
+velocity 1.5541736027494928
+distance 5.336970168586543
+velocity 1.5541736027494928
+distance 5.646829323516121
+velocity 1.5541736027494928
+distance 4.555152062440368
+velocity 1.9141943802495327
+distance 4.865011217369945
+velocity 1.9141943802495327
+distance 5.188954879341776
+velocity 1.9141943802495327
+distance 5.498814034271354
+velocity 1.9141943802495327
+distance 5.808673189200931
+velocity 1.9141943802495327
+distance 4.44196459963613
+velocity 2.1207156050337472
+distance 4.751823754565707
+velocity 2.1207156050337472
+distance 5.047598402453031
+velocity 2.1207156050337472
+distance 5.357457557382609
+velocity 2.1207156050337472
+distance 5.653232205269932
+velocity 2.1207156050337472
+distance 4.3506143238684
+velocity 1.4508806927706932
+distance 4.660473478797977
+velocity 1.4508806927706932
+distance 4.956248126685301
+velocity 1.4508806927706932
+distance 5.266107281614879
+velocity 1.4508806927706932
+distance 5.561881929502203
+velocity 1.4508806927706932
+distance 4.535169254243291
+velocity 2.082776944400708
+distance 4.845028409172868
+velocity 2.082776944400708
+distance 5.154887564102446
+velocity 2.082776944400708
+distance 5.464746719032023
+velocity 2.082776944400708
+distance 5.7746058739616
+velocity 2.082776944400708
+distance 4.459753217117773
+velocity 1.5266126983594057
+distance 4.769612372047351
+velocity 1.5266126983594057
+distance 5.079471526976928
+velocity 1.5266126983594057
+distance 5.389330681906506
+velocity 1.5266126983594057
+distance 5.699189836836083
+velocity 1.5266126983594057
+distance 4.4509969082614385
+velocity 2.1843280777989618
+distance 4.7608560631910155
+velocity 2.1843280777989618
+distance 5.0566307110783395
+velocity 2.1843280777989618
+distance 5.3664898660079166
+velocity 2.1843280777989618
+distance 5.6622645138952405
+velocity 2.1843280777989618
+distance 4.345145936521166
+velocity 1.4130582879503437
+distance 4.655005091450744
+velocity 1.4130582879503437
+distance 4.950779739338068
+velocity 1.4130582879503437
+distance 5.260638894267645
+velocity 1.4130582879503437
+distance 5.556413542154969
+velocity 1.4130582879503437
+distance 4.460382571646112
+velocity 2.2584952011741355
+distance 4.770241726575689
+velocity 2.2584952011741355
+distance 5.066016374463013
+velocity 2.2584952011741355
+distance 5.37587552939259
+velocity 2.2584952011741355
+distance 5.671650177279914
+velocity 2.2584952011741355
+distance 4.339328733935116
+velocity 1.3728232831563068
+distance 4.649187888864694
+velocity 1.3728232831563068
+distance 4.944962536752017
+velocity 1.3728232831563068
+distance 5.254821691681595
+velocity 1.3728232831563068
+distance 5.550596339568919
+velocity 1.3728232831563068
+distance 4.4681408515818015
+velocity 2.313330824338945
+distance 4.7780000065113795
+velocity 2.313330824338945
+distance 5.0737746543987035
+velocity 2.313330824338945
+distance 5.3836338093282805
+velocity 2.313330824338945
+distance 5.6794084572156045
+velocity 2.313330824338945
+distance 4.575280712978146
+velocity 2.166884836035595
+distance 4.885139867907724
+velocity 2.166884836035595
+distance 5.194999022837301
+velocity 2.166884836035595
+distance 5.504858177766879
+velocity 2.166884836035595
+distance 5.814717332696456
+velocity 2.166884836035595
+distance 4.478732304743922
+velocity 1.4602693462722018
+distance 4.7885914596734995
+velocity 1.4602693462722018
+distance 5.098450614603077
+velocity 1.4602693462722018
+distance 5.4083097695326545
+velocity 1.4602693462722018
+distance 5.718168924462232
+velocity 1.4602693462722018
+distance 4.6686439767109835
+velocity 2.1300632230042207
+distance 4.9785031316405615
+velocity 2.1300632230042207
+distance 5.3024467936123925
+velocity 2.1300632230042207
+distance 5.6263904555842235
+velocity 2.1300632230042207
+distance 5.9362496105138005
+velocity 2.1300632230042207
+distance 4.588660393118729
+velocity 1.5414869571481706
+distance 4.898519548048306
+velocity 1.5414869571481706
+distance 5.222463210020137
+velocity 1.5414869571481706
+distance 5.546406871991968
+velocity 1.5414869571481706
+distance 5.856266026921546
+velocity 1.5414869571481706
+distance 4.583748963380056
+velocity 2.2265247764325653
+distance 4.893608118309633
+velocity 2.2265247764325653
+distance 5.203467273239211
+velocity 2.2265247764325653
+distance 5.513326428168788
+velocity 2.2265247764325653
+distance 5.823185583098365
+velocity 2.2265247764325653
+distance 4.4746483150177445
+velocity 1.432022204492136
+distance 4.784507469947322
+velocity 1.432022204492136
+distance 5.0943666248768995
+velocity 1.432022204492136
+distance 5.404225779806477
+velocity 1.432022204492136
+distance 5.7140849347360545
+velocity 1.432022204492136
+distance 4.366270674348038
+velocity 2.398241585500775
+distance 4.662045322235362
+velocity 2.398241585500775
+distance 4.957819970122686
+velocity 2.398241585500775
+distance 5.25359461801001
+velocity 2.398241585500775
+distance 5.549369265897334
+velocity 2.398241585500775
+distance 4.208264517838393
+velocity 1.2456405548430824
+distance 4.504039165725717
+velocity 1.2456405548430824
+distance 4.799813813613041
+velocity 1.2456405548430824
+distance 5.095588461500365
+velocity 1.2456405548430824
+distance 5.391363109387689
+velocity 1.2456405548430824
+distance 4.461535502226386
+velocity 2.3661936078302963
+distance 4.75731015011371
+velocity 2.3661936078302963
+distance 5.067169305043287
+velocity 2.3661936078302963
+distance 5.362943952930611
+velocity 2.3661936078302963
+distance 5.672803107860189
+velocity 2.3661936078302963
+distance 4.313687093281944
+velocity 1.2928877266130727
+distance 4.609461741169268
+velocity 1.2928877266130727
+distance 4.919320896098845
+velocity 1.2928877266130727
+distance 5.215095543986169
+velocity 1.2928877266130727
+distance 5.524954698915747
+velocity 1.2928877266130727
+distance 4.372983582762854
+velocity 2.4458579625026515
+distance 4.668758230650178
+velocity 2.4458579625026515
+distance 4.964532878537502
+velocity 2.4458579625026515
+distance 5.260307526424826
+velocity 2.4458579625026515
+distance 5.55608217431215
+velocity 2.4458579625026515
+distance 4.293205275774848
+velocity 2.4794000916709704
+distance 4.574895416619918
+velocity 2.4794000916709704
+distance 4.870670064507242
+velocity 2.4794000916709704
+distance 5.152360205352313
+velocity 2.4794000916709704
+distance 5.448134853239637
+velocity 2.4794000916709704
+distance 4.116582284666441
+velocity 1.1938304429406026
+distance 4.398272425511512
+velocity 1.1938304429406026
+distance 4.694047073398836
+velocity 1.1938304429406026
+distance 4.975737214243906
+velocity 1.1938304429406026
+distance 5.27151186213123
+velocity 1.1938304429406026
+distance 4.484852560164699
+velocity 2.440133145102977
+distance 4.780627208052023
+velocity 2.440133145102977
+distance 5.090486362981601
+velocity 2.440133145102977
+distance 5.386261010868925
+velocity 2.440133145102977
+distance 5.696120165798502
+velocity 2.440133145102977
+distance 4.161152087005038
+velocity 2.5670903351641927
+distance 4.442842227850109
+velocity 2.5670903351641927
+distance 4.710447861652925
+velocity 2.5670903351641927
+distance 4.992138002497996
+velocity 2.5670903351641927
+distance 5.273828143343066
+velocity 2.5670903351641927
+distance 3.9649961678365897
+velocity 1.119674966468071
+distance 4.24668630868166
+velocity 1.119674966468071
+distance 4.514291942484477
+velocity 1.119674966468071
+distance 4.795982083329547
+velocity 1.119674966468071
+distance 5.077672224174618
+velocity 1.119674966468071
+distance 4.257869841583631
+velocity 2.553666589738378
+distance 4.539559982428701
+velocity 2.553666589738378
+distance 4.821250123273772
+velocity 2.553666589738378
+distance 5.117024771161096
+velocity 2.553666589738378
+distance 5.398714912006166
+velocity 2.553666589738378
+distance 4.06854797176677
+velocity 1.1539202375423023
+distance 4.350238112611841
+velocity 1.1539202375423023
+distance 4.631928253456911
+velocity 1.1539202375423023
+distance 4.927702901344235
+velocity 1.1539202375423023
+distance 5.209393042189305
+velocity 1.1539202375423023
+distance 4.35426337179654
+velocity 2.5128807406623253
+distance 4.650038019683864
+velocity 2.5128807406623253
+distance 4.931728160528934
+velocity 2.5128807406623253
+distance 5.227502808416258
+velocity 2.5128807406623253
+distance 5.523277456303582
+velocity 2.5128807406623253
+distance 4.166531990328301
+velocity 2.605631618243249
+distance 4.448222131173371
+velocity 2.605631618243249
+distance 4.715827764976188
+velocity 2.605631618243249
+distance 4.997517905821258
+velocity 2.605631618243249
+distance 5.279208046666329
+velocity 2.605631618243249
+distance 3.8957298902753945
+velocity 2.825742091450063
+distance 4.163335524078211
+velocity 2.825742091450063
+distance 4.416856650838775
+velocity 2.825742091450063
+distance 4.670377777599338
+velocity 2.825742091450063
+distance 4.937983411402155
+velocity 2.825742091450063
+distance 3.645102857937619
+velocity 0.9514187883051854
+distance 3.912708491740436
+velocity 0.9514187883051854
+distance 4.166229618500999
+velocity 0.9514187883051854
+distance 4.419750745261562
+velocity 0.9514187883051854
+distance 4.687356379064379
+velocity 0.9514187883051854
+distance 3.898817250633898
+velocity 2.8679661428515515
+distance 4.166422884436715
+velocity 2.8679661428515515
+distance 4.419944011197278
+velocity 2.8679661428515515
+distance 4.673465137957842
+velocity 2.8679661428515515
+distance 4.941070771760658
+velocity 2.8679661428515515
+distance 3.6438304431438406
+velocity 0.942650180153461
+distance 3.911436076946657
+velocity 0.942650180153461
+distance 4.164957203707221
+velocity 0.942650180153461
+distance 4.418478330467784
+velocity 0.942650180153461
+distance 4.686083964270601
+velocity 0.942650180153461
+Number of Possible shots: 220 calculated in: 475307 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 7
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 40 of 41--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 559.0 y: 271.0 dx: -448 dy: 335 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9971202567058088
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 578.0 y: 299.0 dx: -234 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0080486687608818
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 151
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 184495 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 588.0 y: 298.0 dx: -467 dy: 308 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0118417031494271
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 152
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 32 calculated in: 169366 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 577.0 y: 310.0 dx: -483 dy: 281 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0151530389634293
+Solve return state: PLAYING
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 153
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 41 of 41--------------------
+
+Changing Level 3/4/2015 - 16:21:23
