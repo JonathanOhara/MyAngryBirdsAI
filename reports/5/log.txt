@@ -5810,3 +5810,4388 @@ MyAgent.calculateShotStats()
 Generate new state with id = 117
 MyAgent.writeShotsAandStatesInFile()
 MyAgent.findPossibleShots()
+Number of Possible shots: 50 calculated in: 280631 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 332.0 dx: -200 dy: 533 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0053554080986256
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 118
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 34 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 604.0 y: 242.0 dx: -276 dy: 498 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0064858958602976
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 119
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 54 calculated in: 282521 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 575.0 y: 332.0 dx: -519 dy: 234 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0064858958602976
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 120
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 47 calculated in: 237143 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 552.0 y: 327.0 dx: -521 dy: 230 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0064858958602976
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 121
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 45 calculated in: 224193 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 598.0 y: 298.0 dx: -481 dy: 304 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.010495145703539
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 122
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 35 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 605.0 y: 242.0 dx: -410 dy: 395 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.003702095934829
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 123
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 51 calculated in: 279000 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 332.0 dx: -200 dy: 533 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0048302541102223
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 124
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 36 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 605.0 y: 242.0 dx: -277 dy: 498 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.006076768265804
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 125
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 52 calculated in: 281983 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 333.0 dx: -519 dy: 233 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.006076768265804
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 126
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 37 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 575.0 y: 242.0 dx: -425 dy: 378 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.001417577772612
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 127
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 59 calculated in: 260628 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 565.0 y: 333.0 dx: -521 dy: 229 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.001417577772612
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 128
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 38 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 575.0 y: 242.0 dx: -241 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0067895293933022
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 129
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 61 calculated in: 297110 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 575.0 y: 332.0 dx: -519 dy: 234 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0067895293933022
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 130
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 39 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -426 dy: 378 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.012198905365955
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 131
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 242583 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 575.0 y: 332.0 dx: -520 dy: 231 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.012198905365955
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 132
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 40 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 574.0 y: 242.0 dx: -240 dy: 516 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.006002601284447
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 133
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 41 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 615.0 y: 242.0 dx: -403 dy: 403 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0038513753914051
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 134
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 281039 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 332.0 dx: -521 dy: 230 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0038513753914051
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 135
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 42 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 615.0 y: 242.0 dx: -287 dy: 491 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074834819811718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 136
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 51 calculated in: 259601 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 575.0 y: 332.0 dx: -519 dy: 234 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074834819811718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 137
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 43 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 550.0 y: 339.0 dx: -529 dy: 210 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0074834819811718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 138
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 54 calculated in: 235710 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 541.0 y: 345.0 dx: -537 dy: 188 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074834819811718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 139
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 222744 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 513.0 y: 371.0 dx: -557 dy: 119 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0074834819811718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 140
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 42 calculated in: 223056 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 581.0 y: 280.0 dx: -469 dy: 322 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0147536095256888
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 141
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.034925578225804
+velocity 2.526177773776652
+distance 4.298814467114693
+velocity 2.526177773776652
+distance 4.5765922448924705
+velocity 2.526177773776652
+distance 4.84048113378136
+velocity 2.526177773776652
+distance 5.1182589115591375
+velocity 2.526177773776652
+distance 3.837421322755773
+velocity 1.0883939575269763
+distance 4.1013102116446625
+velocity 1.0883939575269763
+distance 4.37908798942244
+velocity 1.0883939575269763
+distance 4.6429768783113285
+velocity 1.0883939575269763
+distance 4.920754656089106
+velocity 1.0883939575269763
+distance 4.0404538401211285
+velocity 2.5911513511910087
+distance 4.304342729010018
+velocity 2.5911513511910087
+distance 4.5821205067877955
+velocity 2.5911513511910087
+distance 4.846009395676685
+velocity 2.5911513511910087
+distance 5.123787173454462
+velocity 2.5911513511910087
+distance 3.833294830971109
+velocity 1.059762798515202
+distance 4.097183719859998
+velocity 1.059762798515202
+distance 4.374961497637775
+velocity 1.059762798515202
+distance 4.638850386526665
+velocity 1.059762798515202
+distance 4.916628164304442
+velocity 1.059762798515202
+distance 4.045755944469006
+velocity 2.629324789171526
+distance 4.309644833357895
+velocity 2.629324789171526
+distance 4.587422611135673
+velocity 2.629324789171526
+distance 4.851311500024561
+velocity 2.629324789171526
+distance 5.12908927780234
+velocity 2.629324789171526
+distance 3.8318478055767367
+velocity 1.0497227896354293
+distance 4.095736694465625
+velocity 1.0497227896354293
+distance 4.373514472243404
+velocity 1.0497227896354293
+distance 4.637403361132292
+velocity 1.0497227896354293
+distance 4.91518113891007
+velocity 1.0497227896354293
+distance 4.053579962075769
+velocity 2.7121521380909486
+distance 4.317468850964658
+velocity 2.7121521380909486
+distance 4.595246628742435
+velocity 2.7121521380909486
+distance 4.859135517631325
+velocity 2.7121521380909486
+distance 5.136913295409102
+velocity 2.7121521380909486
+distance 4.0578356994354765
+velocity 2.7430943686193947
+distance 4.321724588324366
+velocity 2.7430943686193947
+distance 4.5995023661021435
+velocity 2.7430943686193947
+distance 4.863391254991033
+velocity 2.7430943686193947
+distance 5.14116903276881
+velocity 2.7430943686193947
+distance 3.907906497859375
+velocity 2.7638055389901526
+distance 4.157906497859376
+velocity 2.7638055389901526
+distance 4.421795386748264
+velocity 2.7638055389901526
+distance 4.685684275637153
+velocity 2.7638055389901526
+distance 4.935684275637153
+velocity 2.7638055389901526
+distance 3.6685079660452007
+velocity 0.974654133955302
+distance 3.9185079660452007
+velocity 0.974654133955302
+distance 4.1823968549340895
+velocity 0.974654133955302
+distance 4.446285743822979
+velocity 0.974654133955302
+distance 4.696285743822979
+velocity 0.974654133955302
+distance 3.6110848171512706
+velocity 2.8411179970592
+distance 3.8471959282623818
+velocity 2.8411179970592
+distance 4.0833070393734925
+velocity 2.8411179970592
+distance 4.319418150484604
+velocity 2.8411179970592
+distance 4.555529261595715
+velocity 2.8411179970592
+distance 3.3482993652666604
+velocity 0.8731716355841802
+distance 3.5844104763777715
+velocity 0.8731716355841802
+distance 3.8205215874888827
+velocity 0.8731716355841802
+distance 4.056632698599994
+velocity 0.8731716355841802
+distance 4.292743809711105
+velocity 0.8731716355841802
+distance 3.7074054335487765
+velocity 2.834530661151195
+distance 3.9574054335487765
+velocity 2.834530661151195
+distance 4.193516544659888
+velocity 2.834530661151195
+distance 4.443516544659888
+velocity 2.834530661151195
+distance 4.679627655770998
+velocity 2.834530661151195
+distance 3.449727470816153
+velocity 0.9023002939219934
+distance 3.699727470816153
+velocity 0.9023002939219934
+distance 3.935838581927264
+velocity 0.9023002939219934
+distance 4.185838581927264
+velocity 0.9023002939219934
+distance 4.421949693038375
+velocity 0.9023002939219934
+distance 3.803520978283007
+velocity 2.82644502532745
+distance 4.053520978283007
+velocity 2.82644502532745
+distance 4.303520978283007
+velocity 2.82644502532745
+distance 4.553520978283007
+velocity 2.82644502532745
+distance 4.803520978283007
+velocity 2.82644502532745
+distance 3.5517687024747646
+velocity 0.9356752756979098
+distance 3.801768702474765
+velocity 0.9356752756979098
+distance 4.051768702474765
+velocity 0.9356752756979098
+distance 4.301768702474765
+velocity 0.9356752756979098
+distance 4.551768702474765
+velocity 0.9356752756979098
+distance 3.6142231079239924
+velocity 2.883936274347751
+distance 3.850334219035103
+velocity 2.883936274347751
+distance 4.086445330146215
+velocity 2.883936274347751
+distance 4.322556441257325
+velocity 2.883936274347751
+distance 4.558667552368437
+velocity 2.883936274347751
+distance 3.347661461810072
+velocity 0.868753711834611
+distance 3.583772572921183
+velocity 0.868753711834611
+distance 3.8198836840322943
+velocity 0.868753711834611
+distance 4.055994795143405
+velocity 0.868753711834611
+distance 4.292105906254516
+velocity 0.868753711834611
+distance 3.616593643892489
+velocity 2.9013762213441883
+distance 3.8527047550036
+velocity 2.9013762213441883
+distance 4.088815866114711
+velocity 2.9013762213441883
+distance 4.3249269772258225
+velocity 2.9013762213441883
+distance 4.561038088336933
+velocity 2.9013762213441883
+distance 3.346191417579068
+velocity 0.8585726362282694
+distance 3.582302528690179
+velocity 0.8585726362282694
+distance 3.8184136398012902
+velocity 0.8585726362282694
+distance 4.054524750912401
+velocity 0.8585726362282694
+distance 4.290635862023512
+velocity 0.8585726362282694
+distance 4.859265083167843
+velocity 1.3387635775844795
+distance 5.192598416501176
+velocity 1.3387635775844795
+distance 5.539820638723398
+velocity 1.3387635775844795
+distance 5.873153972056731
+velocity 1.3387635775844795
+distance 6.220376194278954
+velocity 1.3387635775844795
+distance 4.8598138930302515
+velocity 1.3425783890879102
+distance 5.1931472263635845
+velocity 1.3425783890879102
+distance 5.540369448585807
+velocity 1.3425783890879102
+distance 5.87370278191914
+velocity 1.3425783890879102
+distance 6.220925004141362
+velocity 1.3425783890879102
+distance 4.03208937480647
+velocity 2.5059594889853978
+distance 4.295978263695359
+velocity 2.5059594889853978
+distance 4.573756041473136
+velocity 2.5059594889853978
+distance 4.837644930362026
+velocity 2.5059594889853978
+distance 5.115422708139803
+velocity 2.5059594889853978
+distance 3.8388599220180506
+velocity 1.0983755027188438
+distance 4.10274881090694
+velocity 1.0983755027188438
+distance 4.380526588684718
+velocity 1.0983755027188438
+distance 4.644415477573606
+velocity 1.0983755027188438
+distance 4.9221932553513845
+velocity 1.0983755027188438
+distance 4.127519712224605
+velocity 2.4931857799364603
+distance 4.405297490002383
+velocity 2.4931857799364603
+distance 4.68307526778016
+velocity 2.4931857799364603
+distance 4.960853045557938
+velocity 2.4931857799364603
+distance 5.238630823335716
+velocity 2.4931857799364603
+distance 4.222153309841327
+velocity 2.474732396397442
+distance 4.499931087619105
+velocity 2.474732396397442
+distance 4.791597754285771
+velocity 2.474732396397442
+distance 5.06937553206355
+velocity 2.474732396397442
+distance 5.361042198730216
+velocity 2.474732396397442
+distance 4.043664109086273
+velocity 1.170255311006542
+distance 4.321441886864051
+velocity 1.170255311006542
+distance 4.613108553530718
+velocity 1.170255311006542
+distance 4.890886331308495
+velocity 1.170255311006542
+distance 5.1825529979751614
+velocity 1.170255311006542
+distance 4.112117272024225
+velocity 2.733831608416782
+distance 4.389895049802003
+velocity 2.733831608416782
+distance 4.66767282757978
+velocity 2.733831608416782
+distance 4.931561716468669
+velocity 2.733831608416782
+distance 5.209339494246446
+velocity 2.733831608416782
+distance 5.066263518791827
+velocity 1.4260271514487117
+distance 5.427374629902938
+velocity 1.4260271514487117
+distance 5.7745968521251605
+velocity 1.4260271514487117
+distance 6.135707963236271
+velocity 1.4260271514487117
+distance 6.4829301854584935
+velocity 1.4260271514487117
+Number of Possible shots: 145 calculated in: 175998 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 44 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 550.0 y: 349.0 dx: -187 dy: 538 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0043326275147149
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 142
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 55 calculated in: 240020 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 545.0 y: 326.0 dx: -522 dy: 228 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0043326275147149
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 143
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 57 calculated in: 208801 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 579.0 y: 326.0 dx: -211 dy: 529 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0035453469509066
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 144
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 57 calculated in: 201856 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 598.0 y: 324.0 dx: -503 dy: 267 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 145
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 45 of 60--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 546.0 y: 348.0 dx: -186 dy: 538 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0044839356834152
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 146
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 57 calculated in: 243113 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 557.0 y: 334.0 dx: -524 dy: 222 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0044839356834152
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 147
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 60 calculated in: 242373 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 527.0 y: 354.0 dx: -545 dy: 165 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0044839356834152
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 148
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 48 calculated in: 235270 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 585.0 y: 285.0 dx: -472 dy: 318 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0062523096932772
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 149
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 46 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 550.0 y: 359.0 dx: -186 dy: 538 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0052918405433415
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 150
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 239848 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 557.0 y: 336.0 dx: -526 dy: 218 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0052918405433415
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 151
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 50 calculated in: 235312 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 530.0 y: 352.0 dx: -543 dy: 170 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0052918405433415
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 152
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 45 calculated in: 230018 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 553.0 y: 359.0 dx: -187 dy: 538 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0044912598908744
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 153
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.126951670606836
+velocity 1.2557893577972883
+distance 4.418618337273503
+velocity 1.2557893577972883
+distance 4.710285003940169
+velocity 1.2557893577972883
+distance 5.001951670606836
+velocity 1.2557893577972883
+distance 5.293618337273503
+velocity 1.2557893577972883
+distance 4.046154161976073
+velocity 2.4818575943864465
+distance 4.323931939753852
+velocity 2.4818575943864465
+distance 4.58782082864274
+velocity 2.4818575943864465
+distance 4.865598606420518
+velocity 2.4818575943864465
+distance 5.129487495309407
+velocity 2.4818575943864465
+distance 3.856811801937678
+velocity 1.1151729443370115
+distance 4.134589579715456
+velocity 1.1151729443370115
+distance 4.3984784686043445
+velocity 1.1151729443370115
+distance 4.676256246382122
+velocity 1.1151729443370115
+distance 4.9401451352710115
+velocity 1.1151729443370115
+distance 4.051836968282463
+velocity 2.5470884441412505
+distance 4.3296147460602405
+velocity 2.5470884441412505
+distance 4.59350363494913
+velocity 2.5470884441412505
+distance 4.8712814127269075
+velocity 2.5470884441412505
+distance 5.135170301615797
+velocity 2.5470884441412505
+distance 3.85418595232374
+velocity 1.09713806041348
+distance 4.131963730101518
+velocity 1.09713806041348
+distance 4.395852618990407
+velocity 1.09713806041348
+distance 4.673630396768185
+velocity 1.09713806041348
+distance 4.937519285657073
+velocity 1.09713806041348
+distance 4.057037274750403
+velocity 2.5841503288394443
+distance 4.334815052528181
+velocity 2.5841503288394443
+distance 4.598703941417069
+velocity 2.5841503288394443
+distance 4.876481719194847
+velocity 2.5841503288394443
+distance 5.140370608083736
+velocity 2.5841503288394443
+distance 3.8519112178603083
+velocity 1.0815147087230053
+distance 4.1296889956380864
+velocity 1.0815147087230053
+distance 4.393577884526975
+velocity 1.0815147087230053
+distance 4.6713556623047525
+velocity 1.0815147087230053
+distance 4.935244551193642
+velocity 1.0815147087230053
+distance 4.063719150018765
+velocity 2.6317711550908465
+distance 4.341496927796543
+velocity 2.6317711550908465
+distance 4.605385816685431
+velocity 2.6317711550908465
+distance 4.883163594463209
+velocity 2.6317711550908465
+distance 5.147052483352098
+velocity 2.6317711550908465
+distance 3.8483947106256835
+velocity 1.057362602122498
+distance 4.126172488403461
+velocity 1.057362602122498
+distance 4.3900613772923505
+velocity 1.057362602122498
+distance 4.667839155070128
+velocity 1.057362602122498
+distance 4.9317280439590165
+velocity 1.057362602122498
+distance 4.069912131526399
+velocity 2.7023084819743244
+distance 4.347689909304177
+velocity 2.7023084819743244
+distance 4.611578798193066
+velocity 2.7023084819743244
+distance 4.889356575970844
+velocity 2.7023084819743244
+distance 5.153245464859733
+velocity 2.7023084819743244
+distance 3.8463444315493365
+velocity 1.0432808569393368
+distance 4.124122209327115
+velocity 1.0432808569393368
+distance 4.388011098216003
+velocity 1.0432808569393368
+distance 4.665788875993781
+velocity 1.0432808569393368
+distance 4.92967776488267
+velocity 1.0432808569393368
+distance 3.9624437843916507
+velocity 2.728526109562095
+distance 4.22633267328054
+velocity 2.728526109562095
+distance 4.490221562169428
+velocity 2.728526109562095
+distance 4.754110451058318
+velocity 2.728526109562095
+distance 5.017999339947206
+velocity 2.728526109562095
+distance 3.728211308387558
+velocity 0.993233102402383
+distance 3.992100197276447
+velocity 0.993233102402383
+distance 4.255989086165336
+velocity 0.993233102402383
+distance 4.519877975054225
+velocity 0.993233102402383
+distance 4.7837668639431135
+velocity 0.993233102402383
+distance 3.9670264726540387
+velocity 2.7749981154797267
+distance 4.230915361542928
+velocity 2.7749981154797267
+distance 4.494804250431816
+velocity 2.7749981154797267
+distance 4.758693139320705
+velocity 2.7749981154797267
+distance 5.0225820282095945
+velocity 2.7749981154797267
+distance 3.7290493094493353
+velocity 0.9989781467688162
+distance 3.9929381983382246
+velocity 0.9989781467688162
+distance 4.256827087227113
+velocity 0.9989781467688162
+distance 4.520715976116002
+velocity 0.9989781467688162
+distance 4.784604865004891
+velocity 0.9989781467688162
+distance 3.9702437430212063
+velocity 2.7982664992243134
+distance 4.234132631910096
+velocity 2.7982664992243134
+distance 4.498021520798984
+velocity 2.7982664992243134
+distance 4.761910409687873
+velocity 2.7982664992243134
+distance 5.025799298576762
+velocity 2.7982664992243134
+distance 3.7269775307858044
+velocity 0.9847747514721898
+distance 3.9908664196746932
+velocity 0.9847747514721898
+distance 4.254755308563582
+velocity 0.9847747514721898
+distance 4.5186441974524705
+velocity 0.9847747514721898
+distance 4.78253308634136
+velocity 0.9847747514721898
+distance 3.972514216563528
+velocity 2.8146873291936583
+distance 4.236403105452417
+velocity 2.8146873291936583
+distance 4.500291994341306
+velocity 2.8146873291936583
+distance 4.764180883230194
+velocity 2.8146873291936583
+distance 5.028069772119084
+velocity 2.8146873291936583
+distance 3.7240635216007565
+velocity 0.9647973161014175
+distance 3.9879524104896453
+velocity 0.9647973161014175
+distance 4.251841299378534
+velocity 0.9647973161014175
+distance 4.515730188267423
+velocity 0.9647973161014175
+distance 4.779619077156312
+velocity 0.9647973161014175
+distance 4.030877676987763
+velocity 2.721252986134491
+distance 4.308655454765541
+velocity 2.721252986134491
+distance 4.57254434365443
+velocity 2.721252986134491
+distance 4.836433232543318
+velocity 2.721252986134491
+distance 5.114211010321096
+velocity 2.721252986134491
+distance 3.8017835026708156
+velocity 1.0234024591978979
+distance 4.079561280448593
+velocity 1.0234024591978979
+distance 4.3434501693374825
+velocity 1.0234024591978979
+distance 4.607339058226371
+velocity 1.0234024591978979
+distance 4.885116836004149
+velocity 1.0234024591978979
+distance 3.912702673124137
+velocity 2.7839065902467577
+distance 4.1765915620130265
+velocity 2.7839065902467577
+distance 4.440480450901915
+velocity 2.7839065902467577
+distance 4.690480450901915
+velocity 2.7839065902467577
+distance 4.954369339790804
+velocity 2.7839065902467577
+distance 3.6705842701857065
+velocity 0.979031736497159
+distance 3.9344731590745954
+velocity 0.979031736497159
+distance 4.198362047963484
+velocity 0.979031736497159
+distance 4.448362047963484
+velocity 0.979031736497159
+distance 4.7122509368523735
+velocity 0.979031736497159
+distance 3.6971094242581413
+velocity 2.8515151819394937
+distance 3.9332205353692524
+velocity 2.8515151819394937
+distance 4.183220535369252
+velocity 2.8515151819394937
+distance 4.419331646480363
+velocity 2.8515151819394937
+distance 4.669331646480363
+velocity 2.8515151819394937
+distance 3.436471032901613
+velocity 0.8975110652136503
+distance 3.672582144012724
+velocity 0.8975110652136503
+distance 3.922582144012724
+velocity 0.8975110652136503
+distance 4.158693255123835
+velocity 0.8975110652136503
+distance 4.408693255123835
+velocity 0.8975110652136503
+distance 3.7924651275220143
+velocity 2.8183502657384945
+distance 4.042465127522014
+velocity 2.8183502657384945
+distance 4.292465127522014
+velocity 2.8183502657384945
+distance 4.542465127522014
+velocity 2.8183502657384945
+distance 4.792465127522014
+velocity 2.8183502657384945
+distance 3.5378798135858758
+velocity 0.926212656660416
+distance 3.787879813585876
+velocity 0.926212656660416
+distance 4.037879813585876
+velocity 0.926212656660416
+distance 4.287879813585876
+velocity 0.926212656660416
+distance 4.537879813585876
+velocity 0.926212656660416
+distance 4.041304470598369
+velocity 2.44763549935689
+distance 4.319082248376147
+velocity 2.44763549935689
+distance 4.582971137265036
+velocity 2.44763549935689
+distance 4.860748915042814
+velocity 2.44763549935689
+distance 5.124637803931702
+velocity 2.44763549935689
+distance 3.8588336446749554
+velocity 1.1290593828005422
+distance 4.1366114224527335
+velocity 1.1290593828005422
+distance 4.400500311341622
+velocity 1.1290593828005422
+distance 4.6782780891194
+velocity 1.1290593828005422
+distance 4.942166978008289
+velocity 1.1290593828005422
+distance 4.136274635092596
+velocity 2.431743738917486
+distance 4.414052412870373
+velocity 2.431743738917486
+distance 4.691830190648151
+velocity 2.431743738917486
+distance 4.96960796842593
+velocity 2.431743738917486
+distance 5.247385746203707
+velocity 2.431743738917486
+distance 3.961751932093547
+velocity 1.168181148987048
+distance 4.2395297098713245
+velocity 1.168181148987048
+distance 4.517307487649102
+velocity 1.168181148987048
+distance 4.795085265426881
+velocity 1.168181148987048
+distance 5.072863043204658
+velocity 1.168181148987048
+distance 4.2314013758281375
+velocity 2.416956866726085
+distance 4.5230680424948035
+velocity 2.416956866726085
+distance 4.800845820272581
+velocity 2.416956866726085
+distance 5.092512486939248
+velocity 2.416956866726085
+distance 5.370290264717026
+velocity 2.416956866726085
+distance 4.517597033536438
+velocity 2.1668024698923265
+distance 4.837041477980883
+velocity 2.1668024698923265
+distance 5.142597033536438
+velocity 2.1668024698923265
+distance 5.448152589091993
+velocity 2.1668024698923265
+distance 5.7537081446475495
+velocity 2.1668024698923265
+distance 4.419665940984721
+velocity 1.4541300376130002
+distance 4.739110385429166
+velocity 1.4541300376130002
+distance 5.044665940984721
+velocity 1.4541300376130002
+distance 5.350221496540277
+velocity 1.4541300376130002
+distance 5.655777052095832
+velocity 1.4541300376130002
+distance 4.527168981973483
+velocity 2.2418733568046743
+distance 4.846613426417927
+velocity 2.2418733568046743
+distance 5.152168981973483
+velocity 2.2418733568046743
+distance 5.457724537529038
+velocity 2.2418733568046743
+distance 5.763280093084593
+velocity 2.2418733568046743
+distance 4.413485741014049
+velocity 1.4116055331568136
+distance 4.7329301854584935
+velocity 1.4116055331568136
+distance 5.038485741014049
+velocity 1.4116055331568136
+distance 5.344041296569604
+velocity 1.4116055331568136
+distance 5.6495968521251605
+velocity 1.4116055331568136
+distance 4.29608991182852
+velocity 2.2772558449940297
+distance 4.587756578495186
+velocity 2.2772558449940297
+distance 4.879423245161853
+velocity 2.2772558449940297
+distance 5.17108991182852
+velocity 2.2772558449940297
+distance 5.462756578495186
+velocity 2.2772558449940297
+distance 4.158351611981995
+velocity 1.2807126147742216
+distance 4.4500182786486615
+velocity 1.2807126147742216
+distance 4.7416849453153285
+velocity 1.2807126147742216
+distance 5.033351611981995
+velocity 1.2807126147742216
+distance 5.3250182786486615
+velocity 1.2807126147742216
+distance 4.3903871533115
+velocity 2.256689021878611
+distance 4.682053819978167
+velocity 2.256689021878611
+distance 4.987609375533722
+velocity 2.256689021878611
+distance 5.279276042200389
+velocity 2.256689021878611
+distance 5.584831597755945
+velocity 2.256689021878611
+distance 4.26479063293988
+velocity 1.3441312421271179
+distance 4.556457299606546
+velocity 1.3441312421271179
+distance 4.862012855162102
+velocity 1.3441312421271179
+distance 5.153679521828768
+velocity 1.3441312421271179
+distance 5.459235077384324
+velocity 1.3441312421271179
+distance 4.1547294483846136
+velocity 1.2557893577972883
+distance 4.4463961150512805
+velocity 1.2557893577972883
+distance 4.738062781717947
+velocity 1.2557893577972883
+distance 5.0297294483846136
+velocity 1.2557893577972883
+distance 5.3213961150512805
+velocity 1.2557893577972883
+distance 4.121393207519375
+velocity 2.3184519990841777
+distance 4.399170985297153
+velocity 2.3184519990841777
+distance 4.676948763074931
+velocity 2.3184519990841777
+distance 4.954726540852708
+velocity 2.3184519990841777
+distance 5.232504318630486
+velocity 2.3184519990841777
+distance 3.9688260334714496
+velocity 1.216767555663423
+distance 4.246603811249227
+velocity 1.216767555663423
+distance 4.524381589027005
+velocity 1.216767555663423
+distance 4.8021593668047835
+velocity 1.216767555663423
+distance 5.079937144582561
+velocity 1.216767555663423
+distance 4.129146558597345
+velocity 2.3814441028788136
+distance 4.406924336375123
+velocity 2.3814441028788136
+distance 4.684702114152901
+velocity 2.3814441028788136
+distance 4.962479891930679
+velocity 2.3814441028788136
+distance 5.240257669708456
+velocity 2.3814441028788136
+distance 3.9651667912036452
+velocity 1.1916351150249156
+distance 4.242944568981423
+velocity 1.1916351150249156
+distance 4.520722346759201
+velocity 1.1916351150249156
+distance 4.798500124536979
+velocity 1.1916351150249156
+distance 5.076277902314756
+velocity 1.1916351150249156
+distance 3.0234047312034247
+velocity 2.901407010349347
+distance 3.217849175647869
+velocity 2.901407010349347
+distance 3.4122936200923135
+velocity 2.901407010349347
+distance 3.606738064536758
+velocity 2.901407010349347
+distance 3.8011825089812024
+velocity 2.901407010349347
+distance 3.0244528493167904
+velocity 2.9090399951098633
+distance 3.218897293761235
+velocity 2.9090399951098633
+distance 3.413341738205679
+velocity 2.9090399951098633
+distance 3.6077861826501243
+velocity 2.9090399951098633
+distance 3.8022306270945685
+velocity 2.9090399951098633
+Number of Possible shots: 235 calculated in: 222629 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 47 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 536.0 y: 348.0 dx: -540 dy: 181 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0044912598908744
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 154
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 56 calculated in: 287695 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 331.0 dx: -518 dy: 237 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0044912598908744
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 155
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 69 calculated in: 259108 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 578.0 y: 308.0 dx: -496 dy: 280 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9987694207334744
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 156
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 62 calculated in: 235921 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 565.0 y: 382.0 dx: -552 dy: 141 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 0.9987694207334744
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 157
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 62 calculated in: 234862 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 48 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 536.0 y: 348.0 dx: -179 dy: 541 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0044197906995702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 158
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 57 calculated in: 293622 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 332.0 dx: -521 dy: 230 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0044197906995702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 159
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 49 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 526.0 y: 348.0 dx: -542 dy: 175 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0044197906995702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 160
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 52 calculated in: 280454 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 577.0 y: 331.0 dx: -517 dy: 238 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0044197906995702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 161
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 50 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 526.0 y: 348.0 dx: -173 dy: 543 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0028682373044384
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 162
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 58 calculated in: 296677 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0028682373044384
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 163
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 64 calculated in: 270527 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 611.0 y: 349.0 dx: -227 dy: 522 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0055070094069711
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 164
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 51 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 348.0 dx: -544 dy: 169 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0055070094069711
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 165
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 55 calculated in: 292493 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 235 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0055070094069711
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 166
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 68 calculated in: 266790 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 576.0 y: 339.0 dx: -523 dy: 224 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0055070094069711
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 167
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 46 calculated in: 218154 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 586.0 y: 314.0 dx: -219 dy: 526 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0046541532542994
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 168
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 38 calculated in: 194359 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 52 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 348.0 dx: -167 dy: 545 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0032332098960604
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 169
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 64 calculated in: 294524 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0032332098960604
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 170
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 63 calculated in: 252488 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 590.0 y: 307.0 dx: -491 dy: 288 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0066465472831243
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 171
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 54 calculated in: 231720 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 569.0 y: 308.0 dx: -499 dy: 274 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9976308271230023
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 172
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.413493998486774
+velocity 2.5335565645277933
+distance 4.719049554042329
+velocity 2.5335565645277933
+distance 5.010716220708996
+velocity 2.5335565645277933
+distance 5.302382887375662
+velocity 2.5335565645277933
+distance 5.607938442931218
+velocity 2.5335565645277933
+distance 4.233858766893147
+velocity 1.2162598346544835
+distance 4.539414322448703
+velocity 1.2162598346544835
+distance 4.831080989115369
+velocity 1.2162598346544835
+distance 5.122747655782036
+velocity 1.2162598346544835
+distance 5.4283032113375915
+velocity 1.2162598346544835
+distance 4.507871664218243
+velocity 2.488624568642356
+distance 4.813427219773798
+velocity 2.488624568642356
+distance 5.1189827753293535
+velocity 2.488624568642356
+distance 5.42453833088491
+velocity 2.488624568642356
+distance 5.730093886440465
+velocity 2.488624568642356
+distance 4.334720067718246
+velocity 1.2433519748334418
+distance 4.640275623273801
+velocity 1.2433519748334418
+distance 4.945831178829357
+velocity 1.2433519748334418
+distance 5.251386734384912
+velocity 1.2433519748334418
+distance 5.556942289940468
+velocity 1.2433519748334418
+distance 4.418548535475841
+velocity 2.5693335413298097
+distance 4.724104091031396
+velocity 2.5693335413298097
+distance 5.015770757698063
+velocity 2.5693335413298097
+distance 5.30743742436473
+velocity 2.5693335413298097
+distance 5.612992979920286
+velocity 2.5693335413298097
+distance 4.231304552954479
+velocity 1.198836773121199
+distance 4.536860108510035
+velocity 1.198836773121199
+distance 4.828526775176702
+velocity 1.198836773121199
+distance 5.120193441843368
+velocity 1.198836773121199
+distance 5.425748997398923
+velocity 1.198836773121199
+distance 4.5681472263635845
+velocity 1.3199239462762733
+distance 4.887591670808029
+velocity 1.3199239462762733
+distance 5.207036115252474
+velocity 1.3199239462762733
+distance 5.5264805596969175
+velocity 1.3199239462762733
+distance 5.845925004141362
+velocity 1.3199239462762733
+distance 4.671666304558716
+velocity 1.3629552190590908
+distance 4.991110749003161
+velocity 1.3629552190590908
+distance 5.324444082336495
+velocity 1.3629552190590908
+distance 5.643888526780938
+velocity 1.3629552190590908
+distance 5.977221860114272
+velocity 1.3629552190590908
+distance 4.919004237721718
+velocity 2.4498396705154644
+distance 5.252337571055051
+velocity 2.4498396705154644
+distance 5.585670904388384
+velocity 2.4498396705154644
+distance 5.919004237721718
+velocity 2.4498396705154644
+distance 6.252337571055051
+velocity 2.4498396705154644
+distance 4.775650883512834
+velocity 1.409167617506319
+distance 5.108984216846167
+velocity 1.409167617506319
+distance 5.4423175501795
+velocity 1.409167617506319
+distance 5.775650883512834
+velocity 1.409167617506319
+distance 6.108984216846167
+velocity 1.409167617506319
+distance 3.890953983938663
+velocity 2.695270679413902
+distance 4.154842872827552
+velocity 2.695270679413902
+distance 4.404842872827552
+velocity 2.695270679413902
+distance 4.66873176171644
+velocity 2.695270679413902
+distance 4.91873176171644
+velocity 2.695270679413902
+distance 3.6587668639431135
+velocity 0.9864495601318443
+distance 3.9226557528320023
+velocity 0.9864495601318443
+distance 4.172655752832003
+velocity 0.9864495601318443
+distance 4.436544641720891
+velocity 0.9864495601318443
+distance 4.686544641720891
+velocity 0.9864495601318443
+distance 3.8631227999818987
+velocity 1.0558655096558438
+distance 4.140900577759677
+velocity 1.0558655096558438
+distance 4.404789466648565
+velocity 1.0558655096558438
+distance 4.682567244426343
+velocity 1.0558655096558438
+distance 4.946456133315232
+velocity 1.0558655096558438
+distance 3.9673284040587458
+velocity 1.103501257751003
+distance 4.245106181836523
+velocity 1.103501257751003
+distance 4.522883959614301
+velocity 1.103501257751003
+distance 4.80066173739208
+velocity 1.103501257751003
+distance 5.078439515169857
+velocity 1.103501257751003
+distance 4.069431052673216
+velocity 1.136792114109386
+distance 4.361097719339883
+velocity 1.136792114109386
+distance 4.6388754971176605
+velocity 1.136792114109386
+distance 4.930542163784327
+velocity 1.136792114109386
+distance 5.208319941562105
+velocity 1.136792114109386
+distance 3.8800148154402354
+velocity 2.7163553541431518
+distance 4.143903704329124
+velocity 2.7163553541431518
+distance 4.393903704329124
+velocity 2.7163553541431518
+distance 4.657792593218013
+velocity 2.7163553541431518
+distance 4.907792593218013
+velocity 2.7163553541431518
+distance 3.8844978466247704
+velocity 2.76182571423804
+distance 4.148386735513659
+velocity 2.76182571423804
+distance 4.398386735513659
+velocity 2.76182571423804
+distance 4.6622756244025485
+velocity 2.76182571423804
+distance 4.9122756244025485
+velocity 2.76182571423804
+distance 3.643644197452471
+velocity 0.978048977696212
+distance 3.9075330863413598
+velocity 0.978048977696212
+distance 4.15753308634136
+velocity 0.978048977696212
+distance 4.421421975230249
+velocity 0.978048977696212
+distance 4.671421975230249
+velocity 0.978048977696212
+distance 3.642187557755599
+velocity 0.9681309650534202
+distance 3.9060764466444877
+velocity 0.9681309650534202
+distance 4.156076446644487
+velocity 0.9681309650534202
+distance 4.419965335533377
+velocity 0.9681309650534202
+distance 4.669965335533377
+velocity 0.9681309650534202
+distance 3.640730188267423
+velocity 0.9582079833854152
+distance 3.904619077156312
+velocity 0.9582079833854152
+distance 4.154619077156312
+velocity 0.9582079833854152
+distance 4.418507966045201
+velocity 0.9582079833854152
+distance 4.668507966045201
+velocity 0.9582079833854152
+distance 3.934580554980073
+velocity 2.7092801246398066
+distance 4.198469443868962
+velocity 2.7092801246398066
+distance 4.462358332757851
+velocity 2.7092801246398066
+distance 4.72624722164674
+velocity 2.7092801246398066
+distance 4.990136110535628
+velocity 2.7092801246398066
+distance 3.679464114936976
+velocity 2.785526561333508
+distance 3.915575226048087
+velocity 2.785526561333508
+distance 4.165575226048087
+velocity 2.785526561333508
+distance 4.401686337159198
+velocity 2.785526561333508
+distance 4.651686337159198
+velocity 2.785526561333508
+distance 3.4261409160791154
+velocity 0.9156123567596894
+distance 3.6622520271902266
+velocity 0.9156123567596894
+distance 3.9122520271902266
+velocity 0.9156123567596894
+distance 4.148363138301338
+velocity 0.9156123567596894
+distance 4.398363138301338
+velocity 0.9156123567596894
+distance 3.7755730616463663
+velocity 2.7775299679445955
+distance 4.025573061646366
+velocity 2.7775299679445955
+distance 4.275573061646366
+velocity 2.7775299679445955
+distance 4.525573061646366
+velocity 2.7775299679445955
+distance 4.775573061646366
+velocity 2.7775299679445955
+distance 3.527538141100735
+velocity 0.9440392427199119
+distance 3.7775381411007345
+velocity 0.9440392427199119
+distance 4.0275381411007345
+velocity 0.9440392427199119
+distance 4.2775381411007345
+velocity 0.9440392427199119
+distance 4.5275381411007345
+velocity 0.9440392427199119
+distance 3.681805622206293
+velocity 2.8023454721368934
+distance 3.917916733317404
+velocity 2.8023454721368934
+distance 4.167916733317404
+velocity 2.8023454721368934
+distance 4.404027844428516
+velocity 2.8023454721368934
+distance 4.654027844428516
+velocity 2.8023454721368934
+distance 3.4240472349703066
+velocity 0.9013568371883538
+distance 3.6601583460814178
+velocity 0.9013568371883538
+distance 3.9101583460814178
+velocity 0.9013568371883538
+distance 4.1462694571925285
+velocity 0.9013568371883538
+distance 4.3962694571925285
+velocity 0.9013568371883538
+distance 4.73783884358377
+velocity 1.3405957661468608
+distance 5.071172176917104
+velocity 1.3405957661468608
+distance 5.404505510250437
+velocity 1.3405957661468608
+distance 5.73783884358377
+velocity 1.3405957661468608
+distance 6.071172176917104
+velocity 1.3405957661468608
+distance 3.3358794293355563
+velocity 0.8684397352381271
+distance 3.571990540446668
+velocity 0.8684397352381271
+distance 3.808101651557779
+velocity 0.8684397352381271
+distance 4.04421276266889
+velocity 0.8684397352381271
+distance 4.280323873780001
+velocity 0.8684397352381271
+distance 3.9024771495258648
+velocity 2.6783604304029134
+distance 4.166366038414754
+velocity 2.6783604304029134
+distance 4.4302549273036425
+velocity 2.6783604304029134
+distance 4.6802549273036425
+velocity 2.6783604304029134
+distance 4.944143816192532
+velocity 2.6783604304029134
+distance 3.881125861944367
+velocity 1.0839295216535734
+distance 4.158903639722144
+velocity 1.0839295216535734
+distance 4.436681417499923
+velocity 1.0839295216535734
+distance 4.700570306388811
+velocity 1.0839295216535734
+distance 4.978348084166589
+velocity 1.0839295216535734
+distance 3.9832421840170493
+velocity 1.117313648783136
+distance 4.274908850683716
+velocity 1.117313648783136
+distance 4.552686628461494
+velocity 1.117313648783136
+distance 4.830464406239272
+velocity 1.117313648783136
+distance 5.108242184017049
+velocity 1.117313648783136
+distance 4.281223439061066
+velocity 2.580402362705643
+distance 4.572890105727733
+velocity 2.580402362705643
+distance 4.864556772394399
+velocity 2.580402362705643
+distance 5.142334550172177
+velocity 2.580402362705643
+distance 5.434001216838844
+velocity 2.580402362705643
+distance 4.08533077575294
+velocity 1.1505086189446934
+distance 4.376997442419606
+velocity 1.1505086189446934
+distance 4.668664109086273
+velocity 1.1505086189446934
+distance 4.946441886864051
+velocity 1.1505086189446934
+distance 5.238108553530718
+velocity 1.1505086189446934
+distance 4.810785404444681
+velocity 2.4701097848488067
+distance 5.130229848889126
+velocity 2.4701097848488067
+distance 5.463563182222459
+velocity 2.4701097848488067
+distance 5.783007626666904
+velocity 2.4701097848488067
+distance 6.116340960000237
+velocity 2.4701097848488067
+distance 4.65723893907574
+velocity 1.3592753932369641
+distance 4.976683383520185
+velocity 1.3592753932369641
+distance 5.310016716853518
+velocity 1.3592753932369641
+distance 5.629461161297963
+velocity 1.3592753932369641
+distance 5.962794494631296
+velocity 1.3592753932369641
+distance 4.904826372944202
+velocity 2.447814424450567
+distance 5.238159706277535
+velocity 2.447814424450567
+distance 5.571493039610868
+velocity 2.447814424450567
+distance 5.904826372944202
+velocity 2.447814424450567
+distance 6.238159706277535
+velocity 2.447814424450567
+distance 4.761235670306962
+velocity 1.4055708375650668
+distance 5.094569003640295
+velocity 1.4055708375650668
+distance 5.427902336973628
+velocity 1.4055708375650668
+distance 5.761235670306962
+velocity 1.4055708375650668
+distance 6.094569003640295
+velocity 1.4055708375650668
+distance 4.998370105949949
+velocity 2.422034260417415
+distance 5.331703439283283
+velocity 2.422034260417415
+distance 5.678925661505505
+velocity 2.422034260417415
+distance 6.012258994838838
+velocity 2.422034260417415
+distance 6.35948121706106
+velocity 2.422034260417415
+distance 4.8632951157945286
+velocity 1.438627314438281
+distance 5.196628449127862
+velocity 1.438627314438281
+distance 5.543850671350084
+velocity 1.438627314438281
+distance 5.877184004683418
+velocity 1.438627314438281
+distance 6.224406226905639
+velocity 1.438627314438281
+distance 4.654223711341626
+velocity 1.338670016889272
+distance 4.973668155786069
+velocity 1.338670016889272
+distance 5.307001489119403
+velocity 1.338670016889272
+distance 5.626445933563847
+velocity 1.338670016889272
+distance 5.959779266897181
+velocity 1.338670016889272
+distance 4.650931749834509
+velocity 1.3161735052630459
+distance 4.970376194278954
+velocity 1.3161735052630459
+distance 5.303709527612288
+velocity 1.3161735052630459
+distance 5.623153972056731
+velocity 1.3161735052630459
+distance 5.956487305390065
+velocity 1.3161735052630459
+distance 3.907466773415864
+velocity 1.0741282243971337
+distance 4.185244551193642
+velocity 1.0741282243971337
+distance 4.4630223289714195
+velocity 1.0741282243971337
+distance 4.740800106749197
+velocity 1.0741282243971337
+distance 5.018577884526975
+velocity 1.0741282243971337
+distance 4.009589579715456
+velocity 1.10755658238877
+distance 4.301256246382122
+velocity 1.10755658238877
+distance 4.5790340241599
+velocity 1.10755658238877
+distance 4.856811801937678
+velocity 1.10755658238877
+distance 5.1484784686043445
+velocity 1.10755658238877
+distance 4.267890117043861
+velocity 1.1641770441452093
+distance 4.573445672599417
+velocity 1.1641770441452093
+distance 4.8651123392660836
+velocity 1.1641770441452093
+distance 5.170667894821639
+velocity 1.1641770441452093
+distance 5.462334561488306
+velocity 1.1641770441452093
+distance 4.265300511956219
+velocity 1.1465125689398055
+distance 4.570856067511774
+velocity 1.1465125689398055
+distance 4.862522734178441
+velocity 1.1465125689398055
+distance 5.168078289733996
+velocity 1.1465125689398055
+distance 5.459744956400663
+velocity 1.1465125689398055
+distance 3.450290409619055
+velocity 2.855047527413937
+distance 3.6725126318412773
+velocity 2.855047527413937
+distance 3.9086237429523885
+velocity 2.855047527413937
+distance 4.130845965174611
+velocity 2.855047527413937
+distance 4.353068187396833
+velocity 2.855047527413937
+distance 3.176771634994334
+velocity 0.8253397260593693
+distance 3.3989938572165563
+velocity 0.8253397260593693
+distance 3.635104968327668
+velocity 0.8253397260593693
+distance 3.8573271905498903
+velocity 0.8253397260593693
+distance 4.079549412772113
+velocity 0.8253397260593693
+distance 3.5466546601212836
+velocity 2.848841969398114
+distance 3.7827657712323943
+velocity 2.848841969398114
+distance 4.0188768823435055
+velocity 2.848841969398114
+distance 4.241099104565728
+velocity 2.848841969398114
+distance 4.4772102156768385
+velocity 2.848841969398114
+distance 3.2782170173656278
+velocity 0.8540945072458013
+distance 3.514328128476739
+velocity 0.8540945072458013
+distance 3.75043923958785
+velocity 0.8540945072458013
+distance 3.972661461810072
+velocity 0.8540945072458013
+distance 4.208772572921183
+velocity 0.8540945072458013
+distance 3.1761285661733316
+velocity 0.8209611795247775
+distance 3.398350788395554
+velocity 0.8209611795247775
+distance 3.634461899506665
+velocity 0.8209611795247775
+distance 3.8566841217288874
+velocity 0.8209611795247775
+distance 4.078906343951109
+velocity 0.8209611795247775
+distance 3.853173805923036
+velocity 2.598139759502497
+distance 4.103173805923036
+velocity 2.598139759502497
+distance 4.367062694811924
+velocity 2.598139759502497
+distance 4.617062694811924
+velocity 2.598139759502497
+distance 4.8809515837008135
+velocity 2.598139759502497
+distance 3.6338937691552036
+velocity 1.0080699606536674
+distance 3.8838937691552036
+velocity 1.0080699606536674
+distance 4.147782658044092
+velocity 1.0080699606536674
+distance 4.397782658044092
+velocity 1.0080699606536674
+distance 4.661671546932982
+velocity 1.0080699606536674
+distance 3.947240952032991
+velocity 2.575807529048685
+distance 4.21112984092188
+velocity 2.575807529048685
+distance 4.475018729810769
+velocity 2.575807529048685
+distance 4.738907618699658
+velocity 2.575807529048685
+distance 5.002796507588546
+velocity 2.575807529048685
+distance 3.735839888310286
+velocity 1.0402930824885703
+distance 3.9997287771991754
+velocity 1.0402930824885703
+distance 4.263617666088064
+velocity 1.0402930824885703
+distance 4.527506554976953
+velocity 1.0402930824885703
+distance 4.7913954438658415
+velocity 1.0402930824885703
+distance 3.8557464353022226
+velocity 2.6163493208962376
+distance 4.105746435302223
+velocity 2.6163493208962376
+distance 4.369635324191112
+velocity 2.6163493208962376
+distance 4.619635324191112
+velocity 2.6163493208962376
+distance 4.88352421308
+velocity 2.6163493208962376
+distance 3.632441891784879
+velocity 0.9981662684143459
+distance 3.882441891784879
+velocity 0.9981662684143459
+distance 4.146330780673768
+velocity 0.9981662684143459
+distance 4.396330780673768
+velocity 0.9981662684143459
+distance 4.6602196695626565
+velocity 0.9981662684143459
+distance 3.7352333204382253
+velocity 1.036155500589479
+distance 3.999122209327114
+velocity 1.036155500589479
+distance 4.263011098216003
+velocity 1.036155500589479
+distance 4.526899987104892
+velocity 1.036155500589479
+distance 4.790788875993781
+velocity 1.036155500589479
+distance 4.630967301954474
+velocity 2.4752781188774313
+distance 4.93652285751003
+velocity 2.4752781188774313
+distance 5.255967301954474
+velocity 2.4752781188774313
+distance 5.56152285751003
+velocity 2.4752781188774313
+distance 5.880967301954474
+velocity 2.4752781188774313
+distance 4.46585356183584
+velocity 1.2852668700798153
+distance 4.771409117391396
+velocity 1.2852668700798153
+distance 5.09085356183584
+velocity 1.2852668700798153
+distance 5.396409117391396
+velocity 1.2852668700798153
+distance 5.71585356183584
+velocity 1.2852668700798153
+distance 4.4625141613495085
+velocity 1.2624461713252924
+distance 4.768069716905064
+velocity 1.2624461713252924
+distance 5.0875141613495085
+velocity 1.2624461713252924
+distance 5.393069716905064
+velocity 1.2624461713252924
+distance 5.7125141613495085
+velocity 1.2624461713252924
+distance 3.7196163361280106
+velocity 2.7746483873875993
+distance 3.9557274472391217
+velocity 2.7746483873875993
+distance 4.205727447239122
+velocity 2.7746483873875993
+distance 4.455727447239122
+velocity 2.7746483873875993
+distance 4.6918385583502324
+velocity 2.7746483873875993
+distance 3.4698972085192636
+velocity 0.9298402642405842
+distance 3.706008319630375
+velocity 0.9298402642405842
+distance 3.956008319630375
+velocity 0.9298402642405842
+distance 4.206008319630374
+velocity 0.9298402642405842
+distance 4.442119430741486
+velocity 0.9298402642405842
+distance 5.147995740956011
+velocity 1.4886480321743618
+distance 5.509106852067123
+velocity 1.4886480321743618
+distance 5.870217963178233
+velocity 1.4886480321743618
+distance 6.231329074289345
+velocity 1.4886480321743618
+distance 6.592440185400456
+velocity 1.4886480321743618
+distance 5.253372536475876
+velocity 1.5444762107164258
+distance 5.628372536475876
+velocity 1.5444762107164258
+distance 5.989483647586987
+velocity 1.5444762107164258
+distance 6.350594758698097
+velocity 1.5444762107164258
+distance 6.725594758698097
+velocity 1.5444762107164258
+distance 3.436401520730166
+velocity 2.855047527413937
+distance 3.6725126318412773
+velocity 2.855047527413937
+distance 3.8947348540634996
+velocity 2.855047527413937
+distance 4.116957076285722
+velocity 2.855047527413937
+distance 4.339179298507944
+velocity 2.855047527413937
+distance 3.162882746105445
+velocity 0.8253397260593693
+distance 3.3989938572165563
+velocity 0.8253397260593693
+distance 3.621216079438779
+velocity 0.8253397260593693
+distance 3.843438301661001
+velocity 0.8253397260593693
+distance 4.065660523883223
+velocity 0.8253397260593693
+distance 3.354290448533144
+velocity 2.863887926479683
+distance 3.5765126707553665
+velocity 2.863887926479683
+distance 3.798734892977589
+velocity 2.863887926479683
+distance 4.007068226310922
+velocity 2.863887926479683
+distance 4.229290448533145
+velocity 2.863887926479683
+distance 3.0753149827578565
+velocity 0.7965082102723211
+distance 3.297537204980079
+velocity 0.7965082102723211
+distance 3.5197594272023007
+velocity 0.7965082102723211
+distance 3.728092760535634
+velocity 0.7965082102723211
+distance 3.9503149827578565
+velocity 0.7965082102723211
+distance 4.168078289733996
+velocity 1.1465125689398055
+distance 4.459744956400663
+velocity 1.1465125689398055
+distance 4.75141162306733
+velocity 1.1465125689398055
+distance 5.043078289733996
+velocity 1.1465125689398055
+distance 5.334744956400663
+velocity 1.1465125689398055
+Number of Possible shots: 350 calculated in: 218701 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 53 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 358.0 dx: -550 dy: 146 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 0.9976308271230023
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 173
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 64 calculated in: 303880 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 566.0 y: 332.0 dx: -520 dy: 233 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9976308271230023
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 174
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 60 calculated in: 263102 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 557.0 y: 334.0 dx: -196 dy: 535 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0047391532932457
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 175
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 256563 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 575.0 y: 339.0 dx: -523 dy: 224 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0047391532932457
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 176
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.086895396299316
+velocity 2.4759381074622326
+distance 4.364673174077094
+velocity 2.4759381074622326
+distance 4.642450951854872
+velocity 2.4759381074622326
+distance 4.906339840743761
+velocity 2.4759381074622326
+distance 5.1841176185215385
+velocity 2.4759381074622326
+distance 4.092637537822856
+velocity 2.5415429464167767
+distance 4.370415315600635
+velocity 2.5415429464167767
+distance 4.648193093378413
+velocity 2.5415429464167767
+distance 4.912081982267301
+velocity 2.5415429464167767
+distance 5.189859760045079
+velocity 2.5415429464167767
+distance 4.098301166438212
+velocity 2.581916826948553
+distance 4.3760789442159895
+velocity 2.581916826948553
+distance 4.653856721993767
+velocity 2.581916826948553
+distance 4.9177456108826565
+velocity 2.581916826948553
+distance 5.195523388660434
+velocity 2.581916826948553
+distance 3.895612822559171
+velocity 1.0957614392062927
+distance 4.1733906003369485
+velocity 1.0957614392062927
+distance 4.451168378114726
+velocity 1.0957614392062927
+distance 4.7150572670036155
+velocity 1.0957614392062927
+distance 4.992835044781393
+velocity 1.0957614392062927
+distance 4.1047791196759915
+velocity 2.62809572176581
+distance 4.382556897453769
+velocity 2.62809572176581
+distance 4.660334675231547
+velocity 2.62809572176581
+distance 4.924223564120435
+velocity 2.62809572176581
+distance 5.202001341898214
+velocity 2.62809572176581
+distance 3.8929768783113285
+velocity 1.0776527553780093
+distance 4.170754656089106
+velocity 1.0776527553780093
+distance 4.448532433866884
+velocity 1.0776527553780093
+distance 4.712421322755773
+velocity 1.0776527553780093
+distance 4.990199100533551
+velocity 1.0776527553780093
+distance 3.8803314045673485
+velocity 2.7379890595811123
+distance 4.144220293456238
+velocity 2.7379890595811123
+distance 4.394220293456238
+velocity 2.7379890595811123
+distance 4.658109182345126
+velocity 2.7379890595811123
+distance 4.908109182345126
+velocity 2.7379890595811123
+distance 3.6434243116981886
+velocity 0.9835099467191043
+distance 3.907313200587078
+velocity 0.9835099467191043
+distance 4.157313200587078
+velocity 0.9835099467191043
+distance 4.421202089475966
+velocity 0.9835099467191043
+distance 4.671202089475966
+velocity 0.9835099467191043
+distance 3.641567510194785
+velocity 0.970777218731372
+distance 3.9054563990836737
+velocity 0.970777218731372
+distance 4.155456399083674
+velocity 0.970777218731372
+distance 4.419345287972563
+velocity 0.970777218731372
+distance 4.669345287972563
+velocity 0.970777218731372
+distance 3.640730188267423
+velocity 0.9650354136328116
+distance 3.904619077156312
+velocity 0.9650354136328116
+distance 4.154619077156312
+velocity 0.9650354136328116
+distance 4.418507966045201
+velocity 0.9650354136328116
+distance 4.668507966045201
+velocity 0.9650354136328116
+distance 4.004024999424518
+velocity 2.7285843063961335
+distance 4.281802777202295
+velocity 2.7285843063961335
+distance 4.545691666091184
+velocity 2.7285843063961335
+distance 4.809580554980073
+velocity 2.7285843063961335
+distance 5.073469443868962
+velocity 2.7285843063961335
+distance 3.7719444480792057
+velocity 1.009494245853772
+distance 4.049722225856984
+velocity 1.009494245853772
+distance 4.313611114745872
+velocity 1.009494245853772
+distance 4.5775000036347615
+velocity 1.009494245853772
+distance 4.84138889252365
+velocity 1.009494245853772
+distance 3.7707159761160023
+velocity 0.9992246796174186
+distance 4.04849375389378
+velocity 0.9992246796174186
+distance 4.312382642782669
+velocity 0.9992246796174186
+distance 4.576271531671558
+velocity 0.9992246796174186
+distance 4.840160420560447
+velocity 0.9992246796174186
+distance 3.69263460809581
+velocity 2.800177052449299
+distance 3.928745719206921
+velocity 2.800177052449299
+distance 4.178745719206921
+velocity 2.800177052449299
+distance 4.414856830318032
+velocity 2.800177052449299
+distance 4.664856830318032
+velocity 2.800177052449299
+distance 3.438566269677339
+velocity 0.9121003183495636
+distance 3.67467738078845
+velocity 0.9121003183495636
+distance 3.92467738078845
+velocity 0.9121003183495636
+distance 4.160788491899561
+velocity 0.9121003183495636
+distance 4.410788491899561
+velocity 0.9121003183495636
+distance 3.7887131186064753
+velocity 2.7919033025051943
+distance 4.038713118606475
+velocity 2.7919033025051943
+distance 4.288713118606475
+velocity 2.7919033025051943
+distance 4.538713118606475
+velocity 2.7919033025051943
+distance 4.788713118606475
+velocity 2.7919033025051943
+distance 3.539967026314758
+velocity 0.940753969264077
+distance 3.789967026314758
+velocity 0.940753969264077
+distance 4.039967026314758
+velocity 0.940753969264077
+distance 4.289967026314758
+velocity 0.940753969264077
+distance 4.539967026314758
+velocity 0.940753969264077
+distance 3.6951983295104114
+velocity 2.818723325689681
+distance 3.9313094406215225
+velocity 2.818723325689681
+distance 4.181309440621522
+velocity 2.818723325689681
+distance 4.417420551732634
+velocity 2.818723325689681
+distance 4.667420551732634
+velocity 2.818723325689681
+distance 3.4371024447083913
+velocity 0.9020623659259519
+distance 3.673213555819502
+velocity 0.9020623659259519
+distance 3.923213555819502
+velocity 0.9020623659259519
+distance 4.159324666930613
+velocity 0.9020623659259519
+distance 4.409324666930613
+velocity 0.9020623659259519
+distance 3.6998172044020907
+velocity 0.9892518561932041
+distance 3.9637060932909796
+velocity 0.9892518561932041
+distance 4.227594982179869
+velocity 0.9892518561932041
+distance 4.491483871068757
+velocity 0.9892518561932041
+distance 4.7553727599576465
+velocity 0.9892518561932041
+distance 3.784604865004891
+velocity 0.9992246796174186
+distance 4.04849375389378
+velocity 0.9992246796174186
+distance 4.326271531671558
+velocity 0.9992246796174186
+distance 4.590160420560447
+velocity 0.9992246796174186
+distance 4.854049309449335
+velocity 0.9992246796174186
+distance 3.601969739760805
+velocity 2.8673888453201672
+distance 3.838080850871916
+velocity 2.8673888453201672
+distance 4.074191961983027
+velocity 2.8673888453201672
+distance 4.310303073094138
+velocity 2.8673888453201672
+distance 4.54641418420525
+velocity 2.8673888453201672
+distance 3.334410476377771
+velocity 0.8645544313230829
+distance 3.5705215874888827
+velocity 0.8645544313230829
+distance 3.806632698599994
+velocity 0.8645544313230829
+distance 4.042743809711105
+velocity 0.8645544313230829
+distance 4.278854920822216
+velocity 0.8645544313230829
+distance 3.6036627341972394
+velocity 2.879721224345473
+distance 3.8397738453083505
+velocity 2.879721224345473
+distance 4.075884956419461
+velocity 2.879721224345473
+distance 4.311996067530573
+velocity 2.879721224345473
+distance 4.548107178641684
+velocity 2.879721224345473
+distance 3.333772572921183
+velocity 0.8601801074223963
+distance 3.5698836840322943
+velocity 0.8601801074223963
+distance 3.8059947951434054
+velocity 0.8601801074223963
+distance 4.042105906254516
+velocity 0.8601801074223963
+distance 4.278217017365628
+velocity 0.8601801074223963
+distance 4.111815780254053
+velocity 2.455769785923262
+distance 4.389593558031831
+velocity 2.455769785923262
+distance 4.667371335809609
+velocity 2.455769785923262
+distance 4.945149113587387
+velocity 2.455769785923262
+distance 5.222926891365165
+velocity 2.455769785923262
+distance 4.194912131526399
+velocity 2.7029753712451443
+distance 4.486578798193066
+velocity 2.7029753712451443
+distance 4.764356575970844
+velocity 2.7029753712451443
+distance 5.042134353748621
+velocity 2.7029753712451443
+distance 5.319912131526399
+velocity 2.7029753712451443
+distance 4.113391254991033
+velocity 2.7160231680460454
+distance 4.39116903276881
+velocity 2.7160231680460454
+distance 4.668946810546588
+velocity 2.7160231680460454
+distance 4.9328356994354765
+velocity 2.7160231680460454
+distance 5.210613477213254
+velocity 2.7160231680460454
+distance 4.008811160664139
+velocity 2.3086788111839187
+distance 4.272700049553027
+velocity 2.3086788111839187
+distance 4.5504778273308055
+velocity 2.3086788111839187
+distance 4.814366716219694
+velocity 2.3086788111839187
+distance 5.092144493997472
+velocity 2.3086788111839187
+distance 3.852059956254666
+velocity 1.1782187616304478
+distance 4.115948845143555
+velocity 1.1782187616304478
+distance 4.393726622921332
+velocity 1.1782187616304478
+distance 4.657615511810222
+velocity 1.1782187616304478
+distance 4.935393289587999
+velocity 1.1782187616304478
+distance 4.103439735054469
+velocity 2.2904372344980204
+distance 4.381217512832246
+velocity 2.2904372344980204
+distance 4.658995290610024
+velocity 2.2904372344980204
+distance 4.936773068387802
+velocity 2.2904372344980204
+distance 5.214550846165579
+velocity 2.2904372344980204
+distance 3.9555097134136
+velocity 1.2210013285572032
+distance 4.233287491191378
+velocity 1.2210013285572032
+distance 4.511065268969156
+velocity 1.2210013285572032
+distance 4.788843046746933
+velocity 1.2210013285572032
+distance 5.066620824524711
+velocity 1.2210013285572032
+distance 4.198026736632965
+velocity 2.2719032689897984
+distance 4.4758045144107435
+velocity 2.2719032689897984
+distance 4.7674711810774095
+velocity 2.2719032689897984
+distance 5.045248958855187
+velocity 2.2719032689897984
+distance 5.336915625521854
+velocity 2.2719032689897984
+distance 4.292249040857998
+velocity 2.2508043235106796
+distance 4.583915707524664
+velocity 2.2508043235106796
+distance 4.875582374191331
+velocity 2.2508043235106796
+distance 5.167249040857998
+velocity 2.2508043235106796
+distance 5.458915707524664
+velocity 2.2508043235106796
+distance 4.160852842338275
+velocity 1.2982433013529877
+distance 4.452519509004941
+velocity 1.2982433013529877
+distance 4.744186175671608
+velocity 1.2982433013529877
+distance 5.035852842338275
+velocity 1.2982433013529877
+distance 5.327519509004941
+velocity 1.2982433013529877
+distance 4.016669430867828
+velocity 2.36394739343955
+distance 4.280558319756717
+velocity 2.36394739343955
+distance 4.558336097534495
+velocity 2.36394739343955
+distance 4.822224986423383
+velocity 2.36394739343955
+distance 5.100002764201161
+velocity 2.36394739343955
+distance 3.8483830371313648
+velocity 1.1529586803823155
+distance 4.112271926020253
+velocity 1.1529586803823155
+distance 4.390049703798031
+velocity 1.1529586803823155
+distance 4.65393859268692
+velocity 1.1529586803823155
+distance 4.931716370464698
+velocity 1.1529586803823155
+distance 4.023869995750482
+velocity 2.4232137561824363
+distance 4.287758884639371
+velocity 2.4232137561824363
+distance 4.5655366624171485
+velocity 2.4232137561824363
+distance 4.829425551306038
+velocity 2.4232137561824363
+distance 5.1072033290838155
+velocity 2.4232137561824363
+distance 3.8457819573527336
+velocity 1.135089512109153
+distance 4.109670846241623
+velocity 1.135089512109153
+distance 4.387448624019401
+velocity 1.135089512109153
+distance 4.651337512908289
+velocity 1.135089512109153
+distance 4.929115290686067
+velocity 1.135089512109153
+distance 4.030873257102193
+velocity 2.472644823620118
+distance 4.294762145991082
+velocity 2.472644823620118
+distance 4.5725399237688595
+velocity 2.472644823620118
+distance 4.836428812657748
+velocity 2.472644823620118
+distance 5.114206590435526
+velocity 2.472644823620118
+distance 4.132041096985679
+velocity 2.296229645212927
+distance 4.409818874763457
+velocity 2.296229645212927
+distance 4.6875966525412345
+velocity 2.296229645212927
+distance 4.965374430319013
+velocity 2.296229645212927
+distance 5.243152208096791
+velocity 2.296229645212927
+distance 3.9846934159927354
+velocity 1.2306598969184186
+distance 4.262471193770513
+velocity 1.2306598969184186
+distance 4.540248971548291
+velocity 1.2306598969184186
+distance 4.818026749326069
+velocity 1.2306598969184186
+distance 5.095804527103847
+velocity 1.2306598969184186
+distance 4.2263867188452915
+velocity 2.2759980141240836
+distance 4.5180533855119585
+velocity 2.2759980141240836
+distance 4.795831163289736
+velocity 2.2759980141240836
+distance 5.087497829956402
+velocity 2.2759980141240836
+distance 5.36527560773418
+velocity 2.2759980141240836
+distance 3.9630049883281604
+velocity 2.3857380916166453
+distance 4.226893877217049
+velocity 2.3857380916166453
+distance 4.490782766105938
+velocity 2.3857380916166453
+distance 4.7546716549948265
+velocity 2.3857380916166453
+distance 5.018560543883716
+velocity 2.3857380916166453
+distance 3.789389200230511
+velocity 1.129338017750449
+distance 4.0532780891194
+velocity 1.129338017750449
+distance 4.317166978008289
+velocity 1.129338017750449
+distance 4.581055866897177
+velocity 1.129338017750449
+distance 4.8449447557860665
+velocity 1.129338017750449
+distance 4.0574936589846065
+velocity 2.358022376472336
+distance 4.321382547873495
+velocity 2.358022376472336
+distance 4.5991603256512725
+velocity 2.358022376472336
+distance 4.876938103429051
+velocity 2.358022376472336
+distance 5.1408269923179395
+velocity 2.358022376472336
+distance 3.8923074876491026
+velocity 1.1684694386030672
+distance 4.1561963765379915
+velocity 1.1684694386030672
+distance 4.433974154315769
+velocity 1.1684694386030672
+distance 4.711751932093547
+velocity 1.1684694386030672
+distance 4.975640820982436
+velocity 1.1684694386030672
+distance 3.969607968425929
+velocity 2.4323438568609723
+distance 4.233496857314818
+velocity 2.4323438568609723
+distance 4.497385746203707
+velocity 2.4323438568609723
+distance 4.761274635092596
+velocity 2.4323438568609723
+distance 5.025163523981485
+velocity 2.4323438568609723
+distance 3.7867728485031904
+velocity 1.1113639326564977
+distance 4.05066173739208
+velocity 1.1113639326564977
+distance 4.314550626280968
+velocity 1.1113639326564977
+distance 4.578439515169857
+velocity 1.1113639326564977
+distance 4.842328404058746
+velocity 1.1113639326564977
+distance 4.409136795494062
+velocity 1.3820224387656026
+distance 4.714692351049617
+velocity 1.3820224387656026
+distance 5.0202479066051735
+velocity 1.3820224387656026
+distance 5.325803462160729
+velocity 1.3820224387656026
+distance 5.631359017716284
+velocity 1.3820224387656026
+distance 4.514215656038157
+velocity 1.436095462892068
+distance 4.8197712115937135
+velocity 1.436095462892068
+distance 5.139215656038157
+velocity 1.436095462892068
+distance 5.458660100482602
+velocity 1.436095462892068
+distance 5.764215656038157
+velocity 1.436095462892068
+Number of Possible shots: 255 calculated in: 244625 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 54 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 358.0 dx: -165 dy: 545 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.003127316553187
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 177
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 65 calculated in: 310444 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.003127316553187
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 178
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 67 calculated in: 255968 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 597.0 y: 302.0 dx: -484 dy: 300 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0129174345777525
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 179
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 43 calculated in: 220110 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): Unknown at Point x: 573.0 y: 308.0 dx: -499 dy: 273 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0075453061976307
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 180
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.277778138613033
+velocity 2.5814176160302478
+distance 4.569444805279699
+velocity 2.5814176160302478
+distance 4.861111471946366
+velocity 2.5814176160302478
+distance 5.138889249724143
+velocity 2.5814176160302478
+distance 5.43055591639081
+velocity 2.5814176160302478
+distance 4.08390766691463
+velocity 1.1521384748448398
+distance 4.375574333581297
+velocity 1.1521384748448398
+distance 4.667241000247964
+velocity 1.1521384748448398
+distance 4.945018778025742
+velocity 1.1521384748448398
+distance 5.236685444692409
+velocity 1.1521384748448398
+distance 4.372948707225181
+velocity 2.5667513005501745
+distance 4.678504262780736
+velocity 2.5667513005501745
+distance 4.970170929447402
+velocity 2.5667513005501745
+distance 5.261837596114069
+velocity 2.5667513005501745
+distance 5.553504262780736
+velocity 2.5667513005501745
+distance 4.185973955600551
+velocity 1.1855096896740867
+distance 4.491529511156107
+velocity 1.1855096896740867
+distance 4.783196177822774
+velocity 1.1855096896740867
+distance 5.074862844489441
+velocity 1.1855096896740867
+distance 5.366529511156107
+velocity 1.1855096896740867
+distance 4.081302227376234
+velocity 1.1341893646887338
+distance 4.372968894042901
+velocity 1.1341893646887338
+distance 4.664635560709567
+velocity 1.1341893646887338
+distance 4.942413338487345
+velocity 1.1341893646887338
+distance 5.234080005154012
+velocity 1.1341893646887338
+distance 3.8373583327578507
+velocity 2.736205015463911
+distance 4.10124722164674
+velocity 2.736205015463911
+distance 4.35124722164674
+velocity 2.736205015463911
+distance 4.60124722164674
+velocity 2.736205015463911
+distance 4.865136110535628
+velocity 2.736205015463911
+distance 3.9333540422166027
+velocity 2.727350743634789
+distance 4.1972429311054915
+velocity 2.727350743634789
+distance 4.461131819994381
+velocity 2.727350743634789
+distance 4.725020708883269
+velocity 2.727350743634789
+distance 4.9889095977721585
+velocity 2.727350743634789
+distance 3.8803314045673485
+velocity 2.7456360353424674
+distance 4.1303314045673485
+velocity 2.7456360353424674
+distance 4.394220293456238
+velocity 2.7456360353424674
+distance 4.644220293456238
+velocity 2.7456360353424674
+distance 4.908109182345126
+velocity 2.7456360353424674
+distance 3.8849248953463595
+velocity 2.7923707551228376
+distance 4.1349248953463595
+velocity 2.7923707551228376
+distance 4.398813784235248
+velocity 2.7923707551228376
+distance 4.648813784235248
+velocity 2.7923707551228376
+distance 4.912702673124137
+velocity 2.7923707551228376
+distance 3.640730188267423
+velocity 0.9677306772939559
+distance 3.890730188267423
+velocity 0.9677306772939559
+distance 4.154619077156312
+velocity 0.9677306772939559
+distance 4.404619077156312
+velocity 0.9677306772939559
+distance 4.668507966045201
+velocity 0.9677306772939559
+distance 3.6392721595648356
+velocity 0.9577045477105297
+distance 3.8892721595648356
+velocity 0.9577045477105297
+distance 4.1531610484537245
+velocity 0.9577045477105297
+distance 4.4031610484537245
+velocity 0.9577045477105297
+distance 4.667049937342614
+velocity 0.9577045477105297
+distance 3.6931885541732306
+velocity 2.8120162196487652
+distance 3.9292996652843417
+velocity 2.8120162196487652
+distance 4.179299665284342
+velocity 2.8120162196487652
+distance 4.415410776395452
+velocity 2.8120162196487652
+distance 4.665410776395452
+velocity 2.8120162196487652
+distance 3.4373049280155947
+velocity 0.9059741268982686
+distance 3.673416039126706
+velocity 0.9059741268982686
+distance 3.923416039126706
+velocity 0.9059741268982686
+distance 4.1595271502378175
+velocity 0.9059741268982686
+distance 4.4095271502378175
+velocity 0.9059741268982686
+distance 3.789290927089683
+velocity 2.8038924674846957
+distance 4.0392909270896835
+velocity 2.8038924674846957
+distance 4.2892909270896835
+velocity 2.8038924674846957
+distance 4.5392909270896835
+velocity 2.8038924674846957
+distance 4.7892909270896835
+velocity 2.8038924674846957
+distance 3.5393416529637083
+velocity 0.9390810390762474
+distance 3.7893416529637083
+velocity 0.9390810390762474
+distance 4.039341652963708
+velocity 0.9390810390762474
+distance 4.289341652963708
+velocity 0.9390810390762474
+distance 4.539341652963708
+velocity 0.9390810390762474
+distance 3.435838581927264
+velocity 0.8958908028391029
+distance 3.6719496930383753
+velocity 0.8958908028391029
+distance 3.9219496930383753
+velocity 0.8958908028391029
+distance 4.158060804149486
+velocity 0.8958908028391029
+distance 4.408060804149486
+velocity 0.8958908028391029
+distance 4.865572272409073
+velocity 1.372783904678786
+distance 5.198905605742407
+velocity 1.372783904678786
+distance 5.546127827964629
+velocity 1.372783904678786
+distance 5.879461161297963
+velocity 1.372783904678786
+distance 6.226683383520185
+velocity 1.372783904678786
+distance 4.9687498846655895
+velocity 1.4138861328168428
+distance 5.315972106887812
+velocity 1.4138861328168428
+distance 5.663194329110034
+velocity 1.4138861328168428
+distance 6.0104165513322565
+velocity 1.4138861328168428
+distance 6.357638773554479
+velocity 1.4138861328168428
+distance 5.072443718762499
+velocity 1.4585511616667803
+distance 5.419665940984721
+velocity 1.4585511616667803
+distance 5.780777052095832
+velocity 1.4585511616667803
+distance 6.1279992743180545
+velocity 1.4585511616667803
+distance 6.489110385429166
+velocity 1.4585511616667803
+distance 5.17415434065241
+velocity 1.49224680192307
+distance 5.535265451763521
+velocity 1.49224680192307
+distance 5.896376562874632
+velocity 1.49224680192307
+distance 6.257487673985743
+velocity 1.49224680192307
+distance 6.618598785096854
+velocity 1.49224680192307
+distance 3.60232887350232
+velocity 2.878020589410453
+distance 3.838439984613431
+velocity 2.878020589410453
+distance 4.074551095724542
+velocity 2.878020589410453
+distance 4.310662206835653
+velocity 2.878020589410453
+distance 4.546773317946764
+velocity 2.878020589410453
+distance 3.333772572921183
+velocity 0.862582518932713
+distance 3.5698836840322943
+velocity 0.862582518932713
+distance 3.8059947951434054
+velocity 0.862582518932713
+distance 4.042105906254516
+velocity 0.862582518932713
+distance 4.278217017365628
+velocity 0.862582518932713
+distance 4.2462814127269075
+velocity 2.55483258922884
+distance 4.5379480793935745
+velocity 2.55483258922884
+distance 4.815725857171352
+velocity 2.55483258922884
+distance 5.107392523838019
+velocity 2.55483258922884
+distance 5.385170301615797
+velocity 2.55483258922884
+distance 4.0561298891368525
+velocity 1.1521384748448398
+distance 4.347796555803519
+velocity 1.1521384748448398
+distance 4.625574333581297
+velocity 1.1521384748448398
+distance 4.917241000247964
+velocity 1.1521384748448398
+distance 5.195018778025742
+velocity 1.1521384748448398
+distance 4.341204997551576
+velocity 2.513356579261519
+distance 4.632871664218243
+velocity 2.513356579261519
+distance 4.92453833088491
+velocity 2.513356579261519
+distance 5.216204997551576
+velocity 2.513356579261519
+distance 5.507871664218243
+velocity 2.513356579261519
+distance 4.159032557636901
+velocity 1.1912715863502008
+distance 4.450699224303567
+velocity 1.1912715863502008
+distance 4.742365890970234
+velocity 1.1912715863502008
+distance 5.034032557636901
+velocity 1.1912715863502008
+distance 5.325699224303567
+velocity 1.1912715863502008
+distance 4.43652285751003
+velocity 2.499877492158897
+distance 4.7420784130655855
+velocity 2.499877492158897
+distance 5.0337450797322525
+velocity 2.499877492158897
+distance 5.339300635287808
+velocity 2.499877492158897
+distance 5.630967301954474
+velocity 2.499877492158897
+distance 4.261636544670925
+velocity 1.2283470540468189
+distance 4.567192100226481
+velocity 1.2283470540468189
+distance 4.858858766893147
+velocity 1.2283470540468189
+distance 5.164414322448703
+velocity 1.2283470540468189
+distance 5.456080989115369
+velocity 1.2283470540468189
+distance 4.531053063188419
+velocity 2.4808233835124542
+distance 4.836608618743974
+velocity 2.4808233835124542
+distance 5.14216417429953
+velocity 2.4808233835124542
+distance 5.447719729855085
+velocity 2.4808233835124542
+distance 5.753275285410641
+velocity 2.4808233835124542
+distance 4.362497845496024
+velocity 1.2557084365643145
+distance 4.668053401051579
+velocity 1.2557084365643145
+distance 4.973608956607134
+velocity 1.2557084365643145
+distance 5.279164512162691
+velocity 1.2557084365643145
+distance 5.584720067718246
+velocity 1.2557084365643145
+distance 4.625412525805135
+velocity 2.4605607544892747
+distance 4.944856970249579
+velocity 2.4605607544892747
+distance 5.250412525805135
+velocity 2.4605607544892747
+distance 5.569856970249579
+velocity 2.4605607544892747
+distance 5.875412525805135
+velocity 2.4605607544892747
+distance 4.46585356183584
+velocity 1.2980398830444082
+distance 4.785298006280285
+velocity 1.2980398830444082
+distance 5.09085356183584
+velocity 1.2980398830444082
+distance 5.410298006280285
+velocity 1.2980398830444082
+distance 5.71585356183584
+velocity 1.2980398830444082
+distance 4.251742893614101
+velocity 2.593874170754414
+distance 4.543409560280768
+velocity 2.593874170754414
+distance 4.821187338058546
+velocity 2.593874170754414
+distance 5.112854004725212
+velocity 2.593874170754414
+distance 5.3906317825029895
+velocity 2.593874170754414
+distance 4.054115290686067
+velocity 1.1382597227262092
+distance 4.345781957352734
+velocity 1.1382597227262092
+distance 4.623559735130511
+velocity 1.1382597227262092
+distance 4.915226401797178
+velocity 1.1382597227262092
+distance 5.193004179574956
+velocity 1.1382597227262092
+distance 3.849287317271996
+velocity 2.7220563440355243
+distance 4.113176206160885
+velocity 2.7220563440355243
+distance 4.363176206160885
+velocity 2.7220563440355243
+distance 4.613176206160885
+velocity 2.7220563440355243
+distance 4.877065095049774
+velocity 2.7220563440355243
+distance 3.9452307755192866
+velocity 2.7128248674650686
+distance 4.209119664408175
+velocity 2.7128248674650686
+distance 4.473008553297064
+velocity 2.7128248674650686
+distance 4.736897442185953
+velocity 2.7128248674650686
+distance 5.000786331074842
+velocity 2.7128248674650686
+distance 3.504987993454617
+velocity 2.877153829180929
+distance 3.741099104565728
+velocity 2.877153829180929
+distance 3.96332132678795
+velocity 2.877153829180929
+distance 4.199432437899061
+velocity 2.877153829180929
+distance 4.421654660121283
+velocity 2.877153829180929
+distance 3.232969285188826
+velocity 0.83795733371679
+distance 3.4690803962999373
+velocity 0.83795733371679
+distance 3.691302618522159
+velocity 0.83795733371679
+distance 3.9274137296332703
+velocity 0.83795733371679
+distance 4.149635951855492
+velocity 0.83795733371679
+distance 3.6013186964840025
+velocity 2.8706415458395065
+distance 3.8374298075951137
+velocity 2.8706415458395065
+distance 4.073540918706225
+velocity 2.8706415458395065
+distance 4.309652029817336
+velocity 2.8706415458395065
+distance 4.545763140928447
+velocity 2.8706415458395065
+distance 3.334410476377771
+velocity 0.8669690599563
+distance 3.5705215874888827
+velocity 0.8669690599563
+distance 3.806632698599994
+velocity 0.8669690599563
+distance 4.042743809711105
+velocity 0.8669690599563
+distance 4.278854920822216
+velocity 0.8669690599563
+distance 3.506749686871742
+velocity 2.890022477197959
+distance 3.742860797982853
+velocity 2.890022477197959
+distance 3.9650830202050753
+velocity 2.890022477197959
+distance 4.2011941313161865
+velocity 2.890022477197959
+distance 4.423416353538409
+velocity 2.890022477197959
+distance 3.2316841217288874
+velocity 0.8291199114065432
+distance 3.4677952328399986
+velocity 0.8291199114065432
+distance 3.6900174550622205
+velocity 0.8291199114065432
+distance 3.9261285661733316
+velocity 0.8291199114065432
+distance 4.148350788395554
+velocity 0.8291199114065432
+distance 3.86866800856488
+velocity 2.635435774573011
+distance 4.132556897453769
+velocity 2.635435774573011
+distance 4.382556897453769
+velocity 2.635435774573011
+distance 4.646445786342658
+velocity 2.635435774573011
+distance 4.896445786342658
+velocity 2.635435774573011
+distance 4.00408927780234
+velocity 2.6106473777778483
+distance 4.267978166691228
+velocity 2.6106473777778483
+distance 4.545755944469006
+velocity 2.6106473777778483
+distance 4.809644833357895
+velocity 2.6106473777778483
+distance 5.073533722246784
+velocity 2.6106473777778483
+distance 3.7772526513765428
+velocity 2.7033573744789656
+distance 4.027252651376543
+velocity 2.7033573744789656
+distance 4.277252651376543
+velocity 2.7033573744789656
+distance 4.527252651376543
+velocity 2.7033573744789656
+distance 4.777252651376543
+velocity 2.7033573744789656
+distance 3.5435079660452007
+velocity 0.9677306772939559
+distance 3.7935079660452007
+velocity 0.9677306772939559
+distance 4.043507966045201
+velocity 0.9677306772939559
+distance 4.293507966045201
+velocity 0.9677306772939559
+distance 4.543507966045201
+velocity 0.9677306772939559
+distance 3.8730244065202135
+velocity 2.6928863625374735
+distance 4.136913295409102
+velocity 2.6928863625374735
+distance 4.386913295409102
+velocity 2.6928863625374735
+distance 4.650802184297991
+velocity 2.6928863625374735
+distance 4.900802184297991
+velocity 2.6928863625374735
+distance 3.6457159761160023
+velocity 1.0020154310553924
+distance 3.909604865004891
+velocity 1.0020154310553924
+distance 4.159604865004891
+velocity 1.0020154310553924
+distance 4.42349375389378
+velocity 1.0020154310553924
+distance 4.67349375389378
+velocity 1.0020154310553924
+distance 3.9670979132565
+velocity 2.6440689337032723
+distance 4.230986802145389
+velocity 2.6440689337032723
+distance 4.494875691034277
+velocity 2.6440689337032723
+distance 4.758764579923167
+velocity 2.6440689337032723
+distance 5.022653468812056
+velocity 2.6440689337032723
+distance 4.184644833357895
+velocity 2.6106473777778483
+distance 4.462422611135673
+velocity 2.6106473777778483
+distance 4.7402003889134505
+velocity 2.6106473777778483
+distance 5.017978166691228
+velocity 2.6106473777778483
+distance 5.295755944469006
+velocity 2.6106473777778483
+distance 3.7922325105010493
+velocity 2.7112331563797643
+distance 4.042232510501049
+velocity 2.7112331563797643
+distance 4.292232510501049
+velocity 2.7112331563797643
+distance 4.542232510501049
+velocity 2.7112331563797643
+distance 4.792232510501049
+velocity 2.7112331563797643
+distance 3.5573968549340895
+velocity 0.9677306772939559
+distance 3.8073968549340895
+velocity 0.9677306772939559
+distance 4.0573968549340895
+velocity 0.9677306772939559
+distance 4.3073968549340895
+velocity 0.9677306772939559
+distance 4.5573968549340895
+velocity 0.9677306772939559
+distance 3.5014407965210106
+velocity 2.831578865311263
+distance 3.723663018743233
+velocity 2.831578865311263
+distance 3.9597741298543436
+velocity 2.831578865311263
+distance 4.181996352076566
+velocity 2.831578865311263
+distance 4.4181074631876776
+velocity 2.831578865311263
+distance 3.2337992622617975
+velocity 0.8436646683324383
+distance 3.45602148448402
+velocity 0.8436646683324383
+distance 3.692132595595131
+velocity 0.8436646683324383
+distance 3.914354817817353
+velocity 0.8436646683324383
+distance 4.150465928928464
+velocity 0.8436646683324383
+distance 3.5976691305314024
+velocity 2.8243688760117114
+distance 3.833780241642513
+velocity 2.8243688760117114
+distance 4.069891352753625
+velocity 2.8243688760117114
+distance 4.306002463864735
+velocity 2.8243688760117114
+distance 4.542113574975847
+velocity 2.8243688760117114
+distance 3.33504737241415
+velocity 0.8713486734581246
+distance 3.571158483525261
+velocity 0.8713486734581246
+distance 3.807269594636372
+velocity 0.8713486734581246
+distance 4.0433807057474835
+velocity 0.8713486734581246
+distance 4.279491816858594
+velocity 0.8713486734581246
+distance 3.504868280964473
+velocity 2.8762793649387817
+distance 3.7270905031866954
+velocity 2.8762793649387817
+distance 3.9632016142978066
+velocity 2.8762793649387817
+distance 4.1854238365200285
+velocity 2.8762793649387817
+distance 4.42153494763114
+velocity 2.8762793649387817
+distance 3.23232719054989
+velocity 0.8335419720415559
+distance 3.4545494127721117
+velocity 0.8335419720415559
+distance 3.6906605238832233
+velocity 0.8335419720415559
+distance 3.9128827461054456
+velocity 0.8335419720415559
+distance 4.148993857216556
+velocity 0.8335419720415559
+Number of Possible shots: 290 calculated in: 232491 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 55 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 368.0 dx: -555 dy: 128 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0075453061976307
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 181
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 59 calculated in: 299297 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -519 dy: 234 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0075453061976307
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 182
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 56 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 368.0 dx: -163 dy: 546 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.003471595084025
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 183
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 62 calculated in: 303434 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.003471595084025
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 184
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 60 calculated in: 254948 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 580.0 y: 310.0 dx: -217 dy: 526 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0046100554615203
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 185
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 244371 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 585.0 y: 316.0 dx: -500 dy: 271 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007134560930267
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 186
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+distance 4.276147027760775
+velocity 2.568709953520165
+distance 4.567813694427441
+velocity 2.568709953520165
+distance 4.859480361094108
+velocity 2.568709953520165
+distance 5.137258138871886
+velocity 2.568709953520165
+distance 5.428924805538553
+velocity 2.568709953520165
+distance 4.084744956400663
+velocity 1.1574345953704739
+distance 4.37641162306733
+velocity 1.1574345953704739
+distance 4.668078289733996
+velocity 1.1574345953704739
+distance 4.945856067511774
+velocity 1.1574345953704739
+distance 5.237522734178441
+velocity 1.1574345953704739
+distance 4.3712814127269075
+velocity 2.5537910624722002
+distance 4.676836968282463
+velocity 2.5537910624722002
+distance 4.96850363494913
+velocity 2.5537910624722002
+distance 5.260170301615797
+velocity 2.5537910624722002
+distance 5.551836968282463
+velocity 2.5537910624722002
+distance 4.187389013425868
+velocity 1.1947708818194067
+distance 4.492944568981423
+velocity 1.1947708818194067
+distance 4.784611235648089
+velocity 1.1947708818194067
+distance 5.076277902314756
+velocity 1.1947708818194067
+distance 5.367944568981423
+velocity 1.1947708818194067
+distance 4.281223439061066
+velocity 2.6049840581625823
+distance 4.572890105727733
+velocity 2.6049840581625823
+distance 4.864556772394399
+velocity 2.6049840581625823
+distance 5.142334550172177
+velocity 2.6049840581625823
+distance 5.434001216838844
+velocity 2.6049840581625823
+distance 3.8783107652373414
+velocity 2.7299355497605373
+distance 4.128310765237341
+velocity 2.7299355497605373
+distance 4.39219965412623
+velocity 2.7299355497605373
+distance 4.64219965412623
+velocity 2.7299355497605373
+distance 4.9060885430151195
+velocity 2.7299355497605373
+distance 3.642806492407929
+velocity 0.9816080412496389
+distance 3.892806492407929
+velocity 0.9816080412496389
+distance 4.156695381296817
+velocity 0.9816080412496389
+distance 4.406695381296817
+velocity 0.9816080412496389
+distance 4.6705842701857065
+velocity 0.9816080412496389
+distance 3.974287317271996
+velocity 2.720946645291525
+distance 4.238176206160885
+velocity 2.720946645291525
+distance 4.502065095049774
+velocity 2.720946645291525
+distance 4.765953983938663
+velocity 2.720946645291525
+distance 5.029842872827552
+velocity 2.720946645291525
+distance 3.9348726280231596
+velocity 2.737197182614554
+distance 4.1987615169120485
+velocity 2.737197182614554
+distance 4.462650405800938
+velocity 2.737197182614554
+distance 4.726539294689826
+velocity 2.737197182614554
+distance 4.990428183578715
+velocity 2.737197182614554
+distance 3.8803314045673485
+velocity 2.7445167238827417
+distance 4.1303314045673485
+velocity 2.7445167238827417
+distance 4.394220293456238
+velocity 2.7445167238827417
+distance 4.644220293456238
+velocity 2.7445167238827417
+distance 4.908109182345126
+velocity 2.7445167238827417
+distance 3.642187557755599
+velocity 0.9773536742282878
+distance 3.892187557755599
+velocity 0.9773536742282878
+distance 4.156076446644487
+velocity 0.9773536742282878
+distance 4.406076446644487
+velocity 0.9773536742282878
+distance 4.669965335533377
+velocity 0.9773536742282878
+distance 3.640730188267423
+velocity 0.9673361632276046
+distance 3.890730188267423
+velocity 0.9673361632276046
+distance 4.154619077156312
+velocity 0.9673361632276046
+distance 4.404619077156312
+velocity 0.9673361632276046
+distance 4.668507966045201
+velocity 0.9673361632276046
+distance 3.6928023587722985
+velocity 2.8080694017312764
+distance 3.9289134698834096
+velocity 2.8080694017312764
+distance 4.178913469883409
+velocity 2.8080694017312764
+distance 4.415024580994521
+velocity 2.8080694017312764
+distance 4.665024580994521
+velocity 2.8080694017312764
+distance 3.4373049280155947
+velocity 0.9056047890802188
+distance 3.673416039126706
+velocity 0.9056047890802188
+distance 3.923416039126706
+velocity 0.9056047890802188
+distance 4.1595271502378175
+velocity 0.9056047890802188
+distance 4.4095271502378175
+velocity 0.9056047890802188
+distance 3.7888873856555585
+velocity 2.799823178886813
+distance 4.038887385655559
+velocity 2.799823178886813
+distance 4.288887385655559
+velocity 2.799823178886813
+distance 4.538887385655559
+velocity 2.799823178886813
+distance 4.788887385655559
+velocity 2.799823178886813
+distance 3.5393416529637083
+velocity 0.9386982045872186
+distance 3.7893416529637083
+velocity 0.9386982045872186
+distance 4.039341652963708
+velocity 0.9386982045872186
+distance 4.289341652963708
+velocity 0.9386982045872186
+distance 4.539341652963708
+velocity 0.9386982045872186
+distance 3.616099104565728
+velocity 2.8759809019571665
+distance 3.852210215676839
+velocity 2.8759809019571665
+distance 4.08832132678795
+velocity 2.8759809019571665
+distance 4.324432437899061
+velocity 2.8759809019571665
+distance 4.5605435490101724
+velocity 2.8759809019571665
+distance 3.3482993652666604
+velocity 0.8666156233057224
+distance 3.5844104763777715
+velocity 0.8666156233057224
+distance 3.8205215874888827
+velocity 0.8666156233057224
+distance 4.056632698599994
+velocity 0.8666156233057224
+distance 4.292743809711105
+velocity 0.8666156233057224
+distance 4.538059874186042
+velocity 2.324552964641237
+distance 4.843615429741598
+velocity 2.324552964641237
+distance 5.149170985297153
+velocity 2.324552964641237
+distance 5.454726540852708
+velocity 2.324552964641237
+distance 5.760282096408265
+velocity 2.324552964641237
+distance 4.405048717270757
+velocity 1.3571142035358201
+distance 4.710604272826313
+velocity 1.3571142035358201
+distance 5.016159828381869
+velocity 1.3571142035358201
+distance 5.321715383937424
+velocity 1.3571142035358201
+distance 5.62727093949298
+velocity 1.3571142035358201
+distance 4.630897369240784
+velocity 2.2936408927469056
+distance 4.936452924796339
+velocity 2.2936408927469056
+distance 5.255897369240784
+velocity 2.2936408927469056
+distance 5.575341813685228
+velocity 2.2936408927469056
+distance 5.880897369240784
+velocity 2.2936408927469056
+distance 4.509887760665215
+velocity 1.409661675887659
+distance 4.815443316220771
+velocity 1.409661675887659
+distance 5.134887760665215
+velocity 1.409661675887659
+distance 5.45433220510966
+velocity 1.409661675887659
+distance 5.759887760665215
+velocity 1.409661675887659
+distance 4.516136232543323
+velocity 2.3658242844233
+distance 4.821691788098878
+velocity 2.3658242844233
+distance 5.127247343654434
+velocity 2.3658242844233
+distance 5.43280289920999
+velocity 2.3658242844233
+distance 5.738358454765545
+velocity 2.3658242844233
+distance 4.370016473146838
+velocity 1.3070665706544338
+distance 4.675572028702394
+velocity 1.3070665706544338
+distance 4.981127584257949
+velocity 1.3070665706544338
+distance 5.286683139813505
+velocity 1.3070665706544338
+distance 5.59223869536906
+velocity 1.3070665706544338
+distance 4.523570807459026
+velocity 2.4268741687052606
+distance 4.8291263630145815
+velocity 2.4268741687052606
+distance 5.134681918570137
+velocity 2.4268741687052606
+distance 5.440237474125692
+velocity 2.4268741687052606
+distance 5.7457930296812485
+velocity 2.4268741687052606
+distance 4.365852535700121
+velocity 1.2783401002662707
+distance 4.671408091255676
+velocity 1.2783401002662707
+distance 4.976963646811232
+velocity 1.2783401002662707
+distance 5.282519202366788
+velocity 1.2783401002662707
+distance 5.588074757922343
+velocity 1.2783401002662707
+distance 4.530115348832829
+velocity 2.473177586171298
+distance 4.835670904388384
+velocity 2.473177586171298
+distance 5.14122645994394
+velocity 2.473177586171298
+distance 5.446782015499496
+velocity 2.473177586171298
+distance 5.752337571055051
+velocity 2.473177586171298
+distance 4.363062781717947
+velocity 1.2590939453504788
+distance 4.668618337273503
+velocity 1.2590939453504788
+distance 4.974173892829058
+velocity 1.2590939453504788
+distance 5.2797294483846136
+velocity 1.2590939453504788
+distance 5.585285003940169
+velocity 1.2590939453504788
+distance 4.535927599334208
+velocity 2.5142999576272826
+distance 4.841483154889763
+velocity 2.5142999576272826
+distance 5.147038710445319
+velocity 2.5142999576272826
+distance 5.452594266000875
+velocity 2.5142999576272826
+distance 5.75814982155643
+velocity 2.5142999576272826
+distance 4.359693415992735
+velocity 1.233593924228882
+distance 4.665248971548291
+velocity 1.233593924228882
+distance 4.970804527103847
+velocity 1.233593924228882
+distance 5.276360082659402
+velocity 1.233593924228882
+distance 5.581915638214958
+velocity 1.233593924228882
+distance 4.359693415992735
+velocity 1.233593924228882
+distance 4.665248971548291
+velocity 1.233593924228882
+distance 4.970804527103847
+velocity 1.233593924228882
+distance 5.276360082659402
+velocity 1.233593924228882
+distance 5.581915638214958
+velocity 1.233593924228882
+distance 4.435227210550383
+velocity 2.3914259512226534
+distance 4.740782766105938
+velocity 2.3914259512226534
+distance 5.032449432772605
+velocity 2.3914259512226534
+distance 5.33800498832816
+velocity 2.3914259512226534
+distance 5.6296716549948265
+velocity 2.3914259512226534
+distance 4.281958605793953
+velocity 1.2744726164110725
+distance 4.5875141613495085
+velocity 1.2744726164110725
+distance 4.8791808280161755
+velocity 1.2744726164110725
+distance 5.184736383571731
+velocity 1.2744726164110725
+distance 5.476403050238398
+velocity 1.2744726164110725
+distance 4.441830190648151
+velocity 2.438142829690377
+distance 4.747385746203707
+velocity 2.438142829690377
+distance 5.039052412870373
+velocity 2.438142829690377
+distance 5.34460796842593
+velocity 2.438142829690377
+distance 5.636274635092596
+velocity 2.438142829690377
+distance 4.278330628627064
+velocity 1.2494436672524476
+distance 4.58388618418262
+velocity 1.2494436672524476
+distance 4.875552850849286
+velocity 1.2494436672524476
+distance 5.181108406404842
+velocity 1.2494436672524476
+distance 5.472775073071508
+velocity 1.2494436672524476
+distance 4.448006507410428
+velocity 2.4818410137359335
+distance 4.753562062965983
+velocity 2.4818410137359335
+distance 5.04522872963265
+velocity 2.4818410137359335
+distance 5.3507842851882055
+velocity 2.4818410137359335
+distance 5.642450951854872
+velocity 2.4818410137359335
+distance 4.274954157858044
+velocity 1.2239123287881115
+distance 4.5805097134136
+velocity 1.2239123287881115
+distance 4.872176380080266
+velocity 1.2239123287881115
+distance 5.177731935635823
+velocity 1.2239123287881115
+distance 5.469398602302489
+velocity 1.2239123287881115
+distance 4.454183002629674
+velocity 2.5507059881051637
+distance 4.75973855818523
+velocity 2.5507059881051637
+distance 5.051405224851896
+velocity 2.5507059881051637
+distance 5.3569607804074515
+velocity 2.5507059881051637
+distance 5.6486274470741185
+velocity 2.5507059881051637
+distance 4.274954157858044
+velocity 1.2239123287881115
+distance 4.5805097134136
+velocity 1.2239123287881115
+distance 4.872176380080266
+velocity 1.2239123287881115
+distance 5.177731935635823
+velocity 1.2239123287881115
+distance 5.469398602302489
+velocity 1.2239123287881115
+distance 3.8760061609131133
+velocity 2.7133052504115485
+distance 4.139895049802003
+velocity 2.7133052504115485
+distance 4.389895049802003
+velocity 2.7133052504115485
+distance 4.653783938690891
+velocity 2.7133052504115485
+distance 4.903783938690891
+velocity 2.7133052504115485
+distance 3.6442616488465354
+velocity 0.9916103404261473
+distance 3.908150537735424
+velocity 0.9916103404261473
+distance 4.158150537735424
+velocity 0.9916103404261473
+distance 4.422039426624313
+velocity 0.9916103404261473
+distance 4.672039426624313
+velocity 0.9916103404261473
+distance 3.9719215939703094
+velocity 2.7038753041201447
+distance 4.235810482859198
+velocity 2.7038753041201447
+distance 4.499699371748087
+velocity 2.7038753041201447
+distance 4.7635882606369755
+velocity 2.7038753041201447
+distance 5.027477149525865
+velocity 2.7038753041201447
+distance 3.9499710331291618
+velocity 1.0901285979996311
+distance 4.22774881090694
+velocity 1.0901285979996311
+distance 4.505526588684718
+velocity 1.0901285979996311
+distance 4.783304366462495
+velocity 1.0901285979996311
+distance 5.061082144240273
+velocity 1.0901285979996311
+distance 4.2569445168145315
+velocity 2.629985549208374
+distance 4.5486111834811975
+velocity 2.629985549208374
+distance 4.826388961258975
+velocity 2.629985549208374
+distance 5.118055627925642
+velocity 2.629985549208374
+distance 5.39583340570342
+velocity 2.629985549208374
+distance 4.052686628461494
+velocity 1.1279575174453356
+distance 4.344353295128161
+velocity 1.1279575174453356
+distance 4.622131072905939
+velocity 1.1279575174453356
+distance 4.913797739572605
+velocity 1.1279575174453356
+distance 5.191575517350383
+velocity 1.1279575174453356
+distance 3.531455495256526
+velocity 2.8664136263646753
+distance 3.7675666063676374
+velocity 2.8664136263646753
+distance 4.003677717478748
+velocity 2.8664136263646753
+distance 4.22589993970097
+velocity 2.8664136263646753
+distance 4.462011050812082
+velocity 2.8664136263646753
+distance 3.2628580842457344
+velocity 0.8521262372436131
+distance 3.4989691953568456
+velocity 0.8521262372436131
+distance 3.7350803064679567
+velocity 0.8521262372436131
+distance 3.957302528690179
+velocity 0.8521262372436131
+distance 4.19341363980129
+velocity 0.8521262372436131
+distance 3.627803105928934
+velocity 2.860027452850428
+distance 3.877803105928934
+velocity 2.860027452850428
+distance 4.113914217040045
+velocity 2.860027452850428
+distance 4.3500253281511565
+velocity 2.860027452850428
+distance 4.586136439262267
+velocity 2.860027452850428
+distance 3.5338432516792055
+velocity 2.883848368483312
+distance 3.769954362790317
+velocity 2.883848368483312
+distance 4.006065473901428
+velocity 2.883848368483312
+distance 4.22828769612365
+velocity 2.883848368483312
+distance 4.464398807234762
+velocity 2.883848368483312
+distance 3.2607470629666038
+velocity 0.8376157242556972
+distance 3.496858174077715
+velocity 0.8376157242556972
+distance 3.7329692851888256
+velocity 0.8376157242556972
+distance 3.955191507411048
+velocity 0.8376157242556972
+distance 4.191302618522159
+velocity 0.8376157242556972
+distance 4.463077749041511
+velocity 2.2855126372980594
+distance 4.768633304597066
+velocity 2.2855126372980594
+distance 5.060299971263733
+velocity 2.2855126372980594
+distance 5.3658555268192885
+velocity 2.2855126372980594
+distance 5.671411082374844
+velocity 2.2855126372980594
+distance 4.334779266897181
+velocity 1.3514225934440398
+distance 4.640334822452736
+velocity 1.3514225934440398
+distance 4.932001489119403
+velocity 1.3514225934440398
+distance 5.237557044674959
+velocity 1.3514225934440398
+distance 5.543112600230514
+velocity 1.3514225934440398
+distance 4.557053819978167
+velocity 2.2626274592501474
+distance 4.862609375533722
+velocity 2.2626274592501474
+distance 5.168164931089278
+velocity 2.2626274592501474
+distance 5.487609375533722
+velocity 2.2626274592501474
+distance 5.793164931089278
+velocity 2.2626274592501474
+distance 4.439623090046388
+velocity 1.4040030407108588
+distance 4.745178645601944
+velocity 1.4040030407108588
+distance 5.0507342011575
+velocity 1.4040030407108588
+distance 5.370178645601944
+velocity 1.4040030407108588
+distance 5.6757342011575
+velocity 1.4040030407108588
+distance 4.649760175512828
+velocity 2.222823751135845
+distance 4.969204619957272
+velocity 2.222823751135845
+distance 5.274760175512828
+velocity 2.222823751135845
+distance 5.594204619957272
+velocity 2.222823751135845
+distance 5.913649064401716
+velocity 2.222823751135845
+distance 4.544368354365244
+velocity 1.4559035432480012
+distance 4.863812798809689
+velocity 1.4559035432480012
+distance 5.169368354365244
+velocity 1.4559035432480012
+distance 5.488812798809689
+velocity 1.4559035432480012
+distance 5.8082572432541335
+velocity 1.4559035432480012
+distance 4.471688255284588
+velocity 2.346216206269621
+distance 4.777243810840144
+velocity 2.346216206269621
+distance 5.06891047750681
+velocity 2.346216206269621
+distance 5.374466033062365
+velocity 2.346216206269621
+distance 5.6800215886179215
+velocity 2.346216206269621
+distance 3.8999997647142917
+velocity 2.685998200191296
+distance 4.1638886536031805
+velocity 2.685998200191296
+distance 4.42777754249207
+velocity 2.685998200191296
+distance 4.67777754249207
+velocity 2.685998200191296
+distance 4.941666431380958
+velocity 2.685998200191296
+distance 3.9939114664677584
+velocity 2.6361010459633247
+distance 4.271689244245536
+velocity 2.6361010459633247
+distance 4.535578133134425
+velocity 2.6361010459633247
+distance 4.799467022023314
+velocity 2.6361010459633247
+distance 5.063355910912203
+velocity 2.6361010459633247
+distance 3.5973527627094373
+velocity 2.820923367825928
+distance 3.8334638738205484
+velocity 2.820923367825928
+distance 4.069574984931659
+velocity 2.820923367825928
+distance 4.305686096042771
+velocity 2.820923367825928
+distance 4.5417972071538815
+velocity 2.820923367825928
+distance 3.3358794293355563
+velocity 0.8767127555247557
+distance 3.571990540446668
+velocity 0.8767127555247557
+distance 3.808101651557779
+velocity 0.8767127555247557
+distance 4.04421276266889
+velocity 0.8767127555247557
+distance 4.280323873780001
+velocity 0.8767127555247557
+distance 3.6935165446598877
+velocity 2.813248227021576
+distance 3.9296276557709984
+velocity 2.813248227021576
+distance 4.179627655770998
+velocity 2.813248227021576
+distance 4.41573876688211
+velocity 2.813248227021576
+distance 4.66573876688211
+velocity 2.813248227021576
+distance 3.4373049280155947
+velocity 0.9056047890802188
+distance 3.673416039126706
+velocity 0.9056047890802188
+distance 3.923416039126706
+velocity 0.9056047890802188
+distance 4.1595271502378175
+velocity 0.9056047890802188
+distance 4.4095271502378175
+velocity 0.9056047890802188
+distance 3.5393416529637083
+velocity 0.9386982045872186
+distance 3.7893416529637083
+velocity 0.9386982045872186
+distance 4.039341652963708
+velocity 0.9386982045872186
+distance 4.289341652963708
+velocity 0.9386982045872186
+distance 4.539341652963708
+velocity 0.9386982045872186
+Number of Possible shots: 320 calculated in: 239652 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 5
+Updating last Shot Status
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 57 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 378.0 dx: -559 dy: 110 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.007134560930267
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 187
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 55 calculated in: 293346 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -519 dy: 235 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007134560930267
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 188
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 51 calculated in: 234829 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 602.0 y: 347.0 dx: -219 dy: 526 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0043436828592718
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 189
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 53 calculated in: 224333 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 598.0 y: 346.0 dx: -218 dy: 526 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0050103786541509
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 190
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 58 of 60--------------------
+
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 516.0 y: 378.0 dx: -161 dy: 546 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0027160491994929
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 191
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 59 calculated in: 301231 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(1): RedBird at Point x: 576.0 y: 332.0 dx: -518 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0027160491994929
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 192
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 68 calculated in: 272265 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(2): RedBird at Point x: 570.0 y: 321.0 dx: -206 dy: 531 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0053829073779246
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 193
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of Possible shots: 61 calculated in: 255994 miliseconds
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(3): RedBird at Point x: 578.0 y: 320.0 dx: -506 dy: 261 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 194
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 59 of 60--------------------
+
+ restart the level 
+Zooming out
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+Shooting Bird(0): RedBird at Point x: 566.0 y: 332.0 dx: -521 dy: 230 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0053829073779246
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 2
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32830 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 28100 
+ Level 5 Score: 68130 
+Total Score: 233850
+
+-------------------- Times in this level: 60 of 60--------------------
+
+Changing Level 3/4/2015 - 4:49:55
