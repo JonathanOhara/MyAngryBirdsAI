@@ -1,0 +1,87 @@
+failed to load resources
+java.io.IOException: closed
+	at javax.imageio.stream.ImageInputStreamImpl.checkClosed(Unknown Source)
+	at javax.imageio.stream.ImageInputStreamImpl.close(Unknown Source)
+	at javax.imageio.stream.FileCacheImageInputStream.close(Unknown Source)
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at ab.vision.GameStateExtractor.<init>(GameStateExtractor.java:91)
+	at ab.vision.ShowSeg.drawMBRs(ShowSeg.java:138)
+	at ab.vision.ShowSeg.run(ShowSeg.java:308)
+	at java.lang.Thread.run(Unknown Source)
+ In state:   LEVEL_SELECTION Try reloading...
+ In state:   LEVEL_SELECTION Try reloading...
+Exception in thread "Thread-11" java.lang.NullPointerException
+	at ab.vision.GameStateExtractor.getGameState(GameStateExtractor.java:114)
+	at ab.vision.ShowSeg.drawMBRs(ShowSeg.java:139)
+	at ab.vision.ShowSeg.run(ShowSeg.java:308)
+	at java.lang.Thread.run(Unknown Source)
+ In state:   LEVEL_SELECTION Try reloading...
+ In state:   LEVEL_SELECTION Try reloading...
+ In state:   LEVEL_SELECTION Try reloading...
+ In state:   LEVEL_SELECTION Try reloading...
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()
+No release point found for the target
+Try a shot with 45 degree
+No release point found for the target
+Try a shot with 45 degree
+Number of Possible shots: 41 calculated in: 196001 miliseconds
+MyAgent.chooseOneShot()
+Shot id: 1 minimaxValue = 0.0
+Shot id: 2 minimaxValue = 0.0
+Shot id: 3 minimaxValue = 0.0
+Shot id: 4 minimaxValue = 0.0
+Shot id: 5 minimaxValue = 0.0
+Shot id: 6 minimaxValue = 0.0
+Shot id: 7 minimaxValue = 0.0
+Shot id: 8 minimaxValue = 0.0
+Shot id: 9 minimaxValue = 0.0
+Shot id: 10 minimaxValue = 0.0
+Shot id: 11 minimaxValue = 0.0
+Shot id: 12 minimaxValue = 0.0
+Shot id: 13 minimaxValue = 0.0
+Shot id: 14 minimaxValue = 0.0
+Shot id: 15 minimaxValue = 0.0
+Shot id: 16 minimaxValue = 0.0
+Shot id: 17 minimaxValue = 0.0
+Shot id: 18 minimaxValue = 0.0
+Shot id: 19 minimaxValue = 0.0
+Shot id: 20 minimaxValue = 0.0
+Shot id: 21 minimaxValue = 0.0
+Shot id: 22 minimaxValue = 0.0
+Shot id: 23 minimaxValue = 0.0
+Shot id: 24 minimaxValue = 0.0
+Shot id: 25 minimaxValue = 0.0
+Shot id: 26 minimaxValue = 0.0
+Shot id: 27 minimaxValue = 0.0
+Shot id: 28 minimaxValue = 0.0
+Shot id: 29 minimaxValue = 0.0
+Shot id: 30 minimaxValue = 0.0
+Shot id: 31 minimaxValue = 0.0
+Shot id: 32 minimaxValue = 0.0
+Shot id: 33 minimaxValue = 0.0
+Shot id: 34 minimaxValue = 0.0
+Shot id: 35 minimaxValue = 0.0
+Shot id: 36 minimaxValue = 0.0
+Shot id: 37 minimaxValue = 0.0
+Shot id: 38 minimaxValue = 0.0
+Shot id: 39 minimaxValue = 0.0
+Shot id: 40 minimaxValue = 0.0
+Shot id: 41 minimaxValue = 0.0
+ExpectMiniMax Algorithm choose shot with id: 15
+Shooting Bird(0): BlueBird at Point x: 559.0 y: 325.0 dx: -481 dy: 220 Tap: 0 -> Wood
+no sling detected, can not execute the shot, will re-segement the image. State = MAIN_MENU
+Solve return state: UNKNOWN
+Unknow Game state, may the game ends in last shot. CurrentLevel: 9
+Go to the Episode Menu
+Select the Poached Eggs Episode
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()
+Client disconnected
+Client connected
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.findPossibleShots()
