@@ -2999,3 +2999,69 @@ MyAgent.writeShotsAandStatesInFile()
 
 Changing Level 3/4/2015 - 18:47:57
 Rebooting From start
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 32
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0018608337781074
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 43
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27740 
+ Level 5 Score: 67210 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+Total Score: 335090
+Changing Level 5/4/2015 - 13:44:5
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 32
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0021986276709636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 43
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27750 
+ Level 5 Score: 66770 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+Total Score: 334660
+Changing Level 5/4/2015 - 13:57:48
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 32
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0015773572979494
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 43
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 27740 
+ Level 5 Score: 68090 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+Total Score: 336010
+Changing Level 5/4/2015 - 20:2:21

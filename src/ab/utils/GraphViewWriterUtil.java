@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class GraphViewWriterUtil {
-	private static int LEVEL = 1;
+	private static int LEVEL = 4;
 	
 	private static String reportsPath = "./reports/";
 	
@@ -17,39 +17,45 @@ public class GraphViewWriterUtil {
 	private static String statesJsonFileName = "states.json";
 	
 	public static void main(String[] args) throws IOException {
+		String htmlShots = "";
+		String htmlStates = "";
+		String htmlFinal = "";
 		
 		String shotsPath, statesPath, graphViewPath;
 		List<String> graphViewString, shotsString, statesString;
 		PrintWriter out;
 		
+		
+		
+		if( LEVEL > 0 ){
+			shotsPath = reportsPath + LEVEL + "/" + shotsJsonFileName;
+			statesPath = reportsPath + LEVEL + "/" + statesJsonFileName;
+			
+			File shotsJsonFile  = new File( shotsPath );
+			File statesJsonFile = new File( statesPath );
+			 
+			shotsString = FileUtil.read(shotsJsonFile);
+			statesString = FileUtil.read(statesJsonFile);
+			
+			for( String st : shotsString ){
+				htmlShots += st + "\n";
+			}
+			
+			for( String st : statesString ){
+				htmlStates += st + "\n";
+			}
+		}
+		
 		graphViewPath = reportsPath + graphViewFileName;
-		shotsPath = reportsPath + LEVEL + "/" + shotsJsonFileName;
-		statesPath = reportsPath + LEVEL + "/" + statesJsonFileName;
-		
 		File graphViewFile  = new File( graphViewPath );
-		File shotsJsonFile  = new File( shotsPath );
-		File statesJsonFile = new File( statesPath );
+		graphViewString = FileUtil.read(graphViewFile);
 		
-		graphViewString = FileUtil.read(graphViewFile); 
-		shotsString = FileUtil.read(shotsJsonFile);
-		statesString = FileUtil.read(statesJsonFile);
-		
-		String htmlShots = "";
-		for( String st : shotsString ){
-			htmlShots += st + "\n";
-		}
-		
-		String htmlStates = "";
-		for( String st : statesString ){
-			htmlStates += st + "\n";
-		}
-		
-		String htmlFinal = "";
 		boolean waitForFinalTag= false;
 		for( String st : graphViewString ){
 			
 			if( st.contains("/*LEVEL_CHOICE*/ ") ){
-				st = "/*LEVEL_CHOICE*/ $('#level').children().eq("+(LEVEL-1)+").attr('selected', 'selected');\n";
+				int levelSelected = LEVEL > 0 ? LEVEL - 1: 1;
+				st = "/*LEVEL_CHOICE*/ $('#level').children().eq("+(levelSelected)+").attr('selected', 'selected');\n";
 			}
 			
 			if( !waitForFinalTag ){

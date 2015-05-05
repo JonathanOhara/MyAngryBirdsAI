@@ -49,6 +49,7 @@ import ab.vision.Vision;
 
 import com.google.gson.Gson;
 
+//http://www.angrybirdsnest.com/leaderboard/angry-birds/episode/poached-eggs/
 public class MyAgent implements Runnable {
 
 	private ActionRobot aRobot;
@@ -345,7 +346,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size();
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() * 3;
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
@@ -711,12 +712,16 @@ public class MyAgent implements Runnable {
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
 		State returnState = null;
 		
+		int tollerancePoints = 350;
+		
+		if( !LEARNING ){
+			tollerancePoints = 1000;
+		}
+		
 		for( State otherState : possibleStates ){
-			if( Math.abs( state.getScore() - otherState.getScore()) <= 200 && otherState.getOriginShotId() == state.getOriginShotId() ){
+			if( Math.abs( state.getScore() - otherState.getScore()) <= tollerancePoints && otherState.getOriginShotId() == state.getOriginShotId() ){
 				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
 				returnState = otherState;
-				
-				returnState.setTimesPlusOne();
 				
 				returnState.setTotalScore( state.getTotalScore() );
 				returnState.setScore( state.getScore() );
@@ -867,7 +872,7 @@ public class MyAgent implements Runnable {
 			break;
 		case Ice:
 			multi = 1;
-			break;
+			break; 	
 		case Wood:
 			multi = 1.5f;
 		case Stone:
@@ -886,9 +891,21 @@ public class MyAgent implements Runnable {
 		System.out.println("MyAgent.chooseOneShot()");
 		MyShot theShot = null;
 
+		System.out.println("\tCounting Unvisited Children...");
+		rootState.setNumberofUnvisitedChildren( countUnvisitedChildren( rootState ) );
+		
+		System.out.println("\tCalculating Minimax...");
+		for( MyShot evalShot: actualState.getPossibleShots() ){
+			float miniMaxValue = 0;
+			
+			if( evalShot.isShotTested() ){
+				miniMaxValue = expectMiniMax( evalShot );
+			}
+			
+			evalShot.setMiniMaxValue(miniMaxValue);
+		}
+
 		if( LEARNING ){
-			System.out.println("\tCounting Unvisited Children...");
-			rootState.setNumberofUnvisitedChildren( countUnvisitedChildren( rootState ) );
 			
 			if( LEARNING_ROUND_ROBIN ){
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
@@ -922,20 +939,6 @@ public class MyAgent implements Runnable {
 			theShot = actualState.getPossibleShots().get(0);
 			
 		}else{
-		
-			for( MyShot evalShot: actualState.getPossibleShots() ){
-				float miniMaxValue = 0;
-				
-				if( evalShot.isShotTested() ){
-					miniMaxValue = expectMiniMax( evalShot );
-				}
-				
-				System.out.println("Shot id: "+evalShot.getShotId()+ " minimaxValue = "+miniMaxValue);
-				evalShot.setMiniMaxValue(miniMaxValue);
-			}
-			
-			
-			
 			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 				@Override
 				public int compare(MyShot o1, MyShot o2) {

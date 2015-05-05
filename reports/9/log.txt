@@ -3361,3 +3361,72 @@ MyAgent.calculateShotStats()
 Generate new state with id = 150
 MyAgent.writeShotsAandStatesInFile()
 MyAgent.findPossibleShots()
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 549.0 y: 303.0 dx: -465 dy: 252 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0106889933257635
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 43
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27740 
+ Level 5 Score: 67210 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+Total Score: 384880
+Changing Level 5/4/2015 - 13:44:39
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 549.0 y: 303.0 dx: -465 dy: 252 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0115146785989901
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 43
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27750 
+ Level 5 Score: 66770 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+Total Score: 384450
+Changing Level 5/4/2015 - 13:58:23
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 14
+Shooting Bird(0): RedBird at Point x: 549.0 y: 303.0 dx: -465 dy: 252 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+ Game score is unavailable 
+Generate new state with id = 151
+ Game score is unavailable 
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 27740 
+ Level 5 Score: 68090 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: -1 
+Total Score: 336009
+Changing Level 5/4/2015 - 20:2:55

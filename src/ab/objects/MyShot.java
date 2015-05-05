@@ -32,7 +32,7 @@ public class MyShot implements GraphNode {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
-	private transient float miniMaxValue;
+	private float miniMaxValue;
 	private transient List<State> possibleStates;
 	
 	public MyShot() {

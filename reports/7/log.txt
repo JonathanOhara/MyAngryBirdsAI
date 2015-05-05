@@ -3620,3 +3620,64 @@ MyAgent.writeShotsAandStatesInFile()
 -------------------- Times in this level: 41 of 41--------------------
 
 Changing Level 3/4/2015 - 16:21:23
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.010161785413422
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 136
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27740 
+ Level 5 Score: 67210 
+ Level 7 Score: 45880 
+Total Score: 275970
+Changing Level 5/4/2015 - 13:43:18
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0068000539473225
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 136
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 27750 
+ Level 5 Score: 66770 
+ Level 7 Score: 45880 
+Total Score: 275540
+Changing Level 5/4/2015 - 13:57:2
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+MyAgent.chooseOneShot()
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 136
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 27740 
+ Level 5 Score: 68090 
+ Level 7 Score: 45880 
+Total Score: 276890
+Changing Level 5/4/2015 - 20:1:36
