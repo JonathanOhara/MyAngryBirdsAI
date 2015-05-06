@@ -337,7 +337,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() / 2;
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size();
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
