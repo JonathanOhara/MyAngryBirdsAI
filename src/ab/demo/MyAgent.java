@@ -34,6 +34,7 @@ import javax.imageio.ImageIO;
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
 import ab.objects.GraphNode;
+import ab.objects.LearnType;
 import ab.objects.MapState;
 import ab.objects.MyShot;
 import ab.objects.State;
@@ -53,19 +54,17 @@ import com.google.gson.Gson;
 public class MyAgent implements Runnable {
 
 	private ActionRobot aRobot;
-	private Random randomGenerator;
+	private Random randomGenerator;	
 	public int currentLevel = 9;
 	public static int time_limit = 12;
 	private Map<Integer,Integer> scores = new LinkedHashMap<Integer,Integer>();
 	TrajectoryPlanner tp;
-	private boolean firstShot;
 	
 	Rectangle sling;
 	
 	//---------------------------------------------------------------------------------
 
-	private boolean LEARNING = false;
-	private boolean LEARNING_ROUND_ROBIN = false;
+	private LearnType LEARN_TYPE = LearnType.None;
 	
 	private int MAX_LEVEL = 9;
 	
@@ -93,31 +92,24 @@ public class MyAgent implements Runnable {
 	private int lastStateId = 1;
 	private int lastShotId = 1;
 	
-	public MyAgent() {
-		
-		this(false, false);
-
-	}
 	
-	// a standalone implementation of the Naive Agent
-	public MyAgent(boolean learning, boolean roundRobin) {
+	public MyAgent(LearnType learnType) {
 		
 		System.out.println("Execution starts: "+getDatetimeFormated());
 		
-		LEARNING = learning;
-		
-		if( LEARNING ){
-			LEARNING_ROUND_ROBIN = roundRobin;
-			System.out.println("..:: LEARNING MODE ::..");
-		}else{
+		if( learnType.equals(LearnType.None) ){
 			System.out.println("..:: EXECUTION MODE ::..");
+		}else{
+			System.out.println("..:: LEARNING MODE ::..");
+			System.out.println("..:: TYPE "+learnType+" ::..");
 		}
+		LEARN_TYPE = learnType;
 		
 		createReportsDir();
 		
 		aRobot = new ActionRobot();
 		tp = new TrajectoryPlanner();
-		firstShot = true;
+//		firstShot = true;
 		randomGenerator = new Random();
 		// --- go to the Poached Eggs episode level selection page ---
 		ActionRobot.GoFromMainMenuToLevelSelection();
@@ -220,7 +212,7 @@ public class MyAgent implements Runnable {
 
 	private void changeLevelIfNecessary() {
 		
-		if( LEARNING ){
+		if( isLearningMode() ){
 			System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
 	
 			ShowSeg.debugBluePoint.clear();
@@ -234,7 +226,7 @@ public class MyAgent implements Runnable {
 				currentLevel++;
 				
 				tp = new TrajectoryPlanner();
-				firstShot = true;
+//				firstShot = true;
 				
 				if( currentLevel == MAX_LEVEL ){
 					System.out.println("Rebooting From start");
@@ -251,7 +243,6 @@ public class MyAgent implements Runnable {
 			logConfiguration();
 		}
 	}
-
 
 	private double distance(Point p1, Point p2) {
 		return Math.sqrt( (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y) );
@@ -398,7 +389,7 @@ public class MyAgent implements Runnable {
 									vision = new Vision(screenshot);
 									List<Point> traj = vision.findTrajPoints();
 									tp.adjustTrajectory(traj, sling, releasePoint);
-									firstShot = false;
+//									firstShot = false;
 								}
 							}
 						}
@@ -469,7 +460,7 @@ public class MyAgent implements Runnable {
 			actualState = rootState = allStates.get(1);
 		}
 		
-		if( LEARNING ){
+		if( isLearningMode() ){
 			System.out.println("Cutting Nodes that scores 0 points... ");
 			cutNodesWithZeroPoints( rootState );
 		}
@@ -647,7 +638,7 @@ public class MyAgent implements Runnable {
 		previousScore = score;
 		actualState.setFinalState(finalShot);
 		
-		if( LEARNING ){
+		if( isLearningMode() ){
 			writeShotsAandStatesInFile();
 		}
 	}
@@ -693,7 +684,7 @@ public class MyAgent implements Runnable {
 		actualState.setVisitedInLastRun(true);
 		actualShot.setVisitedInLastRun(true);
 		
-		if( LEARNING ){
+		if( isLearningMode() ){
 			actualState.setTimesPlusOne();
 			
 			writeShotsAandStatesInFile();
@@ -714,7 +705,7 @@ public class MyAgent implements Runnable {
 		
 		int tollerancePoints = 350;
 		
-		if( !LEARNING ){
+		if( !isLearningMode() ){
 			tollerancePoints = 1000;
 		}
 		
@@ -905,9 +896,28 @@ public class MyAgent implements Runnable {
 			evalShot.setMiniMaxValue(miniMaxValue);
 		}
 
-		if( LEARNING ){
+		if( isLearningMode() ){
 			
-			if( LEARNING_ROUND_ROBIN ){
+			switch( LEARN_TYPE ){
+			case None:
+				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+					@Override
+					public int compare(MyShot o1, MyShot o2) {
+						int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
+						
+						if( compare == 0){
+							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+						}
+						
+						return compare;
+					}
+				});
+				
+				theShot = actualState.getPossibleShots().get(0);
+				System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
+				break;
+				
+			case RounRobin:
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 					@Override
 					public int compare(MyShot o1, MyShot o2) {
@@ -919,7 +929,10 @@ public class MyAgent implements Runnable {
 						return compare;
 					}
 				});
-			}else{
+				
+				theShot = actualState.getPossibleShots().get(0);
+			break;
+			case AllShots:
 				
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 					@Override
@@ -934,26 +947,30 @@ public class MyAgent implements Runnable {
 						return compare;
 					}
 				});
+				
+				theShot = actualState.getPossibleShots().get(0);
+				break;
+			case Random:
+			
+				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+					@Override
+					public int compare(MyShot o1, MyShot o2) {
+						int compare = Integer.compare( 	randomGenerator.nextInt( actualState.getPossibleShots().size() ) * (o1.getTimes() + 1), 
+														randomGenerator.nextInt( actualState.getPossibleShots().size() ) * (o2.getTimes() + 1) 
+													 );
+						
+						return compare;
+					}
+				});
+				
+				theShot = actualState.getPossibleShots().get(0);
+				break;
 			}
 			
-			theShot = actualState.getPossibleShots().get(0);
+			
 			
 		}else{
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
-					
-					if( compare == 0){
-						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-					}
-					
-					return compare;
-				}
-			});
-			
-			theShot = actualState.getPossibleShots().get(0);
-			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
+
 			
 		} 
 		
@@ -1090,11 +1107,11 @@ public class MyAgent implements Runnable {
 							tapIntervalList.add(90);
 							break; // 70-90% of the way
 						case BlueBird:
+							tapIntervalList.add(1);
 							tapIntervalList.add(65);
-							tapIntervalList.add(70);
 							tapIntervalList.add(75);
-							tapIntervalList.add(80);
 							tapIntervalList.add(85);
+							tapIntervalList.add(95);
 							break; // 65-85% of the way
 						default:
 							tapIntervalList.add(0);
@@ -1159,6 +1176,10 @@ public class MyAgent implements Runnable {
 		dateTime = c.get(Calendar.DAY_OF_MONTH) + "/" + +c.get(Calendar.MONTH) + "/" + c.get(Calendar.YEAR) + " - " + c.get(Calendar.HOUR_OF_DAY)+ ":" + c.get(Calendar.MINUTE)+ ":" + c.get(Calendar.SECOND);
 		
 		return dateTime;
+	}
+	
+	private boolean isLearningMode() {
+		return !LEARN_TYPE.equals(LearnType.None);
 	}
 
 }

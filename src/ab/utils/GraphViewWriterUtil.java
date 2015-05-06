@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class GraphViewWriterUtil {
-	private static int LEVEL = 4;
+	private static int LEVEL = 10;
 	
 	private static String reportsPath = "./reports/";
 	

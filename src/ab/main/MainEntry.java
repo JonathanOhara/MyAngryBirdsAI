@@ -1,8 +1,10 @@
-package ab.demo;
+package ab.main;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import ab.demo.MyAgent;
+import ab.objects.LearnType;
 import ab.vision.ShowSeg;
 
 /*****************************************************************************
@@ -15,11 +17,14 @@ import ab.vision.ShowSeg;
  *****************************************************************************/
 
 public class MainEntry {
-	// the entry of the software.
+
+	//Args:
+	//-level=N
+	//-showMbr or -showReal
+	//-learn=roundRobin||allshots||random
 	public static void main(String args[]){
 		int level = 1;
-		boolean learnMode = false;
-		boolean roundRoubinLearn = false;
+		LearnType learnMode = LearnType.None;
 		
 		if( args == null || args.length == 0 ){
 			args = new String[2];
@@ -34,18 +39,12 @@ public class MainEntry {
 			
 			if( arg.startsWith("-level") ){
 				level = Integer.parseInt( arg.split("=")[1] );
+			}else if( arg.startsWith("-learn") ){
+				learnMode = LearnType.fromString( arg.split("=")[1] );
 			}
 		}
-		
-		if( argsList.contains("-learn") ){
-			learnMode = true;
-		}
-		
-		if( argsList.contains("-roundRobin") ){
-			roundRoubinLearn = true;
-		}
 
-		MyAgent na = new MyAgent( learnMode, roundRoubinLearn );
+		MyAgent na = new MyAgent( learnMode );
 
 		na.currentLevel = level;
 		Thread nathre = new Thread(na);
