@@ -2,6 +2,7 @@ package ab.objects;
 
 public enum LearnType {
 	None("none"),
+	ConfirmBestResults("confirmBestResults"),
 	RounRobin("roundRobin"),
 	AllShots("allShots"),
 	Random("random");

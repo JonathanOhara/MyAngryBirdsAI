@@ -66,7 +66,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 21;
+	private int MAX_LEVEL = 12;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -122,7 +122,8 @@ public class MyAgent implements Runnable {
 		logConfiguration();
 		aRobot.loadLevel(currentLevel);
 		
-		allShots = new HashMap<Integer, MyShot>(128);
+		allShots = new HashMap<Integer, MyShot>(1024);
+		allStates = new HashMap<Integer, State>(256);
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
@@ -209,38 +210,58 @@ public class MyAgent implements Runnable {
 		}
 
 	}
+	
+	private void changeLevel(  ){
+		changeLevel( currentLevel );
+	}
+	
+	private void changeLevel( int level ){
+		currentLevel = level;
+		previousScore = 0;
+		tp = new TrajectoryPlanner();
+		
+//		firstShot = true;
+		logConfiguration();
+	}
 
 	private void changeLevelIfNecessary() {
+		ShowSeg.debugBluePoint.clear();
+		ShowSeg.debugRedPoint.clear();
 		
-		if( isLearningMode() ){
+		if( LEARN_TYPE.equals(LearnType.ConfirmBestResults) ){
+			System.out.println("Changing Level "+getDatetimeFormated());
+			
+			currentLevel++;
+			previousScore = 0;
+			
+			if( currentLevel == MAX_LEVEL ){
+				System.out.println("Rebooting From start");
+				currentLevel = 1;
+			}
+			changeLevel();
+			
+		}else if( isLearningMode() ){
 			System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
-	
-			ShowSeg.debugBluePoint.clear();
-			ShowSeg.debugRedPoint.clear();
 			
 			if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
 				System.out.println("Changing Level "+getDatetimeFormated());
+				
 				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 				previousScore = 0;
 				timesInThisStage = 0;
 				currentLevel++;
 				
-				tp = new TrajectoryPlanner();
-//				firstShot = true;
-				
 				if( currentLevel == MAX_LEVEL ){
 					System.out.println("Rebooting From start");
 					currentLevel = 1;
-					
-					MAX_LEVEL++;
 				}
-				logConfiguration();
+				changeLevel();
 			}
 		}else{
 			System.out.println("Changing Level "+getDatetimeFormated());
 			
 			currentLevel++;
-			logConfiguration();
+			changeLevel();
 		}
 	}
 
@@ -714,8 +735,8 @@ public class MyAgent implements Runnable {
 				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
 				returnState = otherState;
 				
-				returnState.setTotalScore( state.getTotalScore() );
-				returnState.setScore( state.getScore() );
+				returnState.setTotalScore( otherState.getTotalScore() + state.getTotalScore() / 2);
+				returnState.setScore( otherState.getScore() + state.getScore() / 2);
 				break;
 			}
 		}
@@ -879,7 +900,7 @@ public class MyAgent implements Runnable {
 	}
 	
 	private MyShot chooseOneShot() {
-		System.out.println("MyAgent.chooseOneShot()");
+		System.out.println("MyAgent.chooseOneShot("+LEARN_TYPE+")");
 		MyShot theShot = null;
 
 		System.out.println("\tCounting Unvisited Children...");
@@ -896,87 +917,98 @@ public class MyAgent implements Runnable {
 			evalShot.setMiniMaxValue(miniMaxValue);
 		}
 
-		if( isLearningMode() ){
-			
-			switch( LEARN_TYPE ){
-			case None:
-				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-					@Override
-					public int compare(MyShot o1, MyShot o2) {
-						int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
-						
-						if( compare == 0){
-							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-						}
-						
-						return compare;
+		switch( LEARN_TYPE ){
+		case None:
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
+					
+					if( compare == 0){
+						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
 					}
-				});
-				
-				theShot = actualState.getPossibleShots().get(0);
-				System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
-				break;
-				
-			case RounRobin:
-				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-					@Override
-					public int compare(MyShot o1, MyShot o2) {
-						int compare = Double.compare(o1.getTimes(), o2.getTimes());
-						if( compare == 0 ){
-							compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o1.getAim() ), 
-													 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o2.getAim() ) ) ;
-						}
-						return compare;
-					}
-				});
-				
-				theShot = actualState.getPossibleShots().get(0);
-			break;
-			case AllShots:
-				
-				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-					@Override
-					public int compare(MyShot o1, MyShot o2) {
-						int compare = Double.compare(o1.getNumberofUnvisitedChildren(), o2.getNumberofUnvisitedChildren()) * -1;
-						if( compare == 0 ){
-							compare = Double.compare(o1.getTimes(), o2.getTimes());
-						}
-						if( compare == 0 ){
-							compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-						}
-						return compare;
-					}
-				});
-				
-				theShot = actualState.getPossibleShots().get(0);
-				break;
-			case Random:
-				
-				for( MyShot shot: actualState.getPossibleShots() ){
-					shot.setRandomInt(randomGenerator.nextInt( actualState.getPossibleShots().size() ));
+					
+					return compare;
 				}
+			});
 			
-				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-					@Override
-					public int compare(MyShot o1, MyShot o2) {
-						int compare = Integer.compare( 	o1.getRandomInt() * (o1.getTimes() + 1), 
-														o2.getRandomInt() * (o2.getTimes() + 1) 
-													 );
-						
-						return compare;
+			theShot = actualState.getPossibleShots().get(0);
+			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
+			break;
+		case ConfirmBestResults:
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
+					
+					if( compare == 0){
+						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
 					}
-				});
-				
-				theShot = actualState.getPossibleShots().get(0);
-				break;
+					
+					return compare;
+				}
+			});
+			
+			theShot = actualState.getPossibleShots().get(0);
+			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
+			break;
+		case RounRobin:
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					int compare = Double.compare(o1.getTimes(), o2.getTimes());
+					if( compare == 0 ){
+						compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o1.getAim() ), 
+												 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o2.getAim() ) ) ;
+					}
+					return compare;
+				}
+			});
+			
+			theShot = actualState.getPossibleShots().get(0);
+		break;
+		case AllShots:
+			
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					int compare = Double.compare(o1.getNumberofUnvisitedChildren(), o2.getNumberofUnvisitedChildren()) * -1;
+					if( compare == 0 ){
+						compare = Double.compare(o1.getTimes(), o2.getTimes());
+					}
+					if( compare == 0 ){
+						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+					}
+					return compare;
+				}
+			});
+			
+			theShot = actualState.getPossibleShots().get(0);
+			break;
+		case Random:
+			
+			for( MyShot shot: actualState.getPossibleShots() ){
+				shot.setRandomInt(randomGenerator.nextInt( actualState.getPossibleShots().size() ));
 			}
+		
+			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+				@Override
+				public int compare(MyShot o1, MyShot o2) {
+					int compare = Integer.compare( 	o1.getRandomInt() * (o1.getTimes() + 1), 
+													o2.getRandomInt() * (o2.getTimes() + 1) 
+												 );
+					
+					return compare;
+				}
+			});
 			
+			theShot = actualState.getPossibleShots().get(0);
+			break;
+		default:
+			theShot = actualState.getPossibleShots().get(0);
+			break;
+		}
 			
-			
-		}else{
-
-			
-		} 
 		
 		return theShot;
 	}
