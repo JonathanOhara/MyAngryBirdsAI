@@ -66,7 +66,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 9;
+	private int MAX_LEVEL = 21;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -337,7 +337,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() * 3;
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() / 2;
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
@@ -951,12 +951,16 @@ public class MyAgent implements Runnable {
 				theShot = actualState.getPossibleShots().get(0);
 				break;
 			case Random:
+				
+				for( MyShot shot: actualState.getPossibleShots() ){
+					shot.setRandomInt(randomGenerator.nextInt( actualState.getPossibleShots().size() ));
+				}
 			
 				Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
 					@Override
 					public int compare(MyShot o1, MyShot o2) {
-						int compare = Integer.compare( 	randomGenerator.nextInt( actualState.getPossibleShots().size() ) * (o1.getTimes() + 1), 
-														randomGenerator.nextInt( actualState.getPossibleShots().size() ) * (o2.getTimes() + 1) 
+						int compare = Integer.compare( 	o1.getRandomInt() * (o1.getTimes() + 1), 
+														o2.getRandomInt() * (o2.getTimes() + 1) 
 													 );
 						
 						return compare;

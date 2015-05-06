@@ -35,6 +35,16 @@ public class MyShot implements GraphNode {
 	private float miniMaxValue;
 	private transient List<State> possibleStates;
 	
+	private transient int randomInt;
+	
+	public int getRandomInt() {
+		return randomInt;
+	}
+
+	public void setRandomInt(int randomInt) {
+		this.randomInt = randomInt;
+	}
+
 	public MyShot() {
 		super();
 		
