@@ -14,11 +14,12 @@ import java.awt.Rectangle;
 public class ABObject extends Rectangle {
  private static final long serialVersionUID = 1L;
  private static int counter = 0;
- public int id;
+ public transient int id;
  //object type
  public ABType type;
  
- public int area = 0;
+ 
+ public transient int area = 0;
  //For all MBRs, the shape is Rect by default.
  public ABShape shape = ABShape.Rect;
  

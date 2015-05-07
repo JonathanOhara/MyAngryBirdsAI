@@ -4,6 +4,8 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gson.annotations.Expose;
+
 import ab.demo.other.Shot;
 import ab.vision.ABObject;
 import ab.vision.ABType;
@@ -17,11 +19,7 @@ public class MyShot implements GraphNode {
 	private ABType birdType;
 	
 	private int times = 0;
-	private int numberofUnvisitedChildren;
-	private boolean visitedInLastRun = false;
 	
-	private boolean shotTested = false;
-
 	private int tapInterval;
 	
 	private Point target;
@@ -32,9 +30,15 @@ public class MyShot implements GraphNode {
 	private ABObject closestPig;
 	private double distanceOfClosestPig;
 	
+	@Expose(serialize = true, deserialize = false)
+	private boolean active = false;
+	@Expose(serialize = true, deserialize = false)
+	private int unvisitedChildren;
+	@Expose(serialize = true, deserialize = false)
 	private float miniMaxValue;
-	private transient List<State> possibleStates;
 	
+	
+	private transient List<State> possibleStates;
 	private transient int randomInt;
 	
 	public int getRandomInt() {
@@ -133,14 +137,6 @@ public class MyShot implements GraphNode {
 		this.possibleStates = possibleStates;
 	}
 
-	public boolean isShotTested() {
-		return shotTested;
-	}
-
-	public void setShotTested(boolean shotTested) {
-		this.shotTested = shotTested;
-	}
-
 	public int getTimes() {
 		return times;
 	}
@@ -181,20 +177,20 @@ public class MyShot implements GraphNode {
 		this.miniMaxValue = miniMaxValue;
 	}
 
-	public int getNumberofUnvisitedChildren() {
-		return numberofUnvisitedChildren;
+	public boolean isActive() {
+		return active;
 	}
 
-	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
-		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 
-	public boolean isVisitedInLastRun() {
-		return visitedInLastRun;
+	public int getUnvisitedChildren() {
+		return unvisitedChildren;
 	}
 
-	public void setVisitedInLastRun(boolean visitedInLastRun) {
-		this.visitedInLastRun = visitedInLastRun;
+	public void setUnvisitedChildren(int unvisitedChildren) {
+		this.unvisitedChildren = unvisitedChildren;
 	}	
 	
 }

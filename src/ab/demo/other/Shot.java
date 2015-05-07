@@ -54,11 +54,11 @@ public class Shot {
 	public void setDy(int dy) {
 		this.dy = dy;
 	}
-	private int t_shot;
+	private transient int t_shot;
 	private int t_tap;
 public Shot()
 {
-	x = 0;
+	x = 0;	
 	y = 0;
 	dx = 0;
 	dy = 0;

@@ -4,6 +4,8 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gson.annotations.Expose;
+
 public class State implements GraphNode {
 	
 	private int stateId;
@@ -12,15 +14,19 @@ public class State implements GraphNode {
 	private int birdIndex;
 	
 	private int times = 0;
-	private int numberofUnvisitedChildren;
-	private boolean visitedInLastRun = false;
-	
 	private int score = 0;
 	private int totalScore = 0;
 	
 	private boolean finalState;
 	
 	private transient MapState mapState;
+
+	@Expose(serialize = true, deserialize = false)
+	private boolean active = false;
+	@Expose(serialize = true, deserialize = false)
+	private int unvisitedChildren;
+	@Expose(serialize = true, deserialize = false)
+	private float miniMaxValue;
 	
 	private transient List<MyShot> possibleShots;
 	private transient BufferedImage shotImage;
@@ -115,20 +121,28 @@ public class State implements GraphNode {
 		this.shotImage = shotImage;
 	}
 
-	public int getNumberofUnvisitedChildren() {
-		return numberofUnvisitedChildren;
+	public boolean isActive() {
+		return active;
 	}
 
-	public void setNumberofUnvisitedChildren(int numberofUnvisitedChildren) {
-		this.numberofUnvisitedChildren = numberofUnvisitedChildren;
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 
-	public boolean isVisitedInLastRun() {
-		return visitedInLastRun;
+	public int getUnvisitedChildren() {
+		return unvisitedChildren;
 	}
 
-	public void setVisitedInLastRun(boolean visitedInLastRun) {
-		this.visitedInLastRun = visitedInLastRun;
+	public void setUnvisitedChildren(int unvisitedChildren) {
+		this.unvisitedChildren = unvisitedChildren;
+	}
+
+	public float getMiniMaxValue() {
+		return miniMaxValue;
+	}
+
+	public void setMiniMaxValue(float miniMaxValue) {
+		this.miniMaxValue = miniMaxValue;
 	}
 	
 	

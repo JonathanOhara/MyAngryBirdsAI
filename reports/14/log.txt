@@ -1,0 +1,22 @@
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.findPossibleShots()
+Exception in thread "Thread-10" java.lang.NullPointerException
+	at ab.demo.MyAgent.findPossibleShots(MyAgent.java:816)
+	at ab.demo.MyAgent.solve(MyAgent.java:345)
+	at ab.demo.MyAgent.run(MyAgent.java:113)
+	at java.lang.Thread.run(Unknown Source)
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.findPossibleShots()
+Exception in thread "Thread-10" java.lang.NullPointerException
+	at ab.demo.MyAgent.findPossibleShots(MyAgent.java:816)
+	at ab.demo.MyAgent.solve(MyAgent.java:345)
+	at ab.demo.MyAgent.run(MyAgent.java:113)
+	at java.lang.Thread.run(Unknown Source)

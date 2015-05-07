@@ -95,6 +95,7 @@ textarea{
 </p>		
 	<p>
 		<select id="level" style="  width: 49%;height: 100px; font-size: 50px;" dir="rtl">
+			<option value="0" selected>Choose a Level</option>
 			<option value="1">Level 01</option>
 			<option value="2">Level 02</option>
 			<option value="3">Level 03</option>
@@ -103,7 +104,7 @@ textarea{
 			<option value="6">Level 06</option>
 			<option value="7">Level 07</option>
 			<option value="8">Level 08</option>
-			<option value="9" selected>Level 09</option>
+			<option value="9">Level 09</option>
 			<option value="10">Level 10</option>
 			<option value="11">Level 11</option>
 			<option value="12">Level 12</option>
@@ -224,7 +225,7 @@ var showProperties = function( element, type ){
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> State Id </div><div class='propValue'> "+ element.stateId + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Origin Shot Id </div><div class='propValue'> "+ element.originShotId + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Times in this state  </div><div class='propValue'> "+ element.times + " </div>");
-		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.numberofUnvisitedChildren + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.unvisitedChildren + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Score </div><div class='propValue'> "+ element.score + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Total Score </div><div class='propValue'> "+ element.totalScore + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Final State </div><div class='propValue'> "+ element.finalState + " </div>");
@@ -250,10 +251,10 @@ var showProperties = function( element, type ){
 		$("#propTbody").append("<div class='propLabel' > Release Y </div><div class='propValue'> "+ element.releasePoint.y + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Bird Index </div><div class='propValue'> "+ element.birdIndex + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Bird Type </div><div class='propValue'> "+ element.birdType + " </div>");
-		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Shot tested </div><div class='propValue'> "+ element.shotTested + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Shot tested </div><div class='propValue'> "+ (element.times > 0) + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Times used </div><div class='propValue'> "+ element.times + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.visitedInLastRun + " </div>");
-		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.numberofUnvisitedChildren + " </div>");
+		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.unvisitedChildren + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Aim Type </div><div class='propValue'> "+ element.aim.type + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Closest pig </div><div class='propValue'> "+ element.distanceOfClosestPig + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Tap Interval </div><div class='propValue'> "+ element.tapInterval + " </div>");
@@ -364,25 +365,27 @@ function generateGrapth(){
 }
 function drawConnections( elements ){
 	var parentNode = undefined;
+	var el;
 	var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
 	g.attr("style", "stroke: black;stroke-width: 1;");
 	for( var i = 0; i < elements.length; i++ ){
+		el = elements[i];
 		var line = $( document.createElementNS("http://www.w3.org/2000/svg", "line") );
-		if( elements[i].originShotId != undefined ){
-			parentNode = shotsMap[ elements[i].originShotId ];
+		if( el.originShotId != undefined ){
+			parentNode = shotsMap[ el.originShotId ];
 		}else{
-			parentNode = statesMap[ elements[i].originStateId ];
+			parentNode = statesMap[ el.originStateId ];
 		}
-		line.attr("x1", elements[i].svgElement.attr("cx"));
-		line.attr("y1", parseInt( elements[i].svgElement.attr("cy") ) - CIRCLE_RADIUS );
+		line.attr("x1", el.svgElement.attr("cx"));
+		line.attr("y1", parseInt( el.svgElement.attr("cy") ) - CIRCLE_RADIUS );
 		line.attr("x2", parentNode.svgElement.attr("cx"));
 		line.attr("y2", parseInt( parentNode.svgElement.attr("cy") ) + parseInt( parentNode.svgElement.attr("r") ) );
-		if( elements[i].visitedInLastRun ){
+		if( el.visitedInLastRun ){
 			line.css("stroke-width", "2");
 			line.css("stroke", "orange");
 		}
 		g.append(line);
-		elements[i].svgLine = line;
+		el.svgLine = line;
 	}
 	$("#graph").append(g);
 }
@@ -395,8 +398,10 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 	var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
 	var groupWidth;
 	var circle = undefined;
+	var el;
 	for( var i = 0; i < elements.length; i++ ){
-		var parentId = elements[i].originShotId || elements[i].originStateId;
+		el = elements[i];
+		var parentId = el.originShotId || el.originStateId;
 		if( parentId != lastParent ){
 			cx += CIRCLE_RADIUS;
 			lastParent = parentId;
@@ -421,25 +426,25 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		circle.attr("stroke-width", "1");
 		circle.attr("stroke", "black");
 		circle.attr("fill", "white");
-		if( elements[i].visitedInLastRun ){
+		if( el.visitedInLastRun ){
 			circle.attr("stroke", "orange");
 		}
 		circlesToAppend.push(circle);
-		if( elements[i].originShotId != undefined ){
+		if( el.originShotId != undefined ){
 			var circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
 			circleText.attr("x", cx - (CIRCLE_RADIUS * 5/6));
 			circleText.attr("y", cy + 2 );
 			circleText.attr("fill", "black");	
-			circleText.html("Pt: "+elements[i].totalScore);
+			circleText.html("Pt: "+el.totalScore);
 			circlesToAppend.push(circleText);
-			if( elements[i].finalState ){
-				if( elements[i].score > 0 ){
+			if( el.finalState ){
+				if( el.score > 0 ){
 					circle.attr("fill", "#ADD8E6");		
 				}else{
 					circle.attr("fill", "#F08080");		
 				}
 			}
-			var id = elements[i].stateId;
+			var id = el.stateId;
 			circle.bind("click", function(stateId){
 				showProperties( statesMap[stateId], 1 );
 			}.bind(this, id));
@@ -448,32 +453,32 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 			circleText.attr("x", cx - (CIRCLE_RADIUS * 2/3));
 			circleText.attr("y", cy - 10 );
 			circleText.attr("fill", "black");	
-			circleText.html("X: "+elements[i].target.x);
+			circleText.html("X: "+el.target.x);
 			circlesToAppend.push(circleText);
 			var tspan = $( document.createElementNS("http://www.w3.org/2000/svg", "tspan") );
 			tspan.attr("x", cx - (CIRCLE_RADIUS * 2/3));
 			tspan.attr("y", cy + 5 );
 			tspan.attr("fill", "black");	
-			tspan.html("Y: "+elements[i].target.y);
+			tspan.html("Y: "+el.target.y);
 			circleText.append(tspan);
 			//circlesToAppend.push(circleText);
 			tspan = $( document.createElementNS("http://www.w3.org/2000/svg", "tspan") );
 			tspan.attr("x", cx - (CIRCLE_RADIUS * 2/3));
 			tspan.attr("y", cy + 20 );
 			tspan.attr("fill", "black");	
-			tspan.html("Tap: "+elements[i].tapInterval);
+			tspan.html("Tap: "+el.tapInterval);
 			circleText.append(tspan);
 			//circlesToAppend.push(circleText);
-			if( !elements[i].shotTested ){
+			if( el.times == 0 ){
 				circle.attr("fill", "yellow");		
 			}
-			var id = elements[i].shotId;
+			var id = el.shotId;
 			circle.bind("click", function(shotId){
 				showProperties( shotsMap[shotId], 2 );
 			}.bind(this, id));
 		}
 		cx += CIRCLE_SPACE;
-		elements[i].svgElement = circle;
+		el.svgElement = circle;
 	}
 	var totalWidth = cx;
 	cx -= CIRCLE_SPACE;
@@ -514,10 +519,12 @@ function elementsGraphGeneration(node, h){
 	var greaterNumberOfElements = 0;
 	var elements = [];
 	var h = 0;
-	for( var i = 0; i < elementInEeachHeight.length; i++ ){
+	var maxTreeHeightPlot = elementInEeachHeight.length;
+	//maxTreeHeightPlot = 3;
+	for( var i = 0; i < maxTreeHeightPlot; i++ ){
 		if( elementInEeachHeight[i] != undefined && elementInEeachHeight[i].length > greaterNumberOfElements ){
-			greaterNumberOfElements = elementInEeachHeight[i].length;
 			elements = elementInEeachHeight[i];
+			greaterNumberOfElements = elements.length;
 			h = i;
 		}
 	}
@@ -526,7 +533,7 @@ function elementsGraphGeneration(node, h){
 	$("#graph").attr("width", totalWidth );
 	$("#graph").css("width", totalWidth + "px");
 	//Draw Other elements
-	for( var j = 0; j < elementInEeachHeight.length; j++ ){
+	for( var j = 0; j < maxTreeHeightPlot; j++ ){
 		if( j == h )continue;
 		elements = elementInEeachHeight[j];
 		var sizeMultiplier = 1;
@@ -537,7 +544,7 @@ function elementsGraphGeneration(node, h){
 		spaceBeetweenElements = Math.max( $(document.body).width() / (elements.length), spaceBeetweenElements );
 		drawNodes( elements, j, spaceBeetweenElements, true, sizeMultiplier );
 	}
-	for( var j = 1; j < elementInEeachHeight.length; j++ ){
+	for( var j = 1; j < maxTreeHeightPlot; j++ ){
 		drawConnections(elementInEeachHeight[j]);
 	}
 }
@@ -657,7 +664,7 @@ $("#generateButton").click(function(){
 if( $("#statesTextArea").val().trim() != "" && $("#statesTextArea").val().trim() ){
 	$("#generateButton").click();
 }
-/*LEVEL_CHOICE*/ $('#level').children().eq(1).attr('selected', 'selected');
+/*LEVEL_CHOICE*/ $('#level').children().eq(0).attr('selected', 'selected');
 
 </script>
 </body>
