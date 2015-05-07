@@ -66,7 +66,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 12;
+	private int MAX_LEVEL = 15;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -358,7 +358,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size();
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() / 2;
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
@@ -1122,31 +1122,31 @@ public class MyAgent implements Runnable {
 							tapIntervalList.add(0);	break;
 						case YellowBird:
 							tapIntervalList.add(65);
-							tapIntervalList.add(70);
+//							tapIntervalList.add(70);
 							tapIntervalList.add(75);
-							tapIntervalList.add(80);
+//							tapIntervalList.add(80);
 							tapIntervalList.add(85);
-							tapIntervalList.add(90);
+//							tapIntervalList.add(90);
 							break; // 65-90% of the way
 						case WhiteBird:
 							tapIntervalList.add(70);
-							tapIntervalList.add(75);
+//							tapIntervalList.add(75);
 							tapIntervalList.add(80);
-							tapIntervalList.add(85);
+//							tapIntervalList.add(85);
 							tapIntervalList.add(90);
 							break; // 70-90% of the way
 						case BlackBird:
 							tapIntervalList.add(70);
-							tapIntervalList.add(75);
+//							tapIntervalList.add(75);
 							tapIntervalList.add(80);
-							tapIntervalList.add(85);
+//							tapIntervalList.add(85);
 							tapIntervalList.add(90);
 							break; // 70-90% of the way
 						case BlueBird:
 							tapIntervalList.add(1);
-							tapIntervalList.add(65);
+//							tapIntervalList.add(65);
 							tapIntervalList.add(75);
-							tapIntervalList.add(85);
+//							tapIntervalList.add(85);
 							tapIntervalList.add(95);
 							break; // 65-85% of the way
 						default:
