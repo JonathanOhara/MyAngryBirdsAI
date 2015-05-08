@@ -341,13 +341,15 @@ public class MyAgent implements Runnable {
 					calculateShotStats(false);
 				}
 				
+				ShowSeg.debugBluePoint.clear();
+				ShowSeg.debugRedPoint.clear();
+				
 				if( actualShot == null && actualState == null ){
 					System.out.println("Creating Root...");
 					actualState = graph.rootState = new State();
 					actualState.setOriginShotId(-1);
 					actualState.setStateId( graph.getNewStateId() );
 					actualState.setBirdIndex( 0 );
-					actualState.setMapState(getMapState(vision));
 					
 					actualState.setPossibleShots( findPossibleShots() );
 					
@@ -465,16 +467,6 @@ public class MyAgent implements Runnable {
 	private void reCalculateShotStats( boolean finalShot ){
 		int score = 0;
 		
-		// capture Image
-		BufferedImage screenshot = ActionRobot.doScreenShot();
-
-		// process image
-		Vision vision = new Vision(screenshot);
-		
-		MapState mapState = getMapState(vision);
-		
-		actualState.setMapState(mapState);
-		
 		if( finalShot ){
 			if( aRobot.getState() == GameState.LOST ){
 				score = previousScore;
@@ -506,15 +498,6 @@ public class MyAgent implements Runnable {
 		
 		int score = 0;
 		
-		// capture Image
-		BufferedImage screenshot = ActionRobot.doScreenShot();
-
-		// process image
-		Vision vision = new Vision(screenshot);
-		
-		MapState mapState = getMapState(vision);
-		
-		actualState.setMapState(mapState);
 		actualShot.setBirdIndex( birdsIndex );
 		
 		if( finalShot ){
@@ -551,8 +534,8 @@ public class MyAgent implements Runnable {
 
 	private MapState getMapState(Vision vision) {
 		MapState mapState = new MapState();
-		mapState.setBlocks( vision.findBlocksMBR() );
-		mapState.setPigs( vision.findPigsMBR() );
+		mapState.setBlocks( vision.findBlocksRealShape() );
+		mapState.setPigs( vision.findPigsRealShape() );
 		mapState.setTnts( vision.findTNTs() );
 		return mapState;
 	}
@@ -828,11 +811,14 @@ public class MyAgent implements Runnable {
 	private List<MyShot> findPossibleShots() {
 		System.out.println("MyAgent.findPossibleShots()");
 		long time = System.currentTimeMillis();
+		int discardedShots = 0;
 		
 		BufferedImage screenshot = ActionRobot.doScreenShot();
 		Vision vision = new Vision(screenshot);
 		
-		List<ABObject> pigs = vision.findPigsRealShape();
+		MapState mapState = getMapState(vision);
+		
+		List<ABObject> pigs = mapState.getPigs();
 		
 		ABType birdType = aRobot.getBirdTypeOnSling();
 		
@@ -851,9 +837,8 @@ public class MyAgent implements Runnable {
 			}
 		}
 		
-		for( ABObject object: actualState.
-				getMapState().
-				getAllObjects() ){
+		for( ABObject object: mapState.getAllObjects() ){
+			
 			if( object.width > 200 && object.height > 200 ){
 				//ERRO ele achou que o menu da direita eh um objeto pulando...
 				continue;
@@ -884,87 +869,110 @@ public class MyAgent implements Runnable {
 			
 			for( Point _tpt : pointsToTry ){
 				
-				releasePoints = calcReleasePoint(_tpt);
-				for( Point releasePoint: releasePoints ){
-				
-					Point refPoint = tp.getReferencePoint(sling);
+				if( !findCloserShot( _tpt, possibleShots) ){
+					releasePoints = calcReleasePoint(_tpt);
+					for( Point releasePoint: releasePoints ){
 					
-					int dx = (int)releasePoint.getX() - refPoint.x;
-					int dy = (int)releasePoint.getY() - refPoint.y;
-					Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
-
-					if( ABUtil.isReachable(vision, _tpt, shot) ){
-						List<Integer> tapIntervalList = new ArrayList<Integer>();
+						Point refPoint = tp.getReferencePoint(sling);
 						
-						switch( birdType ){
-						case RedBird:
-							tapIntervalList.add(0);	break;
-						case YellowBird:
-							tapIntervalList.add(65);
-//							tapIntervalList.add(70);
-							tapIntervalList.add(75);
-//							tapIntervalList.add(80);
-							tapIntervalList.add(85);
-//							tapIntervalList.add(90);
-							break; // 65-90% of the way
-						case WhiteBird:
-							tapIntervalList.add(70);
-//							tapIntervalList.add(75);
-							tapIntervalList.add(80);
-//							tapIntervalList.add(85);
-							tapIntervalList.add(90);
-							break; // 70-90% of the way
-						case BlackBird:
-							tapIntervalList.add(70);
-//							tapIntervalList.add(75);
-							tapIntervalList.add(80);
-//							tapIntervalList.add(85);
-							tapIntervalList.add(90);
-							break; // 70-90% of the way
-						case BlueBird:
-							tapIntervalList.add(5);
-//							tapIntervalList.add(65);
-							tapIntervalList.add(75);
-//							tapIntervalList.add(85);
-							tapIntervalList.add(90);
-							break; // 65-85% of the way
-						default:
-							tapIntervalList.add(0);
-						}
-						
-						for( Integer tapIn : tapIntervalList ){
-							tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapIn);
-							shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+						int dx = (int)releasePoint.getX() - refPoint.x;
+						int dy = (int)releasePoint.getY() - refPoint.y;
+						Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
+	
+						if( ABUtil.isReachable(vision, _tpt, shot) ){
+							List<Integer> tapIntervalList = new ArrayList<Integer>();
 							
-							if( actualState.getStateId() == 0 ){
-								System.err.println("[ERROR] Something Wrong origin state id = 0");
+							switch( birdType ){
+							case RedBird:
+								tapIntervalList.add(0);	break;
+							case YellowBird:
+								tapIntervalList.add(65);
+	//							tapIntervalList.add(70);
+								tapIntervalList.add(75);
+	//							tapIntervalList.add(80);
+								tapIntervalList.add(85);
+	//							tapIntervalList.add(90);
+								break; // 65-90% of the way
+							case WhiteBird:
+								tapIntervalList.add(70);
+	//							tapIntervalList.add(75);
+								tapIntervalList.add(80);
+	//							tapIntervalList.add(85);
+								tapIntervalList.add(90);
+								break; // 70-90% of the way
+							case BlackBird:
+								tapIntervalList.add(70);
+	//							tapIntervalList.add(75);
+								tapIntervalList.add(80);
+	//							tapIntervalList.add(85);
+								tapIntervalList.add(90);
+								break; // 70-90% of the way
+							case BlueBird:
+								tapIntervalList.add(5);
+	//							tapIntervalList.add(65);
+								tapIntervalList.add(75);
+	//							tapIntervalList.add(85);
+								tapIntervalList.add(90);
+								break; // 65-85% of the way
+							default:
+								tapIntervalList.add(0);
 							}
 							
-							MyShot myShot = new MyShot();
+							for( Integer tapIn : tapIntervalList ){
+								int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapIn);
+								shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+								
+								if( actualState.getStateId() == 0 ){
+									System.err.println("[ERROR] Something Wrong origin state id = 0");
+								}
+								
+								MyShot myShot = new MyShot();
+								
+								myShot.setShotId(graph.getNewShotId());
+								myShot.setTimes(0);
+								myShot.setOriginStateId(actualState.getStateId());
+								myShot.setTarget(_tpt);
+								myShot.setReleasePoint(releasePoint);
+								myShot.setShot(shot);
+								myShot.setAim(object);
+								myShot.setTapInterval(tapIn);
+								
+								myShot.setClosestPig(closestPig);
+								myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
+								
+								possibleShots.add( myShot );
+								
+								graph.allShots.put(myShot.getShotId(), myShot);
+							}
 							
-							myShot.setShotId(graph.getNewShotId());
-							myShot.setTimes(0);
-							myShot.setOriginStateId(actualState.getStateId());
-							myShot.setTarget(_tpt);
-							myShot.setReleasePoint(releasePoint);
-							myShot.setShot(shot);
-							myShot.setAim(object);
-							myShot.setTapInterval(tapIn);
-							
-							myShot.setClosestPig(closestPig);
-							myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
-							
-							possibleShots.add( myShot );
-							
-							graph.allShots.put(myShot.getShotId(), myShot);
+							ShowSeg.debugBluePoint.add(_tpt);
+						}else{
+							discardedShots++;
+							ShowSeg.debugRedPoint.add(_tpt);
 						}
 					}
+				}else{
+					ShowSeg.debugRedPoint.add(_tpt);
+					discardedShots++;
 				}
-			}	
+			}
 		}
 		
-		System.out.println("Number of Possible shots: "+possibleShots.size() + " calculated in: " + (System.currentTimeMillis() - time) + " miliseconds");
+		System.out.println("Number of: PossibleShots: "+possibleShots.size() + " DiscardedShots: "+discardedShots+ "  calculated in: " + (System.currentTimeMillis() - time) + " miliseconds");
 		return possibleShots;
+	}
+
+
+	private boolean findCloserShot(Point _tpt, List<MyShot> possibleShots) {
+		boolean returnValue = false;
+		
+		for( MyShot ms : possibleShots ){
+			int distanceBetween = (int) distance( ms.getTarget(), _tpt ); 
+			if( distanceBetween < (BIRDS_SIZE / 2)  ){
+				return true;
+			}
+		}
+		return returnValue;
 	}
 
 
@@ -972,12 +980,9 @@ public class MyAgent implements Runnable {
 		
 		// estimate the trajectory
 		ArrayList<Point> pts = tp.estimateLaunchPoint(sling, _tpt);
-
-		// do a high shot when entering a level to find an accurate velocity		
 		
 		if ( pts.isEmpty() ){
-			System.out.println("No release point found for the target");
-			System.out.println("Try a shot with 45 degree");
+			System.out.println("No release point found for the target. Try a shot with 45 degree");
 			pts.add( tp.findReleasePoint(sling, Math.PI/4) );
 		}
 		

@@ -20,7 +20,9 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
@@ -40,11 +42,13 @@ public class ShowSeg implements Runnable {
 	
 	public static ShowSeg instance;
 	
-	public static List<Point> debugBluePoint = new ArrayList<Point>();
-	public static List<Point> debugRedPoint = new ArrayList<Point>();
+	public static List<Point> debugBluePoint = null;
+	public static List<Point> debugRedPoint = null;
 	
 	public ShowSeg() {
 		instance = this;
+		debugBluePoint = Collections.synchronizedList(new ArrayList<Point>());
+		debugRedPoint = Collections.synchronizedList(new ArrayList<Point>());
 	}
 	
 	static public Proxy getGameConnection(int port) {
