@@ -55,6 +55,7 @@ public class MyAgent implements Runnable {
 	TrajectoryPlanner tp;
 	
 	Rectangle sling;
+	ABPrintStream stream = null;
 	
 	//---------------------------------------------------------------------------------
 
@@ -147,9 +148,9 @@ public class MyAgent implements Runnable {
 				System.out.println("LOST.");
 				
 				numberOfbirds = -1;
-				
 				calculateShotStats(true);
-				
+
+				previousScore = 0;
 				timesInThisStage++;
 				
 				aRobot.restartLevel();
@@ -226,8 +227,6 @@ public class MyAgent implements Runnable {
 	private void changeLevel( int level ){
 		currentLevel = level;
 		previousScore = 0;
-		
-//		firstShot = true;
 		logConfiguration();
 	}
 
@@ -393,7 +392,6 @@ public class MyAgent implements Runnable {
 				//tp.getReferencePoint(sling);
 				//tp.getReleaseAngle(sling, releasePoint);
 				
-				
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
 					ActionRobot.fullyZoomOut();
@@ -454,7 +452,9 @@ public class MyAgent implements Runnable {
 			}
 //			PrintStream fileStream = new PrintStream( new FileOutputStream( file, true ) );
 			
-			ABPrintStream stream = new ABPrintStream(new FileOutputStream( file, true ), System.out);
+			if( stream != null)	stream.close();
+			
+			stream = new ABPrintStream(new FileOutputStream( file, true ), System.out);
 		    
 			System.setOut(stream);
 			System.setErr(stream);
@@ -540,10 +540,8 @@ public class MyAgent implements Runnable {
 
 	private MapState getMapState(Vision vision) {
 		MapState mapState = new MapState();
-//		mapState.setBlocks( vision.findBlocksRealShape() );
-//		mapState.setPigs( vision.findPigsRealShape() );
 		mapState.setBlocks( vision.findBlocksMBR() );
-		mapState.setBlocks( vision.findPigsMBR() );
+		mapState.setPigs( vision.findPigsMBR() );
 		mapState.setTnts( vision.findTNTs() );
 		return mapState;
 	}

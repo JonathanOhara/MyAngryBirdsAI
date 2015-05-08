@@ -97,12 +97,15 @@ public class ShowSeg implements Runnable {
 	
 	public static BufferedImage drawPoint(BufferedImage screenshot) {
 		int SIZE = 6; 
+		int i;
 		
-		for( Point point : debugRedPoint){
-			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.RED);	
+		for( i = 0; i < debugRedPoint.size(); i++ ){
+			Point point = debugRedPoint.get(i);
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.RED);
 		}
 		
-		for( Point point : debugBluePoint){
+		for( i = 0; i < debugBluePoint.size(); i++ ){
+			Point point = debugBluePoint.get(i);
 			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.BLUE);	
 		}
 		

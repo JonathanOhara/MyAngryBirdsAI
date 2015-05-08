@@ -148,7 +148,7 @@ public class ActionRobot {
 		ss.shoot(proxy, shots);
 		System.out.println("Shooting Completed");
 		try {
-			Thread.sleep(17500);
+			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
