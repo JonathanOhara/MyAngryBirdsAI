@@ -15,7 +15,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
@@ -35,6 +34,7 @@ import ab.objects.MapState;
 import ab.objects.MyShot;
 import ab.objects.State;
 import ab.planner.TrajectoryPlanner;
+import ab.utils.ABPrintStream;
 import ab.utils.ABUtil;
 import ab.utils.Graph;
 import ab.utils.StateUtil;
@@ -60,7 +60,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 15;
+	private int MAX_LEVEL = 13;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -349,7 +349,7 @@ public class MyAgent implements Runnable {
 					actualState.setBirdIndex( 0 );
 					actualState.setMapState(getMapState(vision));
 					
-					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
+					actualState.setPossibleShots( findPossibleShots() );
 					
 					actualState.setShotImage( ActionRobot.doScreenShot() );
 					
@@ -359,7 +359,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( actualState.getPossibleShots().isEmpty() ){
-					actualState.setPossibleShots( findPossibleShots(vision, pigs) );
+					actualState.setPossibleShots( findPossibleShots() );
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
@@ -444,10 +444,12 @@ public class MyAgent implements Runnable {
 			if (!file.exists()) {
 				file.createNewFile();
 			}
-			PrintStream fileStream = new PrintStream( new FileOutputStream( file, true ) );
+//			PrintStream fileStream = new PrintStream( new FileOutputStream( file, true ) );
 			
-			System.setOut(fileStream);
-			System.setErr(fileStream);
+			ABPrintStream stream = new ABPrintStream(new FileOutputStream( file, true ), System.out);
+		    
+			System.setOut(stream);
+			System.setErr(stream);
 		}catch(Exception e){
 			e.printStackTrace();
 		}
@@ -647,6 +649,8 @@ public class MyAgent implements Runnable {
 	private float expectMiniMax(GraphNode node){
 		float alpha = 0;
 		if( node.isFinalState() ){
+			State st = (State) node;
+			st.setMiniMaxValue(st.getScore());
 			return ((State)node).getScore();
 		}
 		
@@ -821,9 +825,14 @@ public class MyAgent implements Runnable {
 	}
 
 
-	private List<MyShot> findPossibleShots(Vision vision, List<ABObject> pigs) {
+	private List<MyShot> findPossibleShots() {
 		System.out.println("MyAgent.findPossibleShots()");
 		long time = System.currentTimeMillis();
+		
+		BufferedImage screenshot = ActionRobot.doScreenShot();
+		Vision vision = new Vision(screenshot);
+		
+		List<ABObject> pigs = vision.findPigsRealShape();
 		
 		ABType birdType = aRobot.getBirdTypeOnSling();
 		
@@ -875,17 +884,14 @@ public class MyAgent implements Runnable {
 			
 			for( Point _tpt : pointsToTry ){
 				
-				int tapInterval = 0;
-				
 				releasePoints = calcReleasePoint(_tpt);
 				for( Point releasePoint: releasePoints ){
 				
 					Point refPoint = tp.getReferencePoint(sling);
 					
-					int tapTime = tp.getTapTime(sling, releasePoint, _tpt, tapInterval);
 					int dx = (int)releasePoint.getX() - refPoint.x;
 					int dy = (int)releasePoint.getY() - refPoint.y;
-					Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
+					Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
 
 					if( ABUtil.isReachable(vision, _tpt, shot) ){
 						List<Integer> tapIntervalList = new ArrayList<Integer>();
@@ -916,11 +922,11 @@ public class MyAgent implements Runnable {
 							tapIntervalList.add(90);
 							break; // 70-90% of the way
 						case BlueBird:
-							tapIntervalList.add(1);
+							tapIntervalList.add(5);
 //							tapIntervalList.add(65);
 							tapIntervalList.add(75);
 //							tapIntervalList.add(85);
-							tapIntervalList.add(95);
+							tapIntervalList.add(90);
 							break; // 65-85% of the way
 						default:
 							tapIntervalList.add(0);

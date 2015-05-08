@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,6 +22,9 @@ public class Graph {
 	public Map<Integer, MyShot> allShots;
 	public Map<Integer, State> allStates;
 	
+	private List<MyShot> shotsWithoutLink;
+	private List<State> statesWithoutLink;
+	
 	private int lastStateId = 1;
 	private int lastShotId = 1;
 	
@@ -36,16 +40,21 @@ public class Graph {
 	}
 	
 	public void buildScenarioGraph() {
+		System.out.println("Graph.buildScenarioGraph()");
 		MyShot shotBeforeState;
 		State stateBeforeShot;
-		System.out.println("MyAgent.buildScenarioGraph()");
+		
+		shotsWithoutLink = new ArrayList<MyShot>();
+		statesWithoutLink = new ArrayList<State>();
+
 		if( !allStates.isEmpty() && !allShots.isEmpty() ){
 			for( State state : allStates.values() ){
 				if( state.getOriginShotId() == -1 ) continue;
 				shotBeforeState = allShots.get( state.getOriginShotId() );
 				
 				if( shotBeforeState == null ){
-					System.err.println("[ERROR] There is no Shot with id = "+state.getOriginShotId());
+					System.err.println("[ERROR] There is no Shot with id = "+state.getOriginShotId()+"(from State id:"+state.getStateId()+")");
+					statesWithoutLink.add(state);
 					continue;
 				}
 				shotBeforeState.getPossibleStates().add(state);
@@ -55,7 +64,9 @@ public class Graph {
 				stateBeforeShot = allStates.get( shot.getOriginStateId() );				
 				
 				if( stateBeforeShot == null ){
-					System.err.println("[ERROR] There is no State with = "+shot.getOriginStateId());
+					System.err.println("[ERROR] There is no State with = "+shot.getOriginStateId()+"(from Shot id:"+shot.getShotId()+")");
+					shotsWithoutLink.add(shot);
+					
 					continue;
 				}
 				stateBeforeShot.getPossibleShots().add(shot);
@@ -65,6 +76,8 @@ public class Graph {
 		}
 		
 	}
+	
+	//------------------------------------------------------------------------------------------------------------------------------------------------
 
 	public void cutNodesWithZeroPoints(GraphNode node) {
 		
@@ -84,6 +97,16 @@ public class Graph {
 			}
 		}
 		
+	}
+	
+	public void removeUnlinkedNodes(){
+		for( State st : statesWithoutLink ){
+			removeNodesFromMap(st);
+		}
+		
+		for( MyShot ms: shotsWithoutLink ){
+			removeNodesFromMap(ms);
+		}
 	}
 	
 	public void removeNodesFromMap(GraphNode node) {
