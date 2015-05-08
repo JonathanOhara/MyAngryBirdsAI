@@ -60,7 +60,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 13;
+	private int MAX_LEVEL = 15;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -141,6 +141,7 @@ public class MyAgent implements Runnable {
 				changeLevelIfNecessary();
 				
 				loadLevel();
+				tp = new TrajectoryPlanner();
 				
 			} else if (state == GameState.LOST) {
 				System.out.println("LOST.");
@@ -191,6 +192,7 @@ public class MyAgent implements Runnable {
 					if( aRobot.getState() == GameState.WON ){
 						changeLevelIfNecessary();
 						loadLevel();
+						tp = new TrajectoryPlanner();
 					}else{
 						timesInThisStage++;
 						aRobot.restartLevel();
@@ -217,14 +219,13 @@ public class MyAgent implements Runnable {
 		}
 	}
 	
-	private void changeLevel(  ){
+	private void changeLevel( ){
 		changeLevel( currentLevel );
 	}
 	
 	private void changeLevel( int level ){
 		currentLevel = level;
 		previousScore = 0;
-		tp = new TrajectoryPlanner();
 		
 //		firstShot = true;
 		logConfiguration();
@@ -385,16 +386,21 @@ public class MyAgent implements Runnable {
 				releasePoint = actualShot.getReleasePoint();
 				dx = actualShot.getShot().getDx();
 				dy = actualShot.getShot().getDy();
-				System.out.println("Shooting Bird("+birdsIndex+"): "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " Tap: " +actualShot.getTapInterval()+  " -> "+actualShot.getAim().getType() );
-
 				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+				
+				System.out.println("Shooting Bird("+birdsIndex+"): "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " Tap: " +actualShot.getTapInterval()+  " -> "+actualShot.getAim().getType() );
+				
+				//tp.getReferencePoint(sling);
+				//tp.getReleaseAngle(sling, releasePoint);
+				
+				
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
 					ActionRobot.fullyZoomOut();
-					
 					screenshot = ActionRobot.doScreenShot();
 					vision = new Vision(screenshot);
 					Rectangle _sling = vision.findSlingshotMBR();
+					
 					if(_sling != null){
 						double scale_diff = Math.pow((sling.width - _sling.width),2) +  Math.pow((sling.height - _sling.height),2);
 						if(scale_diff < 25)	{
@@ -534,8 +540,10 @@ public class MyAgent implements Runnable {
 
 	private MapState getMapState(Vision vision) {
 		MapState mapState = new MapState();
-		mapState.setBlocks( vision.findBlocksRealShape() );
-		mapState.setPigs( vision.findPigsRealShape() );
+//		mapState.setBlocks( vision.findBlocksRealShape() );
+//		mapState.setPigs( vision.findPigsRealShape() );
+		mapState.setBlocks( vision.findBlocksMBR() );
+		mapState.setBlocks( vision.findPigsMBR() );
 		mapState.setTnts( vision.findTNTs() );
 		return mapState;
 	}
@@ -804,6 +812,8 @@ public class MyAgent implements Runnable {
 			break;
 		}
 			
+		
+		calcReleasePoint( theShot.getTarget() );
 		return theShot;
 	}
 
