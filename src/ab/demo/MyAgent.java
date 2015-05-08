@@ -95,6 +95,7 @@ public class MyAgent implements Runnable {
 		
 		aRobot = new ActionRobot();
 		tp = new TrajectoryPlanner();
+		graph = new Graph();
 //		firstShot = true;
 		randomGenerator = new Random();
 		// --- go to the Poached Eggs episode level selection page ---
@@ -106,9 +107,8 @@ public class MyAgent implements Runnable {
 	public void run() {
 
 		logConfiguration();
-		aRobot.loadLevel(currentLevel);
+		loadLevel();
 		
-		graph = new Graph();
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
@@ -132,16 +132,15 @@ public class MyAgent implements Runnable {
 				}
 				
 				for(Integer key: scores.keySet()){
-
 					totalScore += scores.get(key);
-					System.out.println(" Level " + key
-							+ " Score: " + scores.get(key) + " ");
+					System.out.println(" Level " + key	+ " Score: " + scores.get(key) + " ");
 				}
+				
 				System.out.println("Total Score: " + totalScore);
 
 				changeLevelIfNecessary();
 				
-				aRobot.loadLevel(currentLevel);
+				loadLevel();
 				
 			} else if (state == GameState.LOST) {
 				System.out.println("LOST.");
@@ -159,7 +158,7 @@ public class MyAgent implements Runnable {
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				aRobot.loadLevel(currentLevel);
+				loadLevel();
 				
 			} else if (state == GameState.MAIN_MENU) {
 				System.out.println("Unexpected main menu page, go to the last current level : "	+ currentLevel);
@@ -169,7 +168,7 @@ public class MyAgent implements Runnable {
 				
 				ActionRobot.GoFromMainMenuToLevelSelection();
 				
-				aRobot.loadLevel(currentLevel);
+				loadLevel();
 			} else if (state == GameState.EPISODE_MENU) {
 				System.out.println("Unexpected episode menu page, go to the last current level : "+ currentLevel);
 				
@@ -177,7 +176,7 @@ public class MyAgent implements Runnable {
 				changeLevelIfNecessary();
 				
 				ActionRobot.GoFromMainMenuToLevelSelection();
-				aRobot.loadLevel(currentLevel);
+				loadLevel();
 			} else if (state == GameState.UNKNOWN) {
 				System.out.println("Unknow Game state, may the game ends in last shot. CurrentLevel: "+ currentLevel);
 				numberOfbirds = -1;
@@ -191,17 +190,31 @@ public class MyAgent implements Runnable {
 					
 					if( aRobot.getState() == GameState.WON ){
 						changeLevelIfNecessary();
+						loadLevel();
 					}else{
 						timesInThisStage++;
 						aRobot.restartLevel();
 					}
+				}else{
+					System.out.println("[ERROR] Unknow error. Restart Level.");
+					timesInThisStage++;
+					aRobot.restartLevel();
 				}
 
-				aRobot.loadLevel(currentLevel);				
 			}
 
 		}
 
+	}
+
+	private void loadLevel() {
+		int levelLoaded = 0;
+		levelLoaded = aRobot.loadLevel(currentLevel);
+		if( levelLoaded != currentLevel ){
+			System.out.println("[ERROR]Unble to change level.");
+			currentLevel = levelLoaded;
+			changeLevel( currentLevel );
+		}
 	}
 	
 	private void changeLevel(  ){
@@ -556,8 +569,22 @@ public class MyAgent implements Runnable {
 				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
 				returnState = otherState;
 				
-				returnState.setTotalScore( otherState.getTotalScore() + state.getTotalScore() / 2);
-				returnState.setScore( otherState.getScore() + state.getScore() / 2);
+				int newScore = (otherState.getScore() + state.getScore() ) / 2;
+				int newTotalScore = ( otherState.getTotalScore() + state.getTotalScore() ) / 2;
+				
+				
+				if( newScore != otherState.getScore() ){
+					System.out.println("Setting the Score with average of "+otherState.getScore()+" and "+state.getScore()+ " = "+newScore);
+				}
+				
+				if( newTotalScore != otherState.getTotalScore() ){
+					System.out.println("Setting the Total Score with average of "+otherState.getTotalScore()+" and "+state.getTotalScore()+ " = "+newTotalScore);
+				}
+				
+				returnState.setTotalScore( newTotalScore );
+				returnState.setScore( newScore );
+				
+				System.out.println();
 				break;
 			}
 		}

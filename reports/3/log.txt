@@ -1,0 +1,149 @@
+ In state:   WON Try reloading...
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 111
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43140 
+Total Score: 135210
+Changing Level 7/4/2015 - 23:52:25
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 111
+Setting the Score with average of 43140 and 43130 = 43135
+Setting the Total Score with average of 43140 and 43130 = 43135
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 30390 
+ Level 2 Score: 61680 
+ Level 3 Score: 43130 
+Total Score: 135200
+Changing Level 8/4/2015 - 0:4:34
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 111
+Setting the Score with average of 43135 and 42950 = 43042
+Setting the Total Score with average of 43135 and 42950 = 43042
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 3 Score: 42950 
+Total Score: 42950
+Changing Level 8/4/2015 - 0:18:2
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 111
+Setting the Score with average of 43042 and 42950 = 42996
+Setting the Total Score with average of 43042 and 42950 = 42996
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 3 Score: 42950 
+Total Score: 42950
+Changing Level 8/4/2015 - 0:19:4
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 111
+Setting the Score with average of 42996 and 43070 = 43033
+Setting the Total Score with average of 42996 and 43070 = 43033
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 3 Score: 43070 
+Total Score: 43070
+Changing Level 8/4/2015 - 0:20:14
+Loaded Level: 3
+Graph.buildGraph(3)
+Loading shots and states from file.
+MyAgent.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 111
+Setting the Score with average of 43033 and 42950 = 42991
+Setting the Total Score with average of 43033 and 42950 = 42991
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 3 Score: 42950 
+Total Score: 42950
+Changing Level 8/4/2015 - 0:28:10

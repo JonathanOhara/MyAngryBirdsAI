@@ -179,13 +179,14 @@ public class ActionRobot {
 		proxy.send(new ProxyDragMessage(0, 0, 0, 0));
 	}
 
-	public void loadLevel(int... i) {
+	public int loadLevel(int... i) {
 		int level = 1;
 		if (i.length > 0) {
 			level = i[0];
 		}
 
 		lls.loadLevel(level);
+		return lls.currentLevel;
 	}
 
 	public static void fullyZoomOut() {

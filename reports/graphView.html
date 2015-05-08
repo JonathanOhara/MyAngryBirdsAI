@@ -230,8 +230,8 @@ var showProperties = function( element, type ){
 		$("#propTbody").append("<div class='propLabel' > Total Score </div><div class='propValue'> "+ element.totalScore + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Final State </div><div class='propValue'> "+ element.finalState + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Bird Index  </div><div class='propValue'> "+ element.birdIndex + " </div>");
-		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.visitedInLastRun + " </div>");
-		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.active + " </div>");
+		$("#propTbody").append("<div class='propLabel' > MiniMaxValue </div><div class='propValue'> "+ element.miniMaxValue + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
 		$("#propTbody").append("<div class='propLabel' > &nbsp; </div><div class='propValue'> &nbsp; </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> &nbsp; </div><div class='propValue'> &nbsp; </div>");
@@ -253,7 +253,7 @@ var showProperties = function( element, type ){
 		$("#propTbody").append("<div class='propLabel' > Bird Type </div><div class='propValue'> "+ element.birdType + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Shot tested </div><div class='propValue'> "+ (element.times > 0) + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Times used </div><div class='propValue'> "+ element.times + " </div>");
-		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.visitedInLastRun + " </div>");
+		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Visited in last Run </div><div class='propValue'> "+ element.active + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Unvisited children </div><div class='propValue'> "+ element.unvisitedChildren + " </div>");
 		$("#propTbody").append("<div class='propLabel' style='clear: left;'> Aim Type </div><div class='propValue'> "+ element.aim.type + " </div>");
 		$("#propTbody").append("<div class='propLabel' > Closest pig </div><div class='propValue'> "+ element.distanceOfClosestPig + " </div>");
@@ -380,7 +380,7 @@ function drawConnections( elements ){
 		line.attr("y1", parseInt( el.svgElement.attr("cy") ) - CIRCLE_RADIUS );
 		line.attr("x2", parentNode.svgElement.attr("cx"));
 		line.attr("y2", parseInt( parentNode.svgElement.attr("cy") ) + parseInt( parentNode.svgElement.attr("r") ) );
-		if( el.visitedInLastRun ){
+		if( el.active ){
 			line.css("stroke-width", "2");
 			line.css("stroke", "orange");
 		}
@@ -426,7 +426,7 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		circle.attr("stroke-width", "1");
 		circle.attr("stroke", "black");
 		circle.attr("fill", "white");
-		if( el.visitedInLastRun ){
+		if( el.active ){
 			circle.attr("stroke", "orange");
 		}
 		circlesToAppend.push(circle);
