@@ -329,6 +329,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( actualShot == null && actualState == null ){
+					System.out.println("Creating Root...");
 					actualState = graph.rootState = new State();
 					actualState.setOriginShotId(-1);
 					actualState.setStateId( graph.getNewStateId() );
@@ -349,7 +350,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() / 2;
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() ;
 				}
 		
 				if( aRobot.getState() != GameState.PLAYING ){
@@ -369,13 +370,13 @@ public class MyAgent implements Runnable {
 				releasePoint = actualShot.getReleasePoint();
 				dx = actualShot.getShot().getDx();
 				dy = actualShot.getShot().getDy();
-				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
-				
 				System.out.println("Shooting Bird("+birdsIndex+"): "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " Tap: " +actualShot.getTapInterval()+  " -> "+actualShot.getAim().getType() );
 
+				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
 					ActionRobot.fullyZoomOut();
+					
 					screenshot = ActionRobot.doScreenShot();
 					vision = new Vision(screenshot);
 					Rectangle _sling = vision.findSlingshotMBR();
@@ -534,13 +535,11 @@ public class MyAgent implements Runnable {
 
 
 	private MapState getMapState(Vision vision) {
-		/*
 		MapState mapState = new MapState();
 		mapState.setBlocks( vision.findBlocksMBR() );
 		mapState.setPigs( vision.findPigsMBR() );
 		mapState.setTnts( vision.findTNTs() );
-		*/
-		return null;
+		return mapState;
 	}
 
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
@@ -816,7 +815,9 @@ public class MyAgent implements Runnable {
 			}
 		}
 		
-		for( ABObject object: actualState.getMapState().getAllObjects() ){
+		for( ABObject object: actualState.
+				getMapState().
+				getAllObjects() ){
 			if( object.width > 200 && object.height > 200 ){
 				//ERRO ele achou que o menu da direita eh um objeto pulando...
 				continue;

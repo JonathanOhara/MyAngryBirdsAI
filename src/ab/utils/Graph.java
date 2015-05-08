@@ -28,8 +28,6 @@ public class Graph {
 	private File allPossibleStateFile;
 	
 	public Graph() {
-		rootState = new State();
-		
 		allShots = new HashMap<Integer, MyShot>(1024);
 		allStates = new HashMap<Integer, State>(256);
 		
@@ -158,11 +156,11 @@ public class Graph {
 	}
 	
 	public synchronized int getNewStateId(){
-		return ++lastStateId;
+		return lastStateId++;
 	}
 	
 	public synchronized int getNewShotId(){
-		return ++lastShotId;
+		return lastShotId++;
 	}
 
 	//------------------------------------------------------------------------------------------------------------------------------------------------
