@@ -360,6 +360,11 @@ public class MyAgent implements Runnable {
 					writeImageState(1);
 				}
 				
+				if( aRobot.getState() != GameState.PLAYING ){
+					System.out.println("Game State change before find possible shots.");
+					return GameState.UNKNOWN;				
+				}
+				
 				if( actualState.getPossibleShots().isEmpty() ){
 					actualState.setPossibleShots( findPossibleShots() );
 				}
