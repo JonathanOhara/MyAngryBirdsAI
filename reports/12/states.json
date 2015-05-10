@@ -10,13 +10,8 @@
 {"stateId":10,"originShotId":754,"birdIndex":0,"times":1,"score":3550,"totalScore":23800,"finalState":false,"active":false,"unvisitedChildren":20,"miniMaxValue":0.0}
 {"stateId":11,"originShotId":839,"birdIndex":0,"times":1,"score":0,"totalScore":23800,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
 {"stateId":12,"originShotId":5,"birdIndex":0,"times":1,"score":53160,"totalScore":53160,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":53160.0}
-{"stateId":13,"originShotId":30,"birdIndex":0,"times":1,"score":560,"totalScore":560,"finalState":false,"active":false,"unvisitedChildren":189,"miniMaxValue":44400.0}
-{"stateId":14,"originShotId":991,"birdIndex":0,"times":1,"score":44400,"totalScore":44960,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":44400.0}
 {"stateId":15,"originShotId":27,"birdIndex":0,"times":1,"score":16990,"totalScore":16990,"finalState":false,"active":false,"unvisitedChildren":114,"miniMaxValue":36720.0}
 {"stateId":16,"originShotId":1055,"birdIndex":0,"times":1,"score":36720,"totalScore":53710,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":36720.0}
-{"stateId":17,"originShotId":24,"birdIndex":0,"times":1,"score":610,"totalScore":610,"finalState":false,"active":false,"unvisitedChildren":418,"miniMaxValue":31980.0}
-{"stateId":18,"originShotId":1318,"birdIndex":0,"times":1,"score":7080,"totalScore":7690,"finalState":false,"active":false,"unvisitedChildren":199,"miniMaxValue":31980.0}
-{"stateId":19,"originShotId":1535,"birdIndex":0,"times":1,"score":31980,"totalScore":39670,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":31980.0}
 {"stateId":20,"originShotId":101,"birdIndex":0,"times":1,"score":6220,"totalScore":6220,"finalState":false,"active":false,"unvisitedChildren":34,"miniMaxValue":0.0}
 {"stateId":21,"originShotId":1572,"birdIndex":0,"times":1,"score":7190,"totalScore":13410,"finalState":false,"active":false,"unvisitedChildren":15,"miniMaxValue":0.0}
 {"stateId":22,"originShotId":1599,"birdIndex":0,"times":1,"score":13600,"totalScore":27010,"finalState":false,"active":false,"unvisitedChildren":1,"miniMaxValue":0.0}
@@ -83,9 +78,6 @@
 {"stateId":83,"originShotId":6921,"birdIndex":0,"times":1,"score":19680,"totalScore":44570,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":19680.0}
 {"stateId":84,"originShotId":98,"birdIndex":0,"times":1,"score":22690,"totalScore":22690,"finalState":false,"active":false,"unvisitedChildren":129,"miniMaxValue":25880.0}
 {"stateId":85,"originShotId":6957,"birdIndex":0,"times":1,"score":25880,"totalScore":48570,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":25880.0}
-{"stateId":86,"originShotId":30,"birdIndex":0,"times":1,"score":180,"totalScore":180,"finalState":false,"active":false,"unvisitedChildren":358,"miniMaxValue":21630.0}
-{"stateId":87,"originShotId":7208,"birdIndex":0,"times":1,"score":19720,"totalScore":19900,"finalState":false,"active":false,"unvisitedChildren":104,"miniMaxValue":21630.0}
-{"stateId":88,"originShotId":7412,"birdIndex":0,"times":1,"score":21630,"totalScore":41530,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":21630.0}
 {"stateId":89,"originShotId":15,"birdIndex":0,"times":1,"score":12280,"totalScore":12280,"finalState":false,"active":false,"unvisitedChildren":169,"miniMaxValue":34870.0}
 {"stateId":90,"originShotId":7499,"birdIndex":0,"times":1,"score":34870,"totalScore":47150,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":34870.0}
 {"stateId":91,"originShotId":82,"birdIndex":0,"times":1,"score":14500,"totalScore":14500,"finalState":false,"active":false,"unvisitedChildren":296,"miniMaxValue":6810.0}
@@ -210,5 +202,5 @@
 {"stateId":210,"originShotId":168,"birdIndex":0,"times":1,"score":19960,"totalScore":19960,"finalState":false,"active":false,"unvisitedChildren":126,"miniMaxValue":0.0}
 {"stateId":211,"originShotId":14699,"birdIndex":0,"times":1,"score":6980,"totalScore":26940,"finalState":false,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
 {"stateId":213,"originShotId":154,"birdIndex":0,"times":2,"score":90805,"totalScore":90805,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":90805.0}
-{"stateId":214,"originShotId":154,"birdIndex":0,"times":6,"score":60541,"totalScore":60541,"finalState":true,"active":true,"unvisitedChildren":0,"miniMaxValue":60563.0}
+{"stateId":214,"originShotId":154,"birdIndex":0,"times":6,"score":60541,"totalScore":60541,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":60563.0}
 {"stateId":215,"originShotId":154,"birdIndex":0,"times":2,"score":58830,"totalScore":58830,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":58830.0}

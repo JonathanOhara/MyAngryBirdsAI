@@ -9,16 +9,30 @@ import ab.objects.MyShot;
 import ab.utils.Graph;
 
 public class GraphCutter {
-	private static int LEVEL = 13;
+	private static int LEVEL = -1;
+	private static int MAX_LEVEL = 17;
 	
 	public static void main(String[] args) throws IOException {
+
+		if( LEVEL > 0 ){
+			cut(LEVEL);
+		}else{
+			for( int i = 1; i <= MAX_LEVEL; i++ ){
+				cut(i);
+			}
+		}
+	}
+	
+	public static void cut(int lv) throws IOException{
 		Graph graph = new Graph();
 		List<Integer> idsToDelete = new ArrayList<Integer>();
 
-		graph.buildGraph(LEVEL);
+		graph.buildGraph(lv);
 		
 		graph.removeUnlinkedNodes();
-		graph.writeShotsAandStatesInFile(LEVEL);
+		graph.cutNodesWithLessPoints(graph.rootState, 1000);
+		
+		graph.writeShotsAandStatesInFile(lv);
 		
 		
 		for( MyShot ms : graph.rootState.getPossibleShots() ){

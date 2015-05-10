@@ -93,10 +93,41 @@ public class Graph {
 				if( myshot.getPossibleStates().get(0).getScore() == 0 ){
 					removeNodesFromMap(myshot);
 					myshot.getPossibleStates().remove(0);
+					
+					allStates.remove( myshot.getPossibleStates().get(0).getStateId() );
 				}
 			}
 		}
 		
+	}
+	
+	public void cutNodesWithLessPoints(GraphNode node, int points) {
+		
+		if( node instanceof State ){
+			State state = (State) node;
+			
+			for( MyShot myShot: state.getPossibleShots() ){
+//				System.out.println("Ms: "+myShot.getShotId());
+				cutNodesWithLessPoints(myShot, points);
+			}
+			
+			if( state.getPossibleShots().isEmpty() ){
+				allStates.remove(state.getStateId() );
+			}
+		}else if( node instanceof MyShot ){
+			MyShot myshot = (MyShot) node;
+			for( State st : myshot.getPossibleStates() ){
+//				System.out.println("\tSt: "+st.getStateId()+" score: "+st.getScore());		
+				if( st.getScore() <= points ){
+					removeNodesFromMap(st);
+				}	
+			}
+			
+			if( myshot.getPossibleStates().isEmpty() ){
+				allShots.remove(myshot.getShotId());
+			}
+		}
+			
 	}
 	
 	public void removeUnlinkedNodes(){
