@@ -1,0 +1,377 @@
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 67
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -472 dy: 239 Tap: 65 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0008232199982183
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 47
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2491
+Shooting Bird(1): YellowBird at Point x: 559.0 y: 345.0 dx: -208 dy: 487 Tap: 65 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 48
+Setting the Score with average of 52560 and 52800 = 52680
+Setting the Total Score with average of 64180 and 64420 = 64300
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 28140 
+ Level 5 Score: 67530 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 47310 
+ Level 11 Score: 59130 
+ Level 12 Score: 60540 
+ Level 13 Score: 31430 
+ Level 14 Score: 65640 
+ Level 15 Score: 28620 
+ Level 16 Score: 64420 
+Total Score: 779460
+Changing Level 10/4/2015 - 1:37:15
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 67
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -472 dy: 239 Tap: 65 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9941049263881345
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 47
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2491
+Shooting Bird(1): YellowBird at Point x: 559.0 y: 345.0 dx: -208 dy: 487 Tap: 65 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0062612377078988
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 72
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 105 DiscardedShots: 38  calculated in: 76030 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 3820
+Shooting Bird(2): YellowBird at Point x: 565.0 y: 356.0 dx: -493 dy: 193 Tap: 75 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 73
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 28140 
+ Level 5 Score: 67530 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 59130 
+ Level 12 Score: 60540 
+ Level 13 Score: 33320 
+ Level 14 Score: 65640 
+ Level 15 Score: 47280 
+ Level 16 Score: 64420 
+ Level 17 Score: 37900 
+Total Score: 852950
+Changing Level 10/4/2015 - 1:57:28
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 67
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -472 dy: 239 Tap: 65 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0069923973242678
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 47
+Setting the Score with average of 11620 and 11720 = 11670
+Setting the Total Score with average of 11620 and 11720 = 11670
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2491
+Shooting Bird(1): YellowBird at Point x: 559.0 y: 345.0 dx: -208 dy: 487 Tap: 65 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0074264720445776
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 74
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 44  calculated in: 66711 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 3943
+Shooting Bird(2): YellowBird at Point x: 577.0 y: 346.0 dx: -484 dy: 215 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0074264720445776
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 75
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 27  calculated in: 63808 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4045
+Shooting Bird(3): YellowBird at Point x: 608.0 y: 355.0 dx: -242 dy: 471 Tap: 75 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 76
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 28140 
+ Level 5 Score: 67580 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 59130 
+ Level 12 Score: 60540 
+ Level 13 Score: 38970 
+ Level 14 Score: 65640 
+ Level 15 Score: 47280 
+ Level 16 Score: 64420 
+ Level 17 Score: 41050 
+Total Score: 861800
+Changing Level 10/4/2015 - 2:18:36
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 88
+Shooting Bird(0): YellowBird at Point x: 588.0 y: 315.0 dx: -452 dy: 276 Tap: 65 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.018152188319636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 77
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 114  calculated in: 100582 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4087
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 329.0 dx: -472 dy: 240 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9951111933939951
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 78
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 99 DiscardedShots: 56  calculated in: 83036 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4186
+Shooting Bird(2): YellowBird at Point x: 604.0 y: 345.0 dx: -252 dy: 465 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0105173160361418
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 79
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 36  calculated in: 49460 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4243
+Shooting Bird(3): YellowBird at Point x: 576.0 y: 346.0 dx: -485 dy: 213 Tap: 75 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 80
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 28140 
+ Level 5 Score: 67580 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 59130 
+ Level 12 Score: 60540 
+ Level 13 Score: 39770 
+ Level 14 Score: 65640 
+ Level 15 Score: 46880 
+ Level 16 Score: 64420 
+ Level 17 Score: 47380 
+Total Score: 868530
+Changing Level 10/4/2015 - 2:38:57
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 298.0 dx: -235 dy: 474 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0174152761104305
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 34
+Setting the Score with average of 6100 and 6000 = 6050
+Setting the Total Score with average of 6100 and 6000 = 6050
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1767
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 329.0 dx: -472 dy: 240 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0202794690548902
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 81
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 71  calculated in: 72240 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4270
+Shooting Bird(2): YellowBird at Point x: 610.0 y: 305.0 dx: -439 dy: 296 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0141327641246016
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 82
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 51 DiscardedShots: 31  calculated in: 46376 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4327
+Shooting Bird(3): YellowBird at Point x: 635.0 y: 356.0 dx: -259 dy: 462 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0041798802570088
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 83
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 16 DiscardedShots: 62  calculated in: 47716 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 4363
+Shooting Bird(4): YellowBird at Point x: 628.0 y: 358.0 dx: -260 dy: 461 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0068639474585557
+Solve return state: PLAYING

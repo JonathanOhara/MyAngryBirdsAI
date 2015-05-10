@@ -1,4 +1,4 @@
-{"stateId":1,"originShotId":-1,"birdIndex":0,"times":0,"score":0,"totalScore":0,"finalState":false,"active":false,"unvisitedChildren":14535,"miniMaxValue":0.0}
+{"stateId":1,"originShotId":-1,"birdIndex":0,"times":0,"score":0,"totalScore":0,"finalState":false,"active":false,"unvisitedChildren":13453,"miniMaxValue":0.0}
 {"stateId":2,"originShotId":180,"birdIndex":0,"times":1,"score":2790,"totalScore":2790,"finalState":false,"active":false,"unvisitedChildren":129,"miniMaxValue":41320.0}
 {"stateId":3,"originShotId":182,"birdIndex":0,"times":1,"score":41320,"totalScore":44110,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":41320.0}
 {"stateId":4,"originShotId":54,"birdIndex":0,"times":1,"score":21630,"totalScore":21630,"finalState":false,"active":false,"unvisitedChildren":238,"miniMaxValue":22460.0}
@@ -202,5 +202,5 @@
 {"stateId":210,"originShotId":168,"birdIndex":0,"times":1,"score":19960,"totalScore":19960,"finalState":false,"active":false,"unvisitedChildren":126,"miniMaxValue":0.0}
 {"stateId":211,"originShotId":14699,"birdIndex":0,"times":1,"score":6980,"totalScore":26940,"finalState":false,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
 {"stateId":213,"originShotId":154,"birdIndex":0,"times":2,"score":90805,"totalScore":90805,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":90805.0}
-{"stateId":214,"originShotId":154,"birdIndex":0,"times":6,"score":60541,"totalScore":60541,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":60563.0}
-{"stateId":215,"originShotId":154,"birdIndex":0,"times":2,"score":58830,"totalScore":58830,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":58830.0}
+{"stateId":214,"originShotId":154,"birdIndex":0,"times":12,"score":60554,"totalScore":60554,"finalState":true,"active":true,"unvisitedChildren":0,"miniMaxValue":60539.0}
+{"stateId":215,"originShotId":154,"birdIndex":0,"times":3,"score":58590,"totalScore":58590,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":58590.0}

@@ -22,7 +22,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
@@ -43,12 +42,16 @@ public class ShowSeg implements Runnable {
 	public static ShowSeg instance;
 	
 	public static List<Point> debugBluePoint = null;
+	public static List<Point> debugCyanPoint = null;
 	public static List<Point> debugRedPoint = null;
+	public static List<Point> debugGreenPoint = null;
 	
 	public ShowSeg() {
 		instance = this;
 		debugBluePoint = Collections.synchronizedList(new ArrayList<Point>());
+		debugCyanPoint = Collections.synchronizedList(new ArrayList<Point>());
 		debugRedPoint = Collections.synchronizedList(new ArrayList<Point>());
+		debugGreenPoint = Collections.synchronizedList(new ArrayList<Point>());
 	}
 	
 	static public Proxy getGameConnection(int port) {
@@ -96,7 +99,7 @@ public class ShowSeg implements Runnable {
 	
 	
 	public static BufferedImage drawPoint(BufferedImage screenshot) {
-		int SIZE = 6; 
+		int SIZE = 5; 
 		int i;
 		
 		for( i = 0; i < debugRedPoint.size(); i++ ){
@@ -107,6 +110,16 @@ public class ShowSeg implements Runnable {
 		for( i = 0; i < debugBluePoint.size(); i++ ){
 			Point point = debugBluePoint.get(i);
 			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.BLUE);	
+		}
+		
+		for( i = 0; i < debugCyanPoint.size(); i++ ){
+			Point point = debugCyanPoint.get(i);
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.CYAN);	
+		}
+		
+		for( i = 0; i < debugGreenPoint.size(); i++ ){
+			Point point = debugGreenPoint.get(i);
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.GREEN);	
 		}
 		
 		return screenshot;

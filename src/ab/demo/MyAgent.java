@@ -61,7 +61,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 15;
+	private int MAX_LEVEL = 18;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
@@ -231,8 +231,7 @@ public class MyAgent implements Runnable {
 	}
 
 	private void changeLevelIfNecessary() {
-		ShowSeg.debugBluePoint.clear();
-		ShowSeg.debugRedPoint.clear();
+		clearDebugsPoints();
 		
 		if( LEARN_TYPE.equals(LearnType.ConfirmBestResults) ){
 			System.out.println("Changing Level "+getDatetimeFormated());
@@ -269,6 +268,13 @@ public class MyAgent implements Runnable {
 			currentLevel++;
 			changeLevel();
 		}
+	}
+
+	private void clearDebugsPoints() {
+		ShowSeg.debugGreenPoint.clear();
+		ShowSeg.debugBluePoint.clear();
+		ShowSeg.debugCyanPoint.clear();
+		ShowSeg.debugRedPoint.clear();
 	}
 
 	private double distance(Point p1, Point p2) {
@@ -332,8 +338,7 @@ public class MyAgent implements Runnable {
 						e.printStackTrace();
 					}
 
-					ShowSeg.debugBluePoint.clear();
-					ShowSeg.debugRedPoint.clear();
+					clearDebugsPoints();
 					numberOfbirds = birds.size();
 					
 					lastState = actualState = graph.rootState;
@@ -341,8 +346,7 @@ public class MyAgent implements Runnable {
 					calculateShotStats(false);
 				}
 				
-				ShowSeg.debugBluePoint.clear();
-				ShowSeg.debugRedPoint.clear();
+				clearDebugsPoints();
 				
 				if( actualShot == null && actualState == null ){
 					System.out.println("Creating Root...");
@@ -367,23 +371,29 @@ public class MyAgent implements Runnable {
 				
 				if( actualState.getPossibleShots().isEmpty() ){
 					actualState.setPossibleShots( findPossibleShots() );
+				}else{
+					for( MyShot ms : actualState.getPossibleShots() ){
+						if( ms.getTimes() > 0 ){
+							ShowSeg.debugBluePoint.add( ms.getTarget() );
+						}else{
+							ShowSeg.debugCyanPoint.add( ms.getTarget() );
+						}
+						
+					}
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
 					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() ;
 				}
-		
+				
 				if( aRobot.getState() != GameState.PLAYING ){
 					System.out.println("Game State change before choose best shot.");
 					return GameState.UNKNOWN;				
 				}
 				
 				actualShot = chooseOneShot();
-			
-				ShowSeg.debugBluePoint.clear();
-				ShowSeg.debugRedPoint.clear();
 				
-				ShowSeg.debugBluePoint.add(actualShot.getTarget());
+				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
 				ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				
 				shot = actualShot.getShot();
@@ -476,7 +486,10 @@ public class MyAgent implements Runnable {
 	}
 
 	private void reCalculateShotStats( boolean finalShot ){
+		System.out.println("MyAgent.reCalculateShotStats()");
+		
 		int score = 0;
+		clearDebugsPoints();
 		
 		if( finalShot ){
 			if( aRobot.getState() == GameState.LOST ){
@@ -508,6 +521,7 @@ public class MyAgent implements Runnable {
 		System.out.println("MyAgent.calculateShotStats()");
 		
 		int score = 0;
+		clearDebugsPoints();
 		
 		actualShot.setBirdIndex( birdsIndex );
 		

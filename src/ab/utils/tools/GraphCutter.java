@@ -30,7 +30,7 @@ public class GraphCutter {
 		graph.buildGraph(lv);
 		
 		graph.removeUnlinkedNodes();
-		graph.cutNodesWithLessPoints(graph.rootState, 1000);
+		graph.cutNodesWithLessPoints(graph.rootState, 2000);
 		
 		graph.writeShotsAandStatesInFile(lv);
 		
