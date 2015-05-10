@@ -373,10 +373,11 @@ public class MyAgent implements Runnable {
 					actualState.setPossibleShots( findPossibleShots() );
 				}else{
 					for( MyShot ms : actualState.getPossibleShots() ){
+						Point pt = ms.getTarget();
 						if( ms.getTimes() > 0 ){
-							ShowSeg.debugBluePoint.add( ms.getTarget() );
+							ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
 						}else{
-							ShowSeg.debugCyanPoint.add( ms.getTarget() );
+							ShowSeg.debugCyanPoint.add( new Point( pt.x, pt.y - 2) );
 						}
 						
 					}

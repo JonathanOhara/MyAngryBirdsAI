@@ -2423,3 +2423,235 @@ Total Score: 43700
 
 -------------------- Times in this level: 13 of 149--------------------
 
+Loaded Level: 17
+Graph.buildGraph(17)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 98
+Shooting Bird(0): YellowBird at Point x: 560.0 y: 277.0 dx: -222 dy: 535 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0027227667893783
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 14
+Setting the Score with average of 11700 and 11670 = 11685
+Setting the Total Score with average of 11700 and 11670 = 11685
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1282
+Shooting Bird(1): YellowBird at Point x: 544.0 y: 308.0 dx: -514 dy: 268 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0122509700119093
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 15
+Setting the Score with average of 11370 and 11720 = 11545
+Setting the Total Score with average of 23070 and 23390 = 23230
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1396
+Shooting Bird(2): Unknown at Point x: 626.0 y: 293.0 dx: -483 dy: 320 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0029287984130362
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 108
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 42950 
+ Level 4 Score: 28100 
+ Level 5 Score: 67580 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62000 
+ Level 11 Score: 58740 
+ Level 12 Score: 60570 
+ Level 13 Score: 39330 
+ Level 14 Score: 65640 
+ Level 15 Score: 47250 
+ Level 16 Score: 57740 
+ Level 17 Score: 41050 
+Total Score: 854470
+Changing Level 10/4/2015 - 5:48:6
+Loaded Level: 17
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+Unexpected main menu page, go to the last current level : 17
+Changing Level 10/4/2015 - 5:50:24
+Loaded Level: 17
+Graph.buildGraph(17)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 2
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 2
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 3
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 98

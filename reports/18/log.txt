@@ -1476,3 +1476,365 @@ MyAgent.calculateShotStats()
 Generate new state with id = 96
 MyAgent.writeShotsAandStatesInFile()
  restart the level 
+Loaded Level: 18
+Graph.buildGraph(18)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 131
+Shooting Bird(0): YellowBird at Point x: 589.0 y: 358.0 dx: -210 dy: 583 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9992686754919068
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 24
+Setting the Score with average of 8600 and 8680 = 8640
+Setting the Total Score with average of 8600 and 8680 = 8640
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2543
+Shooting Bird(1): YellowBird at Point x: 620.0 y: 319.0 dx: -545 dy: 294 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0092951065468911
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 25
+Setting the Score with average of 15310 and 15290 = 15300
+Setting the Total Score with average of 23910 and 23970 = 23940
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2653
+Shooting Bird(2): YellowBird at Point x: 669.0 y: 256.0 dx: -311 dy: 536 Tap: 75 -> Wood
+Go to the Episode Menu
+Select the Poached Eggs Episode
+Loaded Level: 18
+Graph.buildGraph(18)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 2
+						ms.getTimes(); = 1
+						ms.getTimes(); = 3
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 131
+Loaded Level: 18
+Graph.buildGraph(18)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 2
+						ms.getTimes(); = 1
+						ms.getTimes(); = 3
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 1
+						ms.getTimes(); = 0
+						ms.getTimes(); = 0
+						ms.getTimes(); = 1
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 131
+Shooting Bird(0): YellowBird at Point x: 589.0 y: 358.0 dx: -210 dy: 583 Tap: 85 -> Wood
+Shooting Completed

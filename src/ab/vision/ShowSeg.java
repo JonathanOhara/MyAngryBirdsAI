@@ -107,14 +107,14 @@ public class ShowSeg implements Runnable {
 			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.RED);
 		}
 		
-		for( i = 0; i < debugBluePoint.size(); i++ ){
-			Point point = debugBluePoint.get(i);
-			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.BLUE);	
-		}
-		
 		for( i = 0; i < debugCyanPoint.size(); i++ ){
 			Point point = debugCyanPoint.get(i);
 			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.CYAN);	
+		}
+		
+		for( i = 0; i < debugBluePoint.size(); i++ ){
+			Point point = debugBluePoint.get(i);
+			VisionUtils.drawCircle(screenshot, new Point(point.x, point.y), SIZE, Color.BLUE);	
 		}
 		
 		for( i = 0; i < debugGreenPoint.size(); i++ ){
