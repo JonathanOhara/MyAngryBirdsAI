@@ -10,7 +10,7 @@ import ab.utils.Graph;
 
 public class GraphCutter {
 	private static int LEVEL = -1;
-	private static int MAX_LEVEL = 17;
+	private static int MAX_LEVEL = 20;
 	
 	public static void main(String[] args) throws IOException {
 
@@ -30,7 +30,7 @@ public class GraphCutter {
 		graph.buildGraph(lv);
 		
 		graph.removeUnlinkedNodes();
-		graph.cutNodesWithLessPoints(graph.rootState, 2000);
+		graph.cutNodesWithLessPoints(graph.rootState, 1500);
 		
 		graph.writeShotsAandStatesInFile(lv);
 		

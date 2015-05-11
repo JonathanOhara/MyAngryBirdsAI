@@ -116,9 +116,9 @@ public class Graph {
 			}
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
-			for( State st : myshot.getPossibleStates() ){
-//				System.out.println("\tSt: "+st.getStateId()+" score: "+st.getScore());		
+			for( State st : myshot.getPossibleStates() ){		
 				if( st.getScore() <= points ){
+					System.out.println("Removing state: "+st.getStateId()+ " with score: "+st.getScore());
 					removeNodesFromMap(st);
 				}	
 			}
@@ -148,7 +148,7 @@ public class Graph {
 				removeNodesFromMap(myshot);
 			}
 			
-			System.out.println("State id: "+state.getStateId()+" removed from graph.");
+			System.out.println("State id: "+state.getStateId()+" removed from graph. Points: "+ state.getScore());
 			allStates.remove(state.getStateId());
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
@@ -157,7 +157,7 @@ public class Graph {
 				removeNodesFromMap(state);
 			}
 			
-			System.out.println("Shot id: "+myshot.getShotId()+" removed from graph.");
+			System.out.println("Shot id: "+myshot.getShotId()+" removed from graph. Minimax: "+myshot.getMiniMaxValue() );
 			allShots.remove(myshot.getShotId());
 		}
 		

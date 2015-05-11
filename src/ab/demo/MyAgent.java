@@ -61,7 +61,6 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 19;
 	private int MAX_LEVEL = 22;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
@@ -915,9 +914,9 @@ public class MyAgent implements Runnable {
 							case RedBird:
 								tapIntervalList.add(0);	break;
 							case YellowBird:
-								tapIntervalList.add(75);
-								tapIntervalList.add(85);
-								tapIntervalList.add(95);
+								tapIntervalList.add(70);
+								tapIntervalList.add(80);
+								tapIntervalList.add(90);
 								break; // 65-90% of the way
 							case WhiteBird:
 								tapIntervalList.add(70);
