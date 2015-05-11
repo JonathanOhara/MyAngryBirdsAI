@@ -61,7 +61,7 @@ public class MyAgent implements Runnable {
 
 	private LearnType LEARN_TYPE = LearnType.None;
 	
-	private int MAX_LEVEL = 18;
+	private int MAX_LEVEL = 22;
 	
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
