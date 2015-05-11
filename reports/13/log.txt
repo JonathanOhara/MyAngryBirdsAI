@@ -1092,3 +1092,1111 @@ MyAgent.writeShotsAandStatesInFile()
  Level 18 Score: 47710 
 Total Score: 911640
 Changing Level 11/4/2015 - 0:39:27
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.findPossibleShots()
+	Shot Target: java.awt.Point[x=560,y=249] Shot: Shoot from: (-266  706 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=249] Shot: Shoot from: (-266  706 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=249] Shot: Shoot from: (-79  850 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-243  732 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-243  732 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-126  825 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-126  825 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=259] Shot: Shoot from: (-279  691 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=259] Shot: Shoot from: (-73  852 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=580,y=259] Shot: Shoot from: (-93  843 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=580,y=259] Shot: Shoot from: (-93  843 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=590,y=259] Shot: Shoot from: (-264  709 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=590,y=259] Shot: Shoot from: (-104  837 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=590,y=259] Shot: Shoot from: (-104  837 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=600,y=259] Shot: Shoot from: (-258  716 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=600,y=259] Shot: Shoot from: (-116  830 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=600,y=259] Shot: Shoot from: (-116  830 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-320  632 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-48  863 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-317  637 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-56  860 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-342  595 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-39  866 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-352  572 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=532,y=333] Shot: Shoot from: (-29  870 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=539,y=334] Shot: Shoot from: (-359  559 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=560,y=266] Shot: Shoot from: (-287  681 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=266] Shot: Shoot from: (-287  681 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=266] Shot: Shoot from: (-72  852 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-299  665 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-299  665 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-67  855 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-67  855 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-309  650 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-309  650 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-62  857 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-62  857 ) at time  0 Interval: 0
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-299  665 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-299  665 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-67  855 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=276] Shot: Shoot from: (-67  855 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-309  650 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-309  650 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-62  857 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-62  857 ) at time  0 Interval: 0
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=544,y=306] Shot: Shoot from: (-333  612 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=306] Shot: Shoot from: (-42  865 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=586,y=250] Shot: Shoot from: (-254  720 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=586,y=251] Shot: Shoot from: (-256  718 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=586,y=250] Shot: Shoot from: (-107  835 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=586,y=251] Shot: Shoot from: (-106  836 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=596,y=250] Shot: Shoot from: (-248  727 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=596,y=251] Shot: Shoot from: (-249  725 ) at time  0 Interval: 0
+	Shot Target: java.awt.Point[x=596,y=250] Shot: Shoot from: (-118  829 ) at time  0 Interval: 0
+	Other Target: java.awt.Point[x=596,y=251] Shot: Shoot from: (-119  829 ) at time  0 Interval: 0
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Number of: PossibleShots: 37 DiscardedShots: 128  calculated in: 203716 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): RedBird at Point x: 590.0 y: 259.0 dx: -429 dy: 374 Tap: 0 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0010609727483544
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 205
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-254  721 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-254  721 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-254  721 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-105  836 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-105  836 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=580,y=249] Shot: Shoot from: (-105  836 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-239  736 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-239  736 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-239  736 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-133  820 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-133  820 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=249] Shot: Shoot from: (-133  820 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-277  694 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-277  694 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-277  694 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-76  851 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-76  851 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=259] Shot: Shoot from: (-76  851 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-273  699 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-273  699 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-273  699 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-87  846 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-87  846 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=259] Shot: Shoot from: (-87  846 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=591,y=259] Shot: Shoot from: (-110  834 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=591,y=259] Shot: Shoot from: (-110  834 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=591,y=259] Shot: Shoot from: (-110  834 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-320  632 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-320  632 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-320  632 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-51  862 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-51  862 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=294] Shot: Shoot from: (-51  862 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-317  638 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-317  638 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-317  638 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-58  859 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-58  859 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=294] Shot: Shoot from: (-58  859 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-41  866 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-41  866 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-41  866 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-352  574 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-352  574 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-352  574 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-31  870 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-31  870 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=323] Shot: Shoot from: (-31  870 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=333] Shot: Shoot from: (-359  558 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=333] Shot: Shoot from: (-359  558 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=532,y=333] Shot: Shoot from: (-359  558 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=539,y=328] Shot: Shoot from: (-34  868 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=539,y=328] Shot: Shoot from: (-34  868 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=539,y=328] Shot: Shoot from: (-34  868 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-33  869 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-33  869 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-33  869 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-286  682 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-286  682 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-286  682 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-75  851 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-75  851 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=267] Shot: Shoot from: (-75  851 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-298  666 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-298  666 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-298  666 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-71  853 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-71  853 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=277] Shot: Shoot from: (-71  853 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-308  652 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-308  652 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-308  652 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-65  856 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-65  856 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=560,y=286] Shot: Shoot from: (-65  856 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-331  615 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-331  615 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-331  615 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-45  864 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-45  864 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=544,y=305] Shot: Shoot from: (-45  864 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=587,y=251] Shot: Shoot from: (-113  832 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=587,y=251] Shot: Shoot from: (-113  832 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=587,y=251] Shot: Shoot from: (-113  832 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Number of: PossibleShots: 84 DiscardedShots: 129  calculated in: 187150 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): RedBird at Point x: 587.0 y: 251.0 dx: -278 dy: 497 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9842789513326806
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 206
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-238  737 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-238  737 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-238  737 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-129  823 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-129  823 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=249] Shot: Shoot from: (-129  823 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-268  705 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-268  705 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-268  705 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-93  843 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-93  843 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=562,y=260] Shot: Shoot from: (-93  843 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-262  712 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-262  712 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-262  712 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-105  836 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-105  836 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=572,y=260] Shot: Shoot from: (-105  836 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-255  719 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-255  719 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-255  719 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-119  829 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-119  829 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=582,y=260] Shot: Shoot from: (-119  829 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-248  727 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-248  727 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-248  727 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-130  822 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-130  822 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=592,y=260] Shot: Shoot from: (-130  822 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-239  737 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-239  737 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-239  737 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-150  809 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-150  809 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=602,y=260] Shot: Shoot from: (-150  809 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-314  643 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-314  643 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-314  643 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-62  857 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-62  857 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=546,y=293] Shot: Shoot from: (-62  857 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-310  649 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-310  649 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-310  649 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-71  853 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-71  853 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=293] Shot: Shoot from: (-71  853 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=622,y=295] Shot: Shoot from: (-133  820 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=622,y=295] Shot: Shoot from: (-133  820 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=622,y=295] Shot: Shoot from: (-133  820 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-336  605 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-336  605 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-336  605 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-52  862 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-52  862 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-52  862 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=555,y=317] Shot: Shoot from: (-59  858 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=555,y=317] Shot: Shoot from: (-59  858 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=555,y=317] Shot: Shoot from: (-59  858 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-345  589 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-345  589 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-345  589 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-39  866 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-39  866 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=531,y=322] Shot: Shoot from: (-39  866 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=637,y=324] Shot: Shoot from: (-125  825 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=637,y=324] Shot: Shoot from: (-125  825 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=637,y=324] Shot: Shoot from: (-125  825 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=540,y=328] Shot: Shoot from: (-44  865 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=328] Shot: Shoot from: (-44  865 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=328] Shot: Shoot from: (-44  865 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-357  563 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-357  563 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-357  563 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-35  868 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-35  868 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-35  868 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-42  865 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-42  865 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-42  865 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=686,y=379] Shot: Shoot from: (-141  815 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=686,y=379] Shot: Shoot from: (-141  815 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=686,y=379] Shot: Shoot from: (-141  815 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=574,y=283] Shot: Shoot from: (-89  844 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=574,y=283] Shot: Shoot from: (-89  844 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=574,y=283] Shot: Shoot from: (-89  844 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=594,y=283] Shot: Shoot from: (-112  833 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=594,y=283] Shot: Shoot from: (-112  833 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=594,y=283] Shot: Shoot from: (-112  833 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-277  694 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-277  694 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-277  694 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-87  845 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-87  845 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=266] Shot: Shoot from: (-87  845 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-271  701 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-271  701 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-271  701 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-98  840 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-98  840 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=571,y=266] Shot: Shoot from: (-98  840 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-289  679 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-289  679 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-289  679 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-81  849 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-81  849 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=276] Shot: Shoot from: (-81  849 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-301  662 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-301  662 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-301  662 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-75  851 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-75  851 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=561,y=286] Shot: Shoot from: (-75  851 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-265  708 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-265  708 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-265  708 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-111  833 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-111  833 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=581,y=266] Shot: Shoot from: (-111  833 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=591,y=266] Shot: Shoot from: (-120  828 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=591,y=266] Shot: Shoot from: (-120  828 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=591,y=266] Shot: Shoot from: (-120  828 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-250  725 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-250  725 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-250  725 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-136  818 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-136  818 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=601,y=266] Shot: Shoot from: (-136  818 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=550,y=305] Shot: Shoot from: (-60  858 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=305] Shot: Shoot from: (-60  858 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=305] Shot: Shoot from: (-60  858 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-333  611 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-333  611 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-333  611 ) at time  0 Interval: 90
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-56  860 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-56  860 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-56  860 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=556,y=307] Shot: Shoot from: (-65  856 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=307] Shot: Shoot from: (-65  856 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=556,y=307] Shot: Shoot from: (-65  856 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=584,y=273] Shot: Shoot from: (-108  834 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=584,y=273] Shot: Shoot from: (-108  834 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=584,y=273] Shot: Shoot from: (-108  834 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=594,y=273] Shot: Shoot from: (-118  829 ) at time  0 Interval: 5
+	 Nao existe
+	Shot Target: java.awt.Point[x=594,y=273] Shot: Shoot from: (-118  829 ) at time  0 Interval: 75
+	 Nao existe
+	Shot Target: java.awt.Point[x=594,y=273] Shot: Shoot from: (-118  829 ) at time  0 Interval: 90
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Number of: PossibleShots: 147 DiscardedShots: 97  calculated in: 205466 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): RedBird at Point x: 584.0 y: 273.0 dx: -273 dy: 499 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.006877695067341
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 207
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+	Shot Target: java.awt.Point[x=566,y=259] Shot: Shoot from: (-278  693 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=576,y=259] Shot: Shoot from: (-274  698 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=586,y=259] Shot: Shoot from: (-268  705 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=586,y=259] Shot: Shoot from: (-97  840 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=596,y=259] Shot: Shoot from: (-262  711 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=596,y=259] Shot: Shoot from: (-109  834 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=606,y=259] Shot: Shoot from: (-256  718 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=547,y=293] Shot: Shoot from: (-321  632 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=547,y=293] Shot: Shoot from: (-48  863 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=557,y=293] Shot: Shoot from: (-318  637 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=557,y=293] Shot: Shoot from: (-56  860 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=545,y=317] Shot: Shoot from: (-342  594 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=531,y=323] Shot: Shoot from: (-353  572 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-361  553 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=530,y=334] Shot: Shoot from: (-26  871 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=540,y=334] Shot: Shoot from: (-359  558 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=577,y=283] Shot: Shoot from: (-301  662 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=577,y=283] Shot: Shoot from: (-73  852 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=587,y=283] Shot: Shoot from: (-296  669 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=563,y=265] Shot: Shoot from: (-286  683 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=563,y=265] Shot: Shoot from: (-74  852 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=573,y=265] Shot: Shoot from: (-282  688 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=563,y=275] Shot: Shoot from: (-298  667 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=563,y=275] Shot: Shoot from: (-69  854 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=563,y=285] Shot: Shoot from: (-308  652 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=563,y=285] Shot: Shoot from: (-64  856 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=600,y=276] Shot: Shoot from: (-282  687 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=550,y=305] Shot: Shoot from: (-331  615 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=305] Shot: Shoot from: (-46  864 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-339  600 ) at time  0 Interval: 0
+	 Nao existe
+	Shot Target: java.awt.Point[x=550,y=315] Shot: Shoot from: (-43  865 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+	Shot Target: java.awt.Point[x=587,y=273] Shot: Shoot from: (-285  684 ) at time  0 Interval: 0
+	 Nao existe
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Nao da pra alcancar
+Number of: PossibleShots: 32 DiscardedShots: 113  calculated in: 185679 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): RedBird at Point x: 587.0 y: 273.0 dx: -450 dy: 349 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 208
+MyAgent.writeShotsAandStatesInFile()
+ restart the level 

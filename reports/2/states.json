@@ -1,4 +1,4 @@
-{"stateId":1,"originShotId":-1,"birdIndex":0,"times":6,"score":0,"totalScore":0,"finalState":false,"active":false,"unvisitedChildren":4139,"miniMaxValue":0.0}
+{"stateId":1,"originShotId":-1,"birdIndex":0,"times":6,"score":0,"totalScore":0,"finalState":false,"active":false,"unvisitedChildren":4412,"miniMaxValue":0.0}
 {"stateId":2,"originShotId":34,"birdIndex":0,"times":4,"score":11080,"totalScore":11080,"finalState":false,"active":false,"unvisitedChildren":62,"miniMaxValue":42780.0}
 {"stateId":3,"originShotId":82,"birdIndex":0,"times":1,"score":42780,"totalScore":53860,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":42780.0}
 {"stateId":5,"originShotId":36,"birdIndex":0,"times":5,"score":6040,"totalScore":6040,"finalState":false,"active":false,"unvisitedChildren":121,"miniMaxValue":31200.0}
@@ -276,3 +276,19 @@
 {"stateId":334,"originShotId":329,"birdIndex":0,"times":1,"score":6040,"totalScore":12080,"finalState":false,"active":false,"unvisitedChildren":37,"miniMaxValue":31170.0}
 {"stateId":335,"originShotId":8439,"birdIndex":0,"times":1,"score":31170,"totalScore":43250,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":31170.0}
 {"stateId":344,"originShotId":35,"birdIndex":0,"times":38,"score":61680,"totalScore":61680,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":61680.0}
+{"stateId":345,"originShotId":8494,"birdIndex":0,"times":2,"score":16930,"totalScore":16930,"finalState":false,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
+{"stateId":346,"originShotId":8493,"birdIndex":0,"times":2,"score":6040,"totalScore":6040,"finalState":false,"active":false,"unvisitedChildren":79,"miniMaxValue":25040.0}
+{"stateId":347,"originShotId":8523,"birdIndex":0,"times":1,"score":11080,"totalScore":17120,"finalState":false,"active":false,"unvisitedChildren":23,"miniMaxValue":25040.0}
+{"stateId":348,"originShotId":8553,"birdIndex":0,"times":1,"score":25040,"totalScore":42160,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":25040.0}
+{"stateId":349,"originShotId":8454,"birdIndex":0,"times":2,"score":11170,"totalScore":11170,"finalState":false,"active":true,"unvisitedChildren":37,"miniMaxValue":42780.0}
+{"stateId":350,"originShotId":8587,"birdIndex":0,"times":1,"score":42780,"totalScore":53950,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":42780.0}
+{"stateId":351,"originShotId":8478,"birdIndex":0,"times":1,"score":5910,"totalScore":5910,"finalState":false,"active":false,"unvisitedChildren":92,"miniMaxValue":25680.0}
+{"stateId":352,"originShotId":8631,"birdIndex":0,"times":1,"score":11080,"totalScore":16990,"finalState":false,"active":false,"unvisitedChildren":43,"miniMaxValue":25680.0}
+{"stateId":353,"originShotId":8680,"birdIndex":0,"times":1,"score":25680,"totalScore":42670,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":25680.0}
+{"stateId":354,"originShotId":8447,"birdIndex":0,"times":1,"score":6200,"totalScore":6200,"finalState":false,"active":false,"unvisitedChildren":64,"miniMaxValue":25950.0}
+{"stateId":355,"originShotId":8712,"birdIndex":0,"times":1,"score":11080,"totalScore":17280,"finalState":false,"active":false,"unvisitedChildren":28,"miniMaxValue":25950.0}
+{"stateId":356,"originShotId":8750,"birdIndex":0,"times":1,"score":25950,"totalScore":43230,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":25950.0}
+{"stateId":357,"originShotId":8524,"birdIndex":0,"times":1,"score":11080,"totalScore":17120,"finalState":false,"active":false,"unvisitedChildren":23,"miniMaxValue":25040.0}
+{"stateId":358,"originShotId":8775,"birdIndex":0,"times":1,"score":25040,"totalScore":42160,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":25040.0}
+{"stateId":359,"originShotId":8588,"birdIndex":0,"times":1,"score":6040,"totalScore":17210,"finalState":false,"active":true,"unvisitedChildren":0,"miniMaxValue":0.0}
+{"stateId":360,"originShotId":8800,"birdIndex":0,"times":1,"score":25050,"totalScore":42260,"finalState":true,"active":true,"unvisitedChildren":0,"miniMaxValue":0.0}

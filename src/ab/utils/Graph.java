@@ -94,7 +94,9 @@ public class Graph {
 					removeNodesFromMap(myshot);
 					myshot.getPossibleStates().remove(0);
 					
-					allStates.remove( myshot.getPossibleStates().get(0).getStateId() );
+					if( !myshot.getPossibleStates().isEmpty() ){
+						allStates.remove( myshot.getPossibleStates().get(0).getStateId() );
+					}
 				}
 			}
 		}
@@ -116,15 +118,18 @@ public class Graph {
 			}
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
-			for( State st : myshot.getPossibleStates() ){		
-				if( st.getScore() <= points ){
-					System.out.println("Removing state: "+st.getStateId()+ " with score: "+st.getScore());
-					removeNodesFromMap(st);
-				}	
-			}
 			
-			if( myshot.getPossibleStates().isEmpty() ){
-				allShots.remove(myshot.getShotId());
+			if( !myshot.getPossibleStates().isEmpty() ){
+				for( State st : myshot.getPossibleStates() ){		
+					if( st.getScore() <= points ){
+						System.out.println("Removing state: "+st.getStateId()+ " with score: "+st.getScore());
+						removeNodesFromMap(st);
+					}	
+				}
+				
+				if( myshot.getPossibleStates().isEmpty() ){
+					allShots.remove(myshot.getShotId());
+				}
 			}
 		}
 			
@@ -153,12 +158,14 @@ public class Graph {
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
 			
-			for( State state: myshot.getPossibleStates() ){
-				removeNodesFromMap(state);
+			if( !myshot.getPossibleStates().isEmpty() ){
+				for( State state: myshot.getPossibleStates() ){
+					removeNodesFromMap(state);
+				}
+				
+				System.out.println("Shot id: "+myshot.getShotId()+" removed from graph. Minimax: "+myshot.getMiniMaxValue() );
+				allShots.remove(myshot.getShotId());
 			}
-			
-			System.out.println("Shot id: "+myshot.getShotId()+" removed from graph. Minimax: "+myshot.getMiniMaxValue() );
-			allShots.remove(myshot.getShotId());
 		}
 		
 	}

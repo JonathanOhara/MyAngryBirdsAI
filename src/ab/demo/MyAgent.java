@@ -60,10 +60,12 @@ public class MyAgent implements Runnable {
 	//---------------------------------------------------------------------------------
 
 	private LearnType LEARN_TYPE = LearnType.None;
+	private boolean recalculatePossibleShots = false;
 	
 	private int MAX_LEVEL = 22;
 	
-	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
+//	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
+	private int TIMES_IN_EACH_STAGE = 1;
 	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
@@ -81,7 +83,7 @@ public class MyAgent implements Runnable {
 	private int birdsIndex = 0;
 	
 	
-	public MyAgent(LearnType learnType) {
+	public MyAgent(LearnType learnType, boolean recalculatePossibleShots) {
 		System.out.println("Execution starts: "+getDatetimeFormated());
 		
 		if( learnType.equals(LearnType.None) ){
@@ -89,8 +91,14 @@ public class MyAgent implements Runnable {
 		}else{
 			System.out.println("..:: LEARNING MODE ::..");
 			System.out.println("..:: TYPE "+learnType+" ::..");
+			if( recalculatePossibleShots ){
+				System.out.println("Recalculating possible shots");
+			}
 		}
+		
 		LEARN_TYPE = learnType;
+		this.recalculatePossibleShots = recalculatePossibleShots;
+		
 		
 		createReportsDir();
 		
@@ -251,7 +259,8 @@ public class MyAgent implements Runnable {
 			if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
 				System.out.println("Changing Level "+getDatetimeFormated());
 				
-				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
+//				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
+				TIMES_IN_EACH_STAGE = 1;
 				previousScore = 0;
 				timesInThisStage = 0;
 				currentLevel++;
@@ -331,7 +340,7 @@ public class MyAgent implements Runnable {
 						
 						if( isLearningMode() ){
 							System.out.println("Cutting Nodes that scores 0 points... ");
-							graph.cutNodesWithZeroPoints( graph.rootState );
+//							graph.cutNodesWithZeroPoints( graph.rootState );
 						}
 						
 					} catch (IOException e) {
@@ -355,7 +364,7 @@ public class MyAgent implements Runnable {
 					actualState.setStateId( graph.getNewStateId() );
 					actualState.setBirdIndex( 0 );
 					
-					actualState.setPossibleShots( findPossibleShots() );
+					actualState.setPossibleShots( findPossibleShots(new ArrayList<MyShot>()) );
 					
 					actualState.setShotImage( ActionRobot.doScreenShot() );
 					
@@ -369,8 +378,8 @@ public class MyAgent implements Runnable {
 					return GameState.UNKNOWN;				
 				}
 				
-				if( actualState.getPossibleShots().isEmpty() ){
-					actualState.setPossibleShots( findPossibleShots() );
+				if( actualState.getPossibleShots().isEmpty() || recalculatePossibleShots ){
+					actualState.setPossibleShots( findPossibleShots( actualState.getPossibleShots() ) );
 				}else{
 					for( MyShot ms : actualState.getPossibleShots() ){
 						Point pt = ms.getTarget();
@@ -836,7 +845,7 @@ public class MyAgent implements Runnable {
 	}
 
 
-	private List<MyShot> findPossibleShots() {
+	private List<MyShot> findPossibleShots(List<MyShot> oldPossibleShots) {
 		System.out.println("MyAgent.findPossibleShots()");
 		long time = System.currentTimeMillis();
 		int discardedShots = 0;
@@ -897,7 +906,7 @@ public class MyAgent implements Runnable {
 			
 			for( Point _tpt : pointsToTry ){
 				
-				if( !findCloserShot( _tpt, possibleShots) ){
+				if( !findCloserShot( _tpt, possibleShots ) ){
 					releasePoints = calcReleasePoint(_tpt);
 					for( Point releasePoint: releasePoints ){
 					
@@ -965,28 +974,62 @@ public class MyAgent implements Runnable {
 								myShot.setClosestPig(closestPig);
 								myShot.setDistanceOfClosestPig( distance(closestPig.getCenter(), _tpt) );
 								
-								possibleShots.add( myShot );
-								
-								graph.allShots.put(myShot.getShotId(), myShot);
+								if( !shotInOldPossibleShots(myShot, oldPossibleShots) ){
+									possibleShots.add( myShot );
+									
+									graph.allShots.put(myShot.getShotId(), myShot);
+									ShowSeg.debugCyanPoint.add(_tpt);
+								}else{
+									ShowSeg.debugBluePoint.add(_tpt);		
+								}
 							}
 							
-							ShowSeg.debugBluePoint.add(_tpt);
+							
 						}else{
+//							System.out.println("Nao da pra alcancar");
 							discardedShots++;
 							ShowSeg.debugRedPoint.add(_tpt);
 						}
 					}
 				}else{
+//					System.out.println("Tiro parecido ja testado");
 					ShowSeg.debugRedPoint.add(_tpt);
 					discardedShots++;
 				}
 			}
 		}
 		
+		possibleShots.addAll(oldPossibleShots);
+		
 		System.out.println("Number of: PossibleShots: "+possibleShots.size() + " DiscardedShots: "+discardedShots+ "  calculated in: " + (System.currentTimeMillis() - time) + " miliseconds");
 		return possibleShots;
 	}
 
+
+	private boolean shotInOldPossibleShots(MyShot myShot, List<MyShot> oldPossibleShots) {
+		boolean shotExists = false;
+		
+		System.out.println("\tShot Target: "+myShot.getTarget() + " Shot: "+myShot.getShot()+" Interval: "+myShot.getTapInterval());
+		
+		
+		for( MyShot ms: oldPossibleShots ){
+			int distanceBetweenTargets 			= (int) distance(myShot.getTarget(), ms.getTarget());
+			int distanceBetweenReleaseTarget	= (int) distance(myShot.getReleasePoint(), ms.getReleasePoint());
+			boolean sameTapInterval				= myShot.getTapInterval() == ms.getTapInterval();
+			
+			if( sameTapInterval && distanceBetweenReleaseTarget <= 4 &&  distanceBetweenTargets <= 4){
+				System.out.println("\tOther Target: "+ms.getTarget() + " Shot: "+ms.getShot()+" Interval: "+ms.getTapInterval());
+				shotExists = true;
+				break;
+			}
+		}
+		
+		if( !shotExists ){
+			System.out.println("\t Nao existe");
+		}
+		
+		return shotExists;
+	}
 
 	private boolean findCloserShot(Point _tpt, List<MyShot> possibleShots) {
 		boolean returnValue = false;

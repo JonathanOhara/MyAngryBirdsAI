@@ -22,8 +22,10 @@ public class MainEntry {
 	//-level=N
 	//-showMbr or -showReal
 	//-learn=roundRobin||allshots||random
+	//-recalculatePossibleShots
 	public static void main(String args[]){
 		int level = 1;
+		boolean recalculatePossibleShots = false;
 		LearnType learnMode = LearnType.None;
 		
 		if( args == null || args.length == 0 ){
@@ -44,7 +46,9 @@ public class MainEntry {
 			}
 		}
 
-		MyAgent na = new MyAgent( learnMode );
+		recalculatePossibleShots = argsList.indexOf("-recalculatePossibleShots") > -1;
+		
+		MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
 
 		na.currentLevel = level;
 		Thread nathre = new Thread(na);
