@@ -2200,3 +2200,95 @@ MyAgent.calculateShotStats()
 Generate new state with id = 208
 MyAgent.writeShotsAandStatesInFile()
  restart the level 
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -227 dy: 522 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0056589338414839
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 122
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 3969
+Shooting Bird(1): RedBird at Point x: 576.0 y: 307.0 dx: -231 dy: 520 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9895885453327563
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 123
+Setting the Score with average of 26155 and 26150 = 26152
+Setting the Total Score with average of 37715 and 37710 = 37712
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 28100 
+ Level 5 Score: 67920 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 54680 
+ Level 11 Score: 58880 
+ Level 12 Score: 60520 
+ Level 13 Score: 37710 
+Total Score: 634410
+Changing Level 12/4/2015 - 12:45:40
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 34
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0006418180948295
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 120
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 3858
+Shooting Bird(1): BlueBird at Point x: 585.0 y: 306.0 dx: -483 dy: 301 Tap: 5 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 121
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 42950 
+ Level 4 Score: 36970 
+ Level 5 Score: 67680 
+ Level 6 Score: 36070 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62150 
+ Level 11 Score: 58930 
+ Level 12 Score: 58830 
+ Level 13 Score: 42130 
+Total Score: 654120
+Changing Level 12/4/2015 - 19:8:54

@@ -1,11 +1,3 @@
-/*****************************************************************************
- ** ANGRYBIRDS AI AGENT FRAMEWORK
- ** Copyright (c) 2014, XiaoYu (Gary) Ge, Stephen Gould, Jochen Renz
- **  Sahan Abeyasinghe,Jim Keys,  Andrew Wang, Peng Zhang
- ** All rights reserved.
-**This work is licensed under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-**To view a copy of this license, visit http://www.gnu.org/licenses/
- *****************************************************************************/
 package ab.demo;
 
 import java.awt.Point;
@@ -25,6 +17,8 @@ import java.util.Map;
 import java.util.Random;
 
 import javax.imageio.ImageIO;
+
+import com.google.gson.Gson;
 
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
@@ -65,7 +59,7 @@ public class MyAgent implements Runnable {
 	private int MAX_LEVEL = 22;
 	
 //	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
-	private int TIMES_IN_EACH_STAGE = 1;
+	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
 	
 	//---------------------------------------------------------------------------------
@@ -75,6 +69,7 @@ public class MyAgent implements Runnable {
 	private State actualState;
 	private MyShot actualShot;
 	private State lastState;
+	private boolean forceFirstShot = false;
 	
 	private final int BIRDS_SIZE = 10;
 	
@@ -259,8 +254,7 @@ public class MyAgent implements Runnable {
 			if( timesInThisStage++ >= TIMES_IN_EACH_STAGE ){
 				System.out.println("Changing Level "+getDatetimeFormated());
 				
-//				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
-				TIMES_IN_EACH_STAGE = 1;
+				TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 				previousScore = 0;
 				timesInThisStage = 0;
 				currentLevel++;
@@ -401,10 +395,28 @@ public class MyAgent implements Runnable {
 					return GameState.UNKNOWN;				
 				}
 				
-				actualShot = chooseOneShot();
-				
-				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
-				ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
+				if( forceFirstShot && actualState == graph.rootState ){
+					actualShot = new MyShot();
+					Point point = new Point(529, 327);
+					releasePoint = calcReleasePoint(point).get(0);
+					
+					Point refPoint = tp.getReferencePoint(sling);
+					
+					dx = (int)releasePoint.getX() - refPoint.x;
+					dy = (int)releasePoint.getY() - refPoint.y;
+					shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
+					
+					actualShot.setTarget(point);
+					actualShot.setShot(shot);
+					actualShot.setReleasePoint(new Point(dx, dy));
+					actualShot.setAim(new ABObject());	
+					System.out.println(new Gson().toJson(actualShot));
+					
+				}else{
+					actualShot = chooseOneShot();
+					ShowSeg.debugGreenPoint.add(actualShot.getTarget());
+					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
+				}
 				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();
@@ -677,7 +689,8 @@ public class MyAgent implements Runnable {
 			
 			for( MyShot myShot: st.getPossibleShots() ){
 				if( myShot.getTimes() > 0){
-					alpha = Math.max( alpha, expectMiniMax(myShot) );
+					alpha = Math.max( alpha, 
+							expectMiniMax(myShot) );
 				}
 			}
 			st.setMiniMaxValue(alpha);
@@ -691,7 +704,8 @@ public class MyAgent implements Runnable {
 			
 			if( totalTimes > 0){
 				for( State state: ms.getPossibleStates() ){
-					alpha = alpha + ( state.getTimes() / totalTimes *  expectMiniMax(state) );
+					float probability = state.getTimes() / totalTimes;
+					alpha = alpha + (state.getScore() * probability) + ( probability * expectMiniMax(state) );
 				}
 				ms.setMiniMaxValue(alpha);
 			} 
@@ -741,6 +755,7 @@ public class MyAgent implements Runnable {
 				miniMaxValue = expectMiniMax( evalShot );
 			}
 			
+//			System.out.println("Id: "+evalShot.getShotId()+" minmax = "+evalShot.getMiniMaxValue());
 			evalShot.setMiniMaxValue(miniMaxValue);
 		}
 
@@ -1009,23 +1024,26 @@ public class MyAgent implements Runnable {
 	private boolean shotInOldPossibleShots(MyShot myShot, List<MyShot> oldPossibleShots) {
 		boolean shotExists = false;
 		
-		System.out.println("\tShot Target: "+myShot.getTarget() + " Shot: "+myShot.getShot()+" Interval: "+myShot.getTapInterval());
 		
-		
-		for( MyShot ms: oldPossibleShots ){
-			int distanceBetweenTargets 			= (int) distance(myShot.getTarget(), ms.getTarget());
-			int distanceBetweenReleaseTarget	= (int) distance(myShot.getReleasePoint(), ms.getReleasePoint());
-			boolean sameTapInterval				= myShot.getTapInterval() == ms.getTapInterval();
+		if( !oldPossibleShots.isEmpty() ){
+			System.out.println("\tShot Target: "+myShot.getTarget() + " Shot: "+myShot.getShot()+" Interval: "+myShot.getTapInterval());
 			
-			if( sameTapInterval && distanceBetweenReleaseTarget <= 4 &&  distanceBetweenTargets <= 4){
-				System.out.println("\tOther Target: "+ms.getTarget() + " Shot: "+ms.getShot()+" Interval: "+ms.getTapInterval());
-				shotExists = true;
-				break;
+			
+			for( MyShot ms: oldPossibleShots ){
+				int distanceBetweenTargets 			= (int) distance(myShot.getTarget(), ms.getTarget());
+				int distanceBetweenReleaseTarget	= (int) distance(myShot.getReleasePoint(), ms.getReleasePoint());
+				boolean sameTapInterval				= myShot.getTapInterval() == ms.getTapInterval();
+				
+				if( sameTapInterval && distanceBetweenReleaseTarget <= 4 &&  distanceBetweenTargets <= 4){
+					System.out.println("\tOther Target: "+ms.getTarget() + " Shot: "+ms.getShot()+" Interval: "+ms.getTapInterval());
+					shotExists = true;
+					break;
+				}
 			}
-		}
-		
-		if( !shotExists ){
-			System.out.println("\t Nao existe");
+			
+			if( !shotExists ){
+				System.out.println("\t Nao existe");
+			}
 		}
 		
 		return shotExists;

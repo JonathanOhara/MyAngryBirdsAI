@@ -9,7 +9,7 @@ import ab.objects.MyShot;
 import ab.utils.Graph;
 
 public class GraphCutter {
-	private static int LEVEL = -1;
+	private static int LEVEL = 4;
 	private static int MAX_LEVEL = 21;
 	
 	public static void main(String[] args) throws IOException {
@@ -25,22 +25,24 @@ public class GraphCutter {
 	
 	public static void cut(int lv) throws IOException{
 		Graph graph = new Graph();
-		List<Integer> idsToDelete = new ArrayList<Integer>();
+//		List<Integer> idsToDelete = new ArrayList<Integer>();
 
 		graph.buildGraph(lv);
-/*		
-		graph.removeUnlinkedNodes();
-		graph.cutNodesWithLessPoints(graph.rootState, 1500);
 		
-		graph.writeShotsAandStatesInFile(lv);
-*/		
 		System.out.println("Level: "+lv);
 		int times = 0;
 		for( MyShot ms : graph.rootState.getPossibleShots() ){
+			if( ms.getPossibleStates().size() == 0 ){
+				ms.setTimes(0);
+			}
 			if( ms.getPossibleStates().size() == 0 || ms.getTimes() == 0){
 				times++;
 			}
 		}
+		
+		graph.cutNodesWithLessPoints(graph.rootState, 500);
+		graph.removeUnlinkedNodes();
+		graph.writeShotsAandStatesInFile(lv);
 		System.out.println("-----------------------------------------------------Not tested = "+times);
 		/*
 		System.out.println(idsToDelete.size());

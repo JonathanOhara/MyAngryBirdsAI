@@ -10,7 +10,7 @@ import java.util.List;
 import ab.utils.FileUtil;
 
 public class GraphViewWriterUtil {
-	private static int LEVEL = 2;
+	private static int LEVEL = 4;
 	
 	private static String reportsPath = "./reports/";
 	
