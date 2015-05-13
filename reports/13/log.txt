@@ -2292,3 +2292,2998 @@ MyAgent.writeShotsAandStatesInFile()
  Level 13 Score: 42130 
 Total Score: 654120
 Changing Level 12/4/2015 - 19:8:54
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+6062
+Shooting Bird(0): BlueBird at Point x: 600.0 y: 259.0 dx: -423 dy: 381 Tap: 0 -> Stone
+Shooting Completed
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+6062
+Shooting Bird(0): RedBird at Point x: 600.0 y: 259.0 dx: -423 dy: 381 Tap: 0 -> Stone
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+35
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 209
+MyAgent.writeShotsAandStatesInFile()
+ Level 13 Score: 48090 
+Total Score: 48090
+
+-------------------- Times in this level: 1 of 37--------------------
+
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 34
+34
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 34
+34
+Shooting Bird(0): BlueBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 34
+34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Id: 1 minmax = 5590.0
+Id: 5 minmax = 17460.0
+Id: 6 minmax = 30607.0
+Id: 9 minmax = 54250.0
+Id: 11 minmax = 50840.0
+Id: 12 minmax = 30330.0
+Id: 24 minmax = 13200.0
+Id: 26 minmax = 64073.56
+Id: 27 minmax = 12390.0
+Id: 28 minmax = 51740.0
+Id: 29 minmax = 63740.0
+Id: 32 minmax = 31249.002
+Id: 33 minmax = 31560.0
+Id: 34 minmax = 67650.0
+Id: 35 minmax = 66557.0
+Id: 40 minmax = 48520.0
+Id: 41 minmax = 6227.0
+Id: 42 minmax = 24710.0
+Id: 43 minmax = 12650.0
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 1 minmax = 5590.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 5 minmax = 17460.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 6 minmax = 30607.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 9 minmax = 54250.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 11 minmax = 50840.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 12 minmax = 30330.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 24 minmax = 13200.0
+Prob = 0.6666667
+Prob = 1.0
+Prob = 0.33333334
+Prob = 0.6666667
+Prob = 0.33333334
+Prob = 1.0
+Id: 26 minmax = 64073.56
+Prob = 1.0
+Id: 27 minmax = 12390.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 28 minmax = 51740.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 29 minmax = 63740.0
+Prob = 0.33333334
+Prob = 0.5
+Prob = 1.0
+Prob = 0.5
+Prob = 0.6666667
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 32 minmax = 31249.002
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 33 minmax = 31560.0
+Prob = 1.0
+Prob = 1.0
+Id: 34 minmax = 67650.0
+Prob = 0.9166667
+Prob = 1.0
+Prob = 0.083333336
+Id: 35 minmax = 66557.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 40 minmax = 48520.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 41 minmax = 6227.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 42 minmax = 24710.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 43 minmax = 12650.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 0.16666667
+Prob = 0.33333334
+Prob = 0.16666667
+Prob = 1.0
+Prob = 0.16666667
+Prob = 1.0
+Prob = 0.16666667
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Prob = 1.0
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 1 minmax = 5590.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 5 minmax = 17460.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 6 minmax = 30607.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 9 minmax = 54250.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 11 minmax = 50840.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 12 minmax = 30330.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 24 minmax = 13200.0
+MyAgent.expectMiniMax()
+Prob = 0.6666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 0.6666667
+MyAgent.expectMiniMax()
+Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 26 minmax = 64073.56
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 27 minmax = 12390.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 28 minmax = 51740.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 29 minmax = 63740.0
+MyAgent.expectMiniMax()
+Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 0.5
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Prob = 0.5
+MyAgent.expectMiniMax()
+Prob = 0.6666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 32 minmax = 31249.002
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 33 minmax = 31560.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 34 minmax = 67650.0
+MyAgent.expectMiniMax()
+Prob = 0.9166667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Prob = 0.083333336
+MyAgent.expectMiniMax()
+Id: 35 minmax = 66557.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 40 minmax = 48520.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 41 minmax = 6227.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 42 minmax = 24710.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 43 minmax = 12650.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 0.16666667
+MyAgent.expectMiniMax()
+Prob = 0.33333334
+MyAgent.expectMiniMax()
+Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 1 minmax = 5590.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 5 minmax = 17460.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 6 minmax = 30607.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 9 minmax = 54250.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 11 minmax = 50840.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 12 minmax = 30330.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 24 minmax = 13200.0
+MyAgent.expectMiniMax()
+times = 6 TT 9.0Prob = 0.6666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 6 TT 6.0Prob = 1.0
+MyAgent.expectMiniMax()
+times = 3 TT 9.0Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 3.0Prob = 0.6666667
+MyAgent.expectMiniMax()
+times = 1 TT 3.0Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 26 minmax = 64073.56
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 27 minmax = 12390.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 28 minmax = 51740.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 29 minmax = 63740.0
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5
+MyAgent.expectMiniMax()
+times = 4 TT 6.0Prob = 0.6666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 32 minmax = 31249.002
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 33 minmax = 31560.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 34 minmax = 67650.0
+MyAgent.expectMiniMax()
+times = 11 TT 12.0Prob = 0.9166667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 11 TT 11.0Prob = 1.0
+MyAgent.expectMiniMax()
+times = 1 TT 12.0Prob = 0.083333336
+MyAgent.expectMiniMax()
+Id: 35 minmax = 66557.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 40 minmax = 48520.0
+MyAgent.expectMiniMax()
+times = 3 TT 3.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 41 minmax = 6227.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 42 minmax = 24710.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 43 minmax = 12650.0
+MyAgent.expectMiniMax()
+times = 8 TT 8.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0
+MyAgent.expectMiniMax()
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 130
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 131
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 132
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 133
+MyAgent.expectMiniMax()
+Id: 1 minmax = 5590.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 52
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 140
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 141
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 142
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 53
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 54
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 55
+MyAgent.expectMiniMax()
+Id: 5 minmax = 17460.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 67
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 187
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 188
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 189
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 169
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 170
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 171
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 181
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 182
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 183
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 68
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 69
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 70
+MyAgent.expectMiniMax()
+Id: 6 minmax = 30607.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 105
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 106
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 107
+MyAgent.expectMiniMax()
+Id: 9 minmax = 54250.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 45
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 184
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 185
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 186
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 166
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 167
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 168
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 157
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 158
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 159
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 46
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 47
+MyAgent.expectMiniMax()
+Id: 11 minmax = 50840.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 48
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 146
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 147
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 148
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 175
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 176
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 177
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 160
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 161
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 162
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 49
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 50
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 51
+MyAgent.expectMiniMax()
+Id: 12 minmax = 30330.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 71
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 72
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 73
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 74
+MyAgent.expectMiniMax()
+Id: 24 minmax = 13200.0
+MyAgent.expectMiniMax()
+times = 6 TT 9.0Prob = 0.6666667 id 108
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 6 TT 6.0Prob = 1.0 id 109
+MyAgent.expectMiniMax()
+times = 3 TT 9.0Prob = 0.33333334 id 201
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 3.0Prob = 0.6666667 id 202
+MyAgent.expectMiniMax()
+times = 1 TT 3.0Prob = 0.33333334 id 203
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 204
+MyAgent.expectMiniMax()
+Id: 26 minmax = 64073.56
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 110
+MyAgent.expectMiniMax()
+Id: 27 minmax = 12390.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 115
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 116
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 117
+MyAgent.expectMiniMax()
+Id: 28 minmax = 51740.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 118
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 190
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 191
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 192
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 119
+MyAgent.expectMiniMax()
+Id: 29 minmax = 63740.0
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334 id 20
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5 id 21
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 22
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5 id 24
+MyAgent.expectMiniMax()
+times = 4 TT 6.0Prob = 0.6666667 id 28
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 29
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 30
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 31
+MyAgent.expectMiniMax()
+Id: 32 minmax = 31249.002
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 111
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 112
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 113
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 114
+MyAgent.expectMiniMax()
+Id: 33 minmax = 31560.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 120
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 121
+MyAgent.expectMiniMax()
+Id: 34 minmax = 67650.0
+MyAgent.expectMiniMax()
+times = 11 TT 12.0Prob = 0.9166667 id 122
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 11 TT 11.0Prob = 1.0 id 123
+MyAgent.expectMiniMax()
+times = 1 TT 12.0Prob = 0.083333336 id 209
+MyAgent.expectMiniMax()
+Id: 35 minmax = 66557.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 124
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 125
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 126
+MyAgent.expectMiniMax()
+Id: 40 minmax = 48520.0
+MyAgent.expectMiniMax()
+times = 3 TT 3.0Prob = 1.0 id 32
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 172
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 173
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 174
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 163
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 164
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 165
+MyAgent.expectMiniMax()
+Id: 41 minmax = 6227.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 33
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 34
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 35
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 36
+MyAgent.expectMiniMax()
+Id: 42 minmax = 24710.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 37
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 143
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 144
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 145
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 38
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 39
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 40
+MyAgent.expectMiniMax()
+Id: 43 minmax = 12650.0
+MyAgent.expectMiniMax()
+times = 8 TT 8.0Prob = 1.0 id 13
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 138
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 139
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 134
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334 id 193
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 194
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 195
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 196
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 197
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 198
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 199
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 200
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 14
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 15
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 16
+MyAgent.expectMiniMax()
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 205
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 206
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 207
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 208
+MyAgent.expectMiniMax()
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 130
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 131
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 132
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 133
+MyAgent.expectMiniMax()
+Id: 1 minmax = 5590.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 52
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 140
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 141
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 142
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 53
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 54
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 55
+MyAgent.expectMiniMax()
+Id: 5 minmax = 17460.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 67
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 187
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 188
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 189
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 169
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 170
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 171
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 181
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 182
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 183
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 68
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 69
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 70
+MyAgent.expectMiniMax()
+Id: 6 minmax = 30607.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 105
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 106
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 107
+MyAgent.expectMiniMax()
+Id: 9 minmax = 54250.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 45
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 184
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 185
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 186
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 166
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 167
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 168
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 157
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 158
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 159
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 46
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 47
+MyAgent.expectMiniMax()
+Id: 11 minmax = 50840.0
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 48
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 146
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 147
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 148
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 175
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 176
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 177
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 160
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 161
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 162
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 49
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 50
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 51
+MyAgent.expectMiniMax()
+Id: 12 minmax = 30330.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 71
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 72
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 73
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 74
+MyAgent.expectMiniMax()
+Id: 24 minmax = 13200.0
+MyAgent.expectMiniMax()
+times = 6 TT 9.0Prob = 0.6666667 id 108
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 6 TT 6.0Prob = 1.0 id 109
+MyAgent.expectMiniMax()
+times = 3 TT 9.0Prob = 0.33333334 id 201
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 3.0Prob = 0.6666667 id 202
+MyAgent.expectMiniMax()
+times = 1 TT 3.0Prob = 0.33333334 id 203
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 204
+MyAgent.expectMiniMax()
+Id: 26 minmax = 64073.56
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 110
+MyAgent.expectMiniMax()
+Id: 27 minmax = 12390.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 115
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 116
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 117
+MyAgent.expectMiniMax()
+Id: 28 minmax = 51740.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 118
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 190
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 191
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 192
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 119
+MyAgent.expectMiniMax()
+Id: 29 minmax = 63740.0
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334 id 20
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5 id 21
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 22
+MyAgent.expectMiniMax()
+times = 1 TT 2.0Prob = 0.5 id 24
+MyAgent.expectMiniMax()
+times = 4 TT 6.0Prob = 0.6666667 id 28
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 29
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 30
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 4 TT 4.0Prob = 1.0 id 31
+MyAgent.expectMiniMax()
+Id: 32 minmax = 31249.002
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 111
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 112
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 113
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 114
+MyAgent.expectMiniMax()
+Id: 33 minmax = 31560.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 120
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 121
+MyAgent.expectMiniMax()
+Id: 34 minmax = 67650.0
+MyAgent.expectMiniMax()
+times = 11 TT 12.0Prob = 0.9166667 id 122
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 11 TT 11.0Prob = 1.0 id 123
+MyAgent.expectMiniMax()
+times = 1 TT 12.0Prob = 0.083333336 id 209
+MyAgent.expectMiniMax()
+Id: 35 minmax = 66557.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 124
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 125
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 126
+MyAgent.expectMiniMax()
+Id: 40 minmax = 48520.0
+MyAgent.expectMiniMax()
+times = 3 TT 3.0Prob = 1.0 id 32
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 172
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 173
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 174
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 163
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 164
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 165
+MyAgent.expectMiniMax()
+Id: 41 minmax = 6227.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 33
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 34
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 35
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 36
+MyAgent.expectMiniMax()
+Id: 42 minmax = 24710.0
+MyAgent.expectMiniMax()
+times = 2 TT 2.0Prob = 1.0 id 37
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 143
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 144
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 145
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 38
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 39
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 40
+MyAgent.expectMiniMax()
+Id: 43 minmax = 12650.0
+MyAgent.expectMiniMax()
+times = 8 TT 8.0Prob = 1.0 id 13
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 138
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 139
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 134
+MyAgent.expectMiniMax()
+times = 2 TT 6.0Prob = 0.33333334 id 193
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 194
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 195
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 196
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 197
+MyAgent.expectMiniMax()
+times = 1 TT 6.0Prob = 0.16666667 id 198
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 199
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 200
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 14
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 15
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 16
+MyAgent.expectMiniMax()
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 205
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 206
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 207
+MyAgent.expectMiniMax()
+MyAgent.expectMiniMax()
+times = 1 TT 1.0Prob = 1.0 id 208
+MyAgent.expectMiniMax()
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+times = 1 TT 1.0Prob = 1.0 id 130
+times = 1 TT 1.0Prob = 1.0 id 131
+times = 1 TT 1.0Prob = 1.0 id 132
+times = 1 TT 1.0Prob = 1.0 id 133
+Id: 1 minmax = 5590.0
+times = 2 TT 2.0Prob = 1.0 id 52
+times = 1 TT 1.0Prob = 1.0 id 140
+times = 1 TT 1.0Prob = 1.0 id 141
+times = 1 TT 1.0Prob = 1.0 id 142
+times = 1 TT 1.0Prob = 1.0 id 53
+times = 1 TT 1.0Prob = 1.0 id 54
+times = 1 TT 1.0Prob = 1.0 id 55
+Id: 5 minmax = 17460.0
+times = 4 TT 4.0Prob = 1.0 id 67
+times = 1 TT 1.0Prob = 1.0 id 187
+times = 1 TT 1.0Prob = 1.0 id 188
+times = 1 TT 1.0Prob = 1.0 id 189
+times = 1 TT 1.0Prob = 1.0 id 169
+times = 1 TT 1.0Prob = 1.0 id 170
+times = 1 TT 1.0Prob = 1.0 id 171
+times = 1 TT 1.0Prob = 1.0 id 181
+times = 1 TT 1.0Prob = 1.0 id 182
+times = 1 TT 1.0Prob = 1.0 id 183
+times = 1 TT 1.0Prob = 1.0 id 68
+times = 1 TT 1.0Prob = 1.0 id 69
+times = 1 TT 1.0Prob = 1.0 id 70
+Id: 6 minmax = 30607.0
+times = 1 TT 1.0Prob = 1.0 id 105
+times = 1 TT 1.0Prob = 1.0 id 106
+times = 1 TT 1.0Prob = 1.0 id 107
+Id: 9 minmax = 54250.0
+times = 4 TT 4.0Prob = 1.0 id 45
+times = 1 TT 1.0Prob = 1.0 id 184
+times = 1 TT 1.0Prob = 1.0 id 185
+times = 1 TT 1.0Prob = 1.0 id 186
+times = 1 TT 1.0Prob = 1.0 id 166
+times = 1 TT 1.0Prob = 1.0 id 167
+times = 1 TT 1.0Prob = 1.0 id 168
+times = 1 TT 1.0Prob = 1.0 id 157
+times = 1 TT 1.0Prob = 1.0 id 158
+times = 1 TT 1.0Prob = 1.0 id 159
+times = 1 TT 1.0Prob = 1.0 id 46
+times = 1 TT 1.0Prob = 1.0 id 47
+Id: 11 minmax = 50840.0
+times = 4 TT 4.0Prob = 1.0 id 48
+times = 1 TT 1.0Prob = 1.0 id 146
+times = 1 TT 1.0Prob = 1.0 id 147
+times = 1 TT 1.0Prob = 1.0 id 148
+times = 1 TT 1.0Prob = 1.0 id 175
+times = 1 TT 1.0Prob = 1.0 id 176
+times = 1 TT 1.0Prob = 1.0 id 177
+times = 1 TT 1.0Prob = 1.0 id 160
+times = 1 TT 1.0Prob = 1.0 id 161
+times = 1 TT 1.0Prob = 1.0 id 162
+times = 1 TT 1.0Prob = 1.0 id 49
+times = 1 TT 1.0Prob = 1.0 id 50
+times = 1 TT 1.0Prob = 1.0 id 51
+Id: 12 minmax = 30330.0
+times = 1 TT 1.0Prob = 1.0 id 71
+times = 1 TT 1.0Prob = 1.0 id 72
+times = 1 TT 1.0Prob = 1.0 id 73
+times = 1 TT 1.0Prob = 1.0 id 74
+Id: 24 minmax = 13200.0
+times = 6 TT 9.0Prob = 0.6666667 id 108
+times = 6 TT 6.0Prob = 1.0 id 109
+times = 3 TT 9.0Prob = 0.33333334 id 201
+times = 2 TT 3.0Prob = 0.6666667 id 202
+times = 1 TT 3.0Prob = 0.33333334 id 203
+times = 1 TT 1.0Prob = 1.0 id 204
+Id: 26 minmax = 64073.56
+times = 1 TT 1.0Prob = 1.0 id 110
+Id: 27 minmax = 12390.0
+times = 1 TT 1.0Prob = 1.0 id 115
+times = 1 TT 1.0Prob = 1.0 id 116
+times = 1 TT 1.0Prob = 1.0 id 117
+Id: 28 minmax = 51740.0
+times = 2 TT 2.0Prob = 1.0 id 118
+times = 1 TT 1.0Prob = 1.0 id 190
+times = 1 TT 1.0Prob = 1.0 id 191
+times = 1 TT 1.0Prob = 1.0 id 192
+times = 1 TT 1.0Prob = 1.0 id 119
+Id: 29 minmax = 63740.0
+times = 2 TT 6.0Prob = 0.33333334 id 20
+times = 1 TT 2.0Prob = 0.5 id 21
+times = 1 TT 1.0Prob = 1.0 id 22
+times = 1 TT 2.0Prob = 0.5 id 24
+times = 4 TT 6.0Prob = 0.6666667 id 28
+times = 4 TT 4.0Prob = 1.0 id 29
+times = 4 TT 4.0Prob = 1.0 id 30
+times = 4 TT 4.0Prob = 1.0 id 31
+Id: 32 minmax = 31249.002
+times = 1 TT 1.0Prob = 1.0 id 111
+times = 1 TT 1.0Prob = 1.0 id 112
+times = 1 TT 1.0Prob = 1.0 id 113
+times = 1 TT 1.0Prob = 1.0 id 114
+Id: 33 minmax = 31560.0
+times = 2 TT 2.0Prob = 1.0 id 120
+times = 2 TT 2.0Prob = 1.0 id 121
+Id: 34 minmax = 67650.0
+times = 11 TT 12.0Prob = 0.9166667 id 122
+times = 11 TT 11.0Prob = 1.0 id 123
+times = 1 TT 12.0Prob = 0.083333336 id 209
+Id: 35 minmax = 66557.0
+times = 1 TT 1.0Prob = 1.0 id 124
+times = 1 TT 1.0Prob = 1.0 id 125
+times = 1 TT 1.0Prob = 1.0 id 126
+Id: 40 minmax = 48520.0
+times = 3 TT 3.0Prob = 1.0 id 32
+times = 1 TT 1.0Prob = 1.0 id 172
+times = 1 TT 1.0Prob = 1.0 id 173
+times = 1 TT 1.0Prob = 1.0 id 174
+times = 1 TT 1.0Prob = 1.0 id 163
+times = 1 TT 1.0Prob = 1.0 id 164
+times = 1 TT 1.0Prob = 1.0 id 165
+Id: 41 minmax = 6227.0
+times = 1 TT 1.0Prob = 1.0 id 33
+times = 1 TT 1.0Prob = 1.0 id 34
+times = 1 TT 1.0Prob = 1.0 id 35
+times = 1 TT 1.0Prob = 1.0 id 36
+Id: 42 minmax = 24710.0
+times = 2 TT 2.0Prob = 1.0 id 37
+times = 1 TT 1.0Prob = 1.0 id 143
+times = 1 TT 1.0Prob = 1.0 id 144
+times = 1 TT 1.0Prob = 1.0 id 145
+times = 1 TT 1.0Prob = 1.0 id 38
+times = 1 TT 1.0Prob = 1.0 id 39
+times = 1 TT 1.0Prob = 1.0 id 40
+Id: 43 minmax = 12650.0
+times = 8 TT 8.0Prob = 1.0 id 13
+times = 1 TT 1.0Prob = 1.0 id 138
+times = 1 TT 1.0Prob = 1.0 id 139
+times = 1 TT 6.0Prob = 0.16666667 id 134
+times = 2 TT 6.0Prob = 0.33333334 id 193
+times = 1 TT 6.0Prob = 0.16666667 id 194
+times = 1 TT 1.0Prob = 1.0 id 195
+times = 1 TT 6.0Prob = 0.16666667 id 196
+times = 1 TT 1.0Prob = 1.0 id 197
+times = 1 TT 6.0Prob = 0.16666667 id 198
+times = 1 TT 1.0Prob = 1.0 id 199
+times = 1 TT 1.0Prob = 1.0 id 200
+times = 1 TT 1.0Prob = 1.0 id 14
+times = 1 TT 1.0Prob = 1.0 id 15
+times = 1 TT 1.0Prob = 1.0 id 16
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+times = 1 TT 1.0Prob = 1.0 id 205
+times = 1 TT 1.0Prob = 1.0 id 206
+times = 1 TT 1.0Prob = 1.0 id 207
+times = 1 TT 1.0Prob = 1.0 id 208
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+times = 1 TT 1.0Prob = 1.0 id 130
+times = 1 TT 1.0Prob = 1.0 id 131
+times = 1 TT 1.0Prob = 1.0 id 132
+times = 1 TT 1.0Prob = 1.0 id 133
+Id: 1 minmax = 5590.0
+times = 2 TT 2.0Prob = 1.0 id 52
+times = 1 TT 1.0Prob = 1.0 id 140
+times = 1 TT 1.0Prob = 1.0 id 141
+times = 1 TT 1.0Prob = 1.0 id 142
+times = 1 TT 1.0Prob = 1.0 id 53
+times = 1 TT 1.0Prob = 1.0 id 54
+times = 1 TT 1.0Prob = 1.0 id 55
+Id: 5 minmax = 17460.0
+times = 4 TT 4.0Prob = 1.0 id 67
+times = 1 TT 1.0Prob = 1.0 id 187
+times = 1 TT 1.0Prob = 1.0 id 188
+times = 1 TT 1.0Prob = 1.0 id 189
+times = 1 TT 1.0Prob = 1.0 id 169
+times = 1 TT 1.0Prob = 1.0 id 170
+times = 1 TT 1.0Prob = 1.0 id 171
+times = 1 TT 1.0Prob = 1.0 id 181
+times = 1 TT 1.0Prob = 1.0 id 182
+times = 1 TT 1.0Prob = 1.0 id 183
+times = 1 TT 1.0Prob = 1.0 id 68
+times = 1 TT 1.0Prob = 1.0 id 69
+times = 1 TT 1.0Prob = 1.0 id 70
+Id: 6 minmax = 30607.0
+times = 1 TT 1.0Prob = 1.0 id 105
+times = 1 TT 1.0Prob = 1.0 id 106
+times = 1 TT 1.0Prob = 1.0 id 107
+Id: 9 minmax = 54250.0
+times = 4 TT 4.0Prob = 1.0 id 45
+times = 1 TT 1.0Prob = 1.0 id 184
+times = 1 TT 1.0Prob = 1.0 id 185
+times = 1 TT 1.0Prob = 1.0 id 186
+times = 1 TT 1.0Prob = 1.0 id 166
+times = 1 TT 1.0Prob = 1.0 id 167
+times = 1 TT 1.0Prob = 1.0 id 168
+times = 1 TT 1.0Prob = 1.0 id 157
+times = 1 TT 1.0Prob = 1.0 id 158
+times = 1 TT 1.0Prob = 1.0 id 159
+times = 1 TT 1.0Prob = 1.0 id 46
+times = 1 TT 1.0Prob = 1.0 id 47
+Id: 11 minmax = 50840.0
+times = 4 TT 4.0Prob = 1.0 id 48
+times = 1 TT 1.0Prob = 1.0 id 146
+times = 1 TT 1.0Prob = 1.0 id 147
+times = 1 TT 1.0Prob = 1.0 id 148
+times = 1 TT 1.0Prob = 1.0 id 175
+times = 1 TT 1.0Prob = 1.0 id 176
+times = 1 TT 1.0Prob = 1.0 id 177
+times = 1 TT 1.0Prob = 1.0 id 160
+times = 1 TT 1.0Prob = 1.0 id 161
+times = 1 TT 1.0Prob = 1.0 id 162
+times = 1 TT 1.0Prob = 1.0 id 49
+times = 1 TT 1.0Prob = 1.0 id 50
+times = 1 TT 1.0Prob = 1.0 id 51
+Id: 12 minmax = 30330.0
+times = 1 TT 1.0Prob = 1.0 id 71
+times = 1 TT 1.0Prob = 1.0 id 72
+times = 1 TT 1.0Prob = 1.0 id 73
+times = 1 TT 1.0Prob = 1.0 id 74
+Id: 24 minmax = 13200.0
+times = 6 TT 9.0Prob = 0.6666667 id 108
+times = 6 TT 6.0Prob = 1.0 id 109
+times = 3 TT 9.0Prob = 0.33333334 id 201
+times = 2 TT 3.0Prob = 0.6666667 id 202
+times = 1 TT 3.0Prob = 0.33333334 id 203
+times = 1 TT 1.0Prob = 1.0 id 204
+Id: 26 minmax = 64073.56
+times = 1 TT 1.0Prob = 1.0 id 110
+Id: 27 minmax = 12390.0
+times = 1 TT 1.0Prob = 1.0 id 115
+times = 1 TT 1.0Prob = 1.0 id 116
+times = 1 TT 1.0Prob = 1.0 id 117
+Id: 28 minmax = 51740.0
+times = 2 TT 2.0Prob = 1.0 id 118
+times = 1 TT 1.0Prob = 1.0 id 190
+times = 1 TT 1.0Prob = 1.0 id 191
+times = 1 TT 1.0Prob = 1.0 id 192
+times = 1 TT 1.0Prob = 1.0 id 119
+Id: 29 minmax = 63740.0
+times = 2 TT 6.0Prob = 0.33333334 id 20
+times = 1 TT 2.0Prob = 0.5 id 21
+times = 1 TT 1.0Prob = 1.0 id 22
+times = 1 TT 2.0Prob = 0.5 id 24
+times = 4 TT 6.0Prob = 0.6666667 id 28
+times = 4 TT 4.0Prob = 1.0 id 29
+times = 4 TT 4.0Prob = 1.0 id 30
+times = 4 TT 4.0Prob = 1.0 id 31
+Id: 32 minmax = 31249.002
+times = 1 TT 1.0Prob = 1.0 id 111
+times = 1 TT 1.0Prob = 1.0 id 112
+times = 1 TT 1.0Prob = 1.0 id 113
+times = 1 TT 1.0Prob = 1.0 id 114
+Id: 33 minmax = 31560.0
+times = 2 TT 2.0Prob = 1.0 id 120
+times = 2 TT 2.0Prob = 1.0 id 121
+Id: 34 minmax = 67650.0
+times = 11 TT 12.0Prob = 0.9166667 id 122
+times = 11 TT 11.0Prob = 1.0 id 123
+times = 1 TT 12.0Prob = 0.083333336 id 209
+Id: 35 minmax = 66557.0
+times = 1 TT 1.0Prob = 1.0 id 124
+times = 1 TT 1.0Prob = 1.0 id 125
+times = 1 TT 1.0Prob = 1.0 id 126
+Id: 40 minmax = 48520.0
+times = 3 TT 3.0Prob = 1.0 id 32
+times = 1 TT 1.0Prob = 1.0 id 172
+times = 1 TT 1.0Prob = 1.0 id 173
+times = 1 TT 1.0Prob = 1.0 id 174
+times = 1 TT 1.0Prob = 1.0 id 163
+times = 1 TT 1.0Prob = 1.0 id 164
+times = 1 TT 1.0Prob = 1.0 id 165
+Id: 41 minmax = 6227.0
+times = 1 TT 1.0Prob = 1.0 id 33
+times = 1 TT 1.0Prob = 1.0 id 34
+times = 1 TT 1.0Prob = 1.0 id 35
+times = 1 TT 1.0Prob = 1.0 id 36
+Id: 42 minmax = 24710.0
+times = 2 TT 2.0Prob = 1.0 id 37
+times = 1 TT 1.0Prob = 1.0 id 143
+times = 1 TT 1.0Prob = 1.0 id 144
+times = 1 TT 1.0Prob = 1.0 id 145
+times = 1 TT 1.0Prob = 1.0 id 38
+times = 1 TT 1.0Prob = 1.0 id 39
+times = 1 TT 1.0Prob = 1.0 id 40
+Id: 43 minmax = 12650.0
+times = 8 TT 8.0Prob = 1.0 id 13
+times = 1 TT 1.0Prob = 1.0 id 138
+times = 1 TT 1.0Prob = 1.0 id 139
+times = 1 TT 6.0Prob = 0.16666667 id 134
+times = 2 TT 6.0Prob = 0.33333334 id 193
+times = 1 TT 6.0Prob = 0.16666667 id 194
+times = 1 TT 1.0Prob = 1.0 id 195
+times = 1 TT 6.0Prob = 0.16666667 id 196
+times = 1 TT 1.0Prob = 1.0 id 197
+times = 1 TT 6.0Prob = 0.16666667 id 198
+times = 1 TT 1.0Prob = 1.0 id 199
+times = 1 TT 1.0Prob = 1.0 id 200
+times = 1 TT 1.0Prob = 1.0 id 14
+times = 1 TT 1.0Prob = 1.0 id 15
+times = 1 TT 1.0Prob = 1.0 id 16
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+times = 1 TT 1.0Prob = 1.0 id 205
+times = 1 TT 1.0Prob = 1.0 id 206
+times = 1 TT 1.0Prob = 1.0 id 207
+times = 1 TT 1.0Prob = 1.0 id 208
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 130
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 131
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 132
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 133
+Id: 1 minmax = 5590.0
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 52
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 140
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 141
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 142
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 53
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 54
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 55
+Id: 5 minmax = 17460.0
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 67
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 187
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 188
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 189
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 169
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 170
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 171
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 181
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 182
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 183
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 68
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 69
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 70
+Id: 6 minmax = 30607.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 105
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 106
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 107
+Id: 9 minmax = 54250.0
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 45
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 184
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 185
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 186
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 166
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 167
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 168
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 157
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 158
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 159
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 46
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 47
+Id: 11 minmax = 50840.0
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 48
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 146
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 147
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 148
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 175
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 176
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 177
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 160
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 161
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 162
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 49
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 50
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 51
+Id: 12 minmax = 30330.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 71
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 72
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 73
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 74
+Id: 24 minmax = 13200.0
+times > 0
+times = 6 TT 9.0Prob = 0.6666667 id 108
+times > 0
+times = 6 TT 6.0Prob = 1.0 id 109
+times = 3 TT 9.0Prob = 0.33333334 id 201
+times > 0
+times = 2 TT 3.0Prob = 0.6666667 id 202
+times = 1 TT 3.0Prob = 0.33333334 id 203
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 204
+Id: 26 minmax = 64073.56
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 110
+Id: 27 minmax = 12390.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 115
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 116
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 117
+Id: 28 minmax = 51740.0
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 118
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 190
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 191
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 192
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 119
+Id: 29 minmax = 63740.0
+times > 0
+times = 2 TT 6.0Prob = 0.33333334 id 20
+times > 0
+times = 1 TT 2.0Prob = 0.5 id 21
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 22
+times = 1 TT 2.0Prob = 0.5 id 24
+times = 4 TT 6.0Prob = 0.6666667 id 28
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 29
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 30
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 31
+Id: 32 minmax = 31249.002
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 111
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 112
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 113
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 114
+Id: 33 minmax = 31560.0
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 120
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 121
+Id: 34 minmax = 67650.0
+times > 0
+times = 11 TT 12.0Prob = 0.9166667 id 122
+times > 0
+times = 11 TT 11.0Prob = 1.0 id 123
+times = 1 TT 12.0Prob = 0.083333336 id 209
+Id: 35 minmax = 66557.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 124
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 125
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 126
+Id: 40 minmax = 48520.0
+times > 0
+times = 3 TT 3.0Prob = 1.0 id 32
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 172
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 173
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 174
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 163
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 164
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 165
+Id: 41 minmax = 6227.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 33
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 34
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 35
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 36
+Id: 42 minmax = 24710.0
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 37
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 143
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 144
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 145
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 38
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 39
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 40
+Id: 43 minmax = 12650.0
+times > 0
+times = 8 TT 8.0Prob = 1.0 id 13
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 138
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 139
+times > 0
+times = 1 TT 6.0Prob = 0.16666667 id 134
+times = 2 TT 6.0Prob = 0.33333334 id 193
+times = 1 TT 6.0Prob = 0.16666667 id 194
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 195
+times = 1 TT 6.0Prob = 0.16666667 id 196
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 197
+times = 1 TT 6.0Prob = 0.16666667 id 198
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 199
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 200
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 14
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 15
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 16
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 205
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 206
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 207
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 208
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 133 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 132 alp 380.0
+times = 1 TT 1.0Prob = 1.0 id 131 alp 510.0
+times = 1 TT 1.0Prob = 1.0 id 130 alp 5590.0
+Id: 1 minmax = 5590.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 142 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 141 alp 12250.0
+times = 1 TT 1.0Prob = 1.0 id 140 alp 12290.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 55 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 54 alp 900.0
+times = 1 TT 1.0Prob = 1.0 id 53 alp 7350.0
+times = 2 TT 2.0Prob = 1.0 id 52 alp 17460.0
+Id: 5 minmax = 17460.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 189 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 188 alp 1070.0
+times = 1 TT 1.0Prob = 1.0 id 187 alp 8060.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 171 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 170 alp 490.0
+times = 1 TT 1.0Prob = 1.0 id 169 alp 800.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 183 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 182 alp 1360.0
+times = 1 TT 1.0Prob = 1.0 id 181 alp 8910.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 70 alp 12260.0
+times = 1 TT 1.0Prob = 1.0 id 69 alp 16150.0
+times = 1 TT 1.0Prob = 1.0 id 68 alp 25530.0
+times = 4 TT 4.0Prob = 1.0 id 67 alp 30607.0
+Id: 6 minmax = 30607.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 107 alp 41380.0
+times = 1 TT 1.0Prob = 1.0 id 106 alp 49160.0
+times = 1 TT 1.0Prob = 1.0 id 105 alp 54250.0
+Id: 9 minmax = 54250.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 186 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 185 alp 410.0
+times = 1 TT 1.0Prob = 1.0 id 184 alp 7690.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 168 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 167 alp 640.0
+times = 1 TT 1.0Prob = 1.0 id 166 alp 7260.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 159 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 158 alp 400.0
+times = 1 TT 1.0Prob = 1.0 id 157 alp 630.0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 47 alp 32360.0
+times = 1 TT 1.0Prob = 1.0 id 46 alp 45710.0
+times = 4 TT 4.0Prob = 1.0 id 45 alp 50840.0
+Id: 11 minmax = 50840.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 148 alp 17460.0
+times = 1 TT 1.0Prob = 1.0 id 147 alp 24690.0
+times = 1 TT 1.0Prob = 1.0 id 146 alp 25190.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 177 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 176 alp 440.0
+times = 1 TT 1.0Prob = 1.0 id 175 alp 490.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 162 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 161 alp 8990.0
+times = 1 TT 1.0Prob = 1.0 id 160 alp 9080.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 51 alp 13880.0
+times = 1 TT 1.0Prob = 1.0 id 50 alp 15080.0
+times = 1 TT 1.0Prob = 1.0 id 49 alp 23210.0
+times = 4 TT 4.0Prob = 1.0 id 48 alp 30330.0
+Id: 12 minmax = 30330.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 74 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 73 alp 1110.0
+times = 1 TT 1.0Prob = 1.0 id 72 alp 1940.0
+times = 1 TT 1.0Prob = 1.0 id 71 alp 13200.0
+Id: 24 minmax = 13200.0
+times > 0
+times > 0
+times = 6 TT 6.0Prob = 1.0 id 109 alp 52944.0
+times = 6 TT 9.0Prob = 0.6666667 id 108 alp 43810.668
+times > 0
+times = 2 TT 3.0Prob = 0.6666667 id 202 alp 35266.668
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 204 alp 34400.0
+times = 1 TT 3.0Prob = 0.33333334 id 203 alp 47156.668
+times = 3 TT 9.0Prob = 0.33333334 id 201 alp 64073.56
+Id: 26 minmax = 64073.56
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 110 alp 12390.0
+Id: 27 minmax = 12390.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 117 alp 32380.0
+times = 1 TT 1.0Prob = 1.0 id 116 alp 36250.0
+times = 1 TT 1.0Prob = 1.0 id 115 alp 51740.0
+Id: 28 minmax = 51740.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 192 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 191 alp 580.0
+times = 1 TT 1.0Prob = 1.0 id 190 alp 630.0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 119 alp 52180.0
+times = 2 TT 2.0Prob = 1.0 id 118 alp 63740.0
+Id: 29 minmax = 63740.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 22 alp 32440.0
+times = 1 TT 2.0Prob = 0.5 id 21 alp 17100.0
+times = 1 TT 2.0Prob = 0.5 id 24 alp 43710.0
+times = 2 TT 6.0Prob = 0.33333334 id 20 alp 21031.668
+times > 0
+times > 0
+times > 0
+times = 4 TT 4.0Prob = 1.0 id 31 alp 0.0
+times = 4 TT 4.0Prob = 1.0 id 30 alp 1331.0
+times = 4 TT 4.0Prob = 1.0 id 29 alp 2591.0
+times = 4 TT 6.0Prob = 0.6666667 id 28 alp 31249.002
+Id: 32 minmax = 31249.002
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 114 alp 12880.0
+times = 1 TT 1.0Prob = 1.0 id 113 alp 18220.0
+times = 1 TT 1.0Prob = 1.0 id 112 alp 19170.0
+times = 1 TT 1.0Prob = 1.0 id 111 alp 31560.0
+Id: 33 minmax = 31560.0
+times > 0
+times > 0
+times = 2 TT 2.0Prob = 1.0 id 121 alp 51040.0
+times = 2 TT 2.0Prob = 1.0 id 120 alp 67650.0
+Id: 34 minmax = 67650.0
+times > 0
+times > 0
+times = 11 TT 11.0Prob = 1.0 id 123 alp 52304.0
+times = 11 TT 12.0Prob = 0.9166667 id 122 alp 58542.004
+times = 1 TT 12.0Prob = 0.083333336 id 209 alp 66557.0
+Id: 35 minmax = 66557.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 126 alp 32340.0
+times = 1 TT 1.0Prob = 1.0 id 125 alp 39950.0
+times = 1 TT 1.0Prob = 1.0 id 124 alp 48520.0
+Id: 40 minmax = 48520.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 174 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 173 alp 390.0
+times = 1 TT 1.0Prob = 1.0 id 172 alp 560.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 165 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 164 alp 710.0
+times = 1 TT 1.0Prob = 1.0 id 163 alp 1040.0
+times = 3 TT 3.0Prob = 1.0 id 32 alp 6227.0
+Id: 41 minmax = 6227.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 36 alp 12160.0
+times = 1 TT 1.0Prob = 1.0 id 35 alp 13330.0
+times = 1 TT 1.0Prob = 1.0 id 34 alp 19620.0
+times = 1 TT 1.0Prob = 1.0 id 33 alp 24710.0
+Id: 42 minmax = 24710.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 145 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 144 alp 500.0
+times = 1 TT 1.0Prob = 1.0 id 143 alp 640.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 40 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 39 alp 1010.0
+times = 1 TT 1.0Prob = 1.0 id 38 alp 7490.0
+times = 2 TT 2.0Prob = 1.0 id 37 alp 12650.0
+Id: 43 minmax = 12650.0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 139 alp 34020.0
+times = 1 TT 1.0Prob = 1.0 id 138 alp 46580.0
+times > 0
+times = 1 TT 6.0Prob = 0.16666667 id 134 alp 11300.0
+times = 2 TT 6.0Prob = 0.33333334 id 193 alp 33353.336
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 195 alp 32000.0
+times = 1 TT 6.0Prob = 0.16666667 id 194 alp 40413.336
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 197 alp 38320.0
+times = 1 TT 6.0Prob = 0.16666667 id 196 alp 48315.004
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 200 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 199 alp 720.0
+times = 1 TT 6.0Prob = 0.16666667 id 198 alp 49718.336
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 16 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 15 alp 720.0
+times = 1 TT 1.0Prob = 1.0 id 14 alp 7950.0
+times = 8 TT 8.0Prob = 1.0 id 13 alp 54788.336
+Id: 44 minmax = 54788.336
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+times > 0
+times > 0
+times > 0
+times > 0
+times = 1 TT 1.0Prob = 1.0 id 208 alp 0.0
+times = 1 TT 1.0Prob = 1.0 id 207 alp 340.0
+times = 1 TT 1.0Prob = 1.0 id 206 alp 6320.0
+times = 1 TT 1.0Prob = 1.0 id 205 alp 6390.0
+Id: 6060 minmax = 6390.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 34
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Id: 1 minmax = 0.0
+Id: 5 minmax = 0.0
+Id: 6 minmax = 6130.0
+Id: 9 minmax = 20690.0
+Id: 11 minmax = 16180.0
+Id: 12 minmax = 8730.0
+Id: 24 minmax = 0.0
+Id: 26 minmax = 25436.89
+Id: 27 minmax = 0.0
+Id: 28 minmax = 16190.0
+Id: 29 minmax = 26090.0
+Id: 32 minmax = 7138.3335
+Id: 33 minmax = 6440.0
+Id: 34 minmax = 25520.0
+Id: 35 minmax = 27980.168
+Id: 40 minmax = 16170.0
+Id: 41 minmax = 0.0
+Id: 42 minmax = 6080.0
+Id: 43 minmax = 0.0
+Id: 44 minmax = 22536.668
+Id: 6054 minmax = 0.0
+Id: 6057 minmax = 0.0
+Id: 6058 minmax = 0.0
+Id: 6060 minmax = 0.0
+Id: 6062 minmax = 0.0
+Id: 6064 minmax = 0.0
+Id: 6065 minmax = 0.0
+Id: 6066 minmax = 0.0
+Id: 6067 minmax = 0.0
+Id: 6068 minmax = 0.0
+Id: 6069 minmax = 0.0
+Id: 6070 minmax = 0.0
+Id: 6071 minmax = 0.0
+Id: 6072 minmax = 0.0
+Id: 6074 minmax = 0.0
+Id: 6083 minmax = 0.0
+Id: 6084 minmax = 0.0
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): BlueBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Ice
+Shooting Completed
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+{"shotId":0,"originStateId":0,"birdIndex":0,"times":0,"tapInterval":0,"target":{"x":560,"y":286},"releasePoint":{"x":-474,"y":315},"shot":{"x":165,"y":335,"dx":-474,"dy":315,"t_tap":1855},"aim":{"type":"Unknown","shape":"Rect","angle":0.0,"hollow":false,"x":0,"y":0,"width":0,"height":0},"distanceOfClosestPig":0.0,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+{"shotId":0,"originStateId":0,"birdIndex":0,"times":0,"tapInterval":0,"target":{"x":560,"y":286},"releasePoint":{"x":-474,"y":315},"shot":{"x":165,"y":335,"dx":-474,"dy":315,"t_tap":1855},"aim":{"type":"Unknown","shape":"Rect","angle":0.0,"hollow":false,"x":0,"y":0,"width":0,"height":0},"distanceOfClosestPig":0.0,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 0 -> Unknown
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 210
+MyAgent.writeShotsAandStatesInFile()
+ Level 13 Score: 48090 
+Total Score: 48090
+Changing Level 13/4/2015 - 5:29:29

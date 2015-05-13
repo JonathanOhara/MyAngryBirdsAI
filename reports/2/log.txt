@@ -152,3 +152,23 @@ MyAgent.writeShotsAandStatesInFile()
  Level 2 Score: 61680 
 Total Score: 93620
 Changing Level 12/4/2015 - 19:0:58
+Loaded Level: 2
+Graph.buildGraph(2)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): RedBird at Point x: 514.0 y: 313.0 dx: -550 dy: 183 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 344
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+Total Score: 93630
+Changing Level 13/4/2015 - 3:11:3

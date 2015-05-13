@@ -397,14 +397,15 @@ public class MyAgent implements Runnable {
 				
 				if( forceFirstShot && actualState == graph.rootState ){
 					actualShot = new MyShot();
-					Point point = new Point(529, 327);
+					Point point = new Point(560, 286);
 					releasePoint = calcReleasePoint(point).get(0);
 					
 					Point refPoint = tp.getReferencePoint(sling);
 					
 					dx = (int)releasePoint.getX() - refPoint.x;
 					dy = (int)releasePoint.getY() - refPoint.y;
-					shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
+					int tapTime = tp.getTapTime(sling, releasePoint, point, 95);
+					shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
 					
 					actualShot.setTarget(point);
 					actualShot.setShot(shot);
@@ -414,6 +415,7 @@ public class MyAgent implements Runnable {
 					
 				}else{
 					actualShot = chooseOneShot();
+					
 					ShowSeg.debugGreenPoint.add(actualShot.getTarget());
 					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				}
@@ -423,6 +425,7 @@ public class MyAgent implements Runnable {
 				dx = actualShot.getShot().getDx();
 				dy = actualShot.getShot().getDy();
 				actualShot.setBirdType(aRobot.getBirdTypeOnSling());
+				
 				
 				System.out.println("Shooting Bird("+birdsIndex+"): "+actualShot.getBirdType()+" at Point x: "+actualShot.getTarget().getX()+ " y: "+actualShot.getTarget().getY()+" dx: " +dx+ " dy: " +dy+ " Tap: " +actualShot.getTapInterval()+  " -> "+actualShot.getAim().getType() );
 				
@@ -704,8 +707,7 @@ public class MyAgent implements Runnable {
 			
 			if( totalTimes > 0){
 				for( State state: ms.getPossibleStates() ){
-					float probability = state.getTimes() / totalTimes;
-					alpha = alpha + (state.getScore() * probability) + ( probability * expectMiniMax(state) );
+					alpha = alpha + ( state.getTimes() / totalTimes *  expectMiniMax(state) );
 				}
 				ms.setMiniMaxValue(alpha);
 			} 
