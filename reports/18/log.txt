@@ -372,3 +372,68 @@ MyAgent.writeShotsAandStatesInFile()
  Level 18 Score: 45440 
 Total Score: 918710
 Changing Level 13/4/2015 - 3:27:16
+Loaded Level: 18
+Graph.buildGraph(18)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 136
+Shooting Bird(0): YellowBird at Point x: 576.0 y: 360.0 dx: -590 dy: 188 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 2
+Setting the Score with average of 8715 and 8600 = 8657
+Setting the Total Score with average of 8715 and 8600 = 8657
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 255
+Shooting Bird(1): YellowBird at Point x: 615.0 y: 354.0 dx: -576 dy: 228 Tap: 95 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 3
+Setting the Score with average of 8380 and 8120 = 8250
+Setting the Total Score with average of 17095 and 16720 = 16907
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 352
+Shooting Bird(2): YellowBird at Point x: 647.0 y: 290.0 dx: -511 dy: 349 Tap: 75 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 134
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 36910 
+ Level 5 Score: 66390 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62070 
+ Level 11 Score: 58880 
+ Level 12 Score: 60540 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 45920 
+ Level 16 Score: 57380 
+ Level 17 Score: 47750 
+ Level 18 Score: 53220 
+Total Score: 929440
+Changing Level 13/4/2015 - 13:51:3

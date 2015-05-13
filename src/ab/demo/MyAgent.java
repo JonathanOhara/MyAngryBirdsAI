@@ -395,16 +395,19 @@ public class MyAgent implements Runnable {
 					return GameState.UNKNOWN;				
 				}
 				
+				actualShot = chooseOneShot();
+				
+//				forceFirstShot= true;
 				if( forceFirstShot && actualState == graph.rootState ){
 					actualShot = new MyShot();
-					Point point = new Point(560, 286);
+					Point point = new Point(555,336);
 					releasePoint = calcReleasePoint(point).get(0);
 					
 					Point refPoint = tp.getReferencePoint(sling);
 					
 					dx = (int)releasePoint.getX() - refPoint.x;
 					dy = (int)releasePoint.getY() - refPoint.y;
-					int tapTime = tp.getTapTime(sling, releasePoint, point, 95);
+					int tapTime = tp.getTapTime(sling, releasePoint, point, 90);
 					shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
 					
 					actualShot.setTarget(point);
@@ -412,13 +415,11 @@ public class MyAgent implements Runnable {
 					actualShot.setReleasePoint(new Point(dx, dy));
 					actualShot.setAim(new ABObject());	
 					System.out.println(new Gson().toJson(actualShot));
-					
 				}else{
-					actualShot = chooseOneShot();
-					
-					ShowSeg.debugGreenPoint.add(actualShot.getTarget());
 					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				}
+				
+				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
 				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();

@@ -5287,3 +5287,35 @@ MyAgent.writeShotsAandStatesInFile()
  Level 13 Score: 48090 
 Total Score: 48090
 Changing Level 13/4/2015 - 5:29:29
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 0(from State id:210)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35
+Shooting Bird(0): RedBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 95 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 209
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 36910 
+ Level 5 Score: 66390 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62070 
+ Level 11 Score: 58880 
+ Level 12 Score: 60540 
+ Level 13 Score: 48090 
+Total Score: 659530
+Changing Level 13/4/2015 - 13:44:58

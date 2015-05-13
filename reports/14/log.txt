@@ -139,3 +139,50 @@ MyAgent.writeShotsAandStatesInFile()
  Level 14 Score: 65640 
 Total Score: 723540
 Changing Level 13/4/2015 - 3:21:24
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9845258375415957
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 69
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1686
+Shooting Bird(1): RedBird at Point x: 498.0 y: 375.0 dx: -153 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9957183903616267
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 90
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 36910 
+ Level 5 Score: 66390 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62070 
+ Level 11 Score: 58880 
+ Level 12 Score: 60540 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+Total Score: 725170
+Changing Level 13/4/2015 - 13:45:59
