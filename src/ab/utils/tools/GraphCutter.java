@@ -24,6 +24,7 @@ public class GraphCutter {
 	}
 	
 	public static void cut(int lv) throws IOException{
+		System.out.println("............:: LEVEL: "+lv+" ::............");
 		Graph graph = new Graph();
 //		List<Integer> idsToDelete = new ArrayList<Integer>();
 
@@ -40,7 +41,7 @@ public class GraphCutter {
 			}
 		}
 		
-		graph.cutNodesWithLessPoints(graph.rootState, 500);
+		graph.cutNodesWithLessPoints(graph.rootState, 2500);
 		graph.removeUnlinkedNodes();
 		graph.writeShotsAandStatesInFile(lv);
 		System.out.println("-----------------------------------------------------Not tested = "+times);

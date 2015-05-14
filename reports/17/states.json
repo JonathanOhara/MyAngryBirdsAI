@@ -106,8 +106,10 @@
 {"stateId":126,"originShotId":10960,"birdIndex":0,"times":1,"score":0,"totalScore":22820,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
 {"stateId":127,"originShotId":10380,"birdIndex":0,"times":1,"score":15110,"totalScore":37020,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":15110.0}
 {"stateId":128,"originShotId":10380,"birdIndex":0,"times":1,"score":18080,"totalScore":40290,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":18080.0}
-{"stateId":129,"originShotId":81,"birdIndex":0,"times":3,"score":16762,"totalScore":16762,"finalState":false,"active":false,"unvisitedChildren":223,"miniMaxValue":19295.0}
+{"stateId":129,"originShotId":81,"birdIndex":0,"times":4,"score":16706,"totalScore":16706,"finalState":false,"active":false,"unvisitedChildren":223,"miniMaxValue":23116.668}
 {"stateId":130,"originShotId":11445,"birdIndex":0,"times":1,"score":12270,"totalScore":28820,"finalState":false,"active":false,"unvisitedChildren":53,"miniMaxValue":10020.0}
 {"stateId":131,"originShotId":11512,"birdIndex":0,"times":1,"score":10020,"totalScore":38840,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":10020.0}
 {"stateId":132,"originShotId":11445,"birdIndex":0,"times":1,"score":28570,"totalScore":45090,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":28570.0}
-{"stateId":133,"originShotId":11445,"birdIndex":0,"times":1,"score":30760,"totalScore":47750,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
+{"stateId":133,"originShotId":11445,"birdIndex":0,"times":1,"score":30760,"totalScore":47750,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":30760.0}
+{"stateId":134,"originShotId":11445,"birdIndex":0,"times":1,"score":10660,"totalScore":27310,"finalState":false,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}
+{"stateId":135,"originShotId":11576,"birdIndex":0,"times":1,"score":11910,"totalScore":39220,"finalState":true,"active":false,"unvisitedChildren":0,"miniMaxValue":0.0}

@@ -153,9 +153,11 @@ public class MyAgent implements Runnable {
 				numberOfbirds = -1;
 				calculateShotStats(true);
 
+				System.out.println("\n-------------------- Times in this level: "+timesInThisStage+" of "+TIMES_IN_EACH_STAGE+ "--------------------\n");
+
 				previousScore = 0;
 				timesInThisStage++;
-				
+
 				aRobot.restartLevel();
 			} else if (state == GameState.LEVEL_SELECTION) {
 				System.out.println("Unexpected level selection page, go to the last current level : "+ currentLevel);
@@ -594,7 +596,7 @@ public class MyAgent implements Runnable {
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
 		State returnState = null;
 		
-		int tollerancePoints = 660;
+		int tollerancePoints = 750;
 		
 		if( !isLearningMode() ){
 			tollerancePoints = 2000;
@@ -764,88 +766,29 @@ public class MyAgent implements Runnable {
 
 		switch( LEARN_TYPE ){
 		case None:
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
-					
-					if( compare == 0){
-						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-					}
-					
-					return compare;
-				}
-			});
+			sortPossibleShotsMyMiniMax();
 			
 			theShot = actualState.getPossibleShots().get(0);
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case ConfirmBestResults:
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
-					
-					if( compare == 0){
-						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-					}
-					
-					return compare;
-				}
-			});
+			sortPossibleShotsMyMiniMax();
 			
 			theShot = actualState.getPossibleShots().get(0);
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
 			break;
 		case RounRobin:
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getTimes(), o2.getTimes());
-					if( compare == 0 ){
-						compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o1.getAim() ), 
-												 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o2.getAim() ) ) ;
-					}
-					return compare;
-				}
-			});
+			sortPossibleShotsByDistanceOfClosestPig();
 			
 			theShot = actualState.getPossibleShots().get(0);
 		break;
 		case AllShots:
-			
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Double.compare(o1.getUnvisitedChildren(), o2.getUnvisitedChildren()) * -1;
-					if( compare == 0 ){
-						compare = Double.compare(o1.getTimes(), o2.getTimes());
-					}
-					if( compare == 0 ){
-						compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
-					}
-					return compare;
-				}
-			});
+			sortPossibleShotsByNumberOfUnvisitedChildrenDesc();
 			
 			theShot = actualState.getPossibleShots().get(0);
 			break;
 		case Random:
-			
-			for( MyShot shot: actualState.getPossibleShots() ){
-				shot.setRandomInt( randomGenerator.nextInt( actualState.getPossibleShots().size() * 3 ));
-			}
-		
-			Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
-				@Override
-				public int compare(MyShot o1, MyShot o2) {
-					int compare = Integer.compare( 	o1.getRandomInt() * (o1.getTimes() + 1) + (int) o1.getDistanceOfClosestPig(), 
-													o2.getRandomInt() * (o2.getTimes() + 1) + (int) o2.getDistanceOfClosestPig() 
-												 );
-					
-					return compare;
-				}
-			});
+			sortPossibleShotsByPseudoRandom();
 			
 			theShot = actualState.getPossibleShots().get(0);
 			break;
@@ -860,6 +803,68 @@ public class MyAgent implements Runnable {
 		
 		calcReleasePoint( theShot.getTarget() );
 		return theShot;
+	}
+
+	private void sortPossibleShotsByPseudoRandom() {
+		for( MyShot shot: actualState.getPossibleShots() ){
+			shot.setRandomInt( randomGenerator.nextInt( actualState.getPossibleShots().size() * 3 ));
+		}
+
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				int compare = Integer.compare( 	o1.getRandomInt() * (o1.getTimes() + 1) + (int) o1.getDistanceOfClosestPig(), 
+												o2.getRandomInt() * (o2.getTimes() + 1) + (int) o2.getDistanceOfClosestPig() 
+											 );
+				
+				return compare;
+			}
+		});
+	}
+
+	private void sortPossibleShotsByNumberOfUnvisitedChildrenDesc() {
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				int compare = Double.compare(o1.getUnvisitedChildren(), o2.getUnvisitedChildren()) * -1;
+				if( compare == 0 ){
+					compare = Double.compare(o1.getTimes(), o2.getTimes());
+				}
+				if( compare == 0 ){
+					compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+				}
+				return compare;
+			}
+		});
+	}
+
+	private void sortPossibleShotsByDistanceOfClosestPig() {
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				int compare = Double.compare(o1.getTimes(), o2.getTimes());
+				if( compare == 0 ){
+					compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o1.getAim() ), 
+											 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier(o2.getAim() ) ) ;
+				}
+				return compare;
+			}
+		});
+	}
+
+	private void sortPossibleShotsMyMiniMax() {
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
+				
+				if( compare == 0){
+					compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+				}
+				
+				return compare;
+			}
+		});
 	}
 
 
