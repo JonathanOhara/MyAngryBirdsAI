@@ -9,7 +9,7 @@ import ab.objects.MyShot;
 import ab.utils.Graph;
 
 public class GraphCutter {
-	private static int LEVEL = 4;
+	private static int LEVEL = -1;
 	private static int MAX_LEVEL = 21;
 	
 	public static void main(String[] args) throws IOException {
