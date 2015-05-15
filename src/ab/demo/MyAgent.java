@@ -94,7 +94,6 @@ public class MyAgent implements Runnable {
 		LEARN_TYPE = learnType;
 		this.recalculatePossibleShots = recalculatePossibleShots;
 		
-		
 		createReportsDir();
 		
 		aRobot = new ActionRobot();
@@ -104,7 +103,6 @@ public class MyAgent implements Runnable {
 		randomGenerator = new Random();
 		// --- go to the Poached Eggs episode level selection page ---
 		ActionRobot.GoFromMainMenuToLevelSelection();
-
 	}
 
 	// run the client
@@ -389,7 +387,7 @@ public class MyAgent implements Runnable {
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
-					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() ;
+					TIMES_IN_EACH_STAGE = actualState.getPossibleShots().size() * 2;
 				}
 				
 				if( aRobot.getState() != GameState.PLAYING ){
@@ -599,7 +597,7 @@ public class MyAgent implements Runnable {
 		int tollerancePoints = 750;
 		
 		if( !isLearningMode() ){
-			tollerancePoints = 2000;
+			tollerancePoints = 2500;
 		}
 		
 		for( State otherState : possibleStates ){
