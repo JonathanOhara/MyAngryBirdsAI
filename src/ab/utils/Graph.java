@@ -1,20 +1,21 @@
 package ab.utils;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.google.gson.Gson;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipOutputStream;
 
 import ab.objects.GraphNode;
 import ab.objects.MyShot;
 import ab.objects.State;
+
+import com.google.gson.Gson;
 
 public class Graph {
 	public State rootState;
@@ -28,8 +29,8 @@ public class Graph {
 	private int lastStateId = 1;
 	private int lastShotId = 1;
 	
-	private File allPossibleShotsFile;
-	private File allPossibleStateFile;
+	private ZipFile allPossibleShotsFile;
+	private ZipFile allPossibleStateFile;
 	
 	public Graph() {
 		allShots = new HashMap<Integer, MyShot>(1024);
@@ -228,8 +229,8 @@ public class Graph {
 	public void buildGraph(int currentLevel) throws IOException {
 		System.out.println("Graph.buildGraph("+currentLevel+")");
 
-		allPossibleShotsFile = getAllPossibleShots( currentLevel );
-		allPossibleStateFile = getAllPossibleState( currentLevel );
+		allPossibleShotsFile = getAllPossibleShotsFile( currentLevel );
+		allPossibleStateFile = getAllPossibleStateFile( currentLevel );
 		
 		System.out.println("Loading shots and states from file.");
 		
@@ -239,34 +240,30 @@ public class Graph {
 		buildScenarioGraph();
 	}
 	
-	private File getAllPossibleShots(int currentLevel) throws IOException {
+	private String getReportsPath(int currentLevel) throws IOException {
 		File reportFile = new File("./reports/" + currentLevel );
 		if( !reportFile.exists() ){
 			reportFile.mkdir();
 		}
 		
 		String reportsPath = reportFile.getCanonicalPath();
-		
-		File file = new File(reportsPath + "/shots.json");
-		if (!file.exists()) {
-			file.createNewFile();
-		}
-		return file;
+		return reportsPath;
 	}
 	
-	private File getAllPossibleState(int currentLevel) throws IOException {
-		File reportFile = new File("./reports/" + currentLevel );
-		if( !reportFile.exists() ){
-			reportFile.mkdir();
-		}
+	private ZipFile getAllPossibleShotsFile(int currentLevel) throws IOException {
+		String reportsPath = getReportsPath(currentLevel);
 		
-		String reportsPath = reportFile.getCanonicalPath();
+	    ZipFile zipFile = new ZipFile(reportsPath + "/shots.zip");
+
+		return zipFile;
+	}
+	
+	private ZipFile getAllPossibleStateFile(int currentLevel) throws IOException {
+		String reportsPath = getReportsPath(currentLevel);
 		
-		File file = new File(reportsPath + "/states.json");
-		if (!file.exists()) {
-			file.createNewFile();
-		}
-		return file;
+		ZipFile zipFile = new ZipFile(reportsPath + "/states.zip");
+
+		return zipFile;
 	}
 	
 	private Map<Integer, State> readAllPossibleStatesFromFile() {
@@ -333,10 +330,11 @@ public class Graph {
 	}
 	
 	public void writeShotsInFile(int currentLevel) {
-		PrintWriter out;
 		StringBuilder json = new StringBuilder();
+		
 		try {
-			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleShots(currentLevel) , false)));
+			/*
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/shots.json"), false)));
 			
 			Gson gson = new Gson();
 			for( MyShot myShot: allShots.values() ){
@@ -347,6 +345,21 @@ public class Graph {
 			out.write( json.toString() );
 			out.flush();
 			out.close();
+			*/
+			//Zip File
+			
+			File zipFile = new File( getReportsPath(currentLevel) + "/shots.zip" );
+			ZipOutputStream zout = new ZipOutputStream(new FileOutputStream(zipFile));
+			ZipEntry e = new ZipEntry("shots.json");
+			zout.putNextEntry(e);
+			
+			byte[] data = json.toString().getBytes();
+			zout.write(data, 0, data.length);
+			zout.closeEntry();
+
+			zout.flush();
+			zout.close();
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -355,10 +368,11 @@ public class Graph {
 
 
 	public void writeStatesInFile(int currentLevel) {
-		PrintWriter out;
 		StringBuilder json = new StringBuilder();
+
 		try {
-			out = new PrintWriter(new BufferedWriter(new FileWriter( getAllPossibleState(currentLevel) , false)));
+			/*
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/states.json") , false)));
 			
 			Gson gson = new Gson();
 			for( State state: allStates.values() ){
@@ -368,6 +382,20 @@ public class Graph {
 			out.write( json.toString() );
 			out.flush();
 			out.close();
+			*/
+			//Zip File
+			
+			File zipFile = new File( getReportsPath(currentLevel) + "/states.zip" );
+			ZipOutputStream zout = new ZipOutputStream(new FileOutputStream(zipFile));
+			ZipEntry e = new ZipEntry("states.json");
+			zout.putNextEntry(e);
+			
+			byte[] data = json.toString().getBytes();
+			zout.write(data, 0, data.length);
+			zout.closeEntry();
+
+			zout.flush();
+			zout.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

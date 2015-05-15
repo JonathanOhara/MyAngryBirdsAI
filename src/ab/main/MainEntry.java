@@ -3,8 +3,8 @@ package ab.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import ab.objects.LearnType;
 import ab.demo.MyAgent;
+import ab.objects.LearnType;
 import ab.vision.ShowSeg;
 
 /*****************************************************************************

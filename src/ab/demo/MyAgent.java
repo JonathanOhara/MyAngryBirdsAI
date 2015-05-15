@@ -18,8 +18,6 @@ import java.util.Random;
 
 import javax.imageio.ImageIO;
 
-import com.google.gson.Gson;
-
 import ab.demo.other.ActionRobot;
 import ab.demo.other.Shot;
 import ab.objects.GraphNode;
@@ -37,6 +35,8 @@ import ab.vision.ABType;
 import ab.vision.GameStateExtractor.GameState;
 import ab.vision.ShowSeg;
 import ab.vision.Vision;
+
+import com.google.gson.Gson;
 
 //http://www.angrybirdsnest.com/leaderboard/angry-birds/episode/poached-eggs/
 public class MyAgent implements Runnable {

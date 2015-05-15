@@ -4,11 +4,11 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.gson.annotations.Expose;
-
 import ab.demo.other.Shot;
 import ab.vision.ABObject;
 import ab.vision.ABType;
+
+import com.google.gson.annotations.Expose;
 
 public class MyShot implements GraphNode {
 	
