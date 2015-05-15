@@ -1,0 +1,3 @@
+ In state:   MAIN_MENU Try reloading...
+Go to the Episode Menu
+Select the Poached Eggs Episode

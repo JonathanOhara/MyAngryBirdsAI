@@ -1,0 +1,25 @@
+Loaded Level: 7
+Graph.buildGraph(7)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 158
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43070 
+ Level 4 Score: 37000 
+ Level 5 Score: 67200 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+Total Score: 321880
+Changing Level 15/4/2015 - 4:36:32
