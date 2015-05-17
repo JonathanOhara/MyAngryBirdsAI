@@ -71,7 +71,7 @@ ExpectMiniMax Algorithm choose shot with id: 16
 Shooting Bird(0): RedBird at Point x: 538.0 y: 308.0 dx: -518 dy: 260 Tap: 0 -> Wood
 Shooting Completed
 
-scale factor changed to: 1.0181374240324752
+scale factor changed to: 1.018965870402374
 Solve return state: PLAYING
 MyAgent.calculateShotStats()
 State previously reached. Reloading state: 95
@@ -86,15 +86,343 @@ Shooting Completed
 Solve return state: WON
 MyAgent.calculateShotStats()
 State previously reached. Reloading state: 214
-Setting the Score with average of 28902 and 28900 = 28901
-Setting the Total Score with average of 35112 and 35110 = 35111
+Setting the Score with average of 28898 and 28890 = 28894
+Setting the Total Score with average of 35108 and 35100 = 35104
 
 MyAgent.writeShotsAandStatesInFile()
  Level 1 Score: 31940 
  Level 2 Score: 61680 
- Level 3 Score: 43070 
+ Level 3 Score: 43130 
+ Level 4 Score: 36970 
+ Level 5 Score: 66770 
+ Level 6 Score: 35100 
+Total Score: 275590
+Changing Level 16/4/2015 - 19:2:33
+Loaded Level: 6
+Graph.buildGraph(6)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 234(from Shot id:3829)
+[ERROR] There is no State with = 234(from Shot id:3830)
+[ERROR] There is no State with = 234(from Shot id:3831)
+[ERROR] There is no State with = 234(from Shot id:3832)
+[ERROR] There is no State with = 234(from Shot id:3833)
+[ERROR] There is no State with = 234(from Shot id:3834)
+[ERROR] There is no State with = 234(from Shot id:3835)
+[ERROR] There is no State with = 234(from Shot id:3836)
+[ERROR] There is no State with = 234(from Shot id:3837)
+[ERROR] There is no State with = 234(from Shot id:3838)
+[ERROR] There is no State with = 234(from Shot id:3839)
+[ERROR] There is no State with = 234(from Shot id:3840)
+[ERROR] There is no State with = 234(from Shot id:3841)
+[ERROR] There is no State with = 234(from Shot id:3842)
+[ERROR] There is no State with = 234(from Shot id:3843)
+[ERROR] There is no State with = 234(from Shot id:3844)
+[ERROR] There is no State with = 234(from Shot id:3845)
+[ERROR] There is no State with = 234(from Shot id:3846)
+[ERROR] There is no State with = 234(from Shot id:3847)
+[ERROR] There is no State with = 234(from Shot id:3848)
+[ERROR] There is no State with = 234(from Shot id:3849)
+[ERROR] There is no State with = 234(from Shot id:3850)
+[ERROR] There is no State with = 234(from Shot id:3852)
+[ERROR] There is no State with = 235(from Shot id:3853)
+[ERROR] There is no State with = 235(from Shot id:3854)
+[ERROR] There is no State with = 235(from Shot id:3855)
+[ERROR] There is no State with = 235(from Shot id:3856)
+[ERROR] There is no State with = 235(from Shot id:3857)
+[ERROR] There is no State with = 235(from Shot id:3858)
+[ERROR] There is no State with = 235(from Shot id:3859)
+[ERROR] There is no State with = 235(from Shot id:3860)
+[ERROR] There is no State with = 235(from Shot id:3861)
+[ERROR] There is no State with = 235(from Shot id:3862)
+[ERROR] There is no State with = 235(from Shot id:3863)
+[ERROR] There is no State with = 235(from Shot id:3864)
+[ERROR] There is no State with = 235(from Shot id:3865)
+[ERROR] There is no State with = 235(from Shot id:3866)
+[ERROR] There is no State with = 235(from Shot id:3867)
+[ERROR] There is no State with = 235(from Shot id:3868)
+[ERROR] There is no State with = 235(from Shot id:3869)
+[ERROR] There is no State with = 235(from Shot id:3870)
+[ERROR] There is no State with = 235(from Shot id:3871)
+[ERROR] There is no State with = 235(from Shot id:3872)
+[ERROR] There is no State with = 235(from Shot id:3873)
+[ERROR] There is no State with = 236(from Shot id:3875)
+[ERROR] There is no State with = 236(from Shot id:3876)
+[ERROR] There is no State with = 236(from Shot id:3877)
+[ERROR] There is no State with = 236(from Shot id:3878)
+[ERROR] There is no State with = 236(from Shot id:3879)
+[ERROR] There is no State with = 236(from Shot id:3880)
+[ERROR] There is no State with = 236(from Shot id:3881)
+[ERROR] There is no State with = 236(from Shot id:3882)
+[ERROR] There is no State with = 236(from Shot id:3883)
+[ERROR] There is no State with = 236(from Shot id:3884)
+[ERROR] There is no State with = 236(from Shot id:3885)
+[ERROR] There is no State with = 236(from Shot id:3886)
+[ERROR] There is no State with = 236(from Shot id:3887)
+[ERROR] There is no State with = 236(from Shot id:3889)
+[ERROR] There is no State with = 236(from Shot id:3890)
+[ERROR] There is no State with = 236(from Shot id:3891)
+[ERROR] There is no State with = 236(from Shot id:3892)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 16
+Shooting Bird(0): RedBird at Point x: 538.0 y: 308.0 dx: -518 dy: 260 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0184394229411096
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 95
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1617
+Shooting Bird(1): RedBird at Point x: 549.0 y: 324.0 dx: -532 dy: 229 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+Setting the Score with average of 28898 and 28920 = 28909
+Setting the Total Score with average of 35108 and 35130 = 35119
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 42950 
  Level 4 Score: 37000 
- Level 5 Score: 67200 
- Level 6 Score: 35110 
-Total Score: 276000
-Changing Level 15/4/2015 - 4:35:56
+ Level 5 Score: 65390 
+ Level 6 Score: 35130 
+Total Score: 274100
+Changing Level 16/4/2015 - 20:20:40
+Loaded Level: 6
+Graph.buildGraph(6)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 234(from Shot id:3829)
+[ERROR] There is no State with = 234(from Shot id:3830)
+[ERROR] There is no State with = 234(from Shot id:3831)
+[ERROR] There is no State with = 234(from Shot id:3832)
+[ERROR] There is no State with = 234(from Shot id:3833)
+[ERROR] There is no State with = 234(from Shot id:3834)
+[ERROR] There is no State with = 234(from Shot id:3835)
+[ERROR] There is no State with = 234(from Shot id:3836)
+[ERROR] There is no State with = 234(from Shot id:3837)
+[ERROR] There is no State with = 234(from Shot id:3838)
+[ERROR] There is no State with = 234(from Shot id:3839)
+[ERROR] There is no State with = 234(from Shot id:3840)
+[ERROR] There is no State with = 234(from Shot id:3841)
+[ERROR] There is no State with = 234(from Shot id:3842)
+[ERROR] There is no State with = 234(from Shot id:3843)
+[ERROR] There is no State with = 234(from Shot id:3844)
+[ERROR] There is no State with = 234(from Shot id:3845)
+[ERROR] There is no State with = 234(from Shot id:3846)
+[ERROR] There is no State with = 234(from Shot id:3847)
+[ERROR] There is no State with = 234(from Shot id:3848)
+[ERROR] There is no State with = 234(from Shot id:3849)
+[ERROR] There is no State with = 234(from Shot id:3850)
+[ERROR] There is no State with = 234(from Shot id:3852)
+[ERROR] There is no State with = 235(from Shot id:3853)
+[ERROR] There is no State with = 235(from Shot id:3854)
+[ERROR] There is no State with = 235(from Shot id:3855)
+[ERROR] There is no State with = 235(from Shot id:3856)
+[ERROR] There is no State with = 235(from Shot id:3857)
+[ERROR] There is no State with = 235(from Shot id:3858)
+[ERROR] There is no State with = 235(from Shot id:3859)
+[ERROR] There is no State with = 235(from Shot id:3860)
+[ERROR] There is no State with = 235(from Shot id:3861)
+[ERROR] There is no State with = 235(from Shot id:3862)
+[ERROR] There is no State with = 235(from Shot id:3863)
+[ERROR] There is no State with = 235(from Shot id:3864)
+[ERROR] There is no State with = 235(from Shot id:3865)
+[ERROR] There is no State with = 235(from Shot id:3866)
+[ERROR] There is no State with = 235(from Shot id:3867)
+[ERROR] There is no State with = 235(from Shot id:3868)
+[ERROR] There is no State with = 235(from Shot id:3869)
+[ERROR] There is no State with = 235(from Shot id:3870)
+[ERROR] There is no State with = 235(from Shot id:3871)
+[ERROR] There is no State with = 235(from Shot id:3872)
+[ERROR] There is no State with = 235(from Shot id:3873)
+[ERROR] There is no State with = 236(from Shot id:3875)
+[ERROR] There is no State with = 236(from Shot id:3876)
+[ERROR] There is no State with = 236(from Shot id:3877)
+[ERROR] There is no State with = 236(from Shot id:3878)
+[ERROR] There is no State with = 236(from Shot id:3879)
+[ERROR] There is no State with = 236(from Shot id:3880)
+[ERROR] There is no State with = 236(from Shot id:3881)
+[ERROR] There is no State with = 236(from Shot id:3882)
+[ERROR] There is no State with = 236(from Shot id:3883)
+[ERROR] There is no State with = 236(from Shot id:3884)
+[ERROR] There is no State with = 236(from Shot id:3885)
+[ERROR] There is no State with = 236(from Shot id:3886)
+[ERROR] There is no State with = 236(from Shot id:3887)
+[ERROR] There is no State with = 236(from Shot id:3889)
+[ERROR] There is no State with = 236(from Shot id:3890)
+[ERROR] There is no State with = 236(from Shot id:3891)
+[ERROR] There is no State with = 236(from Shot id:3892)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 16
+Shooting Bird(0): RedBird at Point x: 538.0 y: 308.0 dx: -518 dy: 260 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0250281328490378
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 95
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1617
+Shooting Bird(1): RedBird at Point x: 549.0 y: 324.0 dx: -532 dy: 229 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+Setting the Score with average of 28909 and 28890 = 28899
+Setting the Total Score with average of 35119 and 35100 = 35109
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 37000 
+ Level 5 Score: 67000 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 58880 
+ Level 12 Score: 60540 
+ Level 13 Score: 52110 
+ Level 14 Score: 65640 
+ Level 15 Score: 47040 
+ Level 16 Score: 56550 
+ Level 17 Score: 38550 
+ Level 18 Score: 45130 
+ Level 19 Score: 35450 
+ Level 20 Score: 37820 
+ Level 21 Score: 61910 
+Total Score: 1052620
+Changing Level 16/4/2015 - 21:54:41
+Loaded Level: 6
+Graph.buildGraph(6)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 234(from Shot id:3829)
+[ERROR] There is no State with = 234(from Shot id:3830)
+[ERROR] There is no State with = 234(from Shot id:3831)
+[ERROR] There is no State with = 234(from Shot id:3832)
+[ERROR] There is no State with = 234(from Shot id:3833)
+[ERROR] There is no State with = 234(from Shot id:3834)
+[ERROR] There is no State with = 234(from Shot id:3835)
+[ERROR] There is no State with = 234(from Shot id:3836)
+[ERROR] There is no State with = 234(from Shot id:3837)
+[ERROR] There is no State with = 234(from Shot id:3838)
+[ERROR] There is no State with = 234(from Shot id:3839)
+[ERROR] There is no State with = 234(from Shot id:3840)
+[ERROR] There is no State with = 234(from Shot id:3841)
+[ERROR] There is no State with = 234(from Shot id:3842)
+[ERROR] There is no State with = 234(from Shot id:3843)
+[ERROR] There is no State with = 234(from Shot id:3844)
+[ERROR] There is no State with = 234(from Shot id:3845)
+[ERROR] There is no State with = 234(from Shot id:3846)
+[ERROR] There is no State with = 234(from Shot id:3847)
+[ERROR] There is no State with = 234(from Shot id:3848)
+[ERROR] There is no State with = 234(from Shot id:3849)
+[ERROR] There is no State with = 234(from Shot id:3850)
+[ERROR] There is no State with = 234(from Shot id:3852)
+[ERROR] There is no State with = 235(from Shot id:3853)
+[ERROR] There is no State with = 235(from Shot id:3854)
+[ERROR] There is no State with = 235(from Shot id:3855)
+[ERROR] There is no State with = 235(from Shot id:3856)
+[ERROR] There is no State with = 235(from Shot id:3857)
+[ERROR] There is no State with = 235(from Shot id:3858)
+[ERROR] There is no State with = 235(from Shot id:3859)
+[ERROR] There is no State with = 235(from Shot id:3860)
+[ERROR] There is no State with = 235(from Shot id:3861)
+[ERROR] There is no State with = 235(from Shot id:3862)
+[ERROR] There is no State with = 235(from Shot id:3863)
+[ERROR] There is no State with = 235(from Shot id:3864)
+[ERROR] There is no State with = 235(from Shot id:3865)
+[ERROR] There is no State with = 235(from Shot id:3866)
+[ERROR] There is no State with = 235(from Shot id:3867)
+[ERROR] There is no State with = 235(from Shot id:3868)
+[ERROR] There is no State with = 235(from Shot id:3869)
+[ERROR] There is no State with = 235(from Shot id:3870)
+[ERROR] There is no State with = 235(from Shot id:3871)
+[ERROR] There is no State with = 235(from Shot id:3872)
+[ERROR] There is no State with = 235(from Shot id:3873)
+[ERROR] There is no State with = 236(from Shot id:3875)
+[ERROR] There is no State with = 236(from Shot id:3876)
+[ERROR] There is no State with = 236(from Shot id:3877)
+[ERROR] There is no State with = 236(from Shot id:3878)
+[ERROR] There is no State with = 236(from Shot id:3879)
+[ERROR] There is no State with = 236(from Shot id:3880)
+[ERROR] There is no State with = 236(from Shot id:3881)
+[ERROR] There is no State with = 236(from Shot id:3882)
+[ERROR] There is no State with = 236(from Shot id:3883)
+[ERROR] There is no State with = 236(from Shot id:3884)
+[ERROR] There is no State with = 236(from Shot id:3885)
+[ERROR] There is no State with = 236(from Shot id:3886)
+[ERROR] There is no State with = 236(from Shot id:3887)
+[ERROR] There is no State with = 236(from Shot id:3889)
+[ERROR] There is no State with = 236(from Shot id:3890)
+[ERROR] There is no State with = 236(from Shot id:3891)
+[ERROR] There is no State with = 236(from Shot id:3892)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 16
+Shooting Bird(0): RedBird at Point x: 538.0 y: 308.0 dx: -518 dy: 260 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.012698532711499
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 95
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1617
+Shooting Bird(1): RedBird at Point x: 549.0 y: 324.0 dx: -532 dy: 229 Tap: 0 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 37000 
+ Level 5 Score: 67510 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 58910 
+ Level 12 Score: 60540 
+ Level 13 Score: 52110 
+ Level 14 Score: 65640 
+ Level 15 Score: 47040 
+ Level 16 Score: 58220 
+ Level 17 Score: 38550 
+ Level 18 Score: 45130 
+ Level 19 Score: 35450 
+ Level 20 Score: 37820 
+ Level 21 Score: 62270 
+Total Score: 1055190
+Changing Level 16/4/2015 - 22:56:19

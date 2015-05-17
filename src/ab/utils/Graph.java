@@ -1,8 +1,11 @@
 package ab.utils;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -31,6 +34,8 @@ public class Graph {
 	
 	private ZipFile allPossibleShotsFile;
 	private ZipFile allPossibleStateFile;
+	
+	private boolean WRITE_UNCOMPRESSED_FILES = false;
 	
 	public Graph() {
 		allShots = new HashMap<Integer, MyShot>(1024);
@@ -333,19 +338,19 @@ public class Graph {
 		StringBuilder json = new StringBuilder();
 		
 		try {
-			/*
-			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/shots.json"), false)));
-			
 			Gson gson = new Gson();
 			for( MyShot myShot: allShots.values() ){
 				myShot.setDistanceOfClosestPig( (int) myShot.getDistanceOfClosestPig() );
 				json.append( gson.toJson( myShot ) ).append( "\n" );
 			}
 			
-			out.write( json.toString() );
-			out.flush();
-			out.close();
-			*/
+			if( WRITE_UNCOMPRESSED_FILES ){
+				PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/shots.json"), false)));
+				
+				out.write( json.toString() );
+				out.flush();
+				out.close();
+			}
 			//Zip File
 			
 			File zipFile = new File( getReportsPath(currentLevel) + "/shots.zip" );
@@ -371,18 +376,18 @@ public class Graph {
 		StringBuilder json = new StringBuilder();
 
 		try {
-			/*
-			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/states.json") , false)));
-			
 			Gson gson = new Gson();
 			for( State state: allStates.values() ){
 				json.append( gson.toJson( state ) ).append( "\n" );
 			}
 			
-			out.write( json.toString() );
-			out.flush();
-			out.close();
-			*/
+			if( WRITE_UNCOMPRESSED_FILES ){
+				PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter( new File(getReportsPath(currentLevel) + "/states.json") , false)));
+				
+				out.write( json.toString() );
+				out.flush();
+				out.close();
+			}
 			//Zip File
 			
 			File zipFile = new File( getReportsPath(currentLevel) + "/states.zip" );

@@ -10,10 +10,478 @@ ExpectMiniMax Algorithm choose shot with id: 166
 Shooting Bird(0): BlueBird at Point x: 512.0 y: 284.0 dx: -446 dy: 267 Tap: 1 -> Ice
 Shooting Completed
 
+scale factor changed to: 1.028626478024151
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 419
+Setting the Score with average of 22070 and 21930 = 22000
+Setting the Total Score with average of 22070 and 21930 = 22000
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 55801
+Shooting Bird(1): BlueBird at Point x: 536.0 y: 292.0 dx: -446 dy: 265 Tap: 1 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9559743644177634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 467
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 204 DiscardedShots: 15  calculated in: 154948 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59323
+Shooting Bird(2): BlueBird at Point x: 527.0 y: 338.0 dx: -203 dy: 478 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9559743644177634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 468
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 189 DiscardedShots: 14  calculated in: 125578 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59512
+Shooting Bird(3): BlueBird at Point x: 527.0 y: 338.0 dx: -203 dy: 478 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9559743644177634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 469
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 183 DiscardedShots: 13  calculated in: 118416 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59695
+Shooting Bird(4): BlueBird at Point x: 527.0 y: 338.0 dx: -203 dy: 478 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 470
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 87 DiscardedShots: 56  calculated in: 95865 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 10
+Updating last Shot Status
+ Game score is unavailable 
+MyAgent.reCalculateShotStats()
+MyAgent.writeShotsAandStatesInFile()
+ restart the level 
+Zooming out
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+Creating Root...
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 84 DiscardedShots: 149  calculated in: 172634 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 49
+Shooting Bird(0): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 108 DiscardedShots: 122  calculated in: 167342 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 190
+Shooting Bird(1): BlueBird at Point x: 527.0 y: 338.0 dx: -488 dy: 178 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 99 DiscardedShots: 134  calculated in: 173291 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 253
+Shooting Bird(2): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 126 DiscardedShots: 125  calculated in: 179443 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 373
+Shooting Bird(3): BlueBird at Point x: 519.0 y: 335.0 dx: -486 dy: 182 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 5
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 90 DiscardedShots: 110  calculated in: 150894 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 481
+Shooting Bird(4): BlueBird at Point x: 512.0 y: 342.0 dx: -493 dy: 163 Tap: 5 -> Stone
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 6
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 2 of 140--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+Creating Root...
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 84 DiscardedShots: 149  calculated in: 174757 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 49
+Shooting Bird(0): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 108 DiscardedShots: 122  calculated in: 169932 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 190
+Shooting Bird(1): BlueBird at Point x: 527.0 y: 338.0 dx: -488 dy: 178 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 99 DiscardedShots: 134  calculated in: 173133 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 253
+Shooting Bird(2): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 99 DiscardedShots: 135  calculated in: 173547 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 355
+Shooting Bird(3): BlueBird at Point x: 512.0 y: 342.0 dx: -493 dy: 163 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 5
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 84 DiscardedShots: 135  calculated in: 156741 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 454
+Shooting Bird(4): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 6
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 3 of 140--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+Creating Root...
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 84 DiscardedShots: 149  calculated in: 157978 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 49
+Shooting Bird(0): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 105 DiscardedShots: 132  calculated in: 152741 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 148
+Shooting Bird(1): BlueBird at Point x: 521.0 y: 345.0 dx: -493 dy: 163 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 114 DiscardedShots: 113  calculated in: 154456 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 301
+Shooting Bird(2): BlueBird at Point x: 527.0 y: 338.0 dx: -488 dy: 178 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 102 DiscardedShots: 123  calculated in: 162667 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 364
+Shooting Bird(3): BlueBird at Point x: 511.0 y: 345.0 dx: -495 dy: 157 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 5
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 96 DiscardedShots: 125  calculated in: 160446 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 466
+Shooting Bird(4): BlueBird at Point x: 513.0 y: 344.0 dx: -494 dy: 160 Tap: 5 -> Stone
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 6
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 4 of 140--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+Creating Root...
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 84 DiscardedShots: 149  calculated in: 169715 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 49
+Shooting Bird(0): BlueBird at Point x: 520.0 y: 345.0 dx: -493 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 2
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 105 DiscardedShots: 132  calculated in: 163769 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 148
+Shooting Bird(1): BlueBird at Point x: 521.0 y: 345.0 dx: -493 dy: 163 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 3
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 90 DiscardedShots: 135  calculated in: 143476 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 244
+Shooting Bird(2): BlueBird at Point x: 513.0 y: 342.0 dx: -493 dy: 163 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0124442071686601
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 4
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Loaded Level: 10
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 166
+Shooting Bird(0): BlueBird at Point x: 512.0 y: 284.0 dx: -446 dy: 267 Tap: 1 -> Ice
+Shooting Completed
+
 scale factor changed to: 1.005
 Solve return state: PLAYING
 MyAgent.calculateShotStats()
 State previously reached. Reloading state: 419
+Setting the Score with average of 22070 and 21930 = 22000
+Setting the Total Score with average of 22070 and 21930 = 22000
 
 MyAgent.writeShotsAandStatesInFile()
 MyAgent.chooseOneShot(ConfirmBestResults)
@@ -25,19 +493,222 @@ Shooting Completed
 Solve return state: WON
 MyAgent.calculateShotStats()
 State previously reached. Reloading state: 420
-Setting the Score with average of 40190 and 40350 = 40270
-Setting the Total Score with average of 62130 and 62280 = 62205
+Setting the Score with average of 40210 and 40410 = 40310
+Setting the Total Score with average of 62281 and 62340 = 62310
 
 MyAgent.writeShotsAandStatesInFile()
- Level 1 Score: 31940 
+ Level 1 Score: 31950 
  Level 2 Score: 61680 
- Level 3 Score: 43070 
+ Level 3 Score: 42950 
  Level 4 Score: 37000 
- Level 5 Score: 67200 
- Level 6 Score: 35110 
+ Level 5 Score: 65390 
+ Level 6 Score: 35130 
  Level 7 Score: 45880 
  Level 8 Score: 59120 
  Level 9 Score: 49790 
- Level 10 Score: 62280 
-Total Score: 493070
-Changing Level 15/4/2015 - 4:38:51
+ Level 10 Score: 62340 
+Total Score: 491230
+Changing Level 16/4/2015 - 20:23:36
+Loaded Level: 10
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 166
+Shooting Bird(0): BlueBird at Point x: 512.0 y: 284.0 dx: -446 dy: 267 Tap: 1 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 419
+Setting the Score with average of 22000 and 21920 = 21960
+Setting the Total Score with average of 22000 and 21920 = 21960
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 55801
+Shooting Bird(1): BlueBird at Point x: 536.0 y: 292.0 dx: -446 dy: 265 Tap: 1 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 467
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 123 DiscardedShots: 62  calculated in: 87657 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59236
+Shooting Bird(2): BlueBird at Point x: 542.0 y: 330.0 dx: -190 dy: 483 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0280053564274407
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 468
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 72  calculated in: 72984 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59305
+Shooting Bird(3): BlueBird at Point x: 525.0 y: 337.0 dx: -490 dy: 172 Tap: 5 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0280053564274407
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 469
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 69  calculated in: 67658 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59332
+Shooting Bird(4): BlueBird at Point x: 527.0 y: 327.0 dx: -174 dy: 490 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0157094494004095
+Solve return state: PLAYING
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 470
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 4 of 140--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 166
+Shooting Bird(0): BlueBird at Point x: 512.0 y: 284.0 dx: -446 dy: 267 Tap: 1 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0157094494004095
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 471
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 72 DiscardedShots: 82  calculated in: 81718 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59407
+Shooting Bird(1): BlueBird at Point x: 512.0 y: 334.0 dx: -489 dy: 174 Tap: 5 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0157094494004095
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 472
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 63 DiscardedShots: 87  calculated in: 82177 miliseconds
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 59485
+Shooting Bird(2): BlueBird at Point x: 521.0 y: 345.0 dx: -494 dy: 162 Tap: 5 -> Stone
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 473
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 37000 
+ Level 5 Score: 67000 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 58880 
+ Level 12 Score: 60540 
+ Level 13 Score: 52110 
+ Level 14 Score: 65640 
+ Level 15 Score: 47040 
+ Level 16 Score: 56550 
+ Level 17 Score: 38550 
+ Level 18 Score: 45130 
+ Level 19 Score: 35450 
+ Level 20 Score: 37820 
+ Level 21 Score: 61910 
+Total Score: 1052620
+Changing Level 16/4/2015 - 22:6:41
+Loaded Level: 10
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 166
+Shooting Bird(0): BlueBird at Point x: 512.0 y: 284.0 dx: -446 dy: 267 Tap: 1 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 419
+Setting the Score with average of 21960 and 21930 = 21945
+Setting the Total Score with average of 21960 and 21930 = 21945
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 55801
+Shooting Bird(1): BlueBird at Point x: 536.0 y: 292.0 dx: -446 dy: 265 Tap: 1 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 420
+Setting the Score with average of 40310 and 40410 = 40360
+Setting the Total Score with average of 62310 and 62340 = 62325
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43110 
+ Level 4 Score: 37000 
+ Level 5 Score: 67510 
+ Level 6 Score: 35130 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62340 
+ Level 11 Score: 58910 
+ Level 12 Score: 60540 
+ Level 13 Score: 52110 
+ Level 14 Score: 65640 
+ Level 15 Score: 47040 
+ Level 16 Score: 58220 
+ Level 17 Score: 38550 
+ Level 18 Score: 45130 
+ Level 19 Score: 35450 
+ Level 20 Score: 37820 
+ Level 21 Score: 62270 
+Total Score: 1055190
+Changing Level 16/4/2015 - 22:59:14
