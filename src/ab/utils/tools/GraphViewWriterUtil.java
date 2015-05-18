@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
+import java.util.zip.ZipFile;
 
 import ab.utils.FileUtil;
 
@@ -15,8 +16,8 @@ public class GraphViewWriterUtil {
 	private static String reportsPath = "./reports/";
 	
 	private static String graphViewFileName = "graphView.html";
-	private static String shotsJsonFileName = "shots.json";
-	private static String statesJsonFileName = "states.json";
+	private static String shotsJsonFileName = "shots.zip";
+	private static String statesJsonFileName = "states.zip";
 	
 	public static void main(String[] args) throws IOException {
 		StringBuilder htmlShots = new StringBuilder();
@@ -26,13 +27,13 @@ public class GraphViewWriterUtil {
 		String shotsPath, statesPath, graphViewPath;
 		List<String> graphViewString, shotsString, statesString;
 		PrintWriter out;
-		
+			
 		if( LEVEL > 0 ){
 			shotsPath = reportsPath + LEVEL + "/" + shotsJsonFileName;
 			statesPath = reportsPath + LEVEL + "/" + statesJsonFileName;
 			
-			File shotsJsonFile  = new File( shotsPath );
-			File statesJsonFile = new File( statesPath );
+			ZipFile shotsJsonFile  = new ZipFile( shotsPath );
+			ZipFile statesJsonFile = new ZipFile( statesPath );
 			 
 			System.out.println("Reading States... ");
 			statesString = FileUtil.read(statesJsonFile);
@@ -69,10 +70,10 @@ public class GraphViewWriterUtil {
 				htmlFinal.append( st ).append( "\n" );
 			}
 			
-			if( st.contains("id='statesTextArea'>") ){
+			if( st.contains("id='statesTextArea'") ){
 				htmlFinal.append( "\n" ).append( htmlStates.toString() );
 				waitForFinalTag= true;
-			}else if( st.contains("id='shotsTextArea'>") ){
+			}else if( st.contains("id='shotsTextArea'") ){
 				htmlFinal.append( "\n" ).append( htmlShots.toString() );
 				waitForFinalTag= true;
 			}else if( st.contains("</textarea>") ){

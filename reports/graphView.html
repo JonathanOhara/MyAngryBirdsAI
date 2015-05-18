@@ -84,11 +84,11 @@ textarea{
 		<label for="statesTextArea">SHOTS - Copy here the content of shots.json</label>
 	</p>
 	<p>
-<textarea id='statesTextArea'>
+<textarea id='statesTextArea' spellcheck="false">
 
 </textarea>	
 
-<textarea id='shotsTextArea'>
+<textarea id='shotsTextArea'  spellcheck="false">
 
 </textarea>	
 
@@ -290,7 +290,7 @@ function putFocusSubTree(element){
 			putFocusSubTree( children[i] );
 		}
 	}
-	element.svgElement.attr("style", "stroke-width: 3; stroke: green;");
+	element.svgElement.css("stroke-width: 3; stroke: green;");
 	elementsWithFocus.push(element.svgElement);
 	if( element.svgLine != undefined ){
 		element.svgLine.attr("style", "stroke-width: 3; stroke: green;");
@@ -298,72 +298,83 @@ function putFocusSubTree(element){
 	}
 }
 function generateGrapth(){
-	var bodyWidth = $("body").outerWidth();
-	var space = 22;
-	var svgWidth = bodyWidth - space;
+	var bodyWidth, space, svgWidth, height, shot, state, shotsArray, statesArray, shotsArrayLength, statesArrayLength;
+	bodyWidth = $("body").outerWidth();
+	space = 22;
+	svgWidth = bodyWidth - space;
 	$("#graphDiv").show();
 	$("#prop").show();
-	var height = $(window).height() - $("#graphDiv").position().top - space;
+	height = $(window).height() - $("#graphDiv").position().top - space;
 	$("#graphDiv").css("width", "100%");
 	$("#graph").attr("width", ( svgWidth - 20 ) );
 	$("#graph").css("width", ( svgWidth - 20 ) + "px");
 	$("#graphDiv").css("height", (height - 200) + "px");
 	$("#graph").attr("height", ( height - 22 ) );
 	$("#graph").css("height", ( height - 22 ) + "px" );
-	var shotsArray = $("#shotsTextArea").val().split(/\r\n|\n|\r/);
-	var statesArray = $("#statesTextArea").val().split(/\r\n|\n|\r/);
-	for( var i = 0; i < shotsArray.length; i++ ){
-		if( shotsArray[i].trim() != "" ){
-			var obj = JSON.parse( shotsArray[i] );
+	shotsArray = $("#shotsTextArea").val().split(/\r\n|\n|\r/);
+	statesArray = $("#statesTextArea").val().split(/\r\n|\n|\r/);
+	shotsArrayLength = shotsArray.length;
+	statesArrayLength = statesArray.length;
+	for( var i = 0; i < shotsArrayLength; i++ ){
+		shot = shotsArray[i];
+		if( shot.trim() != "" ){
+			var obj = JSON.parse( shot );
 			shotsMap[ obj.shotId ] = obj;
 		}
 	}
-	for( var i = 0; i < statesArray.length; i++ ){
-		if( statesArray[i].trim() != "" ){
-			var obj = JSON.parse( statesArray[i] );
+	for( var i = 0; i < statesArrayLength; i++ ){
+		state = statesArray[i];
+		if( state.trim() != "" ){
+			var obj = JSON.parse( state );
 			statesMap[ obj.stateId ] = obj;
 		}
 	}
 	for( var i in shotsMap ){
-		var state = statesMap[ shotsMap[i].originStateId ];
+		shot = shotsMap[i];
+		state = statesMap[ shot.originStateId ];
 		if( state == undefined ){
-			console.log( "State "+shotsMap[i].originStateId+ " undefined.");
+			console.log( "State "+shot.originStateId+ " undefined.");
 			continue;
 		}
 		if( state.possibleShots == undefined ){
 			state.possibleShots = []
 		}
-		state.possibleShots.push( shotsMap[i] );
+		state.possibleShots.push( shot );
 	}
 	for( var i in statesMap ){
-		if(statesMap[i].originShotId == -1 ) continue;
-		var shot = shotsMap[ statesMap[i].originShotId ];
+		state = statesMap[i];
+		if(state.originShotId == -1 ) continue;
+		shot = shotsMap[ state.originShotId ];
 		if( shot == undefined ){
-			console.log( "Shot "+statesMap[i].originShotId+ " undefined.");
+			console.log( "Shot "+state.originShotId+ " undefined.");
 			continue;
 		}
 		if( shot.possibleStates == undefined ){
 			shot.possibleStates = []
 		}
-		shot.possibleStates.push( statesMap[i] );
+		shot.possibleStates.push( state );
 	}
 	root = statesMap[1];
 	if( root != undefined ){
+		var line, fillColor;
 		setGraphHeight(root, 1);
 		$("#graph").attr("height", (greaterNodeHeight * SVG_LINE_HEIGHT) );
 		$("#graph").css("height", (greaterNodeHeight * SVG_LINE_HEIGHT) + "px" );
 		var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
 		for( var i = 0; i < greaterNodeHeight; i++ ){
-			var line = $( document.createElementNS("http://www.w3.org/2000/svg", "rect") );
-			line.attr("x", 0);
-			line.attr("y", i * SVG_LINE_HEIGHT);
-			line.attr("width", "100%");
-			line.attr("height", SVG_LINE_HEIGHT);
+			line = $( document.createElementNS("http://www.w3.org/2000/svg", "rect") );
 			if( i % 2 == 0){
-				line.attr("fill", "#EAEAEA");
+				fillColor = "#EAEAEA";
 			}else{
-				line.attr("fill", "#CACACA");
+				fillColor = "#CACACA";
 			}
+			line.attr({
+				x: 0,
+				y: i * SVG_LINE_HEIGHT,
+				width: "100%",
+				height: SVG_LINE_HEIGHT,
+				fill: fillColor
+			});
 			g.append(line);
 		}
 		$("#graph").prepend(g);
@@ -373,36 +384,42 @@ function generateGrapth(){
 function drawConnections( elements ){
 	var parentNode = undefined;
 	var el;
+	var line;
+	var frag = $( document.createDocumentFragment() );
 	var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
 	g.attr("style", "stroke: black;stroke-width: 1;");
 	for( var i = 0; i < elements.length; i++ ){
 		el = elements[i];
-		var line = $( document.createElementNS("http://www.w3.org/2000/svg", "line") );
+		line = $( document.createElementNS("http://www.w3.org/2000/svg", "line") );
 		if( el.originShotId != undefined ){
 			parentNode = shotsMap[ el.originShotId ];
 		}else{
 			parentNode = statesMap[ el.originStateId ];
 		}
-		line.attr("x1", el.svgElement.attr("cx"));
-		line.attr("y1", parseInt( el.svgElement.attr("cy") ) - CIRCLE_RADIUS );
-		line.attr("x2", parentNode.svgElement.attr("cx"));
-		line.attr("y2", parseInt( parentNode.svgElement.attr("cy") ) + parseInt( parentNode.svgElement.attr("r") ) );
+		line.attr({
+			x1: el.svgElement.attr("cx"),
+			y1: parseInt( el.svgElement.attr("cy") ) - CIRCLE_RADIUS ,
+			x2: parentNode.svgElement.attr("cx"),
+			y2: parseInt( parentNode.svgElement.attr("cy") ) + parseInt( parentNode.svgElement.attr("r") )
+		});
 		if( el.active ){
 			line.css("stroke-width", "2");
 			line.css("stroke", "orange");
 		}
-		g.append(line);
+		frag.append(line);
 		el.svgLine = line;
 	}
+	g.append( frag );
 	$("#graph").append(g);
 }
 function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 	var cy = (h * SVG_LINE_HEIGHT) + parseInt(SVG_LINE_HEIGHT * 0.5, 10);
 	var cx = CIRCLE_SPACE;
-	var circlesToAppend = [];
+	var elementsToAppend = [], groupsToAppend = [];
 	var lastParent = -999;
 	var group = undefined;
 	var g = $( document.createElementNS("http://www.w3.org/2000/svg", "g") );
+	var frag = $( document.createDocumentFragment() );
 	var groupWidth;
 	var circle = undefined;
 	var el;
@@ -416,7 +433,7 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 				groupWidth = ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS ) - parseInt(group.attr("x"));
 				if( groupWidth > CIRCLE_RADIUS * 2 + marginBetweenGroups ){
 					group.attr("width", groupWidth + marginBetweenGroups);
-					g.append( group );
+					groupsToAppend.push( group );
 				}else{
 					cx -= CIRCLE_RADIUS;
 				}
@@ -427,29 +444,36 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 			group.attr("x", cx - ( CIRCLE_RADIUS ) - marginBetweenGroups );
 		}
 		circle = $( document.createElementNS("http://www.w3.org/2000/svg", "circle") );
-		circle.attr("cx", cx);
-		circle.attr("cy", cy);
-		circle.attr("r", CIRCLE_RADIUS * sizeMultiplier);
-		circle.attr("stroke-width", "1");
-		circle.attr("stroke", "black");
-		circle.attr("fill", "white");
+		circle.attr({
+			cx: cx,
+			cy: cy,
+			r: CIRCLE_RADIUS * sizeMultiplier,
+			strokeWidth: 1,
+			stroke: el.active ? "orange" : "black",
+			fill: "white"
+		});
 		if( el.active ){
 			circle.attr("stroke", "orange");
 		}
-		circlesToAppend.push(circle);
+		elementsToAppend.push(circle);
 		if( el.originShotId != undefined ){
+			circle.attr("id", "state_"+el.stateId );
 			var circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
-			circleText.attr("x", cx - (CIRCLE_RADIUS * 5/6));
-			circleText.attr("y", cy - 8 );
-			circleText.attr("fill", "black");	
+			circleText.attr({
+				x: cx - (CIRCLE_RADIUS * 5/6),
+				y: cy - 8,
+				fill: "black"
+			});
 			circleText.html("Pt: "+el.totalScore);
 			var tspan = $( document.createElementNS("http://www.w3.org/2000/svg", "tspan") );
-			tspan.attr("x", cx - (CIRCLE_RADIUS * 5/6));
-			tspan.attr("y", cy + 7 );
-			tspan.attr("fill", "black");	
+			tspan.attr({
+				x: cx - (CIRCLE_RADIUS * 5/6),
+				y: cy + 7,
+				fill: "black"
+			});				
 			tspan.html("MM: "+el.miniMaxValue);
 			circleText.append(tspan);
-			circlesToAppend.push(circleText);
+			elementsToAppend.push(circleText);
 			if( el.finalState ){
 				if( el.score > 0 ){
 					circle.attr("fill", "#ADD8E6");		
@@ -462,26 +486,31 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 				showProperties( statesMap[stateId], 1 );
 			}.bind(this, id));
 		}else{
+		circle.attr("id", "shot_"+el.shotId );
 			var circleText = $( document.createElementNS("http://www.w3.org/2000/svg", "text") );
-			circleText.attr("x", cx - (CIRCLE_RADIUS * 2/3));
-			circleText.attr("y", cy - 10 );
-			circleText.attr("fill", "black");	
+			circleText.attr({
+				x: cx - (CIRCLE_RADIUS * 2/3),
+				y: cy - 10,
+				fill: "black"
+			});
 			circleText.html("X: "+el.target.x);
-			circlesToAppend.push(circleText);
+			elementsToAppend.push(circleText);
 			var tspan = $( document.createElementNS("http://www.w3.org/2000/svg", "tspan") );
-			tspan.attr("x", cx - (CIRCLE_RADIUS * 2/3));
-			tspan.attr("y", cy + 5 );
-			tspan.attr("fill", "black");	
+			tspan.attr({
+				x: cx - (CIRCLE_RADIUS * 2/3),
+				y: cy + 5,
+				fill: "black"
+			});
 			tspan.html("Y: "+el.target.y);
 			circleText.append(tspan);
-			//circlesToAppend.push(circleText);
 			tspan = $( document.createElementNS("http://www.w3.org/2000/svg", "tspan") );
-			tspan.attr("x", cx - (CIRCLE_RADIUS * 2/3));
-			tspan.attr("y", cy + 20 );
-			tspan.attr("fill", "black");	
+			tspan.attr({
+				x: cx - (CIRCLE_RADIUS * 2/3),
+				y: cy + 20,
+				fill: "black"
+			});
 			tspan.html("Tap: "+el.tapInterval);
 			circleText.append(tspan);
-			//circlesToAppend.push(circleText);
 			if( el.times == 0 ){
 				circle.attr("fill", "yellow");		
 			}
@@ -501,30 +530,57 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		groupWidth = ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS ) - parseInt(group.attr("x"));
 		if( groupWidth > CIRCLE_RADIUS * 2 + marginBetweenGroups ){
 			group.attr("width", groupWidth + marginBetweenGroups);
-			g.append( group );
+			groupsToAppend.push( group );
 		}else{
 			cx -= CIRCLE_RADIUS;
 		}
 	}
-	for( var i = 0; i < circlesToAppend.length; i++ ){
-		g.append(circlesToAppend[i]);
-	}
+	//centerAdjust = false;
 	if( centerAdjust ){
 		var svgWidth = $("#graph").width();
 		var left = (svgWidth / 2) - (totalWidth / 2);
-		g.children().each( function(){
-			if( this.tagName == "circle" ){
-				$(this).attr("cx", parseInt( $(this).attr("cx") ) + left );
-			}else if( this.tagName == "rect" ){
-				$(this).attr("x", parseInt( $(this).attr("x") ) + left );
-			}else if( this.tagName == "text" ){
-				$(this).attr("x", parseInt( $(this).attr("x") ) + left );
-				$(this).find("tspan").each( function(){
+		for( var i = 0; i < elementsToAppend.length; i++ ){
+			el = elementsToAppend[i];
+			switch( el[0].tagName ){
+			case "circle":
+				el.attr("cx", parseInt( el.attr("cx") ) + left );
+			break;
+			case "rect":
+				el.attr("x", parseInt( el.attr("x") ) + left );
+			break;
+			case "text":
+				el.attr("x", parseInt( el.attr("x") ) + left );
+				el.find("tspan").each( function(){
 					$(this).attr("x", parseInt( $(this).attr("x") ) + left );
 				});
+			break;
 			}
-		});
+		}
+		for( var i = 0; i < groupsToAppend.length; i++ ){
+			el = groupsToAppend[i];
+			switch( el[0].tagName ){
+			case "circle":
+				el.attr("cx", parseInt( el.attr("cx") ) + left );
+			break;
+			case "rect":
+				el.attr("x", parseInt( el.attr("x") ) + left );
+			break;
+			case "text":
+				el.attr("x", parseInt( el.attr("x") ) + left );
+				el.find("tspan").each( function(){
+					$(this).attr("x", parseInt( $(this).attr("x") ) + left );
+				});
+			break;
+			}	
+		}
 	}
+	for( var i = 0; i < groupsToAppend.length; i++ ){
+		frag.append(groupsToAppend[i]);
+	}
+	for( var i = 0; i < elementsToAppend.length; i++ ){
+		frag.append(elementsToAppend[i]);
+	}
+	g.append( frag );
 	$("#graph").append(g);
 	return totalWidth;
 }
@@ -533,7 +589,7 @@ function elementsGraphGeneration(node, h){
 	var elements = [];
 	var h = 0;
 	var maxTreeHeightPlot = elementInEeachHeight.length;
-	//maxTreeHeightPlot = 3;
+	//maxTreeHeightPlot = 4;
 	for( var i = 0; i < maxTreeHeightPlot; i++ ){
 		if( elementInEeachHeight[i] != undefined && elementInEeachHeight[i].length > greaterNumberOfElements ){
 			elements = elementInEeachHeight[i];
@@ -665,6 +721,7 @@ $("#legendTitle").click( function(){
 	$("#legendTitle").nextAll().toggle();
 })
 $("#generateButton").click(function(){
+	var time = new Date().getTime();
 	$("#dataDiv").css("height", "0px");
 	$("#dataDiv").css("display", "none");
 	$("#dataDiv").css("cursor", "pointer");
@@ -674,12 +731,13 @@ $("#generateButton").click(function(){
 	}, 200);
 	generateGrapth();
 	$("textarea").val("");
+	console.log("Time to build: "+( new Date().getTime() - time ));
 });
+/*LEVEL_CHOICE*/ $('#level').children().eq(0).attr('selected', 'selected');
+
 if( $("#statesTextArea").val().trim() != "" && $("#statesTextArea").val().trim() ){
 	$("#generateButton").click();
 }
-/*LEVEL_CHOICE*/ $('#level').children().eq(0).attr('selected', 'selected');
-
 </script>
 </body>
 </html>

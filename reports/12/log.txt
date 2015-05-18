@@ -112,3 +112,1468 @@ MyAgent.writeShotsAandStatesInFile()
  Level 21 Score: 62270 
 Total Score: 1055240
 Changing Level 16/4/2015 - 23:0:26
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 154
+Shooting Bird(0): BlueBird at Point x: 592.0 y: 328.0 dx: -463 dy: 277 Tap: 85 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+Setting the Score with average of 60553 and 60520 = 60536
+Setting the Total Score with average of 60553 and 60520 = 60536
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36970 
+ Level 5 Score: 65390 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 54110 
+ Level 11 Score: 58880 
+ Level 12 Score: 60520 
+Total Score: 602550
+Changing Level 18/4/2015 - 9:58:50
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 154
+Shooting Bird(0): BlueBird at Point x: 592.0 y: 328.0 dx: -463 dy: 277 Tap: 85 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 215
+Setting the Score with average of 58417 and 58350 = 58383
+Setting the Total Score with average of 58417 and 58350 = 58383
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36970 
+ Level 5 Score: 69190 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 61310 
+ Level 11 Score: 58880 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 47030 
+ Level 16 Score: 61800 
+ Level 17 Score: 39630 
+ Level 18 Score: 60950 
+ Level 19 Score: 35720 
+ Level 20 Score: 60430 
+ Level 21 Score: 75380 
+Total Score: 1108220
+Changing Level 18/4/2015 - 11:27:26
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 154
+Shooting Bird(0): BlueBird at Point x: 592.0 y: 328.0 dx: -463 dy: 277 Tap: 85 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+Setting the Score with average of 60536 and 60520 = 60528
+Setting the Total Score with average of 60536 and 60520 = 60528
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36990 
+ Level 5 Score: 69190 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62180 
+ Level 11 Score: 58980 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 47030 
+ Level 16 Score: 63340 
+ Level 17 Score: 39630 
+ Level 18 Score: 61200 
+ Level 19 Score: 35720 
+ Level 20 Score: 60430 
+ Level 21 Score: 75380 
+Total Score: 1111010
+Changing Level 18/4/2015 - 12:57:31
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 154
+Shooting Bird(0): BlueBird at Point x: 592.0 y: 328.0 dx: -463 dy: 277 Tap: 85 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 214
+Setting the Score with average of 60528 and 60520 = 60524
+Setting the Total Score with average of 60528 and 60520 = 60524
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 42950 
+ Level 4 Score: 36970 
+ Level 5 Score: 66390 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 53930 
+ Level 11 Score: 59360 
+ Level 12 Score: 60520 
+Total Score: 603650
+Changing Level 18/4/2015 - 14:30:22
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 86 x: 624 y: 301
+id: 89 x: 624 y: 301
+id: 90 x: 624 y: 301
+id: 93 x: 624 y: 311
+id: 95 x: 624 y: 311
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 140 x: 643 y: 337
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14786 x: 592 y: 292
+id: 14787 x: 592 y: 292
+id: 14788 x: 592 y: 292
+id: 14789 x: 592 y: 292
+id: 14790 x: 592 y: 292
+id: 14791 x: 592 y: 292
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14798 x: 592 y: 302
+id: 14799 x: 592 y: 302
+id: 14800 x: 592 y: 302
+id: 14801 x: 592 y: 302
+id: 14802 x: 592 y: 302
+id: 14803 x: 592 y: 302
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15112 x: 592 y: 292
+id: 15113 x: 592 y: 292
+id: 15114 x: 592 y: 292
+id: 15115 x: 592 y: 292
+id: 15116 x: 592 y: 292
+id: 15117 x: 592 y: 292
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15124 x: 592 y: 302
+id: 15125 x: 592 y: 302
+id: 15126 x: 592 y: 302
+id: 15127 x: 592 y: 302
+id: 15128 x: 592 y: 302
+id: 15129 x: 592 y: 302
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 93(from State id:30)
+[ERROR] There is no Shot with id = 140(from State id:48)
+[ERROR] There is no Shot with id = 95(from State id:72)
+[ERROR] There is no Shot with id = 89(from State id:115)
+[ERROR] There is no Shot with id = 86(from State id:173)
+[ERROR] There is no Shot with id = 89(from State id:179)
+[ERROR] There is no Shot with id = 90(from State id:186)
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14786 x: 592 y: 292
+id: 14787 x: 592 y: 292
+id: 14788 x: 592 y: 292
+id: 14789 x: 592 y: 292
+id: 14790 x: 592 y: 292
+id: 14791 x: 592 y: 292
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14798 x: 592 y: 302
+id: 14799 x: 592 y: 302
+id: 14800 x: 592 y: 302
+id: 14801 x: 592 y: 302
+id: 14802 x: 592 y: 302
+id: 14803 x: 592 y: 302
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15112 x: 592 y: 292
+id: 15113 x: 592 y: 292
+id: 15114 x: 592 y: 292
+id: 15115 x: 592 y: 292
+id: 15116 x: 592 y: 292
+id: 15117 x: 592 y: 292
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15124 x: 592 y: 302
+id: 15125 x: 592 y: 302
+id: 15126 x: 592 y: 302
+id: 15127 x: 592 y: 302
+id: 15128 x: 592 y: 302
+id: 15129 x: 592 y: 302
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 93(from State id:30)
+[ERROR] There is no Shot with id = 140(from State id:48)
+[ERROR] There is no Shot with id = 95(from State id:72)
+[ERROR] There is no Shot with id = 89(from State id:115)
+[ERROR] There is no Shot with id = 86(from State id:173)
+[ERROR] There is no Shot with id = 89(from State id:179)
+[ERROR] There is no Shot with id = 90(from State id:186)
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15112 x: 592 y: 292
+id: 15113 x: 592 y: 292
+id: 15114 x: 592 y: 292
+id: 15115 x: 592 y: 292
+id: 15116 x: 592 y: 292
+id: 15117 x: 592 y: 292
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15124 x: 592 y: 302
+id: 15125 x: 592 y: 302
+id: 15126 x: 592 y: 302
+id: 15127 x: 592 y: 302
+id: 15128 x: 592 y: 302
+id: 15129 x: 592 y: 302
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 93(from State id:30)
+[ERROR] There is no Shot with id = 140(from State id:48)
+[ERROR] There is no Shot with id = 95(from State id:72)
+[ERROR] There is no Shot with id = 89(from State id:115)
+[ERROR] There is no Shot with id = 86(from State id:173)
+[ERROR] There is no Shot with id = 89(from State id:179)
+[ERROR] There is no Shot with id = 90(from State id:186)
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15112 x: 592 y: 292
+id: 15113 x: 592 y: 292
+id: 15114 x: 592 y: 292
+id: 15115 x: 592 y: 292
+id: 15116 x: 592 y: 292
+id: 15117 x: 592 y: 292
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15124 x: 592 y: 302
+id: 15125 x: 592 y: 302
+id: 15126 x: 592 y: 302
+id: 15127 x: 592 y: 302
+id: 15128 x: 592 y: 302
+id: 15129 x: 592 y: 302
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 93(from State id:30)
+[ERROR] There is no Shot with id = 140(from State id:48)
+[ERROR] There is no Shot with id = 95(from State id:72)
+[ERROR] There is no Shot with id = 89(from State id:115)
+[ERROR] There is no Shot with id = 86(from State id:173)
+[ERROR] There is no Shot with id = 89(from State id:179)
+[ERROR] There is no Shot with id = 90(from State id:186)
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15112 x: 592 y: 292
+id: 15113 x: 592 y: 292
+id: 15114 x: 592 y: 292
+id: 15115 x: 592 y: 292
+id: 15116 x: 592 y: 292
+id: 15117 x: 592 y: 292
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15124 x: 592 y: 302
+id: 15125 x: 592 y: 302
+id: 15126 x: 592 y: 302
+id: 15127 x: 592 y: 302
+id: 15128 x: 592 y: 302
+id: 15129 x: 592 y: 302
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 12
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no Shot with id = 93(from State id:30)
+[ERROR] There is no Shot with id = 140(from State id:48)
+[ERROR] There is no Shot with id = 95(from State id:72)
+[ERROR] There is no Shot with id = 89(from State id:115)
+[ERROR] There is no Shot with id = 86(from State id:173)
+[ERROR] There is no Shot with id = 89(from State id:179)
+[ERROR] There is no Shot with id = 90(from State id:186)
+Cutting Nodes that scores 0 points... 
+id: 5 x: 579 y: 346
+id: 7 x: 579 y: 346
+id: 14 x: 579 y: 356
+id: 15 x: 579 y: 356
+id: 23 x: 579 y: 366
+id: 26 x: 579 y: 366
+id: 27 x: 579 y: 366
+id: 29 x: 579 y: 366
+id: 36 x: 615 y: 268
+id: 40 x: 615 y: 268
+id: 43 x: 615 y: 268
+id: 46 x: 615 y: 264
+id: 48 x: 615 y: 264
+id: 50 x: 615 y: 264
+id: 51 x: 615 y: 264
+id: 53 x: 615 y: 264
+id: 54 x: 615 y: 264
+id: 57 x: 615 y: 274
+id: 58 x: 615 y: 274
+id: 59 x: 615 y: 274
+id: 62 x: 615 y: 274
+id: 63 x: 615 y: 274
+id: 66 x: 607 y: 278
+id: 69 x: 607 y: 278
+id: 73 x: 607 y: 278
+id: 74 x: 607 y: 278
+id: 75 x: 607 y: 278
+id: 82 x: 607 y: 285
+id: 97 x: 605 y: 292
+id: 98 x: 605 y: 292
+id: 99 x: 605 y: 292
+id: 101 x: 605 y: 292
+id: 104 x: 605 y: 292
+id: 105 x: 605 y: 292
+id: 107 x: 605 y: 302
+id: 111 x: 605 y: 302
+id: 116 x: 592 y: 312
+id: 118 x: 592 y: 312
+id: 120 x: 592 y: 312
+id: 127 x: 602 y: 312
+id: 131 x: 602 y: 312
+id: 132 x: 602 y: 312
+id: 142 x: 592 y: 318
+id: 150 x: 592 y: 318
+id: 153 x: 592 y: 328
+id: 154 x: 592 y: 328
+id: 159 x: 592 y: 328
+id: 162 x: 592 y: 338
+id: 165 x: 592 y: 338
+id: 168 x: 580 y: 341
+id: 176 x: 590 y: 341
+id: 177 x: 590 y: 341
+id: 180 x: 590 y: 341
+id: 14738 x: 579 y: 346
+id: 14739 x: 579 y: 346
+id: 14740 x: 579 y: 346
+id: 14741 x: 579 y: 346
+id: 14742 x: 579 y: 346
+id: 14743 x: 579 y: 346
+id: 14744 x: 579 y: 356
+id: 14745 x: 579 y: 356
+id: 14746 x: 579 y: 356
+id: 14747 x: 579 y: 356
+id: 14748 x: 579 y: 356
+id: 14749 x: 579 y: 356
+id: 14750 x: 579 y: 366
+id: 14752 x: 579 y: 366
+id: 14753 x: 579 y: 366
+id: 14754 x: 579 y: 366
+id: 14755 x: 579 y: 366
+id: 14756 x: 615 y: 258
+id: 14757 x: 615 y: 258
+id: 14758 x: 615 y: 258
+id: 14759 x: 615 y: 268
+id: 14761 x: 615 y: 268
+id: 14762 x: 615 y: 268
+id: 14764 x: 615 y: 268
+id: 14765 x: 615 y: 278
+id: 14766 x: 615 y: 278
+id: 14767 x: 615 y: 278
+id: 14768 x: 615 y: 278
+id: 14770 x: 615 y: 278
+id: 14771 x: 615 y: 284
+id: 14772 x: 615 y: 284
+id: 14773 x: 615 y: 284
+id: 14774 x: 607 y: 278
+id: 14775 x: 607 y: 278
+id: 14776 x: 607 y: 278
+id: 14777 x: 607 y: 278
+id: 14779 x: 607 y: 278
+id: 14780 x: 607 y: 285
+id: 14781 x: 607 y: 285
+id: 14782 x: 607 y: 285
+id: 14783 x: 607 y: 285
+id: 14784 x: 607 y: 285
+id: 14785 x: 607 y: 285
+id: 14792 x: 602 y: 292
+id: 14794 x: 602 y: 292
+id: 14795 x: 602 y: 292
+id: 14796 x: 602 y: 292
+id: 14797 x: 602 y: 292
+id: 14804 x: 592 y: 312
+id: 14806 x: 592 y: 312
+id: 14807 x: 592 y: 312
+id: 14808 x: 592 y: 312
+id: 14809 x: 592 y: 312
+id: 14810 x: 592 y: 318
+id: 14811 x: 592 y: 318
+id: 14812 x: 592 y: 318
+id: 14813 x: 592 y: 318
+id: 14814 x: 592 y: 318
+id: 14815 x: 592 y: 318
+id: 14816 x: 592 y: 328
+id: 14818 x: 592 y: 328
+id: 14819 x: 592 y: 328
+id: 14820 x: 592 y: 328
+id: 14821 x: 592 y: 328
+id: 14822 x: 592 y: 338
+id: 14823 x: 592 y: 338
+id: 14824 x: 592 y: 338
+id: 14825 x: 592 y: 338
+id: 14826 x: 592 y: 338
+id: 14827 x: 592 y: 338
+id: 14828 x: 580 y: 341
+id: 14830 x: 580 y: 341
+id: 14831 x: 580 y: 341
+id: 14832 x: 580 y: 341
+id: 14833 x: 580 y: 341
+id: 14834 x: 589 y: 347
+id: 14835 x: 589 y: 347
+id: 14836 x: 589 y: 347
+id: 14837 x: 589 y: 347
+id: 14838 x: 589 y: 347
+id: 14839 x: 589 y: 347
+id: 15070 x: 579 y: 346
+id: 15071 x: 579 y: 346
+id: 15072 x: 579 y: 346
+id: 15085 x: 615 y: 258
+id: 15086 x: 615 y: 258
+id: 15087 x: 615 y: 258
+id: 15088 x: 615 y: 258
+id: 15089 x: 615 y: 258
+id: 15090 x: 615 y: 258
+id: 15091 x: 615 y: 268
+id: 15092 x: 615 y: 268
+id: 15093 x: 615 y: 268
+id: 15094 x: 615 y: 268
+id: 15095 x: 615 y: 268
+id: 15096 x: 615 y: 268
+id: 15097 x: 615 y: 278
+id: 15098 x: 615 y: 278
+id: 15099 x: 615 y: 278
+id: 15100 x: 607 y: 278
+id: 15101 x: 607 y: 278
+id: 15102 x: 607 y: 278
+id: 15103 x: 607 y: 278
+id: 15104 x: 607 y: 278
+id: 15105 x: 607 y: 278
+id: 15106 x: 607 y: 285
+id: 15107 x: 607 y: 285
+id: 15108 x: 607 y: 285
+id: 15109 x: 607 y: 285
+id: 15110 x: 607 y: 285
+id: 15111 x: 607 y: 285
+id: 15118 x: 602 y: 292
+id: 15119 x: 602 y: 292
+id: 15120 x: 602 y: 292
+id: 15121 x: 602 y: 292
+id: 15122 x: 602 y: 292
+id: 15123 x: 602 y: 292
+id: 15130 x: 592 y: 312
+id: 15131 x: 592 y: 312
+id: 15132 x: 592 y: 312
+id: 15133 x: 592 y: 312
+id: 15134 x: 592 y: 312
+id: 15135 x: 592 y: 312
+id: 15136 x: 592 y: 318
+id: 15137 x: 592 y: 318
+id: 15138 x: 592 y: 318
+id: 15139 x: 592 y: 318
+id: 15140 x: 592 y: 318
+id: 15141 x: 592 y: 318
+id: 15142 x: 592 y: 328
+id: 15143 x: 592 y: 328
+id: 15144 x: 592 y: 328
+id: 15145 x: 592 y: 328
+id: 15146 x: 592 y: 328
+id: 15147 x: 592 y: 328
+id: 15148 x: 592 y: 338
+id: 15149 x: 592 y: 338
+id: 15150 x: 592 y: 338
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...

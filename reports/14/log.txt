@@ -153,3 +153,325 @@ MyAgent.writeShotsAandStatesInFile()
  Level 21 Score: 62270 
 Total Score: 1055240
 Changing Level 16/4/2015 - 23:2:3
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9854452168166643
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 69
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1686
+Shooting Bird(1): RedBird at Point x: 498.0 y: 375.0 dx: -153 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9960185616852691
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 90
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36970 
+ Level 5 Score: 65390 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 54110 
+ Level 11 Score: 58880 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+Total Score: 716280
+Changing Level 18/4/2015 - 10:0:28
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9982092385107063
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 69
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1686
+Shooting Bird(1): RedBird at Point x: 498.0 y: 375.0 dx: -153 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9956247457032216
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 90
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36970 
+ Level 5 Score: 69190 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 61310 
+ Level 11 Score: 58880 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 47030 
+ Level 16 Score: 61800 
+ Level 17 Score: 39630 
+ Level 18 Score: 60950 
+ Level 19 Score: 35720 
+ Level 20 Score: 60430 
+ Level 21 Score: 75380 
+Total Score: 1108220
+Changing Level 18/4/2015 - 11:29:4
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9977305382897265
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 69
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1686
+Shooting Bird(1): RedBird at Point x: 498.0 y: 375.0 dx: -153 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9956984341799647
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 90
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 43160 
+ Level 4 Score: 36990 
+ Level 5 Score: 69190 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 62180 
+ Level 11 Score: 58980 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 47030 
+ Level 16 Score: 63340 
+ Level 17 Score: 39630 
+ Level 18 Score: 61200 
+ Level 19 Score: 35720 
+ Level 20 Score: 60430 
+ Level 21 Score: 75380 
+Total Score: 1111010
+Changing Level 18/4/2015 - 12:59:9
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9847578951417344
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 69
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1686
+Shooting Bird(1): RedBird at Point x: 498.0 y: 375.0 dx: -153 dy: 507 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9956309238899035
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 90
+
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31950 
+ Level 2 Score: 61680 
+ Level 3 Score: 42950 
+ Level 4 Score: 36970 
+ Level 5 Score: 66390 
+ Level 6 Score: 35110 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 53930 
+ Level 11 Score: 59360 
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+Total Score: 717380
+Changing Level 18/4/2015 - 14:32:1
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+id: 18 x: 544 y: 366
+id: 19 x: 544 y: 366
+id: 20 x: 554 y: 366
+id: 22 x: 544 y: 376
+id: 24 x: 524 y: 369
+id: 26 x: 534 y: 369
+id: 28 x: 524 y: 379
+id: 29 x: 568 y: 370
+id: 30 x: 578 y: 370
+id: 31 x: 568 y: 380
+id: 32 x: 498 y: 375
+id: 33 x: 508 y: 375
+id: 34 x: 511 y: 375
+id: 36 x: 521 y: 375
+id: 2661 x: 555 y: 229
+id: 2662 x: 555 y: 229
+id: 2663 x: 548 y: 236
+id: 2664 x: 548 y: 236
+id: 2665 x: 561 y: 237
+id: 2666 x: 542 y: 243
+id: 2667 x: 542 y: 243
+id: 2668 x: 570 y: 243
+id: 2669 x: 553 y: 244
+id: 2670 x: 563 y: 244
+id: 2671 x: 534 y: 252
+id: 2672 x: 534 y: 252
+id: 2673 x: 534 y: 262
+id: 2674 x: 534 y: 262
+id: 2675 x: 567 y: 252
+id: 2676 x: 544 y: 262
+id: 2677 x: 529 y: 272
+id: 2678 x: 529 y: 272
+id: 2679 x: 539 y: 272
+id: 2680 x: 544 y: 366
+id: 2681 x: 544 y: 366
+id: 2682 x: 554 y: 366
+id: 2683 x: 544 y: 376
+id: 2684 x: 524 y: 369
+id: 2685 x: 524 y: 369
+id: 2686 x: 534 y: 369
+id: 2687 x: 534 y: 369
+id: 2688 x: 524 y: 379
+id: 2689 x: 524 y: 379
+id: 2690 x: 578 y: 370
+id: 2691 x: 498 y: 375
+id: 2692 x: 508 y: 375
+id: 2693 x: 521 y: 375
+id: 2694 x: 521 y: 375
+id: 2695 x: 601 y: 376
+id: 2696 x: 610 y: 374
+id: 2697 x: 620 y: 374
+id: 2698 x: 632 y: 374
+id: 2699 x: 632 y: 374
+id: 2700 x: 622 y: 384
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Loaded Level: 14
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+id: 18 x: 544 y: 366
+id: 19 x: 544 y: 366
+id: 20 x: 554 y: 366
+id: 22 x: 544 y: 376
+id: 24 x: 524 y: 369
+id: 26 x: 534 y: 369
+id: 28 x: 524 y: 379
+id: 29 x: 568 y: 370
+id: 30 x: 578 y: 370
+id: 31 x: 568 y: 380
+id: 32 x: 498 y: 375
+id: 33 x: 508 y: 375
+id: 34 x: 511 y: 375
+id: 36 x: 521 y: 375
+id: 2661 x: 555 y: 229
+id: 2662 x: 555 y: 229
+id: 2663 x: 548 y: 236
+id: 2664 x: 548 y: 236
+id: 2665 x: 561 y: 237
+id: 2666 x: 542 y: 243
+id: 2667 x: 542 y: 243
+id: 2668 x: 570 y: 243
+id: 2670 x: 563 y: 244
+id: 2671 x: 534 y: 252
+id: 2672 x: 534 y: 252
+id: 2673 x: 534 y: 262
+id: 2674 x: 534 y: 262
+id: 2677 x: 529 y: 272
+id: 2678 x: 529 y: 272
+id: 2680 x: 544 y: 366
+id: 2681 x: 544 y: 366
+id: 2682 x: 554 y: 366
+id: 2683 x: 544 y: 376
+id: 2684 x: 524 y: 369
+id: 2685 x: 524 y: 369
+id: 2686 x: 534 y: 369
+id: 2687 x: 534 y: 369
+id: 2688 x: 524 y: 379
+id: 2689 x: 524 y: 379
+id: 2690 x: 578 y: 370
+id: 2691 x: 498 y: 375
+id: 2692 x: 508 y: 375
+id: 2693 x: 521 y: 375
+id: 2694 x: 521 y: 375
+id: 2695 x: 601 y: 376
+id: 2696 x: 610 y: 374
+id: 2697 x: 620 y: 374
+id: 2698 x: 632 y: 374
+id: 2699 x: 632 y: 374
+id: 2700 x: 622 y: 384
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...

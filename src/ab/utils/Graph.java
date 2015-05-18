@@ -164,16 +164,16 @@ public class Graph {
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
 			
-			if( !myshot.getPossibleStates().isEmpty() ){
+			//Remover isso aqui caso queira tirar unlinked nodes
+//			if( !myshot.getPossibleStates().isEmpty() ){
 				for( State state: myshot.getPossibleStates() ){
 					removeNodesFromMap(state);
 				}
 				
 				System.out.println("Shot id: "+myshot.getShotId()+" removed from graph. Minimax: "+myshot.getMiniMaxValue() );
 				allShots.remove(myshot.getShotId());
-			}
+//			}
 		}
-		
 	}
 	
 	//------------------------------------------------------------------------------------------------------------------------------------------------

@@ -69,7 +69,7 @@ public class MyAgent implements Runnable {
 	private State actualState;
 	private MyShot actualShot;
 	private State lastState;
-	private boolean forceFirstShot = false;
+	private boolean forceShots = false;
 	
 	private final int BIRDS_SIZE = 10;
 	
@@ -377,10 +377,11 @@ public class MyAgent implements Runnable {
 				}else{
 					for( MyShot ms : actualState.getPossibleShots() ){
 						Point pt = ms.getTarget();
+//						System.out.println("id: "+ms.getShotId()+ " x: "+ms.getTarget().x+ " y: "+ms.getTarget().y);
 						if( ms.getTimes() > 0 ){
 							ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
 						}else{
-							ShowSeg.debugCyanPoint.add( new Point( pt.x, pt.y - 2) );
+							ShowSeg.debugRedPoint.add( new Point( pt.x, pt.y - 2) );
 						}
 						
 					}
@@ -397,24 +398,35 @@ public class MyAgent implements Runnable {
 				
 				actualShot = chooseOneShot();
 				
-//				forceFirstShot= true;
-				if( forceFirstShot && actualState == graph.rootState ){
-					actualShot = new MyShot();
-					Point point = new Point(555,336);
-					releasePoint = calcReleasePoint(point).get(0);
+//				forceShots= true;
+				if( forceShots ){
+//					try{Thread.sleep(10000000);}catch(Exception e){}
 					
-					Point refPoint = tp.getReferencePoint(sling);
-					
-					dx = (int)releasePoint.getX() - refPoint.x;
-					dy = (int)releasePoint.getY() - refPoint.y;
-					int tapTime = tp.getTapTime(sling, releasePoint, point, 90);
-					shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, tapTime);
-					
-					actualShot.setTarget(point);
-					actualShot.setShot(shot);
-					actualShot.setReleasePoint(new Point(dx, dy));
-					actualShot.setAim(new ABObject());	
-					System.out.println(new Gson().toJson(actualShot));
+					System.out.println("birdsIndex: "+birdsIndex);
+					int idForced = 0;
+					switch( birdsIndex ){
+					case 0:
+						idForced = 0;
+						for( MyShot ms : actualState.getPossibleShots() ){
+							if( ms.getShotId() == idForced ){
+								System.out.println("\t\tFound forced id "+idForced);
+								actualShot = ms;
+								break;
+							}
+						}
+						break;
+					case 1:
+						idForced = 0;
+						for( MyShot ms : actualState.getPossibleShots() ){
+							if( ms.getShotId() == idForced ){
+								System.out.println("\t\tFound forced id "+idForced);
+								actualShot = ms;
+								break;
+							}
+						}
+						break;
+					}
+
 				}else{
 					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				}
@@ -574,6 +586,7 @@ public class MyAgent implements Runnable {
 		
 		actualState.setActive(true);
 		actualShot.setActive(true);
+		actualState.setBirdIndex( actualShot.getBirdIndex() );
 		
 		if( isLearningMode() ){
 			actualState.setTimesPlusOne();
@@ -594,7 +607,7 @@ public class MyAgent implements Runnable {
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
 		State returnState = null;
 		
-		int tollerancePoints = 750;
+		int tollerancePoints = 1000;
 		
 		if( !isLearningMode() ){
 			tollerancePoints = 2500;

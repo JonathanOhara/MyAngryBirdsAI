@@ -39,7 +39,7 @@ public class GraphCutter {
 			}
 		}
 		
-		graph.cutNodesWithLessPoints(graph.rootState, 2500);
+		//graph.cutNodesWithLessPoints(graph.rootState, 2500);
 		graph.removeUnlinkedNodes();
 		graph.writeShotsAandStatesInFile(lv);
 		System.out.println("-----------------------------------------------------Not tested = "+times);
