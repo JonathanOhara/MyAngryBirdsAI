@@ -3291,3 +3291,4253 @@ MyAgent.writeShotsAandStatesInFile()
  Level 21 Score: 62270 
 Total Score: 1055260
 Changing Level 16/4/2015 - 23:4:32
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 578.0 y: 315.0 dx: -444 dy: 270 Tap: 90 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.021041958332106
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 119
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 109  calculated in: 137286 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 565.0 y: 356.0 dx: -497 dy: 181 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.021041958332106
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 120
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 51 DiscardedShots: 93  calculated in: 124092 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 631.0 y: 303.0 dx: -279 dy: 450 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.00913757744158
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 121
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 84  calculated in: 129687 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): Unknown at Point x: 621.0 y: 303.0 dx: -423 dy: 318 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0140410454922648
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 122
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 45 DiscardedShots: 101  calculated in: 101803 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 627.0 y: 311.0 dx: -432 dy: 305 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 123
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 1 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 303.0 dx: -244 dy: 459 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0057172369886564
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 124
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 94  calculated in: 125443 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 568.0 y: 319.0 dx: -464 dy: 255 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0056623777303606
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 125
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 60 DiscardedShots: 60  calculated in: 88213 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 215 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0056623777303606
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 126
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 39  calculated in: 70346 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 635.0 y: 336.0 dx: -447 dy: 283 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.033366203175723
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 127
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 51 DiscardedShots: 99  calculated in: 121191 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+No release point found for the target. Try a shot with 45 degree
+Shooting Bird(4): Unknown at Point x: 648.0 y: 248.0 dx: -374 dy: 374 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 128
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 2 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 303.0 dx: -244 dy: 459 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.008227891130741
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 129
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 102 DiscardedShots: 89  calculated in: 139391 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 588.0 y: 314.0 dx: -243 dy: 470 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0105331742048074
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 130
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 66  calculated in: 92301 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 587.0 y: 313.0 dx: -452 dy: 275 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0002643164593978
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 131
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 50  calculated in: 89007 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 587.0 y: 313.0 dx: -448 dy: 281 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.007923907792476
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 132
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 90 DiscardedShots: 100  calculated in: 139162 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 587.0 y: 313.0 dx: -451 dy: 276 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 133
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 3 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 303.0 dx: -244 dy: 459 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0056607401672908
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 134
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 89  calculated in: 148669 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 624.0 y: 315.0 dx: -433 dy: 304 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9997431859795114
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 135
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 60  calculated in: 104529 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 600.0 y: 335.0 dx: -250 dy: 467 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0084690408953547
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 136
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 60 DiscardedShots: 52  calculated in: 82305 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0084690408953547
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 137
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 24 DiscardedShots: 77  calculated in: 107996 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 635.0 y: 346.0 dx: -266 dy: 458 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 138
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 42700 
+Total Score: 42700
+
+-------------------- Times in this level: 4 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -452 dy: 255 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0224370453779994
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 139
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 115  calculated in: 140907 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 590.0 y: 314.0 dx: -457 dy: 267 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.018271597603728
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 140
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 39 DiscardedShots: 81  calculated in: 104755 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 565.0 y: 356.0 dx: -495 dy: 188 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.018271597603728
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 141
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 57  calculated in: 103046 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 606.0 y: 356.0 dx: -483 dy: 216 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 142
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 50860 
+Total Score: 50860
+
+-------------------- Times in this level: 5 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -452 dy: 255 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0129682742940351
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 143
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 95  calculated in: 140032 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 356.0 dx: -494 dy: 190 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0129682742940351
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 144
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 102 DiscardedShots: 76  calculated in: 140098 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 635.0 y: 315.0 dx: -431 dy: 307 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0069974569361206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 145
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 54  calculated in: 105274 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 638.0 y: 315.0 dx: -423 dy: 318 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9959522933775963
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 146
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 153 DiscardedShots: 83  calculated in: 169971 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 638.0 y: 315.0 dx: -414 dy: 329 Tap: 5 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 147
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 6 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -452 dy: 255 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.997459537347738
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 148
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 150 DiscardedShots: 71  calculated in: 126007 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 594.0 y: 355.0 dx: -237 dy: 473 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.005228414335016
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 149
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 61  calculated in: 79983 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 591.0 y: 357.0 dx: -229 dy: 477 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 150
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 54720 
+Total Score: 54720
+
+-------------------- Times in this level: 7 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -226 dy: 467 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.026896382397276
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 151
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 100  calculated in: 109611 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 592.0 y: 303.0 dx: -448 dy: 282 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0277355939942536
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 152
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 88  calculated in: 101495 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 603.0 y: 310.0 dx: -450 dy: 279 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0216514364589295
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 153
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 64  calculated in: 80253 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 565.0 y: 356.0 dx: -497 dy: 181 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0216514364589295
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 154
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 81 DiscardedShots: 91  calculated in: 133820 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 591.0 y: 345.0 dx: -482 dy: 219 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 155
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 54720 
+Total Score: 54720
+
+-------------------- Times in this level: 8 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -226 dy: 467 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.016321968777104
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 156
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 104  calculated in: 137162 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 634.0 y: 315.0 dx: -433 dy: 304 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0174307123913582
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 157
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 39 DiscardedShots: 85  calculated in: 105739 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 564.0 y: 356.0 dx: -495 dy: 187 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0174307123913582
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 158
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 70  calculated in: 96595 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 632.0 y: 330.0 dx: -449 dy: 280 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0148107533941193
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 159
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 78 DiscardedShots: 91  calculated in: 125784 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+No release point found for the target. Try a shot with 45 degree
+Shooting Bird(4): YellowBird at Point x: 650.0 y: 248.0 dx: -374 dy: 374 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 160
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 9 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 319.0 dx: -226 dy: 467 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0063377426442155
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 161
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 80  calculated in: 134645 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 599.0 y: 358.0 dx: -234 dy: 475 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0065206228743788
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 162
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 20  calculated in: 80321 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 626.0 y: 358.0 dx: -256 dy: 463 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0066725105736798
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 163
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 12  calculated in: 35673 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 626.0 y: 358.0 dx: -256 dy: 463 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.00889350985529
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 164
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 72 DiscardedShots: 53  calculated in: 72580 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 626.0 y: 358.0 dx: -255 dy: 464 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 165
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 10 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 303.0 dx: -261 dy: 449 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.011990347195548
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 166
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 106  calculated in: 139703 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 330.0 dx: -471 dy: 242 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0027450510570974
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 167
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 66  calculated in: 113344 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 631.0 y: 317.0 dx: -289 dy: 444 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0101433546942273
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 168
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 72  calculated in: 114673 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 631.0 y: 317.0 dx: -280 dy: 449 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0043865485378676
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 169
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 33 DiscardedShots: 60  calculated in: 144931 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 631.0 y: 317.0 dx: -287 dy: 445 Tap: 0 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0709874474392413
+Solve return state: PLAYING
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 170
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 11 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 303.0 dx: -261 dy: 449 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0096404891642237
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 171
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 81  calculated in: 119027 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 589.0 y: 313.0 dx: -451 dy: 277 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0202025643986607
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 172
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 24 DiscardedShots: 70  calculated in: 81106 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 568.0 y: 319.0 dx: -468 dy: 248 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0112339855797783
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 173
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 31  calculated in: 65430 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): Unknown at Point x: 608.0 y: 345.0 dx: -470 dy: 243 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0203846841862276
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 174
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 45 DiscardedShots: 56  calculated in: 59495 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 564.0 y: 356.0 dx: -497 dy: 181 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 175
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 54720 
+Total Score: 54720
+
+-------------------- Times in this level: 12 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 303.0 dx: -261 dy: 449 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.017162031810682
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 176
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 112  calculated in: 137927 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 571.0 y: 329.0 dx: -473 dy: 237 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0005868822050297
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 177
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 48  calculated in: 98281 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 604.0 y: 345.0 dx: -248 dy: 468 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0066120092929054
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 178
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 87 DiscardedShots: 41  calculated in: 76789 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 620.0 y: 340.0 dx: -460 dy: 262 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0068751849449318
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 179
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 78 DiscardedShots: 81  calculated in: 85148 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 620.0 y: 340.0 dx: -460 dy: 262 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 180
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 13 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -461 dy: 240 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0109407284841134
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 181
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 95  calculated in: 143132 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0109407284841134
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 182
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 65  calculated in: 95839 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 641.0 y: 317.0 dx: -292 dy: 442 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0087696547638698
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 183
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 63  calculated in: 98849 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 601.0 y: 337.0 dx: -466 dy: 251 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 184
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 54720 
+Total Score: 54720
+
+-------------------- Times in this level: 14 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -461 dy: 240 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.009000464402592
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 185
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 86  calculated in: 154519 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.009000464402592
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 186
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 102 DiscardedShots: 43  calculated in: 99179 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 629.0 y: 341.0 dx: -458 dy: 266 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.006900558046858
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 187
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 13  calculated in: 59455 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 621.0 y: 356.0 dx: -471 dy: 241 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9985596893967477
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 188
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 105 DiscardedShots: 54  calculated in: 101410 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 621.0 y: 356.0 dx: -469 dy: 246 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 189
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 15 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -461 dy: 240 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9988371262021847
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 190
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 201 DiscardedShots: 54  calculated in: 141409 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 595.0 y: 336.0 dx: -246 dy: 469 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0063261526802356
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 191
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 147 DiscardedShots: 54  calculated in: 113049 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 595.0 y: 336.0 dx: -240 dy: 472 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0073697778861868
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 192
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 126 DiscardedShots: 54  calculated in: 100835 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 613.0 y: 337.0 dx: -255 dy: 464 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0104873091059492
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 193
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 102 DiscardedShots: 103  calculated in: 112839 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 603.0 y: 330.0 dx: -247 dy: 468 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 194
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 16 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -222 dy: 470 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0065883829369735
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 195
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 90  calculated in: 140559 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 587.0 y: 315.0 dx: -243 dy: 470 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0083883924675667
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 196
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 55  calculated in: 90185 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 590.0 y: 313.0 dx: -450 dy: 278 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0104909207185142
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 197
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 62  calculated in: 83117 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 590.0 y: 313.0 dx: -451 dy: 277 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0239606019793333
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 198
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 48 DiscardedShots: 124  calculated in: 124395 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 645.0 y: 317.0 dx: -490 dy: 270 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0521895364353315
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 199
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 15 DiscardedShots: 59  calculated in: 57756 miliseconds
+Game State change before choose best shot.
+Unknow Game state, may the game ends in last shot. CurrentLevel: 16
+Updating last Shot Status
+ Game score is unavailable 
+MyAgent.reCalculateShotStats()
+MyAgent.writeShotsAandStatesInFile()
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -222 dy: 470 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.006202612439627
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 200
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 95  calculated in: 151696 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 215 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.006202612439627
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 201
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 87 DiscardedShots: 51  calculated in: 96182 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 619.0 y: 328.0 dx: -263 dy: 459 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0094522860719597
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 202
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 58  calculated in: 91468 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 619.0 y: 328.0 dx: -263 dy: 459 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0086016410188197
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 203
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 69 DiscardedShots: 97  calculated in: 116925 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 615.0 y: 321.0 dx: -264 dy: 459 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 204
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 18 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 330.0 dx: -222 dy: 470 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0071817843401847
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 205
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 135 DiscardedShots: 87  calculated in: 163272 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 347.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 206
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 19 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -443 dy: 271 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0169324802091348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 207
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 106  calculated in: 137350 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 357.0 dx: -496 dy: 186 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0169324802091348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 208
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 96  calculated in: 127964 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 645.0 y: 320.0 dx: -432 dy: 306 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.002852840802441
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 209
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 52  calculated in: 95597 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 611.0 y: 335.0 dx: -258 dy: 462 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0086624666575017
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 210
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 60 DiscardedShots: 95  calculated in: 97621 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 610.0 y: 335.0 dx: -252 dy: 466 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 211
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 20 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -443 dy: 271 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0118003120791492
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 212
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 118  calculated in: 154969 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 583.0 y: 323.0 dx: -464 dy: 256 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0147011025999193
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 213
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 51 DiscardedShots: 63  calculated in: 94811 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 598.0 y: 340.0 dx: -471 dy: 241 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 214
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 21 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -443 dy: 271 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0322575508256298
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 215
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 33 DiscardedShots: 99  calculated in: 120916 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 357.0 dx: -500 dy: 174 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0322575508256298
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 216
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 84  calculated in: 114150 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 645.0 y: 310.0 dx: -431 dy: 307 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.023344366233579
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 217
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 33 DiscardedShots: 55  calculated in: 78403 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 607.0 y: 346.0 dx: -475 dy: 234 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 218
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 22 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -231 dy: 465 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.007593637547348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 219
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 90  calculated in: 125717 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 567.0 y: 319.0 dx: -465 dy: 253 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0119296888171323
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 220
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 53  calculated in: 80954 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 564.0 y: 357.0 dx: -495 dy: 189 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 221
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 23 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -231 dy: 465 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0087443846070847
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 222
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 80  calculated in: 133155 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0087443846070847
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 223
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 67  calculated in: 113731 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 632.0 y: 298.0 dx: -408 dy: 337 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0108611763924387
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 224
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 59  calculated in: 108292 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 611.0 y: 335.0 dx: -461 dy: 259 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0188474030579835
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 225
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 21 DiscardedShots: 69  calculated in: 64310 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 620.0 y: 340.0 dx: -464 dy: 254 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 226
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 24 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 309.0 dx: -231 dy: 465 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0081360181033188
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 227
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 105 DiscardedShots: 89  calculated in: 151557 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0081360181033188
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 228
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 60  calculated in: 114421 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 600.0 y: 325.0 dx: -457 dy: 267 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 229
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 25 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 298.0 dx: -247 dy: 457 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0081392214826839
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 230
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 104  calculated in: 140629 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 571.0 y: 330.0 dx: -472 dy: 240 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0122860891293255
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 231
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 61  calculated in: 113402 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 629.0 y: 316.0 dx: -435 dy: 301 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0104594412958483
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 232
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 55  calculated in: 99506 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 590.0 y: 340.0 dx: -473 dy: 238 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0068252638287936
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 233
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 132 DiscardedShots: 70  calculated in: 122120 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 599.0 y: 358.0 dx: -234 dy: 475 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 234
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 26 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 298.0 dx: -247 dy: 457 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0061614116204924
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 235
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 92  calculated in: 144343 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 588.0 y: 315.0 dx: -244 dy: 470 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0053860748548296
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 236
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 68  calculated in: 104234 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 315.0 dx: -245 dy: 469 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0074450021165786
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 237
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 56  calculated in: 85663 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 588.0 y: 315.0 dx: -243 dy: 470 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0070819889522753
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 238
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 34 DiscardedShots: 102  calculated in: 153833 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 588.0 y: 315.0 dx: -243 dy: 470 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 239
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 27 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 577.0 y: 298.0 dx: -247 dy: 457 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0073768449321634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 240
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 93  calculated in: 150611 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 588.0 y: 314.0 dx: -244 dy: 470 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.005318073928974
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 241
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 81 DiscardedShots: 76  calculated in: 117580 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 314.0 dx: -245 dy: 469 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.007355879091867
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 242
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 57  calculated in: 87898 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 588.0 y: 313.0 dx: -451 dy: 278 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0032099662032297
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 243
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 23 DiscardedShots: 104  calculated in: 94374 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 588.0 y: 313.0 dx: -449 dy: 280 Tap: 0 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 244
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 28 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 303.0 dx: -438 dy: 280 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.027831841351842
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 245
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 27 DiscardedShots: 121  calculated in: 136999 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 604.0 y: 307.0 dx: -447 dy: 284 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0201443653062165
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 246
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 27 DiscardedShots: 85  calculated in: 99938 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 321.0 dx: -463 dy: 257 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0193906438050628
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 247
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 64  calculated in: 82507 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 565.0 y: 356.0 dx: -495 dy: 187 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0193906438050628
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 248
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 15 DiscardedShots: 88  calculated in: 83869 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 590.0 y: 345.0 dx: -482 dy: 220 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 249
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 29 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 303.0 dx: -438 dy: 280 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0169356735006907
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 250
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 107  calculated in: 133979 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 356.0 dx: -495 dy: 188 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0169356735006907
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 251
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 92  calculated in: 124876 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 621.0 y: 303.0 dx: -428 dy: 312 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0090255533784256
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 252
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 61  calculated in: 99671 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 636.0 y: 315.0 dx: -289 dy: 443 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0197676971568344
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 253
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 12 DiscardedShots: 119  calculated in: 101136 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 615.0 y: 320.0 dx: -450 dy: 279 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 254
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 30 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 303.0 dx: -438 dy: 280 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0193461636709409
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 255
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 98  calculated in: 124394 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 621.0 y: 314.0 dx: -441 dy: 292 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0114689929335705
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 256
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 70  calculated in: 97645 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 576.0 y: 346.0 dx: -485 dy: 213 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0114689929335705
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 257
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 44  calculated in: 77874 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 627.0 y: 329.0 dx: -448 dy: 282 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0238131883745136
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 258
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 39 DiscardedShots: 88  calculated in: 96514 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 608.0 y: 355.0 dx: -483 dy: 216 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 259
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 63770 
+Total Score: 63770
+
+-------------------- Times in this level: 31 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 298.0 dx: -265 dy: 447 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.021922310704645
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 260
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 124  calculated in: 140382 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 567.0 y: 319.0 dx: -469 dy: 246 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0102307523550875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 261
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 88  calculated in: 130905 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 626.0 y: 313.0 dx: -433 dy: 305 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0105383841736921
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 262
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 77  calculated in: 106682 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 565.0 y: 356.0 dx: -494 dy: 191 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0105383841736921
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 263
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 81 DiscardedShots: 103  calculated in: 132186 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 623.0 y: 330.0 dx: -451 dy: 278 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 264
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 32 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 298.0 dx: -265 dy: 447 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0104826396663154
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 265
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 97  calculated in: 131985 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 567.0 y: 319.0 dx: -466 dy: 252 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.008329955880114
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 266
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 62  calculated in: 99770 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.008329955880114
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 267
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 114 DiscardedShots: 30  calculated in: 96498 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 621.0 y: 334.0 dx: -455 dy: 270 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9924100307540772
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 268
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 114 DiscardedShots: 49  calculated in: 83929 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 635.0 y: 356.0 dx: -275 dy: 452 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 269
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 33 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 597.0 y: 298.0 dx: -265 dy: 447 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0096846488410776
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 270
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 97  calculated in: 151541 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 635.0 y: 315.0 dx: -427 dy: 312 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0096860605858753
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 271
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 76  calculated in: 108907 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 315.0 dx: -242 dy: 471 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0056802908735911
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 272
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 54  calculated in: 80630 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 588.0 y: 315.0 dx: -452 dy: 276 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0171654552333829
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 273
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 24 DiscardedShots: 110  calculated in: 79135 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 571.0 y: 329.0 dx: -473 dy: 237 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 274
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 34 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -466 dy: 230 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.006333209057189
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 275
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 150 DiscardedShots: 58  calculated in: 122902 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 589.0 y: 337.0 dx: -470 dy: 243 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 276
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 64350 
+Total Score: 64350
+
+-------------------- Times in this level: 35 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -466 dy: 230 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9935667739820677
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 277
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 177 DiscardedShots: 53  calculated in: 133766 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 575.0 y: 356.0 dx: -487 dy: 207 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 278
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 64620 
+Total Score: 64620
+
+-------------------- Times in this level: 36 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -466 dy: 230 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.018670572761976
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 279
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 74  calculated in: 113395 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 591.0 y: 337.0 dx: -473 dy: 238 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0299259912933247
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 280
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 68  calculated in: 89185 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 608.0 y: 346.0 dx: -479 dy: 224 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 281
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 64620 
+Total Score: 64620
+
+-------------------- Times in this level: 37 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -218 dy: 471 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 282
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 109  calculated in: 159315 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 585.0 y: 312.0 dx: -450 dy: 278 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.991887069878584
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 283
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 123 DiscardedShots: 46  calculated in: 111265 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 589.0 y: 315.0 dx: -446 dy: 285 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.012389500759897
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 284
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 39 DiscardedShots: 73  calculated in: 93629 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 589.0 y: 315.0 dx: -240 dy: 472 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.006667704911262
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 285
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 54 DiscardedShots: 96  calculated in: 83932 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 589.0 y: 315.0 dx: -245 dy: 469 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 286
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 38 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -218 dy: 471 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.009508474557374
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 287
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 90  calculated in: 150592 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 565.0 y: 356.0 dx: -493 dy: 192 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.009508474557374
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 288
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 68  calculated in: 136553 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 620.0 y: 303.0 dx: -424 dy: 317 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0138678043745393
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 289
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 63  calculated in: 103172 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 646.0 y: 310.0 dx: -416 dy: 327 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.017309010955195
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 290
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 66 DiscardedShots: 98  calculated in: 105146 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 646.0 y: 310.0 dx: -419 dy: 323 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 291
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 39 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -218 dy: 471 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.007417599024387
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 292
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 75  calculated in: 145245 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 607.0 y: 356.0 dx: -477 dy: 230 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 293
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 66830 
+Total Score: 66830
+
+-------------------- Times in this level: 40 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 298.0 dx: -237 dy: 462 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.009938113853892
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 294
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 104  calculated in: 147391 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 571.0 y: 330.0 dx: -472 dy: 239 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0071157118723586
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 295
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 82  calculated in: 132777 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 621.0 y: 314.0 dx: -435 dy: 301 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.009729281849539
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 296
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 66  calculated in: 105965 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 576.0 y: 346.0 dx: -484 dy: 214 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 297
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 66830 
+Total Score: 66830
+
+-------------------- Times in this level: 41 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 298.0 dx: -237 dy: 462 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0165248324053056
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 298
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 95  calculated in: 126517 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): Unknown at Point x: 565.0 y: 356.0 dx: -495 dy: 189 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0165248324053056
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 299
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 114 DiscardedShots: 65  calculated in: 113901 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 607.0 y: 356.0 dx: -482 dy: 218 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 300
+MyAgent.writeShotsAandStatesInFile()
+ Level 16 Score: 66830 
+Total Score: 66830
+
+-------------------- Times in this level: 42 of 236--------------------
+
+Loaded Level: 16
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 567.0 y: 298.0 dx: -237 dy: 462 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0147709283862003
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 301
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 96  calculated in: 128560 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 357.0 dx: -495 dy: 187 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0147709283862003
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 302
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 78  calculated in: 123868 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 634.0 y: 315.0 dx: -433 dy: 305 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0154682832627113
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 303
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 60  calculated in: 92712 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 624.0 y: 310.0 dx: -434 dy: 303 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0144928211253137
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 304
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 54 DiscardedShots: 102  calculated in: 112514 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): Unknown at Point x: 624.0 y: 310.0 dx: -433 dy: 304 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 305
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 43 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 585.0 y: 287.0 dx: -411 dy: 317 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.015140123690105
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 306
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 126  calculated in: 157795 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 577.0 y: 330.0 dx: -472 dy: 240 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0031344369372084
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 307
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 79  calculated in: 150706 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 565.0 y: 356.0 dx: -492 dy: 195 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0031344369372084
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 308
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 150 DiscardedShots: 46  calculated in: 123809 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 614.0 y: 333.0 dx: -261 dy: 460 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0088917950068894
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 309
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 129 DiscardedShots: 88  calculated in: 121130 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 614.0 y: 333.0 dx: -257 dy: 463 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 310
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 44 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 585.0 y: 287.0 dx: -411 dy: 317 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0092884388637196
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 311
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 90  calculated in: 126173 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 580.0 y: 303.0 dx: -446 dy: 285 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0102372485346909
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 312
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 77  calculated in: 107181 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 592.0 y: 313.0 dx: -450 dy: 278 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0089125770597325
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 313
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 55  calculated in: 86595 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 589.0 y: 313.0 dx: -451 dy: 277 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0090603055067862
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 314
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 87 DiscardedShots: 99  calculated in: 144973 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 589.0 y: 315.0 dx: -243 dy: 470 Tap: 5 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 315
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 45 of 236--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 585.0 y: 287.0 dx: -411 dy: 317 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0126062952270598
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 316
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 99  calculated in: 134387 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 634.0 y: 315.0 dx: -283 dy: 448 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0106642485087998
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 317
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 99  calculated in: 132522 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 597.0 y: 330.0 dx: -463 dy: 256 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.031047085571649
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 318
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 76  calculated in: 97068 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 626.0 y: 315.0 dx: -445 dy: 286 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.0228229287468085
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 319
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 42 DiscardedShots: 102  calculated in: 106499 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 564.0 y: 357.0 dx: -498 dy: 178 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 320
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 46 of 236--------------------
+
+ restart the level 
