@@ -2076,3 +2076,4195 @@ Exception in thread "Thread-11" java.lang.NullPointerException
 	at ab.vision.ShowSeg.drawMBRs(ShowSeg.java:159)
 	at ab.vision.ShowSeg.run(ShowSeg.java:328)
 	at java.lang.Thread.run(Unknown Source)
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 568
+Setting the Score with average of 17135 and 16960 = 17047
+Setting the Total Score with average of 17135 and 16960 = 17047
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 520.0 y: 294.0 dx: -495 dy: 215 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 979
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 195 DiscardedShots: 229  calculated in: 299051 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 528.0 y: 288.0 dx: -483 dy: 240 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 980
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 216 DiscardedShots: 201  calculated in: 279937 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 510.0 y: 304.0 dx: -175 dy: 511 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 981
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 16 DiscardedShots: 198  calculated in: 83887 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 475.0 y: 305.0 dx: -517 dy: 154 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 982
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 183  calculated in: 81343 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 359.0 y: 373.0 dx: -528 dy: -110 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 983
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 21 DiscardedShots: 183  calculated in: 78685 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 557.0 y: 275.0 dx: -480 dy: 246 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 984
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 24 DiscardedShots: 167  calculated in: 75652 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 486.0 y: 325.0 dx: -526 dy: 119 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 985
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 1 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14250 and 15220 = 14735
+Setting the Total Score with average of 14250 and 15220 = 14735
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 528.0 y: 278.0 dx: -477 dy: 251 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 986
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 275  calculated in: 125489 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 505.0 y: 288.0 dx: -500 dy: 201 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0749369243087832
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 987
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 274  calculated in: 119840 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 537.0 y: 274.0 dx: -483 dy: 240 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9909206576204259
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 988
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 78 DiscardedShots: 170  calculated in: 269706 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 574.0 y: 304.0 dx: -225 dy: 490 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0139114488022882
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 989
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 196  calculated in: 237604 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 561.0 y: 285.0 dx: -473 dy: 258 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.037120183756982
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 990
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 188  calculated in: 178914 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 573.0 y: 285.0 dx: -476 dy: 254 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0336499409148603
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 991
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 182  calculated in: 180447 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 492.0 y: 298.0 dx: -506 dy: 186 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 992
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 2 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0336499409148603
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14735 and 14970 = 14852
+Setting the Total Score with average of 14735 and 14970 = 14852
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 559.0 y: 274.0 dx: -466 dy: 272 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0138042128695197
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 993
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 135 DiscardedShots: 268  calculated in: 301467 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 519.0 y: 294.0 dx: -494 dy: 217 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0138042128695197
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 994
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 174 DiscardedShots: 229  calculated in: 286137 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 529.0 y: 287.0 dx: -484 dy: 239 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0559761756478392
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 995
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 10 DiscardedShots: 270  calculated in: 170291 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 541.0 y: 268.0 dx: -474 dy: 257 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.033584333517076
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 996
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 249  calculated in: 262115 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 609.0 y: 273.0 dx: -453 dy: 293 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0259555459246694
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 997
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 197  calculated in: 217592 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 595.0 y: 283.0 dx: -464 dy: 275 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.015019634074792
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 998
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 105 DiscardedShots: 175  calculated in: 235333 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 596.0 y: 284.0 dx: -461 dy: 281 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 999
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 3 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.015019634074792
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14852 and 15210 = 15031
+Setting the Total Score with average of 14852 and 15210 = 15031
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 520.0 y: 278.0 dx: -479 dy: 247 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0065712411044634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1000
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 171 DiscardedShots: 216  calculated in: 274246 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 519.0 y: 294.0 dx: -492 dy: 220 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0065712411044634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1001
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 174 DiscardedShots: 207  calculated in: 274270 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 560.0 y: 294.0 dx: -479 dy: 248 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0065712411044634
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1002
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 55 DiscardedShots: 145  calculated in: 209974 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 576.0 y: 294.0 dx: -474 dy: 257 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0069481767282265
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1003
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 186 DiscardedShots: 133  calculated in: 220351 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 514.0 y: 330.0 dx: -171 dy: 512 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1004
+MyAgent.writeShotsAandStatesInFile()
+ Level 21 Score: 78780 
+Total Score: 78780
+
+-------------------- Times in this level: 4 of 252--------------------
+
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 15031 and 16000 = 15515
+Setting the Total Score with average of 15031 and 16000 = 15515
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 520.0 y: 278.0 dx: -182 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9801116572869938
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1005
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 288 DiscardedShots: 209  calculated in: 344319 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 529.0 y: 288.0 dx: -477 dy: 252 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0126664751087837
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1006
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 132 DiscardedShots: 214  calculated in: 260692 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 561.0 y: 284.0 dx: -472 dy: 261 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1007
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 16 DiscardedShots: 204  calculated in: 135586 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 504.0 y: 319.0 dx: -518 dy: 149 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1008
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 51 DiscardedShots: 193  calculated in: 135391 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 511.0 y: 341.0 dx: -528 dy: 111 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1009
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 179  calculated in: 123367 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 385.0 y: 363.0 dx: -537 dy: -51 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1010
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 24 DiscardedShots: 179  calculated in: 121992 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 494.0 y: 337.0 dx: -529 dy: 107 Tap: 70 -> Stone
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1011
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 5 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 15515 and 14850 = 15182
+Setting the Total Score with average of 15515 and 14850 = 15182
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 504.0 y: 286.0 dx: -492 dy: 222 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1012
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 81 DiscardedShots: 278  calculated in: 206248 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 530.0 y: 288.0 dx: -494 dy: 217 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1013
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 223  calculated in: 168359 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 503.0 y: 297.0 dx: -504 dy: 191 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0562051145566702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1014
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 15 DiscardedShots: 212  calculated in: 154542 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 591.0 y: 248.0 dx: -444 dy: 306 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0323046054108342
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1015
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 57 DiscardedShots: 185  calculated in: 203184 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 560.0 y: 283.0 dx: -476 dy: 253 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0208109985900573
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1016
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 75 DiscardedShots: 150  calculated in: 188974 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 659.0 y: 328.0 dx: -474 dy: 258 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0066125306443778
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1017
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 177 DiscardedShots: 102  calculated in: 192697 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 551.0 y: 307.0 dx: -494 dy: 217 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1018
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 6 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0066125306443778
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 568
+Setting the Score with average of 17047 and 16120 = 16583
+Setting the Total Score with average of 17047 and 16120 = 16583
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 520.0 y: 294.0 dx: -177 dy: 510 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0118726008454395
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1019
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 153 DiscardedShots: 261  calculated in: 301501 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 528.0 y: 288.0 dx: -484 dy: 237 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0185112031303656
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1020
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 256  calculated in: 276665 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 498.0 y: 301.0 dx: -504 dy: 193 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0185112031303656
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1021
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 38 DiscardedShots: 247  calculated in: 240201 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 544.0 y: 269.0 dx: -466 dy: 272 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0177961675636187
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1022
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 232  calculated in: 225105 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 519.0 y: 295.0 dx: -495 dy: 214 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0177961675636187
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1023
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 202  calculated in: 214693 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 575.0 y: 294.0 dx: -477 dy: 251 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.036150241018365
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1024
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 45 DiscardedShots: 186  calculated in: 161265 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 581.0 y: 286.0 dx: -474 dy: 257 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1025
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 7 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.036150241018365
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 568
+Setting the Score with average of 16583 and 16000 = 16291
+Setting the Total Score with average of 16583 and 16000 = 16291
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 520.0 y: 284.0 dx: -485 dy: 236 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0178579697264087
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1026
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 144 DiscardedShots: 254  calculated in: 270840 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 516.0 y: 298.0 dx: -498 dy: 207 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0178579697264087
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1027
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 150 DiscardedShots: 211  calculated in: 250018 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 526.0 y: 296.0 dx: -494 dy: 216 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0178579697264087
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1028
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 41 DiscardedShots: 197  calculated in: 238182 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 569.0 y: 285.0 dx: -472 dy: 261 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0191605910596946
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1029
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 126 DiscardedShots: 186  calculated in: 265437 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 580.0 y: 286.0 dx: -470 dy: 265 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.011055255666946
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1030
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 141 DiscardedShots: 132  calculated in: 196550 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 582.0 y: 295.0 dx: -474 dy: 257 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0248070057338312
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1031
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 127  calculated in: 139857 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 560.0 y: 303.0 dx: -492 dy: 221 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1032
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 8 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0248070057338312
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 15182 and 14270 = 14726
+Setting the Total Score with average of 15182 and 14270 = 14726
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 538.0 y: 268.0 dx: -466 dy: 271 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0161996847900725
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1033
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 278  calculated in: 255564 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 520.0 y: 284.0 dx: -484 dy: 238 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0161996847900725
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1034
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 275  calculated in: 257296 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 518.0 y: 284.0 dx: -484 dy: 237 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0161996847900725
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1035
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 35 DiscardedShots: 212  calculated in: 226967 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 541.0 y: 285.0 dx: -479 dy: 247 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0161996847900725
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1036
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 214  calculated in: 239223 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 556.0 y: 285.0 dx: -475 dy: 255 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0161996847900725
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1037
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 188  calculated in: 224082 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 557.0 y: 285.0 dx: -475 dy: 255 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9501485517985734
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1038
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+No release point found for the target. Try a shot with 45 degree
+Number of: PossibleShots: 444 DiscardedShots: 52  calculated in: 278262 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 552.0 y: 336.0 dx: -221 dy: 492 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1039
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 9 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9501485517985734
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14726 and 14240 = 14483
+Setting the Total Score with average of 14726 and 14240 = 14483
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 538.0 y: 268.0 dx: -194 dy: 503 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1040
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 132 DiscardedShots: 267  calculated in: 269675 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 517.0 y: 285.0 dx: -485 dy: 236 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1041
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 147 DiscardedShots: 258  calculated in: 298542 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 502.0 y: 301.0 dx: -502 dy: 197 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1042
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 38 DiscardedShots: 228  calculated in: 266098 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 518.0 y: 294.0 dx: -494 dy: 217 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1043
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 209  calculated in: 257815 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 560.0 y: 277.0 dx: -467 dy: 270 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1044
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 201  calculated in: 249576 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 576.0 y: 283.0 dx: -467 dy: 270 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1045
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 186  calculated in: 213275 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 573.0 y: 283.0 dx: -468 dy: 268 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1046
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 10 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0132555121831353
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14483 and 14310 = 14396
+Setting the Total Score with average of 14483 and 14310 = 14396
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 548.0 y: 268.0 dx: -464 dy: 276 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.008752598086065
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1047
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 198 DiscardedShots: 247  calculated in: 312892 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 519.0 y: 284.0 dx: -483 dy: 240 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.008752598086065
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1048
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 174 DiscardedShots: 232  calculated in: 307713 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 519.0 y: 294.0 dx: -181 dy: 508 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0533814960952075
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1049
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 11 DiscardedShots: 230  calculated in: 161262 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 530.0 y: 284.0 dx: -490 dy: 224 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0533814960952075
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1050
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 24 DiscardedShots: 237  calculated in: 165082 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 479.0 y: 322.0 dx: -524 dy: 126 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0533814960952075
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1051
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 27 DiscardedShots: 200  calculated in: 154599 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 550.0 y: 262.0 dx: -467 dy: 270 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0353976388703154
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1052
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 36 DiscardedShots: 188  calculated in: 192384 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 520.0 y: 341.0 dx: -525 dy: 123 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1053
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 11 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0353976388703154
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14396 and 15220 = 14808
+Setting the Total Score with average of 14396 and 15220 = 14808
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 558.0 y: 268.0 dx: -461 dy: 280 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.018983983994453
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1054
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 279  calculated in: 312055 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 506.0 y: 296.0 dx: -499 dy: 205 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.018983983994453
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1055
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 260  calculated in: 322163 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 572.0 y: 282.0 dx: -469 dy: 266 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1056
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 11 DiscardedShots: 218  calculated in: 99178 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 454.0 y: 341.0 dx: -536 dy: 57 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1057
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 33 DiscardedShots: 218  calculated in: 100032 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 454.0 y: 341.0 dx: -536 dy: 57 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1058
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 33 DiscardedShots: 192  calculated in: 94594 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 521.0 y: 341.0 dx: -527 dy: 115 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1059
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 33 DiscardedShots: 164  calculated in: 83585 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 454.0 y: 341.0 dx: -536 dy: 57 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1060
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 12 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14808 and 15220 = 15014
+Setting the Total Score with average of 14808 and 15220 = 15014
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 484.0 y: 306.0 dx: -511 dy: 173 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1061
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 274  calculated in: 150875 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 520.0 y: 293.0 dx: -500 dy: 202 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1062
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 240  calculated in: 126034 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 522.0 y: 294.0 dx: -501 dy: 201 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1063
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 16 DiscardedShots: 212  calculated in: 104833 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 560.0 y: 293.0 dx: -493 dy: 220 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0651913913967206
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1064
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 212  calculated in: 107787 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 575.0 y: 274.0 dx: -473 dy: 259 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1065
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 158  calculated in: 138974 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 545.0 y: 305.0 dx: -501 dy: 200 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1066
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 42 DiscardedShots: 135  calculated in: 135425 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 631.0 y: 321.0 dx: -490 dy: 226 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1067
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 13 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 15014 and 14380 = 14697
+Setting the Total Score with average of 15014 and 14380 = 14697
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 528.0 y: 268.0 dx: -469 dy: 266 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1068
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 279  calculated in: 239787 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 503.0 y: 289.0 dx: -498 dy: 206 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1069
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 267  calculated in: 233210 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 532.0 y: 284.0 dx: -489 dy: 227 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1070
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 13 DiscardedShots: 271  calculated in: 214036 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 466.0 y: 328.0 dx: -528 dy: 108 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1071
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 36 DiscardedShots: 255  calculated in: 214935 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 541.0 y: 296.0 dx: -496 dy: 212 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0487391287131875
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1072
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 39 DiscardedShots: 232  calculated in: 186539 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 557.0 y: 288.0 dx: -484 dy: 237 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1073
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 51 DiscardedShots: 207  calculated in: 185525 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 525.0 y: 295.0 dx: -497 dy: 209 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1074
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 14 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14697 and 14270 = 14483
+Setting the Total Score with average of 14697 and 14270 = 14483
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 494.0 y: 286.0 dx: -494 dy: 217 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1075
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 285  calculated in: 253877 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 521.0 y: 298.0 dx: -500 dy: 202 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1076
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 260  calculated in: 237088 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 530.0 y: 294.0 dx: -496 dy: 212 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1077
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 20 DiscardedShots: 219  calculated in: 205683 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 518.0 y: 294.0 dx: -498 dy: 207 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1078
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 60 DiscardedShots: 201  calculated in: 202877 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 546.0 y: 296.0 dx: -494 dy: 217 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1079
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 174  calculated in: 194172 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 562.0 y: 318.0 dx: -504 dy: 193 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1080
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 48 DiscardedShots: 143  calculated in: 156217 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 637.0 y: 297.0 dx: -466 dy: 272 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1081
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 15 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0419802538031977
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14483 and 14270 = 14376
+Setting the Total Score with average of 14483 and 14270 = 14376
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 494.0 y: 286.0 dx: -164 dy: 514 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0120096708278468
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1082
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 168 DiscardedShots: 252  calculated in: 302300 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 519.0 y: 304.0 dx: -500 dy: 201 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0120096708278468
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1083
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 165 DiscardedShots: 206  calculated in: 270230 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 560.0 y: 285.0 dx: -208 dy: 498 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0347071801940195
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1084
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 27 DiscardedShots: 203  calculated in: 203961 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 505.0 y: 292.0 dx: -498 dy: 207 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0347071801940195
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1085
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 202  calculated in: 214053 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 531.0 y: 294.0 dx: -494 dy: 216 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0347071801940195
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1086
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 195  calculated in: 187648 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 578.0 y: 284.0 dx: -473 dy: 259 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0351927425162797
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1087
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 60 DiscardedShots: 180  calculated in: 172456 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 601.0 y: 275.0 dx: -458 dy: 285 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1088
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 16 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0351927425162797
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14376 and 14250 = 14313
+Setting the Total Score with average of 14376 and 14250 = 14313
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 484.0 y: 296.0 dx: -503 dy: 195 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0351927425162797
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1089
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 270  calculated in: 233404 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 520.0 y: 294.0 dx: -497 dy: 210 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0351927425162797
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1090
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 253  calculated in: 228443 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 524.0 y: 275.0 dx: -479 dy: 247 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0467572878084563
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1091
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 15 DiscardedShots: 200  calculated in: 165256 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 470.0 y: 323.0 dx: -526 dy: 121 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0467572878084563
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1092
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 39 DiscardedShots: 199  calculated in: 187368 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 514.0 y: 309.0 dx: -510 dy: 174 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0467572878084563
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1093
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 36 DiscardedShots: 162  calculated in: 167025 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 546.0 y: 320.0 dx: -511 dy: 174 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1094
+MyAgent.writeShotsAandStatesInFile()
+ Level 21 Score: 78780 
+Total Score: 78780
+
+-------------------- Times in this level: 17 of 252--------------------
+
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 134
+Shooting Bird(0): BlueBird at Point x: 453.0 y: 316.0 dx: -522 dy: 135 Tap: 75 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 708
+Setting the Score with average of 14313 and 14290 = 14301
+Setting the Total Score with average of 14313 and 14290 = 14301
+
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 484.0 y: 296.0 dx: -155 dy: 517 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0107917878939003
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1095
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 156 DiscardedShots: 240  calculated in: 283120 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 518.0 y: 294.0 dx: -493 dy: 218 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0107917878939003
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1096
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 244  calculated in: 280611 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 537.0 y: 284.0 dx: -479 dy: 249 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0107917878939003
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1097
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 49 DiscardedShots: 219  calculated in: 284645 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 560.0 y: 284.0 dx: -472 dy: 261 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0205166616173302
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1098
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 245  calculated in: 234353 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 562.0 y: 267.0 dx: -459 dy: 283 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.024406611106702
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1099
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 252  calculated in: 239427 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 570.0 y: 264.0 dx: -455 dy: 289 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0259625909024508
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1100
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 253  calculated in: 216768 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 570.0 y: 264.0 dx: -456 dy: 289 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0265849828207503
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1101
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 63 DiscardedShots: 254  calculated in: 211972 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 8
+Shooting Bird(8): YellowBird at Point x: 570.0 y: 264.0 dx: -456 dy: 288 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0268339395880701
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1102
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 60 DiscardedShots: 255  calculated in: 212308 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 9
+Shooting Bird(9): YellowBird at Point x: 570.0 y: 264.0 dx: -456 dy: 288 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.026933522294998
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1103
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 241(from Shot id:19446)
+[ERROR] There is no State with = 241(from Shot id:19447)
+[ERROR] There is no State with = 241(from Shot id:19448)
+[ERROR] There is no State with = 241(from Shot id:19449)
+[ERROR] There is no State with = 241(from Shot id:19450)
+[ERROR] There is no State with = 241(from Shot id:19451)
+[ERROR] There is no State with = 241(from Shot id:19452)
+[ERROR] There is no State with = 241(from Shot id:19453)
+[ERROR] There is no State with = 241(from Shot id:19454)
+[ERROR] There is no State with = 241(from Shot id:19455)
+[ERROR] There is no State with = 241(from Shot id:19456)
+[ERROR] There is no State with = 241(from Shot id:19457)
+[ERROR] There is no State with = 241(from Shot id:19458)
+[ERROR] There is no State with = 241(from Shot id:19459)
+[ERROR] There is no State with = 241(from Shot id:19460)
+[ERROR] There is no State with = 241(from Shot id:19461)
+[ERROR] There is no State with = 241(from Shot id:19462)
+[ERROR] There is no State with = 241(from Shot id:19463)
+[ERROR] There is no State with = 241(from Shot id:19464)
+[ERROR] There is no State with = 241(from Shot id:19465)
+[ERROR] There is no State with = 241(from Shot id:19466)
+[ERROR] There is no State with = 241(from Shot id:19467)
+[ERROR] There is no State with = 241(from Shot id:19468)
+[ERROR] There is no State with = 241(from Shot id:19469)
+[ERROR] There is no State with = 241(from Shot id:19470)
+[ERROR] There is no State with = 241(from Shot id:19471)
+[ERROR] There is no State with = 241(from Shot id:19472)
+[ERROR] There is no State with = 241(from Shot id:19473)
+[ERROR] There is no State with = 241(from Shot id:19474)
+[ERROR] There is no State with = 241(from Shot id:19475)
+[ERROR] There is no State with = 241(from Shot id:19476)
+[ERROR] There is no State with = 241(from Shot id:19477)
+[ERROR] There is no State with = 241(from Shot id:19478)
+[ERROR] There is no State with = 241(from Shot id:19479)
+[ERROR] There is no State with = 241(from Shot id:19480)
+[ERROR] There is no State with = 241(from Shot id:19481)
+[ERROR] There is no State with = 241(from Shot id:19482)
+[ERROR] There is no State with = 241(from Shot id:19483)
+[ERROR] There is no State with = 241(from Shot id:19484)
+[ERROR] There is no State with = 241(from Shot id:19485)
+[ERROR] There is no State with = 241(from Shot id:19486)
+[ERROR] There is no State with = 241(from Shot id:19487)
+[ERROR] There is no State with = 241(from Shot id:19488)
+[ERROR] There is no State with = 241(from Shot id:19489)
+[ERROR] There is no State with = 241(from Shot id:19490)
+[ERROR] There is no State with = 241(from Shot id:19491)
+[ERROR] There is no State with = 241(from Shot id:19492)
+[ERROR] There is no State with = 241(from Shot id:19493)
+[ERROR] There is no State with = 241(from Shot id:19494)
+[ERROR] There is no State with = 241(from Shot id:19495)
+[ERROR] There is no State with = 241(from Shot id:19496)
+[ERROR] There is no State with = 241(from Shot id:19497)
+[ERROR] There is no State with = 241(from Shot id:19498)
+[ERROR] There is no State with = 241(from Shot id:19499)
+[ERROR] There is no State with = 241(from Shot id:19500)
+[ERROR] There is no State with = 241(from Shot id:19501)
+[ERROR] There is no State with = 241(from Shot id:19502)
+[ERROR] There is no State with = 241(from Shot id:19503)
+[ERROR] There is no State with = 241(from Shot id:19504)
+[ERROR] There is no State with = 241(from Shot id:19505)
+[ERROR] There is no State with = 241(from Shot id:19506)
+[ERROR] There is no State with = 241(from Shot id:19507)
+[ERROR] There is no State with = 241(from Shot id:19508)
+[ERROR] There is no State with = 241(from Shot id:19509)
+[ERROR] There is no State with = 241(from Shot id:19510)
+[ERROR] There is no State with = 241(from Shot id:19511)
+[ERROR] There is no State with = 241(from Shot id:19512)
+[ERROR] There is no State with = 241(from Shot id:19513)
+[ERROR] There is no State with = 241(from Shot id:19514)
+[ERROR] There is no State with = 241(from Shot id:19515)
+[ERROR] There is no State with = 241(from Shot id:19516)
+[ERROR] There is no State with = 241(from Shot id:19517)
+[ERROR] There is no State with = 241(from Shot id:19518)
+[ERROR] There is no State with = 241(from Shot id:19519)
+[ERROR] There is no State with = 241(from Shot id:19520)
+[ERROR] There is no State with = 241(from Shot id:19521)
+[ERROR] There is no State with = 241(from Shot id:19522)
+[ERROR] There is no State with = 241(from Shot id:19523)
+[ERROR] There is no State with = 241(from Shot id:19524)
+[ERROR] There is no State with = 241(from Shot id:19525)
+[ERROR] There is no State with = 241(from Shot id:19526)
+[ERROR] There is no State with = 241(from Shot id:19527)
+[ERROR] There is no State with = 241(from Shot id:19528)
+[ERROR] There is no State with = 241(from Shot id:19529)
+[ERROR] There is no State with = 241(from Shot id:19530)
+[ERROR] There is no State with = 241(from Shot id:19531)
+[ERROR] There is no State with = 241(from Shot id:19532)
+[ERROR] There is no State with = 241(from Shot id:19533)
+[ERROR] There is no State with = 241(from Shot id:19534)
+[ERROR] There is no State with = 241(from Shot id:19535)
+[ERROR] There is no State with = 241(from Shot id:19536)
+[ERROR] There is no State with = 241(from Shot id:19537)
+[ERROR] There is no State with = 241(from Shot id:19538)
+[ERROR] There is no State with = 241(from Shot id:19539)
+[ERROR] There is no State with = 241(from Shot id:19540)
+[ERROR] There is no State with = 241(from Shot id:19541)
+[ERROR] There is no State with = 241(from Shot id:19542)
+[ERROR] There is no State with = 241(from Shot id:19543)
+[ERROR] There is no State with = 241(from Shot id:19544)
+[ERROR] There is no State with = 241(from Shot id:19545)
+[ERROR] There is no State with = 241(from Shot id:19546)
+[ERROR] There is no State with = 241(from Shot id:19547)
+[ERROR] There is no State with = 241(from Shot id:19548)
+[ERROR] There is no State with = 241(from Shot id:19549)
+[ERROR] There is no State with = 241(from Shot id:19550)
+[ERROR] There is no State with = 241(from Shot id:19551)
+[ERROR] There is no State with = 241(from Shot id:19552)
+[ERROR] There is no State with = 241(from Shot id:19553)
+[ERROR] There is no State with = 241(from Shot id:19554)
+[ERROR] There is no State with = 241(from Shot id:19555)
+[ERROR] There is no State with = 241(from Shot id:19556)
+[ERROR] There is no State with = 241(from Shot id:19557)
+[ERROR] There is no State with = 241(from Shot id:19558)
+[ERROR] There is no State with = 241(from Shot id:19559)
+[ERROR] There is no State with = 241(from Shot id:19560)
+[ERROR] There is no State with = 241(from Shot id:19561)
+[ERROR] There is no State with = 241(from Shot id:19562)
+[ERROR] There is no State with = 241(from Shot id:19563)
+[ERROR] There is no State with = 241(from Shot id:19564)
+[ERROR] There is no State with = 241(from Shot id:19565)
+[ERROR] There is no State with = 241(from Shot id:19566)
+[ERROR] There is no State with = 241(from Shot id:19567)
+[ERROR] There is no State with = 241(from Shot id:19568)
+[ERROR] There is no State with = 241(from Shot id:19569)
+[ERROR] There is no State with = 241(from Shot id:19570)
+[ERROR] There is no State with = 241(from Shot id:19571)
+[ERROR] There is no State with = 241(from Shot id:19572)
+[ERROR] There is no State with = 241(from Shot id:19573)
+[ERROR] There is no State with = 241(from Shot id:19574)
+[ERROR] There is no State with = 241(from Shot id:19575)
+[ERROR] There is no State with = 241(from Shot id:19576)
+[ERROR] There is no State with = 241(from Shot id:19577)
+[ERROR] There is no State with = 241(from Shot id:19578)
+[ERROR] There is no State with = 241(from Shot id:19579)
+[ERROR] There is no State with = 241(from Shot id:19580)
+[ERROR] There is no State with = 241(from Shot id:19581)
+[ERROR] There is no State with = 241(from Shot id:19582)
+[ERROR] There is no State with = 241(from Shot id:19583)
+[ERROR] There is no State with = 241(from Shot id:19584)
+[ERROR] There is no State with = 241(from Shot id:19585)
+[ERROR] There is no State with = 241(from Shot id:19586)
+[ERROR] There is no State with = 241(from Shot id:19587)
+[ERROR] There is no State with = 241(from Shot id:19588)
+[ERROR] There is no State with = 241(from Shot id:19589)
+[ERROR] There is no State with = 241(from Shot id:19590)
+[ERROR] There is no State with = 241(from Shot id:19591)
+[ERROR] There is no State with = 241(from Shot id:19592)
+[ERROR] There is no State with = 241(from Shot id:19593)
+[ERROR] There is no State with = 241(from Shot id:19594)
+[ERROR] There is no State with = 241(from Shot id:19595)
+[ERROR] There is no State with = 241(from Shot id:19596)
+[ERROR] There is no State with = 241(from Shot id:19597)
+[ERROR] There is no State with = 241(from Shot id:19598)
+[ERROR] There is no State with = 241(from Shot id:19599)
+[ERROR] There is no State with = 241(from Shot id:19600)
+[ERROR] There is no State with = 241(from Shot id:19601)
+[ERROR] There is no State with = 383(from Shot id:26290)
+[ERROR] There is no State with = 383(from Shot id:26291)
+[ERROR] There is no State with = 383(from Shot id:26292)
+[ERROR] There is no State with = 383(from Shot id:26293)
+[ERROR] There is no State with = 383(from Shot id:26294)
+[ERROR] There is no State with = 383(from Shot id:26295)
+[ERROR] There is no State with = 383(from Shot id:26296)
+[ERROR] There is no State with = 383(from Shot id:26297)
+[ERROR] There is no State with = 383(from Shot id:26298)
+[ERROR] There is no State with = 383(from Shot id:26299)
+[ERROR] There is no State with = 383(from Shot id:26300)
+[ERROR] There is no State with = 383(from Shot id:26301)
+[ERROR] There is no State with = 383(from Shot id:26302)
+[ERROR] There is no State with = 383(from Shot id:26303)
+[ERROR] There is no State with = 383(from Shot id:26304)
+[ERROR] There is no State with = 383(from Shot id:26305)
+[ERROR] There is no State with = 383(from Shot id:26306)
+[ERROR] There is no State with = 383(from Shot id:26307)
+[ERROR] There is no State with = 383(from Shot id:26308)
+[ERROR] There is no State with = 383(from Shot id:26309)
+[ERROR] There is no State with = 383(from Shot id:26310)
+[ERROR] There is no State with = 383(from Shot id:26311)
+[ERROR] There is no State with = 383(from Shot id:26312)
+[ERROR] There is no State with = 383(from Shot id:26313)
+[ERROR] There is no State with = 383(from Shot id:26314)
+[ERROR] There is no State with = 383(from Shot id:26315)
+[ERROR] There is no State with = 383(from Shot id:26316)
+[ERROR] There is no State with = 383(from Shot id:26317)
+[ERROR] There is no State with = 383(from Shot id:26318)
+[ERROR] There is no State with = 383(from Shot id:26319)
+[ERROR] There is no State with = 383(from Shot id:26320)
+[ERROR] There is no State with = 383(from Shot id:26321)
+[ERROR] There is no State with = 383(from Shot id:26322)
+[ERROR] There is no State with = 383(from Shot id:26323)
+[ERROR] There is no State with = 383(from Shot id:26324)
+[ERROR] There is no State with = 383(from Shot id:26325)
+[ERROR] There is no State with = 383(from Shot id:26326)
+[ERROR] There is no State with = 383(from Shot id:26327)
+[ERROR] There is no State with = 383(from Shot id:26328)
+[ERROR] There is no State with = 383(from Shot id:26329)
+[ERROR] There is no State with = 383(from Shot id:26330)
+[ERROR] There is no State with = 383(from Shot id:26331)
+[ERROR] There is no State with = 383(from Shot id:26332)
+[ERROR] There is no State with = 383(from Shot id:26333)
+[ERROR] There is no State with = 383(from Shot id:26334)
+[ERROR] There is no State with = 383(from Shot id:26335)
+[ERROR] There is no State with = 383(from Shot id:26336)
+[ERROR] There is no State with = 383(from Shot id:26337)
+[ERROR] There is no State with = 383(from Shot id:26338)
+[ERROR] There is no State with = 383(from Shot id:26339)
+[ERROR] There is no State with = 383(from Shot id:26340)
+[ERROR] There is no State with = 383(from Shot id:26341)
+[ERROR] There is no State with = 383(from Shot id:26342)
+[ERROR] There is no State with = 383(from Shot id:26343)
+[ERROR] There is no State with = 383(from Shot id:26344)
+[ERROR] There is no State with = 383(from Shot id:26345)
+[ERROR] There is no State with = 383(from Shot id:26346)
+[ERROR] There is no State with = 383(from Shot id:26347)
+[ERROR] There is no State with = 383(from Shot id:26348)
+[ERROR] There is no State with = 383(from Shot id:26349)
+[ERROR] There is no State with = 383(from Shot id:26350)
+[ERROR] There is no State with = 383(from Shot id:26351)
+[ERROR] There is no State with = 383(from Shot id:26352)
+[ERROR] There is no State with = 383(from Shot id:26353)
+[ERROR] There is no State with = 383(from Shot id:26354)
+[ERROR] There is no State with = 383(from Shot id:26355)
+[ERROR] There is no State with = 383(from Shot id:26356)
+[ERROR] There is no State with = 383(from Shot id:26357)
+[ERROR] There is no State with = 383(from Shot id:26358)
+[ERROR] There is no State with = 383(from Shot id:26359)
+[ERROR] There is no State with = 383(from Shot id:26360)
+[ERROR] There is no State with = 383(from Shot id:26361)
+[ERROR] There is no State with = 383(from Shot id:26362)
+[ERROR] There is no State with = 383(from Shot id:26363)
+[ERROR] There is no State with = 383(from Shot id:26364)
+[ERROR] There is no State with = 383(from Shot id:26365)
+[ERROR] There is no State with = 383(from Shot id:26366)
+[ERROR] There is no State with = 383(from Shot id:26367)
+[ERROR] There is no State with = 383(from Shot id:26368)
+[ERROR] There is no State with = 383(from Shot id:26369)
+[ERROR] There is no State with = 383(from Shot id:26370)
+[ERROR] There is no State with = 383(from Shot id:26371)
+[ERROR] There is no State with = 383(from Shot id:26372)
+[ERROR] There is no State with = 383(from Shot id:26373)
+[ERROR] There is no State with = 383(from Shot id:26374)
+[ERROR] There is no State with = 383(from Shot id:26375)
+[ERROR] There is no State with = 383(from Shot id:26376)
+[ERROR] There is no State with = 383(from Shot id:26377)
+[ERROR] There is no State with = 383(from Shot id:26378)
+[ERROR] There is no State with = 383(from Shot id:26379)
+[ERROR] There is no State with = 383(from Shot id:26380)
+[ERROR] There is no State with = 383(from Shot id:26381)
+[ERROR] There is no State with = 383(from Shot id:26382)
+[ERROR] There is no State with = 383(from Shot id:26383)
+[ERROR] There is no State with = 383(from Shot id:26384)
+[ERROR] There is no State with = 383(from Shot id:26385)
+[ERROR] There is no State with = 383(from Shot id:26386)
+[ERROR] There is no State with = 383(from Shot id:26387)
+[ERROR] There is no State with = 383(from Shot id:26388)
+[ERROR] There is no State with = 383(from Shot id:26389)
+[ERROR] There is no State with = 383(from Shot id:26390)
+[ERROR] There is no State with = 383(from Shot id:26391)
+[ERROR] There is no State with = 383(from Shot id:26392)
+[ERROR] There is no State with = 383(from Shot id:26393)
+[ERROR] There is no State with = 383(from Shot id:26394)
+[ERROR] There is no State with = 383(from Shot id:26395)
+[ERROR] There is no State with = 383(from Shot id:26396)
+[ERROR] There is no State with = 383(from Shot id:26397)
+[ERROR] There is no State with = 383(from Shot id:26398)
+[ERROR] There is no State with = 383(from Shot id:26399)
+[ERROR] There is no State with = 383(from Shot id:26400)
+[ERROR] There is no State with = 383(from Shot id:26401)
+[ERROR] There is no State with = 383(from Shot id:26402)
+[ERROR] There is no State with = 383(from Shot id:26403)
+[ERROR] There is no State with = 383(from Shot id:26404)
+[ERROR] There is no State with = 383(from Shot id:26405)
+[ERROR] There is no State with = 383(from Shot id:26406)
+[ERROR] There is no State with = 383(from Shot id:26407)
+[ERROR] There is no State with = 383(from Shot id:26408)
+[ERROR] There is no State with = 383(from Shot id:26409)
+[ERROR] There is no State with = 383(from Shot id:26410)
+[ERROR] There is no State with = 383(from Shot id:26411)
+[ERROR] There is no State with = 383(from Shot id:26412)
+[ERROR] There is no State with = 383(from Shot id:26413)
+[ERROR] There is no State with = 383(from Shot id:26414)
+[ERROR] There is no State with = 383(from Shot id:26415)
+[ERROR] There is no State with = 383(from Shot id:26416)
+[ERROR] There is no State with = 383(from Shot id:26417)
+[ERROR] There is no State with = 383(from Shot id:26418)
+[ERROR] There is no State with = 383(from Shot id:26419)
+[ERROR] There is no State with = 383(from Shot id:26420)
+[ERROR] There is no State with = 383(from Shot id:26421)
+[ERROR] There is no State with = 383(from Shot id:26422)
+[ERROR] There is no State with = 383(from Shot id:26423)
+[ERROR] There is no State with = 383(from Shot id:26424)
+[ERROR] There is no State with = 383(from Shot id:26425)
+[ERROR] There is no State with = 383(from Shot id:26426)
+[ERROR] There is no State with = 383(from Shot id:26427)
+[ERROR] There is no State with = 383(from Shot id:26428)
+[ERROR] There is no State with = 383(from Shot id:26429)
+[ERROR] There is no State with = 383(from Shot id:26430)
+[ERROR] There is no State with = 383(from Shot id:26431)
+[ERROR] There is no State with = 383(from Shot id:26432)
+[ERROR] There is no State with = 383(from Shot id:26433)
+[ERROR] There is no State with = 383(from Shot id:26434)
+[ERROR] There is no State with = 383(from Shot id:26435)
+[ERROR] There is no State with = 383(from Shot id:26436)
+[ERROR] There is no State with = 383(from Shot id:26437)
+[ERROR] There is no State with = 383(from Shot id:26438)
+[ERROR] There is no State with = 383(from Shot id:26439)
+[ERROR] There is no State with = 383(from Shot id:26440)
+[ERROR] There is no State with = 383(from Shot id:26441)
+[ERROR] There is no State with = 383(from Shot id:26442)
+[ERROR] There is no State with = 383(from Shot id:26443)
+[ERROR] There is no State with = 383(from Shot id:26444)
+[ERROR] There is no State with = 383(from Shot id:26445)
+[ERROR] There is no State with = 383(from Shot id:26446)
+[ERROR] There is no State with = 383(from Shot id:26447)
+[ERROR] There is no State with = 383(from Shot id:26448)
+[ERROR] There is no State with = 383(from Shot id:26449)
+[ERROR] There is no State with = 383(from Shot id:26450)
+[ERROR] There is no State with = 383(from Shot id:26451)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 138
+Shooting Bird(0): BlueBird at Point x: 443.0 y: 319.0 dx: -525 dy: 124 Tap: 90 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 182
+Setting the Score with average of 16458 and 17160 = 16809
+Setting the Total Score with average of 16458 and 17160 = 16809
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 519.0 y: 294.0 dx: -494 dy: 216 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1095
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 177 DiscardedShots: 231  calculated in: 288491 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 529.0 y: 288.0 dx: -482 dy: 241 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0088083585843506
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1096
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 177 DiscardedShots: 199  calculated in: 254627 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 504.0 y: 321.0 dx: -515 dy: 161 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0088083585843506
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1097
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 56 DiscardedShots: 168  calculated in: 250579 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 574.0 y: 296.0 dx: -477 dy: 252 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.024186302780655
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1098
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 84 DiscardedShots: 178  calculated in: 223051 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 524.0 y: 330.0 dx: -517 dy: 152 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1099
+MyAgent.writeShotsAandStatesInFile()
+ Level 21 Score: 76650 
+Total Score: 76650
+
+-------------------- Times in this level: 1 of 252--------------------
+
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 241(from Shot id:19446)
+[ERROR] There is no State with = 241(from Shot id:19447)
+[ERROR] There is no State with = 241(from Shot id:19448)
+[ERROR] There is no State with = 241(from Shot id:19449)
+[ERROR] There is no State with = 241(from Shot id:19450)
+[ERROR] There is no State with = 241(from Shot id:19451)
+[ERROR] There is no State with = 241(from Shot id:19452)
+[ERROR] There is no State with = 241(from Shot id:19453)
+[ERROR] There is no State with = 241(from Shot id:19454)
+[ERROR] There is no State with = 241(from Shot id:19455)
+[ERROR] There is no State with = 241(from Shot id:19456)
+[ERROR] There is no State with = 241(from Shot id:19457)
+[ERROR] There is no State with = 241(from Shot id:19458)
+[ERROR] There is no State with = 241(from Shot id:19459)
+[ERROR] There is no State with = 241(from Shot id:19460)
+[ERROR] There is no State with = 241(from Shot id:19461)
+[ERROR] There is no State with = 241(from Shot id:19462)
+[ERROR] There is no State with = 241(from Shot id:19463)
+[ERROR] There is no State with = 241(from Shot id:19464)
+[ERROR] There is no State with = 241(from Shot id:19465)
+[ERROR] There is no State with = 241(from Shot id:19466)
+[ERROR] There is no State with = 241(from Shot id:19467)
+[ERROR] There is no State with = 241(from Shot id:19468)
+[ERROR] There is no State with = 241(from Shot id:19469)
+[ERROR] There is no State with = 241(from Shot id:19470)
+[ERROR] There is no State with = 241(from Shot id:19471)
+[ERROR] There is no State with = 241(from Shot id:19472)
+[ERROR] There is no State with = 241(from Shot id:19473)
+[ERROR] There is no State with = 241(from Shot id:19474)
+[ERROR] There is no State with = 241(from Shot id:19475)
+[ERROR] There is no State with = 241(from Shot id:19476)
+[ERROR] There is no State with = 241(from Shot id:19477)
+[ERROR] There is no State with = 241(from Shot id:19478)
+[ERROR] There is no State with = 241(from Shot id:19479)
+[ERROR] There is no State with = 241(from Shot id:19480)
+[ERROR] There is no State with = 241(from Shot id:19481)
+[ERROR] There is no State with = 241(from Shot id:19482)
+[ERROR] There is no State with = 241(from Shot id:19483)
+[ERROR] There is no State with = 241(from Shot id:19484)
+[ERROR] There is no State with = 241(from Shot id:19485)
+[ERROR] There is no State with = 241(from Shot id:19486)
+[ERROR] There is no State with = 241(from Shot id:19487)
+[ERROR] There is no State with = 241(from Shot id:19488)
+[ERROR] There is no State with = 241(from Shot id:19489)
+[ERROR] There is no State with = 241(from Shot id:19490)
+[ERROR] There is no State with = 241(from Shot id:19491)
+[ERROR] There is no State with = 241(from Shot id:19492)
+[ERROR] There is no State with = 241(from Shot id:19493)
+[ERROR] There is no State with = 241(from Shot id:19494)
+[ERROR] There is no State with = 241(from Shot id:19495)
+[ERROR] There is no State with = 241(from Shot id:19496)
+[ERROR] There is no State with = 241(from Shot id:19497)
+[ERROR] There is no State with = 241(from Shot id:19498)
+[ERROR] There is no State with = 241(from Shot id:19499)
+[ERROR] There is no State with = 241(from Shot id:19500)
+[ERROR] There is no State with = 241(from Shot id:19501)
+[ERROR] There is no State with = 241(from Shot id:19502)
+[ERROR] There is no State with = 241(from Shot id:19503)
+[ERROR] There is no State with = 241(from Shot id:19504)
+[ERROR] There is no State with = 241(from Shot id:19505)
+[ERROR] There is no State with = 241(from Shot id:19506)
+[ERROR] There is no State with = 241(from Shot id:19507)
+[ERROR] There is no State with = 241(from Shot id:19508)
+[ERROR] There is no State with = 241(from Shot id:19509)
+[ERROR] There is no State with = 241(from Shot id:19510)
+[ERROR] There is no State with = 241(from Shot id:19511)
+[ERROR] There is no State with = 241(from Shot id:19512)
+[ERROR] There is no State with = 241(from Shot id:19513)
+[ERROR] There is no State with = 241(from Shot id:19514)
+[ERROR] There is no State with = 241(from Shot id:19515)
+[ERROR] There is no State with = 241(from Shot id:19516)
+[ERROR] There is no State with = 241(from Shot id:19517)
+[ERROR] There is no State with = 241(from Shot id:19518)
+[ERROR] There is no State with = 241(from Shot id:19519)
+[ERROR] There is no State with = 241(from Shot id:19520)
+[ERROR] There is no State with = 241(from Shot id:19521)
+[ERROR] There is no State with = 241(from Shot id:19522)
+[ERROR] There is no State with = 241(from Shot id:19523)
+[ERROR] There is no State with = 241(from Shot id:19524)
+[ERROR] There is no State with = 241(from Shot id:19525)
+[ERROR] There is no State with = 241(from Shot id:19526)
+[ERROR] There is no State with = 241(from Shot id:19527)
+[ERROR] There is no State with = 241(from Shot id:19528)
+[ERROR] There is no State with = 241(from Shot id:19529)
+[ERROR] There is no State with = 241(from Shot id:19530)
+[ERROR] There is no State with = 241(from Shot id:19531)
+[ERROR] There is no State with = 241(from Shot id:19532)
+[ERROR] There is no State with = 241(from Shot id:19533)
+[ERROR] There is no State with = 241(from Shot id:19534)
+[ERROR] There is no State with = 241(from Shot id:19535)
+[ERROR] There is no State with = 241(from Shot id:19536)
+[ERROR] There is no State with = 241(from Shot id:19537)
+[ERROR] There is no State with = 241(from Shot id:19538)
+[ERROR] There is no State with = 241(from Shot id:19539)
+[ERROR] There is no State with = 241(from Shot id:19540)
+[ERROR] There is no State with = 241(from Shot id:19541)
+[ERROR] There is no State with = 241(from Shot id:19542)
+[ERROR] There is no State with = 241(from Shot id:19543)
+[ERROR] There is no State with = 241(from Shot id:19544)
+[ERROR] There is no State with = 241(from Shot id:19545)
+[ERROR] There is no State with = 241(from Shot id:19546)
+[ERROR] There is no State with = 241(from Shot id:19547)
+[ERROR] There is no State with = 241(from Shot id:19548)
+[ERROR] There is no State with = 241(from Shot id:19549)
+[ERROR] There is no State with = 241(from Shot id:19550)
+[ERROR] There is no State with = 241(from Shot id:19551)
+[ERROR] There is no State with = 241(from Shot id:19552)
+[ERROR] There is no State with = 241(from Shot id:19553)
+[ERROR] There is no State with = 241(from Shot id:19554)
+[ERROR] There is no State with = 241(from Shot id:19555)
+[ERROR] There is no State with = 241(from Shot id:19556)
+[ERROR] There is no State with = 241(from Shot id:19557)
+[ERROR] There is no State with = 241(from Shot id:19558)
+[ERROR] There is no State with = 241(from Shot id:19559)
+[ERROR] There is no State with = 241(from Shot id:19560)
+[ERROR] There is no State with = 241(from Shot id:19561)
+[ERROR] There is no State with = 241(from Shot id:19562)
+[ERROR] There is no State with = 241(from Shot id:19563)
+[ERROR] There is no State with = 241(from Shot id:19564)
+[ERROR] There is no State with = 241(from Shot id:19565)
+[ERROR] There is no State with = 241(from Shot id:19566)
+[ERROR] There is no State with = 241(from Shot id:19567)
+[ERROR] There is no State with = 241(from Shot id:19568)
+[ERROR] There is no State with = 241(from Shot id:19569)
+[ERROR] There is no State with = 241(from Shot id:19570)
+[ERROR] There is no State with = 241(from Shot id:19571)
+[ERROR] There is no State with = 241(from Shot id:19572)
+[ERROR] There is no State with = 241(from Shot id:19573)
+[ERROR] There is no State with = 241(from Shot id:19574)
+[ERROR] There is no State with = 241(from Shot id:19575)
+[ERROR] There is no State with = 241(from Shot id:19576)
+[ERROR] There is no State with = 241(from Shot id:19577)
+[ERROR] There is no State with = 241(from Shot id:19578)
+[ERROR] There is no State with = 241(from Shot id:19579)
+[ERROR] There is no State with = 241(from Shot id:19580)
+[ERROR] There is no State with = 241(from Shot id:19581)
+[ERROR] There is no State with = 241(from Shot id:19582)
+[ERROR] There is no State with = 241(from Shot id:19583)
+[ERROR] There is no State with = 241(from Shot id:19584)
+[ERROR] There is no State with = 241(from Shot id:19585)
+[ERROR] There is no State with = 241(from Shot id:19586)
+[ERROR] There is no State with = 241(from Shot id:19587)
+[ERROR] There is no State with = 241(from Shot id:19588)
+[ERROR] There is no State with = 241(from Shot id:19589)
+[ERROR] There is no State with = 241(from Shot id:19590)
+[ERROR] There is no State with = 241(from Shot id:19591)
+[ERROR] There is no State with = 241(from Shot id:19592)
+[ERROR] There is no State with = 241(from Shot id:19593)
+[ERROR] There is no State with = 241(from Shot id:19594)
+[ERROR] There is no State with = 241(from Shot id:19595)
+[ERROR] There is no State with = 241(from Shot id:19596)
+[ERROR] There is no State with = 241(from Shot id:19597)
+[ERROR] There is no State with = 241(from Shot id:19598)
+[ERROR] There is no State with = 241(from Shot id:19599)
+[ERROR] There is no State with = 241(from Shot id:19600)
+[ERROR] There is no State with = 241(from Shot id:19601)
+[ERROR] There is no State with = 383(from Shot id:26290)
+[ERROR] There is no State with = 383(from Shot id:26291)
+[ERROR] There is no State with = 383(from Shot id:26292)
+[ERROR] There is no State with = 383(from Shot id:26293)
+[ERROR] There is no State with = 383(from Shot id:26294)
+[ERROR] There is no State with = 383(from Shot id:26295)
+[ERROR] There is no State with = 383(from Shot id:26296)
+[ERROR] There is no State with = 383(from Shot id:26297)
+[ERROR] There is no State with = 383(from Shot id:26298)
+[ERROR] There is no State with = 383(from Shot id:26299)
+[ERROR] There is no State with = 383(from Shot id:26300)
+[ERROR] There is no State with = 383(from Shot id:26301)
+[ERROR] There is no State with = 383(from Shot id:26302)
+[ERROR] There is no State with = 383(from Shot id:26303)
+[ERROR] There is no State with = 383(from Shot id:26304)
+[ERROR] There is no State with = 383(from Shot id:26305)
+[ERROR] There is no State with = 383(from Shot id:26306)
+[ERROR] There is no State with = 383(from Shot id:26307)
+[ERROR] There is no State with = 383(from Shot id:26308)
+[ERROR] There is no State with = 383(from Shot id:26309)
+[ERROR] There is no State with = 383(from Shot id:26310)
+[ERROR] There is no State with = 383(from Shot id:26311)
+[ERROR] There is no State with = 383(from Shot id:26312)
+[ERROR] There is no State with = 383(from Shot id:26313)
+[ERROR] There is no State with = 383(from Shot id:26314)
+[ERROR] There is no State with = 383(from Shot id:26315)
+[ERROR] There is no State with = 383(from Shot id:26316)
+[ERROR] There is no State with = 383(from Shot id:26317)
+[ERROR] There is no State with = 383(from Shot id:26318)
+[ERROR] There is no State with = 383(from Shot id:26319)
+[ERROR] There is no State with = 383(from Shot id:26320)
+[ERROR] There is no State with = 383(from Shot id:26321)
+[ERROR] There is no State with = 383(from Shot id:26322)
+[ERROR] There is no State with = 383(from Shot id:26323)
+[ERROR] There is no State with = 383(from Shot id:26324)
+[ERROR] There is no State with = 383(from Shot id:26325)
+[ERROR] There is no State with = 383(from Shot id:26326)
+[ERROR] There is no State with = 383(from Shot id:26327)
+[ERROR] There is no State with = 383(from Shot id:26328)
+[ERROR] There is no State with = 383(from Shot id:26329)
+[ERROR] There is no State with = 383(from Shot id:26330)
+[ERROR] There is no State with = 383(from Shot id:26331)
+[ERROR] There is no State with = 383(from Shot id:26332)
+[ERROR] There is no State with = 383(from Shot id:26333)
+[ERROR] There is no State with = 383(from Shot id:26334)
+[ERROR] There is no State with = 383(from Shot id:26335)
+[ERROR] There is no State with = 383(from Shot id:26336)
+[ERROR] There is no State with = 383(from Shot id:26337)
+[ERROR] There is no State with = 383(from Shot id:26338)
+[ERROR] There is no State with = 383(from Shot id:26339)
+[ERROR] There is no State with = 383(from Shot id:26340)
+[ERROR] There is no State with = 383(from Shot id:26341)
+[ERROR] There is no State with = 383(from Shot id:26342)
+[ERROR] There is no State with = 383(from Shot id:26343)
+[ERROR] There is no State with = 383(from Shot id:26344)
+[ERROR] There is no State with = 383(from Shot id:26345)
+[ERROR] There is no State with = 383(from Shot id:26346)
+[ERROR] There is no State with = 383(from Shot id:26347)
+[ERROR] There is no State with = 383(from Shot id:26348)
+[ERROR] There is no State with = 383(from Shot id:26349)
+[ERROR] There is no State with = 383(from Shot id:26350)
+[ERROR] There is no State with = 383(from Shot id:26351)
+[ERROR] There is no State with = 383(from Shot id:26352)
+[ERROR] There is no State with = 383(from Shot id:26353)
+[ERROR] There is no State with = 383(from Shot id:26354)
+[ERROR] There is no State with = 383(from Shot id:26355)
+[ERROR] There is no State with = 383(from Shot id:26356)
+[ERROR] There is no State with = 383(from Shot id:26357)
+[ERROR] There is no State with = 383(from Shot id:26358)
+[ERROR] There is no State with = 383(from Shot id:26359)
+[ERROR] There is no State with = 383(from Shot id:26360)
+[ERROR] There is no State with = 383(from Shot id:26361)
+[ERROR] There is no State with = 383(from Shot id:26362)
+[ERROR] There is no State with = 383(from Shot id:26363)
+[ERROR] There is no State with = 383(from Shot id:26364)
+[ERROR] There is no State with = 383(from Shot id:26365)
+[ERROR] There is no State with = 383(from Shot id:26366)
+[ERROR] There is no State with = 383(from Shot id:26367)
+[ERROR] There is no State with = 383(from Shot id:26368)
+[ERROR] There is no State with = 383(from Shot id:26369)
+[ERROR] There is no State with = 383(from Shot id:26370)
+[ERROR] There is no State with = 383(from Shot id:26371)
+[ERROR] There is no State with = 383(from Shot id:26372)
+[ERROR] There is no State with = 383(from Shot id:26373)
+[ERROR] There is no State with = 383(from Shot id:26374)
+[ERROR] There is no State with = 383(from Shot id:26375)
+[ERROR] There is no State with = 383(from Shot id:26376)
+[ERROR] There is no State with = 383(from Shot id:26377)
+[ERROR] There is no State with = 383(from Shot id:26378)
+[ERROR] There is no State with = 383(from Shot id:26379)
+[ERROR] There is no State with = 383(from Shot id:26380)
+[ERROR] There is no State with = 383(from Shot id:26381)
+[ERROR] There is no State with = 383(from Shot id:26382)
+[ERROR] There is no State with = 383(from Shot id:26383)
+[ERROR] There is no State with = 383(from Shot id:26384)
+[ERROR] There is no State with = 383(from Shot id:26385)
+[ERROR] There is no State with = 383(from Shot id:26386)
+[ERROR] There is no State with = 383(from Shot id:26387)
+[ERROR] There is no State with = 383(from Shot id:26388)
+[ERROR] There is no State with = 383(from Shot id:26389)
+[ERROR] There is no State with = 383(from Shot id:26390)
+[ERROR] There is no State with = 383(from Shot id:26391)
+[ERROR] There is no State with = 383(from Shot id:26392)
+[ERROR] There is no State with = 383(from Shot id:26393)
+[ERROR] There is no State with = 383(from Shot id:26394)
+[ERROR] There is no State with = 383(from Shot id:26395)
+[ERROR] There is no State with = 383(from Shot id:26396)
+[ERROR] There is no State with = 383(from Shot id:26397)
+[ERROR] There is no State with = 383(from Shot id:26398)
+[ERROR] There is no State with = 383(from Shot id:26399)
+[ERROR] There is no State with = 383(from Shot id:26400)
+[ERROR] There is no State with = 383(from Shot id:26401)
+[ERROR] There is no State with = 383(from Shot id:26402)
+[ERROR] There is no State with = 383(from Shot id:26403)
+[ERROR] There is no State with = 383(from Shot id:26404)
+[ERROR] There is no State with = 383(from Shot id:26405)
+[ERROR] There is no State with = 383(from Shot id:26406)
+[ERROR] There is no State with = 383(from Shot id:26407)
+[ERROR] There is no State with = 383(from Shot id:26408)
+[ERROR] There is no State with = 383(from Shot id:26409)
+[ERROR] There is no State with = 383(from Shot id:26410)
+[ERROR] There is no State with = 383(from Shot id:26411)
+[ERROR] There is no State with = 383(from Shot id:26412)
+[ERROR] There is no State with = 383(from Shot id:26413)
+[ERROR] There is no State with = 383(from Shot id:26414)
+[ERROR] There is no State with = 383(from Shot id:26415)
+[ERROR] There is no State with = 383(from Shot id:26416)
+[ERROR] There is no State with = 383(from Shot id:26417)
+[ERROR] There is no State with = 383(from Shot id:26418)
+[ERROR] There is no State with = 383(from Shot id:26419)
+[ERROR] There is no State with = 383(from Shot id:26420)
+[ERROR] There is no State with = 383(from Shot id:26421)
+[ERROR] There is no State with = 383(from Shot id:26422)
+[ERROR] There is no State with = 383(from Shot id:26423)
+[ERROR] There is no State with = 383(from Shot id:26424)
+[ERROR] There is no State with = 383(from Shot id:26425)
+[ERROR] There is no State with = 383(from Shot id:26426)
+[ERROR] There is no State with = 383(from Shot id:26427)
+[ERROR] There is no State with = 383(from Shot id:26428)
+[ERROR] There is no State with = 383(from Shot id:26429)
+[ERROR] There is no State with = 383(from Shot id:26430)
+[ERROR] There is no State with = 383(from Shot id:26431)
+[ERROR] There is no State with = 383(from Shot id:26432)
+[ERROR] There is no State with = 383(from Shot id:26433)
+[ERROR] There is no State with = 383(from Shot id:26434)
+[ERROR] There is no State with = 383(from Shot id:26435)
+[ERROR] There is no State with = 383(from Shot id:26436)
+[ERROR] There is no State with = 383(from Shot id:26437)
+[ERROR] There is no State with = 383(from Shot id:26438)
+[ERROR] There is no State with = 383(from Shot id:26439)
+[ERROR] There is no State with = 383(from Shot id:26440)
+[ERROR] There is no State with = 383(from Shot id:26441)
+[ERROR] There is no State with = 383(from Shot id:26442)
+[ERROR] There is no State with = 383(from Shot id:26443)
+[ERROR] There is no State with = 383(from Shot id:26444)
+[ERROR] There is no State with = 383(from Shot id:26445)
+[ERROR] There is no State with = 383(from Shot id:26446)
+[ERROR] There is no State with = 383(from Shot id:26447)
+[ERROR] There is no State with = 383(from Shot id:26448)
+[ERROR] There is no State with = 383(from Shot id:26449)
+[ERROR] There is no State with = 383(from Shot id:26450)
+[ERROR] There is no State with = 383(from Shot id:26451)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 138
+Shooting Bird(0): BlueBird at Point x: 443.0 y: 319.0 dx: -525 dy: 124 Tap: 90 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 358
+Setting the Score with average of 14335 and 14530 = 14432
+Setting the Total Score with average of 14335 and 14530 = 14432
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 519.0 y: 294.0 dx: -492 dy: 221 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1100
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 183 DiscardedShots: 255  calculated in: 297194 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 527.0 y: 288.0 dx: -483 dy: 240 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9980182834538671
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1101
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 219 DiscardedShots: 203  calculated in: 299831 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 543.0 y: 289.0 dx: -478 dy: 250 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 0.9980182834538671
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1102
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 62 DiscardedShots: 150  calculated in: 239959 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 572.0 y: 287.0 dx: -467 dy: 270 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007382432137222
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1103
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 177 DiscardedShots: 140  calculated in: 236669 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 607.0 y: 345.0 dx: -225 dy: 490 Tap: 70 -> Pig
+Shooting Completed
+
+scale factor changed to: 1.015016740310732
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1104
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 117  calculated in: 181762 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 524.0 y: 330.0 dx: -516 dy: 156 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1105
+MyAgent.writeShotsAandStatesInFile()
+ Level 21 Score: 76650 
+Total Score: 76650
+
+-------------------- Times in this level: 2 of 252--------------------
+
+Loaded Level: 21
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 241(from Shot id:19446)
+[ERROR] There is no State with = 241(from Shot id:19447)
+[ERROR] There is no State with = 241(from Shot id:19448)
+[ERROR] There is no State with = 241(from Shot id:19449)
+[ERROR] There is no State with = 241(from Shot id:19450)
+[ERROR] There is no State with = 241(from Shot id:19451)
+[ERROR] There is no State with = 241(from Shot id:19452)
+[ERROR] There is no State with = 241(from Shot id:19453)
+[ERROR] There is no State with = 241(from Shot id:19454)
+[ERROR] There is no State with = 241(from Shot id:19455)
+[ERROR] There is no State with = 241(from Shot id:19456)
+[ERROR] There is no State with = 241(from Shot id:19457)
+[ERROR] There is no State with = 241(from Shot id:19458)
+[ERROR] There is no State with = 241(from Shot id:19459)
+[ERROR] There is no State with = 241(from Shot id:19460)
+[ERROR] There is no State with = 241(from Shot id:19461)
+[ERROR] There is no State with = 241(from Shot id:19462)
+[ERROR] There is no State with = 241(from Shot id:19463)
+[ERROR] There is no State with = 241(from Shot id:19464)
+[ERROR] There is no State with = 241(from Shot id:19465)
+[ERROR] There is no State with = 241(from Shot id:19466)
+[ERROR] There is no State with = 241(from Shot id:19467)
+[ERROR] There is no State with = 241(from Shot id:19468)
+[ERROR] There is no State with = 241(from Shot id:19469)
+[ERROR] There is no State with = 241(from Shot id:19470)
+[ERROR] There is no State with = 241(from Shot id:19471)
+[ERROR] There is no State with = 241(from Shot id:19472)
+[ERROR] There is no State with = 241(from Shot id:19473)
+[ERROR] There is no State with = 241(from Shot id:19474)
+[ERROR] There is no State with = 241(from Shot id:19475)
+[ERROR] There is no State with = 241(from Shot id:19476)
+[ERROR] There is no State with = 241(from Shot id:19477)
+[ERROR] There is no State with = 241(from Shot id:19478)
+[ERROR] There is no State with = 241(from Shot id:19479)
+[ERROR] There is no State with = 241(from Shot id:19480)
+[ERROR] There is no State with = 241(from Shot id:19481)
+[ERROR] There is no State with = 241(from Shot id:19482)
+[ERROR] There is no State with = 241(from Shot id:19483)
+[ERROR] There is no State with = 241(from Shot id:19484)
+[ERROR] There is no State with = 241(from Shot id:19485)
+[ERROR] There is no State with = 241(from Shot id:19486)
+[ERROR] There is no State with = 241(from Shot id:19487)
+[ERROR] There is no State with = 241(from Shot id:19488)
+[ERROR] There is no State with = 241(from Shot id:19489)
+[ERROR] There is no State with = 241(from Shot id:19490)
+[ERROR] There is no State with = 241(from Shot id:19491)
+[ERROR] There is no State with = 241(from Shot id:19492)
+[ERROR] There is no State with = 241(from Shot id:19493)
+[ERROR] There is no State with = 241(from Shot id:19494)
+[ERROR] There is no State with = 241(from Shot id:19495)
+[ERROR] There is no State with = 241(from Shot id:19496)
+[ERROR] There is no State with = 241(from Shot id:19497)
+[ERROR] There is no State with = 241(from Shot id:19498)
+[ERROR] There is no State with = 241(from Shot id:19499)
+[ERROR] There is no State with = 241(from Shot id:19500)
+[ERROR] There is no State with = 241(from Shot id:19501)
+[ERROR] There is no State with = 241(from Shot id:19502)
+[ERROR] There is no State with = 241(from Shot id:19503)
+[ERROR] There is no State with = 241(from Shot id:19504)
+[ERROR] There is no State with = 241(from Shot id:19505)
+[ERROR] There is no State with = 241(from Shot id:19506)
+[ERROR] There is no State with = 241(from Shot id:19507)
+[ERROR] There is no State with = 241(from Shot id:19508)
+[ERROR] There is no State with = 241(from Shot id:19509)
+[ERROR] There is no State with = 241(from Shot id:19510)
+[ERROR] There is no State with = 241(from Shot id:19511)
+[ERROR] There is no State with = 241(from Shot id:19512)
+[ERROR] There is no State with = 241(from Shot id:19513)
+[ERROR] There is no State with = 241(from Shot id:19514)
+[ERROR] There is no State with = 241(from Shot id:19515)
+[ERROR] There is no State with = 241(from Shot id:19516)
+[ERROR] There is no State with = 241(from Shot id:19517)
+[ERROR] There is no State with = 241(from Shot id:19518)
+[ERROR] There is no State with = 241(from Shot id:19519)
+[ERROR] There is no State with = 241(from Shot id:19520)
+[ERROR] There is no State with = 241(from Shot id:19521)
+[ERROR] There is no State with = 241(from Shot id:19522)
+[ERROR] There is no State with = 241(from Shot id:19523)
+[ERROR] There is no State with = 241(from Shot id:19524)
+[ERROR] There is no State with = 241(from Shot id:19525)
+[ERROR] There is no State with = 241(from Shot id:19526)
+[ERROR] There is no State with = 241(from Shot id:19527)
+[ERROR] There is no State with = 241(from Shot id:19528)
+[ERROR] There is no State with = 241(from Shot id:19529)
+[ERROR] There is no State with = 241(from Shot id:19530)
+[ERROR] There is no State with = 241(from Shot id:19531)
+[ERROR] There is no State with = 241(from Shot id:19532)
+[ERROR] There is no State with = 241(from Shot id:19533)
+[ERROR] There is no State with = 241(from Shot id:19534)
+[ERROR] There is no State with = 241(from Shot id:19535)
+[ERROR] There is no State with = 241(from Shot id:19536)
+[ERROR] There is no State with = 241(from Shot id:19537)
+[ERROR] There is no State with = 241(from Shot id:19538)
+[ERROR] There is no State with = 241(from Shot id:19539)
+[ERROR] There is no State with = 241(from Shot id:19540)
+[ERROR] There is no State with = 241(from Shot id:19541)
+[ERROR] There is no State with = 241(from Shot id:19542)
+[ERROR] There is no State with = 241(from Shot id:19543)
+[ERROR] There is no State with = 241(from Shot id:19544)
+[ERROR] There is no State with = 241(from Shot id:19545)
+[ERROR] There is no State with = 241(from Shot id:19546)
+[ERROR] There is no State with = 241(from Shot id:19547)
+[ERROR] There is no State with = 241(from Shot id:19548)
+[ERROR] There is no State with = 241(from Shot id:19549)
+[ERROR] There is no State with = 241(from Shot id:19550)
+[ERROR] There is no State with = 241(from Shot id:19551)
+[ERROR] There is no State with = 241(from Shot id:19552)
+[ERROR] There is no State with = 241(from Shot id:19553)
+[ERROR] There is no State with = 241(from Shot id:19554)
+[ERROR] There is no State with = 241(from Shot id:19555)
+[ERROR] There is no State with = 241(from Shot id:19556)
+[ERROR] There is no State with = 241(from Shot id:19557)
+[ERROR] There is no State with = 241(from Shot id:19558)
+[ERROR] There is no State with = 241(from Shot id:19559)
+[ERROR] There is no State with = 241(from Shot id:19560)
+[ERROR] There is no State with = 241(from Shot id:19561)
+[ERROR] There is no State with = 241(from Shot id:19562)
+[ERROR] There is no State with = 241(from Shot id:19563)
+[ERROR] There is no State with = 241(from Shot id:19564)
+[ERROR] There is no State with = 241(from Shot id:19565)
+[ERROR] There is no State with = 241(from Shot id:19566)
+[ERROR] There is no State with = 241(from Shot id:19567)
+[ERROR] There is no State with = 241(from Shot id:19568)
+[ERROR] There is no State with = 241(from Shot id:19569)
+[ERROR] There is no State with = 241(from Shot id:19570)
+[ERROR] There is no State with = 241(from Shot id:19571)
+[ERROR] There is no State with = 241(from Shot id:19572)
+[ERROR] There is no State with = 241(from Shot id:19573)
+[ERROR] There is no State with = 241(from Shot id:19574)
+[ERROR] There is no State with = 241(from Shot id:19575)
+[ERROR] There is no State with = 241(from Shot id:19576)
+[ERROR] There is no State with = 241(from Shot id:19577)
+[ERROR] There is no State with = 241(from Shot id:19578)
+[ERROR] There is no State with = 241(from Shot id:19579)
+[ERROR] There is no State with = 241(from Shot id:19580)
+[ERROR] There is no State with = 241(from Shot id:19581)
+[ERROR] There is no State with = 241(from Shot id:19582)
+[ERROR] There is no State with = 241(from Shot id:19583)
+[ERROR] There is no State with = 241(from Shot id:19584)
+[ERROR] There is no State with = 241(from Shot id:19585)
+[ERROR] There is no State with = 241(from Shot id:19586)
+[ERROR] There is no State with = 241(from Shot id:19587)
+[ERROR] There is no State with = 241(from Shot id:19588)
+[ERROR] There is no State with = 241(from Shot id:19589)
+[ERROR] There is no State with = 241(from Shot id:19590)
+[ERROR] There is no State with = 241(from Shot id:19591)
+[ERROR] There is no State with = 241(from Shot id:19592)
+[ERROR] There is no State with = 241(from Shot id:19593)
+[ERROR] There is no State with = 241(from Shot id:19594)
+[ERROR] There is no State with = 241(from Shot id:19595)
+[ERROR] There is no State with = 241(from Shot id:19596)
+[ERROR] There is no State with = 241(from Shot id:19597)
+[ERROR] There is no State with = 241(from Shot id:19598)
+[ERROR] There is no State with = 241(from Shot id:19599)
+[ERROR] There is no State with = 241(from Shot id:19600)
+[ERROR] There is no State with = 241(from Shot id:19601)
+[ERROR] There is no State with = 383(from Shot id:26290)
+[ERROR] There is no State with = 383(from Shot id:26291)
+[ERROR] There is no State with = 383(from Shot id:26292)
+[ERROR] There is no State with = 383(from Shot id:26293)
+[ERROR] There is no State with = 383(from Shot id:26294)
+[ERROR] There is no State with = 383(from Shot id:26295)
+[ERROR] There is no State with = 383(from Shot id:26296)
+[ERROR] There is no State with = 383(from Shot id:26297)
+[ERROR] There is no State with = 383(from Shot id:26298)
+[ERROR] There is no State with = 383(from Shot id:26299)
+[ERROR] There is no State with = 383(from Shot id:26300)
+[ERROR] There is no State with = 383(from Shot id:26301)
+[ERROR] There is no State with = 383(from Shot id:26302)
+[ERROR] There is no State with = 383(from Shot id:26303)
+[ERROR] There is no State with = 383(from Shot id:26304)
+[ERROR] There is no State with = 383(from Shot id:26305)
+[ERROR] There is no State with = 383(from Shot id:26306)
+[ERROR] There is no State with = 383(from Shot id:26307)
+[ERROR] There is no State with = 383(from Shot id:26308)
+[ERROR] There is no State with = 383(from Shot id:26309)
+[ERROR] There is no State with = 383(from Shot id:26310)
+[ERROR] There is no State with = 383(from Shot id:26311)
+[ERROR] There is no State with = 383(from Shot id:26312)
+[ERROR] There is no State with = 383(from Shot id:26313)
+[ERROR] There is no State with = 383(from Shot id:26314)
+[ERROR] There is no State with = 383(from Shot id:26315)
+[ERROR] There is no State with = 383(from Shot id:26316)
+[ERROR] There is no State with = 383(from Shot id:26317)
+[ERROR] There is no State with = 383(from Shot id:26318)
+[ERROR] There is no State with = 383(from Shot id:26319)
+[ERROR] There is no State with = 383(from Shot id:26320)
+[ERROR] There is no State with = 383(from Shot id:26321)
+[ERROR] There is no State with = 383(from Shot id:26322)
+[ERROR] There is no State with = 383(from Shot id:26323)
+[ERROR] There is no State with = 383(from Shot id:26324)
+[ERROR] There is no State with = 383(from Shot id:26325)
+[ERROR] There is no State with = 383(from Shot id:26326)
+[ERROR] There is no State with = 383(from Shot id:26327)
+[ERROR] There is no State with = 383(from Shot id:26328)
+[ERROR] There is no State with = 383(from Shot id:26329)
+[ERROR] There is no State with = 383(from Shot id:26330)
+[ERROR] There is no State with = 383(from Shot id:26331)
+[ERROR] There is no State with = 383(from Shot id:26332)
+[ERROR] There is no State with = 383(from Shot id:26333)
+[ERROR] There is no State with = 383(from Shot id:26334)
+[ERROR] There is no State with = 383(from Shot id:26335)
+[ERROR] There is no State with = 383(from Shot id:26336)
+[ERROR] There is no State with = 383(from Shot id:26337)
+[ERROR] There is no State with = 383(from Shot id:26338)
+[ERROR] There is no State with = 383(from Shot id:26339)
+[ERROR] There is no State with = 383(from Shot id:26340)
+[ERROR] There is no State with = 383(from Shot id:26341)
+[ERROR] There is no State with = 383(from Shot id:26342)
+[ERROR] There is no State with = 383(from Shot id:26343)
+[ERROR] There is no State with = 383(from Shot id:26344)
+[ERROR] There is no State with = 383(from Shot id:26345)
+[ERROR] There is no State with = 383(from Shot id:26346)
+[ERROR] There is no State with = 383(from Shot id:26347)
+[ERROR] There is no State with = 383(from Shot id:26348)
+[ERROR] There is no State with = 383(from Shot id:26349)
+[ERROR] There is no State with = 383(from Shot id:26350)
+[ERROR] There is no State with = 383(from Shot id:26351)
+[ERROR] There is no State with = 383(from Shot id:26352)
+[ERROR] There is no State with = 383(from Shot id:26353)
+[ERROR] There is no State with = 383(from Shot id:26354)
+[ERROR] There is no State with = 383(from Shot id:26355)
+[ERROR] There is no State with = 383(from Shot id:26356)
+[ERROR] There is no State with = 383(from Shot id:26357)
+[ERROR] There is no State with = 383(from Shot id:26358)
+[ERROR] There is no State with = 383(from Shot id:26359)
+[ERROR] There is no State with = 383(from Shot id:26360)
+[ERROR] There is no State with = 383(from Shot id:26361)
+[ERROR] There is no State with = 383(from Shot id:26362)
+[ERROR] There is no State with = 383(from Shot id:26363)
+[ERROR] There is no State with = 383(from Shot id:26364)
+[ERROR] There is no State with = 383(from Shot id:26365)
+[ERROR] There is no State with = 383(from Shot id:26366)
+[ERROR] There is no State with = 383(from Shot id:26367)
+[ERROR] There is no State with = 383(from Shot id:26368)
+[ERROR] There is no State with = 383(from Shot id:26369)
+[ERROR] There is no State with = 383(from Shot id:26370)
+[ERROR] There is no State with = 383(from Shot id:26371)
+[ERROR] There is no State with = 383(from Shot id:26372)
+[ERROR] There is no State with = 383(from Shot id:26373)
+[ERROR] There is no State with = 383(from Shot id:26374)
+[ERROR] There is no State with = 383(from Shot id:26375)
+[ERROR] There is no State with = 383(from Shot id:26376)
+[ERROR] There is no State with = 383(from Shot id:26377)
+[ERROR] There is no State with = 383(from Shot id:26378)
+[ERROR] There is no State with = 383(from Shot id:26379)
+[ERROR] There is no State with = 383(from Shot id:26380)
+[ERROR] There is no State with = 383(from Shot id:26381)
+[ERROR] There is no State with = 383(from Shot id:26382)
+[ERROR] There is no State with = 383(from Shot id:26383)
+[ERROR] There is no State with = 383(from Shot id:26384)
+[ERROR] There is no State with = 383(from Shot id:26385)
+[ERROR] There is no State with = 383(from Shot id:26386)
+[ERROR] There is no State with = 383(from Shot id:26387)
+[ERROR] There is no State with = 383(from Shot id:26388)
+[ERROR] There is no State with = 383(from Shot id:26389)
+[ERROR] There is no State with = 383(from Shot id:26390)
+[ERROR] There is no State with = 383(from Shot id:26391)
+[ERROR] There is no State with = 383(from Shot id:26392)
+[ERROR] There is no State with = 383(from Shot id:26393)
+[ERROR] There is no State with = 383(from Shot id:26394)
+[ERROR] There is no State with = 383(from Shot id:26395)
+[ERROR] There is no State with = 383(from Shot id:26396)
+[ERROR] There is no State with = 383(from Shot id:26397)
+[ERROR] There is no State with = 383(from Shot id:26398)
+[ERROR] There is no State with = 383(from Shot id:26399)
+[ERROR] There is no State with = 383(from Shot id:26400)
+[ERROR] There is no State with = 383(from Shot id:26401)
+[ERROR] There is no State with = 383(from Shot id:26402)
+[ERROR] There is no State with = 383(from Shot id:26403)
+[ERROR] There is no State with = 383(from Shot id:26404)
+[ERROR] There is no State with = 383(from Shot id:26405)
+[ERROR] There is no State with = 383(from Shot id:26406)
+[ERROR] There is no State with = 383(from Shot id:26407)
+[ERROR] There is no State with = 383(from Shot id:26408)
+[ERROR] There is no State with = 383(from Shot id:26409)
+[ERROR] There is no State with = 383(from Shot id:26410)
+[ERROR] There is no State with = 383(from Shot id:26411)
+[ERROR] There is no State with = 383(from Shot id:26412)
+[ERROR] There is no State with = 383(from Shot id:26413)
+[ERROR] There is no State with = 383(from Shot id:26414)
+[ERROR] There is no State with = 383(from Shot id:26415)
+[ERROR] There is no State with = 383(from Shot id:26416)
+[ERROR] There is no State with = 383(from Shot id:26417)
+[ERROR] There is no State with = 383(from Shot id:26418)
+[ERROR] There is no State with = 383(from Shot id:26419)
+[ERROR] There is no State with = 383(from Shot id:26420)
+[ERROR] There is no State with = 383(from Shot id:26421)
+[ERROR] There is no State with = 383(from Shot id:26422)
+[ERROR] There is no State with = 383(from Shot id:26423)
+[ERROR] There is no State with = 383(from Shot id:26424)
+[ERROR] There is no State with = 383(from Shot id:26425)
+[ERROR] There is no State with = 383(from Shot id:26426)
+[ERROR] There is no State with = 383(from Shot id:26427)
+[ERROR] There is no State with = 383(from Shot id:26428)
+[ERROR] There is no State with = 383(from Shot id:26429)
+[ERROR] There is no State with = 383(from Shot id:26430)
+[ERROR] There is no State with = 383(from Shot id:26431)
+[ERROR] There is no State with = 383(from Shot id:26432)
+[ERROR] There is no State with = 383(from Shot id:26433)
+[ERROR] There is no State with = 383(from Shot id:26434)
+[ERROR] There is no State with = 383(from Shot id:26435)
+[ERROR] There is no State with = 383(from Shot id:26436)
+[ERROR] There is no State with = 383(from Shot id:26437)
+[ERROR] There is no State with = 383(from Shot id:26438)
+[ERROR] There is no State with = 383(from Shot id:26439)
+[ERROR] There is no State with = 383(from Shot id:26440)
+[ERROR] There is no State with = 383(from Shot id:26441)
+[ERROR] There is no State with = 383(from Shot id:26442)
+[ERROR] There is no State with = 383(from Shot id:26443)
+[ERROR] There is no State with = 383(from Shot id:26444)
+[ERROR] There is no State with = 383(from Shot id:26445)
+[ERROR] There is no State with = 383(from Shot id:26446)
+[ERROR] There is no State with = 383(from Shot id:26447)
+[ERROR] There is no State with = 383(from Shot id:26448)
+[ERROR] There is no State with = 383(from Shot id:26449)
+[ERROR] There is no State with = 383(from Shot id:26450)
+[ERROR] There is no State with = 383(from Shot id:26451)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 138
+Shooting Bird(0): BlueBird at Point x: 443.0 y: 319.0 dx: -525 dy: 124 Tap: 90 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 358
+Setting the Score with average of 14432 and 14460 = 14446
+Setting the Total Score with average of 14432 and 14460 = 14446
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 519.0 y: 294.0 dx: -182 dy: 508 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.013206155409339
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1106
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 141 DiscardedShots: 261  calculated in: 395790 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 529.0 y: 288.0 dx: -484 dy: 237 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0098885157854345
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1107
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 174 DiscardedShots: 252  calculated in: 348630 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 503.0 y: 292.0 dx: -495 dy: 214 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0098885157854345
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1108
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 59 DiscardedShots: 223  calculated in: 336735 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 522.0 y: 259.0 dx: -460 dy: 281 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0123646030203752
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1109
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 144 DiscardedShots: 191  calculated in: 314587 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 562.0 y: 285.0 dx: -473 dy: 260 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0189958369747636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1110
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 163  calculated in: 233926 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 540.0 y: 318.0 dx: -507 dy: 184 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0189958369747636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1111
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 145  calculated in: 249261 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 579.0 y: 310.0 dx: -491 dy: 224 Tap: 70 -> Ice
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1112
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 3 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 241(from Shot id:19446)
+[ERROR] There is no State with = 241(from Shot id:19447)
+[ERROR] There is no State with = 241(from Shot id:19448)
+[ERROR] There is no State with = 241(from Shot id:19449)
+[ERROR] There is no State with = 241(from Shot id:19450)
+[ERROR] There is no State with = 241(from Shot id:19451)
+[ERROR] There is no State with = 241(from Shot id:19452)
+[ERROR] There is no State with = 241(from Shot id:19453)
+[ERROR] There is no State with = 241(from Shot id:19454)
+[ERROR] There is no State with = 241(from Shot id:19455)
+[ERROR] There is no State with = 241(from Shot id:19456)
+[ERROR] There is no State with = 241(from Shot id:19457)
+[ERROR] There is no State with = 241(from Shot id:19458)
+[ERROR] There is no State with = 241(from Shot id:19459)
+[ERROR] There is no State with = 241(from Shot id:19460)
+[ERROR] There is no State with = 241(from Shot id:19461)
+[ERROR] There is no State with = 241(from Shot id:19462)
+[ERROR] There is no State with = 241(from Shot id:19463)
+[ERROR] There is no State with = 241(from Shot id:19464)
+[ERROR] There is no State with = 241(from Shot id:19465)
+[ERROR] There is no State with = 241(from Shot id:19466)
+[ERROR] There is no State with = 241(from Shot id:19467)
+[ERROR] There is no State with = 241(from Shot id:19468)
+[ERROR] There is no State with = 241(from Shot id:19469)
+[ERROR] There is no State with = 241(from Shot id:19470)
+[ERROR] There is no State with = 241(from Shot id:19471)
+[ERROR] There is no State with = 241(from Shot id:19472)
+[ERROR] There is no State with = 241(from Shot id:19473)
+[ERROR] There is no State with = 241(from Shot id:19474)
+[ERROR] There is no State with = 241(from Shot id:19475)
+[ERROR] There is no State with = 241(from Shot id:19476)
+[ERROR] There is no State with = 241(from Shot id:19477)
+[ERROR] There is no State with = 241(from Shot id:19478)
+[ERROR] There is no State with = 241(from Shot id:19479)
+[ERROR] There is no State with = 241(from Shot id:19480)
+[ERROR] There is no State with = 241(from Shot id:19481)
+[ERROR] There is no State with = 241(from Shot id:19482)
+[ERROR] There is no State with = 241(from Shot id:19483)
+[ERROR] There is no State with = 241(from Shot id:19484)
+[ERROR] There is no State with = 241(from Shot id:19485)
+[ERROR] There is no State with = 241(from Shot id:19486)
+[ERROR] There is no State with = 241(from Shot id:19487)
+[ERROR] There is no State with = 241(from Shot id:19488)
+[ERROR] There is no State with = 241(from Shot id:19489)
+[ERROR] There is no State with = 241(from Shot id:19490)
+[ERROR] There is no State with = 241(from Shot id:19491)
+[ERROR] There is no State with = 241(from Shot id:19492)
+[ERROR] There is no State with = 241(from Shot id:19493)
+[ERROR] There is no State with = 241(from Shot id:19494)
+[ERROR] There is no State with = 241(from Shot id:19495)
+[ERROR] There is no State with = 241(from Shot id:19496)
+[ERROR] There is no State with = 241(from Shot id:19497)
+[ERROR] There is no State with = 241(from Shot id:19498)
+[ERROR] There is no State with = 241(from Shot id:19499)
+[ERROR] There is no State with = 241(from Shot id:19500)
+[ERROR] There is no State with = 241(from Shot id:19501)
+[ERROR] There is no State with = 241(from Shot id:19502)
+[ERROR] There is no State with = 241(from Shot id:19503)
+[ERROR] There is no State with = 241(from Shot id:19504)
+[ERROR] There is no State with = 241(from Shot id:19505)
+[ERROR] There is no State with = 241(from Shot id:19506)
+[ERROR] There is no State with = 241(from Shot id:19507)
+[ERROR] There is no State with = 241(from Shot id:19508)
+[ERROR] There is no State with = 241(from Shot id:19509)
+[ERROR] There is no State with = 241(from Shot id:19510)
+[ERROR] There is no State with = 241(from Shot id:19511)
+[ERROR] There is no State with = 241(from Shot id:19512)
+[ERROR] There is no State with = 241(from Shot id:19513)
+[ERROR] There is no State with = 241(from Shot id:19514)
+[ERROR] There is no State with = 241(from Shot id:19515)
+[ERROR] There is no State with = 241(from Shot id:19516)
+[ERROR] There is no State with = 241(from Shot id:19517)
+[ERROR] There is no State with = 241(from Shot id:19518)
+[ERROR] There is no State with = 241(from Shot id:19519)
+[ERROR] There is no State with = 241(from Shot id:19520)
+[ERROR] There is no State with = 241(from Shot id:19521)
+[ERROR] There is no State with = 241(from Shot id:19522)
+[ERROR] There is no State with = 241(from Shot id:19523)
+[ERROR] There is no State with = 241(from Shot id:19524)
+[ERROR] There is no State with = 241(from Shot id:19525)
+[ERROR] There is no State with = 241(from Shot id:19526)
+[ERROR] There is no State with = 241(from Shot id:19527)
+[ERROR] There is no State with = 241(from Shot id:19528)
+[ERROR] There is no State with = 241(from Shot id:19529)
+[ERROR] There is no State with = 241(from Shot id:19530)
+[ERROR] There is no State with = 241(from Shot id:19531)
+[ERROR] There is no State with = 241(from Shot id:19532)
+[ERROR] There is no State with = 241(from Shot id:19533)
+[ERROR] There is no State with = 241(from Shot id:19534)
+[ERROR] There is no State with = 241(from Shot id:19535)
+[ERROR] There is no State with = 241(from Shot id:19536)
+[ERROR] There is no State with = 241(from Shot id:19537)
+[ERROR] There is no State with = 241(from Shot id:19538)
+[ERROR] There is no State with = 241(from Shot id:19539)
+[ERROR] There is no State with = 241(from Shot id:19540)
+[ERROR] There is no State with = 241(from Shot id:19541)
+[ERROR] There is no State with = 241(from Shot id:19542)
+[ERROR] There is no State with = 241(from Shot id:19543)
+[ERROR] There is no State with = 241(from Shot id:19544)
+[ERROR] There is no State with = 241(from Shot id:19545)
+[ERROR] There is no State with = 241(from Shot id:19546)
+[ERROR] There is no State with = 241(from Shot id:19547)
+[ERROR] There is no State with = 241(from Shot id:19548)
+[ERROR] There is no State with = 241(from Shot id:19549)
+[ERROR] There is no State with = 241(from Shot id:19550)
+[ERROR] There is no State with = 241(from Shot id:19551)
+[ERROR] There is no State with = 241(from Shot id:19552)
+[ERROR] There is no State with = 241(from Shot id:19553)
+[ERROR] There is no State with = 241(from Shot id:19554)
+[ERROR] There is no State with = 241(from Shot id:19555)
+[ERROR] There is no State with = 241(from Shot id:19556)
+[ERROR] There is no State with = 241(from Shot id:19557)
+[ERROR] There is no State with = 241(from Shot id:19558)
+[ERROR] There is no State with = 241(from Shot id:19559)
+[ERROR] There is no State with = 241(from Shot id:19560)
+[ERROR] There is no State with = 241(from Shot id:19561)
+[ERROR] There is no State with = 241(from Shot id:19562)
+[ERROR] There is no State with = 241(from Shot id:19563)
+[ERROR] There is no State with = 241(from Shot id:19564)
+[ERROR] There is no State with = 241(from Shot id:19565)
+[ERROR] There is no State with = 241(from Shot id:19566)
+[ERROR] There is no State with = 241(from Shot id:19567)
+[ERROR] There is no State with = 241(from Shot id:19568)
+[ERROR] There is no State with = 241(from Shot id:19569)
+[ERROR] There is no State with = 241(from Shot id:19570)
+[ERROR] There is no State with = 241(from Shot id:19571)
+[ERROR] There is no State with = 241(from Shot id:19572)
+[ERROR] There is no State with = 241(from Shot id:19573)
+[ERROR] There is no State with = 241(from Shot id:19574)
+[ERROR] There is no State with = 241(from Shot id:19575)
+[ERROR] There is no State with = 241(from Shot id:19576)
+[ERROR] There is no State with = 241(from Shot id:19577)
+[ERROR] There is no State with = 241(from Shot id:19578)
+[ERROR] There is no State with = 241(from Shot id:19579)
+[ERROR] There is no State with = 241(from Shot id:19580)
+[ERROR] There is no State with = 241(from Shot id:19581)
+[ERROR] There is no State with = 241(from Shot id:19582)
+[ERROR] There is no State with = 241(from Shot id:19583)
+[ERROR] There is no State with = 241(from Shot id:19584)
+[ERROR] There is no State with = 241(from Shot id:19585)
+[ERROR] There is no State with = 241(from Shot id:19586)
+[ERROR] There is no State with = 241(from Shot id:19587)
+[ERROR] There is no State with = 241(from Shot id:19588)
+[ERROR] There is no State with = 241(from Shot id:19589)
+[ERROR] There is no State with = 241(from Shot id:19590)
+[ERROR] There is no State with = 241(from Shot id:19591)
+[ERROR] There is no State with = 241(from Shot id:19592)
+[ERROR] There is no State with = 241(from Shot id:19593)
+[ERROR] There is no State with = 241(from Shot id:19594)
+[ERROR] There is no State with = 241(from Shot id:19595)
+[ERROR] There is no State with = 241(from Shot id:19596)
+[ERROR] There is no State with = 241(from Shot id:19597)
+[ERROR] There is no State with = 241(from Shot id:19598)
+[ERROR] There is no State with = 241(from Shot id:19599)
+[ERROR] There is no State with = 241(from Shot id:19600)
+[ERROR] There is no State with = 241(from Shot id:19601)
+[ERROR] There is no State with = 383(from Shot id:26290)
+[ERROR] There is no State with = 383(from Shot id:26291)
+[ERROR] There is no State with = 383(from Shot id:26292)
+[ERROR] There is no State with = 383(from Shot id:26293)
+[ERROR] There is no State with = 383(from Shot id:26294)
+[ERROR] There is no State with = 383(from Shot id:26295)
+[ERROR] There is no State with = 383(from Shot id:26296)
+[ERROR] There is no State with = 383(from Shot id:26297)
+[ERROR] There is no State with = 383(from Shot id:26298)
+[ERROR] There is no State with = 383(from Shot id:26299)
+[ERROR] There is no State with = 383(from Shot id:26300)
+[ERROR] There is no State with = 383(from Shot id:26301)
+[ERROR] There is no State with = 383(from Shot id:26302)
+[ERROR] There is no State with = 383(from Shot id:26303)
+[ERROR] There is no State with = 383(from Shot id:26304)
+[ERROR] There is no State with = 383(from Shot id:26305)
+[ERROR] There is no State with = 383(from Shot id:26306)
+[ERROR] There is no State with = 383(from Shot id:26307)
+[ERROR] There is no State with = 383(from Shot id:26308)
+[ERROR] There is no State with = 383(from Shot id:26309)
+[ERROR] There is no State with = 383(from Shot id:26310)
+[ERROR] There is no State with = 383(from Shot id:26311)
+[ERROR] There is no State with = 383(from Shot id:26312)
+[ERROR] There is no State with = 383(from Shot id:26313)
+[ERROR] There is no State with = 383(from Shot id:26314)
+[ERROR] There is no State with = 383(from Shot id:26315)
+[ERROR] There is no State with = 383(from Shot id:26316)
+[ERROR] There is no State with = 383(from Shot id:26317)
+[ERROR] There is no State with = 383(from Shot id:26318)
+[ERROR] There is no State with = 383(from Shot id:26319)
+[ERROR] There is no State with = 383(from Shot id:26320)
+[ERROR] There is no State with = 383(from Shot id:26321)
+[ERROR] There is no State with = 383(from Shot id:26322)
+[ERROR] There is no State with = 383(from Shot id:26323)
+[ERROR] There is no State with = 383(from Shot id:26324)
+[ERROR] There is no State with = 383(from Shot id:26325)
+[ERROR] There is no State with = 383(from Shot id:26326)
+[ERROR] There is no State with = 383(from Shot id:26327)
+[ERROR] There is no State with = 383(from Shot id:26328)
+[ERROR] There is no State with = 383(from Shot id:26329)
+[ERROR] There is no State with = 383(from Shot id:26330)
+[ERROR] There is no State with = 383(from Shot id:26331)
+[ERROR] There is no State with = 383(from Shot id:26332)
+[ERROR] There is no State with = 383(from Shot id:26333)
+[ERROR] There is no State with = 383(from Shot id:26334)
+[ERROR] There is no State with = 383(from Shot id:26335)
+[ERROR] There is no State with = 383(from Shot id:26336)
+[ERROR] There is no State with = 383(from Shot id:26337)
+[ERROR] There is no State with = 383(from Shot id:26338)
+[ERROR] There is no State with = 383(from Shot id:26339)
+[ERROR] There is no State with = 383(from Shot id:26340)
+[ERROR] There is no State with = 383(from Shot id:26341)
+[ERROR] There is no State with = 383(from Shot id:26342)
+[ERROR] There is no State with = 383(from Shot id:26343)
+[ERROR] There is no State with = 383(from Shot id:26344)
+[ERROR] There is no State with = 383(from Shot id:26345)
+[ERROR] There is no State with = 383(from Shot id:26346)
+[ERROR] There is no State with = 383(from Shot id:26347)
+[ERROR] There is no State with = 383(from Shot id:26348)
+[ERROR] There is no State with = 383(from Shot id:26349)
+[ERROR] There is no State with = 383(from Shot id:26350)
+[ERROR] There is no State with = 383(from Shot id:26351)
+[ERROR] There is no State with = 383(from Shot id:26352)
+[ERROR] There is no State with = 383(from Shot id:26353)
+[ERROR] There is no State with = 383(from Shot id:26354)
+[ERROR] There is no State with = 383(from Shot id:26355)
+[ERROR] There is no State with = 383(from Shot id:26356)
+[ERROR] There is no State with = 383(from Shot id:26357)
+[ERROR] There is no State with = 383(from Shot id:26358)
+[ERROR] There is no State with = 383(from Shot id:26359)
+[ERROR] There is no State with = 383(from Shot id:26360)
+[ERROR] There is no State with = 383(from Shot id:26361)
+[ERROR] There is no State with = 383(from Shot id:26362)
+[ERROR] There is no State with = 383(from Shot id:26363)
+[ERROR] There is no State with = 383(from Shot id:26364)
+[ERROR] There is no State with = 383(from Shot id:26365)
+[ERROR] There is no State with = 383(from Shot id:26366)
+[ERROR] There is no State with = 383(from Shot id:26367)
+[ERROR] There is no State with = 383(from Shot id:26368)
+[ERROR] There is no State with = 383(from Shot id:26369)
+[ERROR] There is no State with = 383(from Shot id:26370)
+[ERROR] There is no State with = 383(from Shot id:26371)
+[ERROR] There is no State with = 383(from Shot id:26372)
+[ERROR] There is no State with = 383(from Shot id:26373)
+[ERROR] There is no State with = 383(from Shot id:26374)
+[ERROR] There is no State with = 383(from Shot id:26375)
+[ERROR] There is no State with = 383(from Shot id:26376)
+[ERROR] There is no State with = 383(from Shot id:26377)
+[ERROR] There is no State with = 383(from Shot id:26378)
+[ERROR] There is no State with = 383(from Shot id:26379)
+[ERROR] There is no State with = 383(from Shot id:26380)
+[ERROR] There is no State with = 383(from Shot id:26381)
+[ERROR] There is no State with = 383(from Shot id:26382)
+[ERROR] There is no State with = 383(from Shot id:26383)
+[ERROR] There is no State with = 383(from Shot id:26384)
+[ERROR] There is no State with = 383(from Shot id:26385)
+[ERROR] There is no State with = 383(from Shot id:26386)
+[ERROR] There is no State with = 383(from Shot id:26387)
+[ERROR] There is no State with = 383(from Shot id:26388)
+[ERROR] There is no State with = 383(from Shot id:26389)
+[ERROR] There is no State with = 383(from Shot id:26390)
+[ERROR] There is no State with = 383(from Shot id:26391)
+[ERROR] There is no State with = 383(from Shot id:26392)
+[ERROR] There is no State with = 383(from Shot id:26393)
+[ERROR] There is no State with = 383(from Shot id:26394)
+[ERROR] There is no State with = 383(from Shot id:26395)
+[ERROR] There is no State with = 383(from Shot id:26396)
+[ERROR] There is no State with = 383(from Shot id:26397)
+[ERROR] There is no State with = 383(from Shot id:26398)
+[ERROR] There is no State with = 383(from Shot id:26399)
+[ERROR] There is no State with = 383(from Shot id:26400)
+[ERROR] There is no State with = 383(from Shot id:26401)
+[ERROR] There is no State with = 383(from Shot id:26402)
+[ERROR] There is no State with = 383(from Shot id:26403)
+[ERROR] There is no State with = 383(from Shot id:26404)
+[ERROR] There is no State with = 383(from Shot id:26405)
+[ERROR] There is no State with = 383(from Shot id:26406)
+[ERROR] There is no State with = 383(from Shot id:26407)
+[ERROR] There is no State with = 383(from Shot id:26408)
+[ERROR] There is no State with = 383(from Shot id:26409)
+[ERROR] There is no State with = 383(from Shot id:26410)
+[ERROR] There is no State with = 383(from Shot id:26411)
+[ERROR] There is no State with = 383(from Shot id:26412)
+[ERROR] There is no State with = 383(from Shot id:26413)
+[ERROR] There is no State with = 383(from Shot id:26414)
+[ERROR] There is no State with = 383(from Shot id:26415)
+[ERROR] There is no State with = 383(from Shot id:26416)
+[ERROR] There is no State with = 383(from Shot id:26417)
+[ERROR] There is no State with = 383(from Shot id:26418)
+[ERROR] There is no State with = 383(from Shot id:26419)
+[ERROR] There is no State with = 383(from Shot id:26420)
+[ERROR] There is no State with = 383(from Shot id:26421)
+[ERROR] There is no State with = 383(from Shot id:26422)
+[ERROR] There is no State with = 383(from Shot id:26423)
+[ERROR] There is no State with = 383(from Shot id:26424)
+[ERROR] There is no State with = 383(from Shot id:26425)
+[ERROR] There is no State with = 383(from Shot id:26426)
+[ERROR] There is no State with = 383(from Shot id:26427)
+[ERROR] There is no State with = 383(from Shot id:26428)
+[ERROR] There is no State with = 383(from Shot id:26429)
+[ERROR] There is no State with = 383(from Shot id:26430)
+[ERROR] There is no State with = 383(from Shot id:26431)
+[ERROR] There is no State with = 383(from Shot id:26432)
+[ERROR] There is no State with = 383(from Shot id:26433)
+[ERROR] There is no State with = 383(from Shot id:26434)
+[ERROR] There is no State with = 383(from Shot id:26435)
+[ERROR] There is no State with = 383(from Shot id:26436)
+[ERROR] There is no State with = 383(from Shot id:26437)
+[ERROR] There is no State with = 383(from Shot id:26438)
+[ERROR] There is no State with = 383(from Shot id:26439)
+[ERROR] There is no State with = 383(from Shot id:26440)
+[ERROR] There is no State with = 383(from Shot id:26441)
+[ERROR] There is no State with = 383(from Shot id:26442)
+[ERROR] There is no State with = 383(from Shot id:26443)
+[ERROR] There is no State with = 383(from Shot id:26444)
+[ERROR] There is no State with = 383(from Shot id:26445)
+[ERROR] There is no State with = 383(from Shot id:26446)
+[ERROR] There is no State with = 383(from Shot id:26447)
+[ERROR] There is no State with = 383(from Shot id:26448)
+[ERROR] There is no State with = 383(from Shot id:26449)
+[ERROR] There is no State with = 383(from Shot id:26450)
+[ERROR] There is no State with = 383(from Shot id:26451)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 138
+Shooting Bird(0): BlueBird at Point x: 443.0 y: 319.0 dx: -525 dy: 124 Tap: 90 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.0189958369747636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 358
+Setting the Score with average of 14446 and 14430 = 14438
+Setting the Total Score with average of 14446 and 14430 = 14438
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 1
+Shooting Bird(1): RedBird at Point x: 531.0 y: 284.0 dx: -479 dy: 248 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007676655884636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1113
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 171 DiscardedShots: 257  calculated in: 364745 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 2
+Shooting Bird(2): YellowBird at Point x: 519.0 y: 294.0 dx: -493 dy: 219 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007676655884636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1114
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 195 DiscardedShots: 184  calculated in: 328811 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 3
+Shooting Bird(3): BlueBird at Point x: 504.0 y: 338.0 dx: -163 dy: 514 Tap: 5 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007676655884636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1115
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 46 DiscardedShots: 166  calculated in: 265691 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 4
+Shooting Bird(4): RedBird at Point x: 558.0 y: 285.0 dx: -473 dy: 260 Tap: 0 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007676655884636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1116
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 141 DiscardedShots: 159  calculated in: 263367 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 5
+Shooting Bird(5): YellowBird at Point x: 574.0 y: 295.0 dx: -476 dy: 254 Tap: 70 -> Ice
+Shooting Completed
+
+scale factor changed to: 1.007676655884636
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1117
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 138 DiscardedShots: 146  calculated in: 231952 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 6
+Shooting Bird(6): YellowBird at Point x: 559.0 y: 318.0 dx: -199 dy: 501 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9825566313176971
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1118
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 243 DiscardedShots: 61  calculated in: 194270 miliseconds
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 7
+Shooting Bird(7): YellowBird at Point x: 552.0 y: 336.0 dx: -202 dy: 500 Tap: 70 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1119
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 4 of 252--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(21)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+[ERROR] There is no State with = 241(from Shot id:19446)
+[ERROR] There is no State with = 241(from Shot id:19447)
+[ERROR] There is no State with = 241(from Shot id:19448)
+[ERROR] There is no State with = 241(from Shot id:19449)
+[ERROR] There is no State with = 241(from Shot id:19450)
+[ERROR] There is no State with = 241(from Shot id:19451)
+[ERROR] There is no State with = 241(from Shot id:19452)
+[ERROR] There is no State with = 241(from Shot id:19453)
+[ERROR] There is no State with = 241(from Shot id:19454)
+[ERROR] There is no State with = 241(from Shot id:19455)
+[ERROR] There is no State with = 241(from Shot id:19456)
+[ERROR] There is no State with = 241(from Shot id:19457)
+[ERROR] There is no State with = 241(from Shot id:19458)
+[ERROR] There is no State with = 241(from Shot id:19459)
+[ERROR] There is no State with = 241(from Shot id:19460)
+[ERROR] There is no State with = 241(from Shot id:19461)
+[ERROR] There is no State with = 241(from Shot id:19462)
+[ERROR] There is no State with = 241(from Shot id:19463)
+[ERROR] There is no State with = 241(from Shot id:19464)
+[ERROR] There is no State with = 241(from Shot id:19465)
+[ERROR] There is no State with = 241(from Shot id:19466)
+[ERROR] There is no State with = 241(from Shot id:19467)
+[ERROR] There is no State with = 241(from Shot id:19468)
+[ERROR] There is no State with = 241(from Shot id:19469)
+[ERROR] There is no State with = 241(from Shot id:19470)
+[ERROR] There is no State with = 241(from Shot id:19471)
+[ERROR] There is no State with = 241(from Shot id:19472)
+[ERROR] There is no State with = 241(from Shot id:19473)
+[ERROR] There is no State with = 241(from Shot id:19474)
+[ERROR] There is no State with = 241(from Shot id:19475)
+[ERROR] There is no State with = 241(from Shot id:19476)
+[ERROR] There is no State with = 241(from Shot id:19477)
+[ERROR] There is no State with = 241(from Shot id:19478)
+[ERROR] There is no State with = 241(from Shot id:19479)
+[ERROR] There is no State with = 241(from Shot id:19480)
+[ERROR] There is no State with = 241(from Shot id:19481)
+[ERROR] There is no State with = 241(from Shot id:19482)
+[ERROR] There is no State with = 241(from Shot id:19483)
+[ERROR] There is no State with = 241(from Shot id:19484)
+[ERROR] There is no State with = 241(from Shot id:19485)
+[ERROR] There is no State with = 241(from Shot id:19486)
+[ERROR] There is no State with = 241(from Shot id:19487)
+[ERROR] There is no State with = 241(from Shot id:19488)
+[ERROR] There is no State with = 241(from Shot id:19489)
+[ERROR] There is no State with = 241(from Shot id:19490)
+[ERROR] There is no State with = 241(from Shot id:19491)
+[ERROR] There is no State with = 241(from Shot id:19492)
+[ERROR] There is no State with = 241(from Shot id:19493)
+[ERROR] There is no State with = 241(from Shot id:19494)
+[ERROR] There is no State with = 241(from Shot id:19495)
+[ERROR] There is no State with = 241(from Shot id:19496)
+[ERROR] There is no State with = 241(from Shot id:19497)
+[ERROR] There is no State with = 241(from Shot id:19498)
+[ERROR] There is no State with = 241(from Shot id:19499)
+[ERROR] There is no State with = 241(from Shot id:19500)
+[ERROR] There is no State with = 241(from Shot id:19501)
+[ERROR] There is no State with = 241(from Shot id:19502)
+[ERROR] There is no State with = 241(from Shot id:19503)
+[ERROR] There is no State with = 241(from Shot id:19504)
+[ERROR] There is no State with = 241(from Shot id:19505)
+[ERROR] There is no State with = 241(from Shot id:19506)
+[ERROR] There is no State with = 241(from Shot id:19507)
+[ERROR] There is no State with = 241(from Shot id:19508)
+[ERROR] There is no State with = 241(from Shot id:19509)
+[ERROR] There is no State with = 241(from Shot id:19510)
+[ERROR] There is no State with = 241(from Shot id:19511)
+[ERROR] There is no State with = 241(from Shot id:19512)
+[ERROR] There is no State with = 241(from Shot id:19513)
+[ERROR] There is no State with = 241(from Shot id:19514)
+[ERROR] There is no State with = 241(from Shot id:19515)
+[ERROR] There is no State with = 241(from Shot id:19516)
+[ERROR] There is no State with = 241(from Shot id:19517)
+[ERROR] There is no State with = 241(from Shot id:19518)
+[ERROR] There is no State with = 241(from Shot id:19519)
+[ERROR] There is no State with = 241(from Shot id:19520)
+[ERROR] There is no State with = 241(from Shot id:19521)
+[ERROR] There is no State with = 241(from Shot id:19522)
+[ERROR] There is no State with = 241(from Shot id:19523)
+[ERROR] There is no State with = 241(from Shot id:19524)
+[ERROR] There is no State with = 241(from Shot id:19525)
+[ERROR] There is no State with = 241(from Shot id:19526)
+[ERROR] There is no State with = 241(from Shot id:19527)
+[ERROR] There is no State with = 241(from Shot id:19528)
+[ERROR] There is no State with = 241(from Shot id:19529)
+[ERROR] There is no State with = 241(from Shot id:19530)
+[ERROR] There is no State with = 241(from Shot id:19531)
+[ERROR] There is no State with = 241(from Shot id:19532)
+[ERROR] There is no State with = 241(from Shot id:19533)
+[ERROR] There is no State with = 241(from Shot id:19534)
+[ERROR] There is no State with = 241(from Shot id:19535)
+[ERROR] There is no State with = 241(from Shot id:19536)
+[ERROR] There is no State with = 241(from Shot id:19537)
+[ERROR] There is no State with = 241(from Shot id:19538)
+[ERROR] There is no State with = 241(from Shot id:19539)
+[ERROR] There is no State with = 241(from Shot id:19540)
+[ERROR] There is no State with = 241(from Shot id:19541)
+[ERROR] There is no State with = 241(from Shot id:19542)
+[ERROR] There is no State with = 241(from Shot id:19543)
+[ERROR] There is no State with = 241(from Shot id:19544)
+[ERROR] There is no State with = 241(from Shot id:19545)
+[ERROR] There is no State with = 241(from Shot id:19546)
+[ERROR] There is no State with = 241(from Shot id:19547)
+[ERROR] There is no State with = 241(from Shot id:19548)
+[ERROR] There is no State with = 241(from Shot id:19549)
+[ERROR] There is no State with = 241(from Shot id:19550)
+[ERROR] There is no State with = 241(from Shot id:19551)
+[ERROR] There is no State with = 241(from Shot id:19552)
+[ERROR] There is no State with = 241(from Shot id:19553)
+[ERROR] There is no State with = 241(from Shot id:19554)
+[ERROR] There is no State with = 241(from Shot id:19555)
+[ERROR] There is no State with = 241(from Shot id:19556)
+[ERROR] There is no State with = 241(from Shot id:19557)
+[ERROR] There is no State with = 241(from Shot id:19558)
+[ERROR] There is no State with = 241(from Shot id:19559)
+[ERROR] There is no State with = 241(from Shot id:19560)
+[ERROR] There is no State with = 241(from Shot id:19561)
+[ERROR] There is no State with = 241(from Shot id:19562)
+[ERROR] There is no State with = 241(from Shot id:19563)
+[ERROR] There is no State with = 241(from Shot id:19564)
+[ERROR] There is no State with = 241(from Shot id:19565)
+[ERROR] There is no State with = 241(from Shot id:19566)
+[ERROR] There is no State with = 241(from Shot id:19567)
+[ERROR] There is no State with = 241(from Shot id:19568)
+[ERROR] There is no State with = 241(from Shot id:19569)
+[ERROR] There is no State with = 241(from Shot id:19570)
+[ERROR] There is no State with = 241(from Shot id:19571)
+[ERROR] There is no State with = 241(from Shot id:19572)
+[ERROR] There is no State with = 241(from Shot id:19573)
+[ERROR] There is no State with = 241(from Shot id:19574)
+[ERROR] There is no State with = 241(from Shot id:19575)
+[ERROR] There is no State with = 241(from Shot id:19576)
+[ERROR] There is no State with = 241(from Shot id:19577)
+[ERROR] There is no State with = 241(from Shot id:19578)
+[ERROR] There is no State with = 241(from Shot id:19579)
+[ERROR] There is no State with = 241(from Shot id:19580)
+[ERROR] There is no State with = 241(from Shot id:19581)
+[ERROR] There is no State with = 241(from Shot id:19582)
+[ERROR] There is no State with = 241(from Shot id:19583)
+[ERROR] There is no State with = 241(from Shot id:19584)
+[ERROR] There is no State with = 241(from Shot id:19585)
+[ERROR] There is no State with = 241(from Shot id:19586)
+[ERROR] There is no State with = 241(from Shot id:19587)
+[ERROR] There is no State with = 241(from Shot id:19588)
+[ERROR] There is no State with = 241(from Shot id:19589)
+[ERROR] There is no State with = 241(from Shot id:19590)
+[ERROR] There is no State with = 241(from Shot id:19591)
+[ERROR] There is no State with = 241(from Shot id:19592)
+[ERROR] There is no State with = 241(from Shot id:19593)
+[ERROR] There is no State with = 241(from Shot id:19594)
+[ERROR] There is no State with = 241(from Shot id:19595)
+[ERROR] There is no State with = 241(from Shot id:19596)
+[ERROR] There is no State with = 241(from Shot id:19597)
+[ERROR] There is no State with = 241(from Shot id:19598)
+[ERROR] There is no State with = 241(from Shot id:19599)
+[ERROR] There is no State with = 241(from Shot id:19600)
+[ERROR] There is no State with = 241(from Shot id:19601)
+[ERROR] There is no State with = 383(from Shot id:26290)
+[ERROR] There is no State with = 383(from Shot id:26291)
+[ERROR] There is no State with = 383(from Shot id:26292)
+[ERROR] There is no State with = 383(from Shot id:26293)
+[ERROR] There is no State with = 383(from Shot id:26294)
+[ERROR] There is no State with = 383(from Shot id:26295)
+[ERROR] There is no State with = 383(from Shot id:26296)
+[ERROR] There is no State with = 383(from Shot id:26297)
+[ERROR] There is no State with = 383(from Shot id:26298)
+[ERROR] There is no State with = 383(from Shot id:26299)
+[ERROR] There is no State with = 383(from Shot id:26300)
+[ERROR] There is no State with = 383(from Shot id:26301)
+[ERROR] There is no State with = 383(from Shot id:26302)
+[ERROR] There is no State with = 383(from Shot id:26303)
+[ERROR] There is no State with = 383(from Shot id:26304)
+[ERROR] There is no State with = 383(from Shot id:26305)
+[ERROR] There is no State with = 383(from Shot id:26306)
+[ERROR] There is no State with = 383(from Shot id:26307)
+[ERROR] There is no State with = 383(from Shot id:26308)
+[ERROR] There is no State with = 383(from Shot id:26309)
+[ERROR] There is no State with = 383(from Shot id:26310)
+[ERROR] There is no State with = 383(from Shot id:26311)
+[ERROR] There is no State with = 383(from Shot id:26312)
+[ERROR] There is no State with = 383(from Shot id:26313)
+[ERROR] There is no State with = 383(from Shot id:26314)
+[ERROR] There is no State with = 383(from Shot id:26315)
+[ERROR] There is no State with = 383(from Shot id:26316)
+[ERROR] There is no State with = 383(from Shot id:26317)
+[ERROR] There is no State with = 383(from Shot id:26318)
+[ERROR] There is no State with = 383(from Shot id:26319)
+[ERROR] There is no State with = 383(from Shot id:26320)
+[ERROR] There is no State with = 383(from Shot id:26321)
+[ERROR] There is no State with = 383(from Shot id:26322)
+[ERROR] There is no State with = 383(from Shot id:26323)
+[ERROR] There is no State with = 383(from Shot id:26324)
+[ERROR] There is no State with = 383(from Shot id:26325)
+[ERROR] There is no State with = 383(from Shot id:26326)
+[ERROR] There is no State with = 383(from Shot id:26327)
+[ERROR] There is no State with = 383(from Shot id:26328)
+[ERROR] There is no State with = 383(from Shot id:26329)
+[ERROR] There is no State with = 383(from Shot id:26330)
+[ERROR] There is no State with = 383(from Shot id:26331)
+[ERROR] There is no State with = 383(from Shot id:26332)
+[ERROR] There is no State with = 383(from Shot id:26333)
+[ERROR] There is no State with = 383(from Shot id:26334)
+[ERROR] There is no State with = 383(from Shot id:26335)
+[ERROR] There is no State with = 383(from Shot id:26336)
+[ERROR] There is no State with = 383(from Shot id:26337)
+[ERROR] There is no State with = 383(from Shot id:26338)
+[ERROR] There is no State with = 383(from Shot id:26339)
+[ERROR] There is no State with = 383(from Shot id:26340)
+[ERROR] There is no State with = 383(from Shot id:26341)
+[ERROR] There is no State with = 383(from Shot id:26342)
+[ERROR] There is no State with = 383(from Shot id:26343)
+[ERROR] There is no State with = 383(from Shot id:26344)
+[ERROR] There is no State with = 383(from Shot id:26345)
+[ERROR] There is no State with = 383(from Shot id:26346)
+[ERROR] There is no State with = 383(from Shot id:26347)
+[ERROR] There is no State with = 383(from Shot id:26348)
+[ERROR] There is no State with = 383(from Shot id:26349)
+[ERROR] There is no State with = 383(from Shot id:26350)
+[ERROR] There is no State with = 383(from Shot id:26351)
+[ERROR] There is no State with = 383(from Shot id:26352)
+[ERROR] There is no State with = 383(from Shot id:26353)
+[ERROR] There is no State with = 383(from Shot id:26354)
+[ERROR] There is no State with = 383(from Shot id:26355)
+[ERROR] There is no State with = 383(from Shot id:26356)
+[ERROR] There is no State with = 383(from Shot id:26357)
+[ERROR] There is no State with = 383(from Shot id:26358)
+[ERROR] There is no State with = 383(from Shot id:26359)
+[ERROR] There is no State with = 383(from Shot id:26360)
+[ERROR] There is no State with = 383(from Shot id:26361)
+[ERROR] There is no State with = 383(from Shot id:26362)
+[ERROR] There is no State with = 383(from Shot id:26363)
+[ERROR] There is no State with = 383(from Shot id:26364)
+[ERROR] There is no State with = 383(from Shot id:26365)
+[ERROR] There is no State with = 383(from Shot id:26366)
+[ERROR] There is no State with = 383(from Shot id:26367)
+[ERROR] There is no State with = 383(from Shot id:26368)
+[ERROR] There is no State with = 383(from Shot id:26369)
+[ERROR] There is no State with = 383(from Shot id:26370)
+[ERROR] There is no State with = 383(from Shot id:26371)
+[ERROR] There is no State with = 383(from Shot id:26372)
+[ERROR] There is no State with = 383(from Shot id:26373)
+[ERROR] There is no State with = 383(from Shot id:26374)
+[ERROR] There is no State with = 383(from Shot id:26375)
+[ERROR] There is no State with = 383(from Shot id:26376)
+[ERROR] There is no State with = 383(from Shot id:26377)
+[ERROR] There is no State with = 383(from Shot id:26378)
+[ERROR] There is no State with = 383(from Shot id:26379)
+[ERROR] There is no State with = 383(from Shot id:26380)
+[ERROR] There is no State with = 383(from Shot id:26381)
+[ERROR] There is no State with = 383(from Shot id:26382)
+[ERROR] There is no State with = 383(from Shot id:26383)
+[ERROR] There is no State with = 383(from Shot id:26384)
+[ERROR] There is no State with = 383(from Shot id:26385)
+[ERROR] There is no State with = 383(from Shot id:26386)
+[ERROR] There is no State with = 383(from Shot id:26387)
+[ERROR] There is no State with = 383(from Shot id:26388)
+[ERROR] There is no State with = 383(from Shot id:26389)
+[ERROR] There is no State with = 383(from Shot id:26390)
+[ERROR] There is no State with = 383(from Shot id:26391)
+[ERROR] There is no State with = 383(from Shot id:26392)
+[ERROR] There is no State with = 383(from Shot id:26393)
+[ERROR] There is no State with = 383(from Shot id:26394)
+[ERROR] There is no State with = 383(from Shot id:26395)
+[ERROR] There is no State with = 383(from Shot id:26396)
+[ERROR] There is no State with = 383(from Shot id:26397)
+[ERROR] There is no State with = 383(from Shot id:26398)
+[ERROR] There is no State with = 383(from Shot id:26399)
+[ERROR] There is no State with = 383(from Shot id:26400)
+[ERROR] There is no State with = 383(from Shot id:26401)
+[ERROR] There is no State with = 383(from Shot id:26402)
+[ERROR] There is no State with = 383(from Shot id:26403)
+[ERROR] There is no State with = 383(from Shot id:26404)
+[ERROR] There is no State with = 383(from Shot id:26405)
+[ERROR] There is no State with = 383(from Shot id:26406)
+[ERROR] There is no State with = 383(from Shot id:26407)
+[ERROR] There is no State with = 383(from Shot id:26408)
+[ERROR] There is no State with = 383(from Shot id:26409)
+[ERROR] There is no State with = 383(from Shot id:26410)
+[ERROR] There is no State with = 383(from Shot id:26411)
+[ERROR] There is no State with = 383(from Shot id:26412)
+[ERROR] There is no State with = 383(from Shot id:26413)
+[ERROR] There is no State with = 383(from Shot id:26414)
+[ERROR] There is no State with = 383(from Shot id:26415)
+[ERROR] There is no State with = 383(from Shot id:26416)
+[ERROR] There is no State with = 383(from Shot id:26417)
+[ERROR] There is no State with = 383(from Shot id:26418)
+[ERROR] There is no State with = 383(from Shot id:26419)
+[ERROR] There is no State with = 383(from Shot id:26420)
+[ERROR] There is no State with = 383(from Shot id:26421)
+[ERROR] There is no State with = 383(from Shot id:26422)
+[ERROR] There is no State with = 383(from Shot id:26423)
+[ERROR] There is no State with = 383(from Shot id:26424)
+[ERROR] There is no State with = 383(from Shot id:26425)
+[ERROR] There is no State with = 383(from Shot id:26426)
+[ERROR] There is no State with = 383(from Shot id:26427)
+[ERROR] There is no State with = 383(from Shot id:26428)
+[ERROR] There is no State with = 383(from Shot id:26429)
+[ERROR] There is no State with = 383(from Shot id:26430)
+[ERROR] There is no State with = 383(from Shot id:26431)
+[ERROR] There is no State with = 383(from Shot id:26432)
+[ERROR] There is no State with = 383(from Shot id:26433)
+[ERROR] There is no State with = 383(from Shot id:26434)
+[ERROR] There is no State with = 383(from Shot id:26435)
+[ERROR] There is no State with = 383(from Shot id:26436)
+[ERROR] There is no State with = 383(from Shot id:26437)
+[ERROR] There is no State with = 383(from Shot id:26438)
+[ERROR] There is no State with = 383(from Shot id:26439)
+[ERROR] There is no State with = 383(from Shot id:26440)
+[ERROR] There is no State with = 383(from Shot id:26441)
+[ERROR] There is no State with = 383(from Shot id:26442)
+[ERROR] There is no State with = 383(from Shot id:26443)
+[ERROR] There is no State with = 383(from Shot id:26444)
+[ERROR] There is no State with = 383(from Shot id:26445)
+[ERROR] There is no State with = 383(from Shot id:26446)
+[ERROR] There is no State with = 383(from Shot id:26447)
+[ERROR] There is no State with = 383(from Shot id:26448)
+[ERROR] There is no State with = 383(from Shot id:26449)
+[ERROR] There is no State with = 383(from Shot id:26450)
+[ERROR] There is no State with = 383(from Shot id:26451)
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(RounRobin)
+	Counting Unvisited Children...
+	Calculating Minimax...
+birdsIndex: 0
+		Found forced id 138
+Shooting Bird(0): BlueBird at Point x: 443.0 y: 319.0 dx: -525 dy: 124 Tap: 90 -> Ice
+Shooting Completed

@@ -290,7 +290,7 @@ function putFocusSubTree(element){
 			putFocusSubTree( children[i] );
 		}
 	}
-	element.svgElement.css("stroke-width: 3; stroke: green;");
+	element.svgElement.attr("style", "stroke-width: 3; stroke: green;");
 	elementsWithFocus.push(element.svgElement);
 	if( element.svgLine != undefined ){
 		element.svgLine.attr("style", "stroke-width: 3; stroke: green;");

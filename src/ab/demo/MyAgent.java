@@ -398,7 +398,7 @@ public class MyAgent implements Runnable {
 				
 				actualShot = chooseOneShot();
 				
-//				forceShots= true;
+				forceShots= false;
 				if( forceShots ){
 //					try{Thread.sleep(10000000);}catch(Exception e){}
 					
@@ -406,7 +406,7 @@ public class MyAgent implements Runnable {
 					int idForced = 0;
 					switch( birdsIndex ){
 					case 0:
-						idForced = 0;
+						idForced = 138;
 						for( MyShot ms : actualState.getPossibleShots() ){
 							if( ms.getShotId() == idForced ){
 								System.out.println("\t\tFound forced id "+idForced);
@@ -415,7 +415,7 @@ public class MyAgent implements Runnable {
 							}
 						}
 						break;
-					case 1:
+					case 1:/*
 						idForced = 0;
 						for( MyShot ms : actualState.getPossibleShots() ){
 							if( ms.getShotId() == idForced ){
@@ -423,7 +423,7 @@ public class MyAgent implements Runnable {
 								actualShot = ms;
 								break;
 							}
-						}
+						}*/
 						break;
 					}
 
@@ -621,7 +621,6 @@ public class MyAgent implements Runnable {
 				int newScore = (otherState.getScore() + state.getScore() ) / 2;
 				int newTotalScore = ( otherState.getTotalScore() + state.getTotalScore() ) / 2;
 				
-				
 				if( newScore != otherState.getScore() ){
 					System.out.println("Setting the Score with average of "+otherState.getScore()+" and "+state.getScore()+ " = "+newScore);
 				}
@@ -632,8 +631,6 @@ public class MyAgent implements Runnable {
 				
 				returnState.setTotalScore( newTotalScore );
 				returnState.setScore( newScore );
-				
-				System.out.println();
 				break;
 			}
 		}

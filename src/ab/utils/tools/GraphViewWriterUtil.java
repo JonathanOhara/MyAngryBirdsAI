@@ -8,10 +8,16 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.zip.ZipFile;
 
+import ab.objects.MyShot;
+import ab.objects.State;
 import ab.utils.FileUtil;
+
+import com.google.gson.Gson;
 
 public class GraphViewWriterUtil {
 	private static int LEVEL = 0;
+	
+	private static boolean IGNORE_NOT_USED_SHOTS = true;
 	
 	private static String reportsPath = "./reports/";
 	
@@ -20,10 +26,12 @@ public class GraphViewWriterUtil {
 	private static String statesJsonFileName = "states.zip";
 	
 	public static void main(String[] args) throws IOException {
+		Gson gson = new Gson();
+		
 		StringBuilder htmlShots = new StringBuilder();
 		StringBuilder htmlStates = new StringBuilder();;
 		StringBuilder htmlFinal = new StringBuilder();
-		
+
 		String shotsPath, statesPath, graphViewPath;
 		List<String> graphViewString, shotsString, statesString;
 		PrintWriter out;
@@ -44,11 +52,25 @@ public class GraphViewWriterUtil {
 			
 			System.out.println("Parsing Strings... ");
 			for( String st : shotsString ){
-				htmlShots.append( st ).append( "\n" );
+				if( IGNORE_NOT_USED_SHOTS ){
+					MyShot shot = gson.fromJson(st, MyShot.class);
+					if(shot.getTimes() > 0){
+						htmlShots.append( st ).append( "\n" );	
+					}
+				}else{
+					htmlShots.append( st ).append( "\n" );
+				}
 			}
 			
 			for( String st : statesString ){
-				htmlStates.append( st ).append( "\n" );
+				if( IGNORE_NOT_USED_SHOTS ){
+					State state = gson.fromJson(st, State.class);
+					if( state.getTimes() > 0 || state.getStateId() == 1 ){
+						htmlStates.append( st ).append( "\n" );
+					}
+				}else{
+					htmlStates.append( st ).append( "\n" );
+				}
 			}
 		}
 		
