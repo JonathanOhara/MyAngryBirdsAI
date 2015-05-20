@@ -97,7 +97,7 @@ public class Graph {
 			MyShot myshot = (MyShot) node;
 			if( myshot.getPossibleStates().size() == 1 ){
 				if( myshot.getPossibleStates().get(0).getScore() == 0 ){
-					removeNodesFromMap(myshot);
+					removeNodesFromMap(myshot, false);
 					myshot.getPossibleStates().remove(0);
 					
 					if( !myshot.getPossibleStates().isEmpty() ){
@@ -129,7 +129,7 @@ public class Graph {
 				for( State st : myshot.getPossibleStates() ){		
 					if( st.getScore() <= points ){
 						System.out.println("Removing state: "+st.getStateId()+ " with score: "+st.getScore());
-						removeNodesFromMap(st);
+						removeNodesFromMap(st, true);
 					}	
 				}
 				
@@ -143,36 +143,35 @@ public class Graph {
 	
 	public void removeUnlinkedNodes(){
 		for( State st : statesWithoutLink ){
-			removeNodesFromMap(st);
+			removeNodesFromMap(st, true);
 		}
 		
 		for( MyShot ms: shotsWithoutLink ){
-			removeNodesFromMap(ms);
+			removeNodesFromMap(ms, true);
 		}
 	}
 	
-	public void removeNodesFromMap(GraphNode node) {
+	public void removeNodesFromMap(GraphNode node, boolean removeShotsWithoutStates) {
 		if( node instanceof State ){
 			State state = (State) node;
 				
 			for( MyShot myshot : state.getPossibleShots() ){
-				removeNodesFromMap(myshot);
+				removeNodesFromMap(myshot, removeShotsWithoutStates);
 			}
 			
 			System.out.println("State id: "+state.getStateId()+" removed from graph. Points: "+ state.getScore());
 			allStates.remove(state.getStateId());
 		}else if( node instanceof MyShot ){
 			MyShot myshot = (MyShot) node;
+
+			for( State state: myshot.getPossibleStates() ){
+				removeNodesFromMap(state, removeShotsWithoutStates);
+			}
 			
-			//Remover isso aqui caso queira tirar unlinked nodes
-//			if( !myshot.getPossibleStates().isEmpty() ){
-				for( State state: myshot.getPossibleStates() ){
-					removeNodesFromMap(state);
-				}
-				
+			if( removeShotsWithoutStates || !myshot.getPossibleStates().isEmpty() ){
 				System.out.println("Shot id: "+myshot.getShotId()+" removed from graph. Minimax: "+myshot.getMiniMaxValue() );
 				allShots.remove(myshot.getShotId());
-//			}
+			}
 		}
 	}
 	

@@ -398,7 +398,7 @@ public class MyAgent implements Runnable {
 				
 				actualShot = chooseOneShot();
 				
-				forceShots= false;
+				forceShots= true;
 				if( forceShots ){
 //					try{Thread.sleep(10000000);}catch(Exception e){}
 					
@@ -406,7 +406,17 @@ public class MyAgent implements Runnable {
 					int idForced = 0;
 					switch( birdsIndex ){
 					case 0:
-						idForced = 138;
+						idForced = 11508;
+						for( MyShot ms : actualState.getPossibleShots() ){
+							if( ms.getShotId() == idForced ){
+								System.out.println("\t\tFound forced id "+idForced);
+								actualShot = ms;	
+								break;
+							}
+						}
+						break;
+					case 1:
+						idForced = 37818;	
 						for( MyShot ms : actualState.getPossibleShots() ){
 							if( ms.getShotId() == idForced ){
 								System.out.println("\t\tFound forced id "+idForced);
@@ -415,15 +425,15 @@ public class MyAgent implements Runnable {
 							}
 						}
 						break;
-					case 1:/*
-						idForced = 0;
+					case 2:
+						idForced = 105718;	
 						for( MyShot ms : actualState.getPossibleShots() ){
 							if( ms.getShotId() == idForced ){
 								System.out.println("\t\tFound forced id "+idForced);
 								actualShot = ms;
 								break;
 							}
-						}*/
+						}
 						break;
 					}
 

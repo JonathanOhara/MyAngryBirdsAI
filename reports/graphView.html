@@ -222,7 +222,7 @@ var elementInEeachHeight = [];
 var greaterNodeHeight = 0;
 var SVG_LINE_HEIGHT = 140;
 var CIRCLE_RADIUS = 30;
-var marginBetweenGroups = 6;
+var marginBetweenGroups = 5;
 var elementsWithFocus = [];
 var lastElementClicked = undefined;
 var showProperties = function( element, type ){
@@ -337,7 +337,7 @@ function generateGrapth(){
 			continue;
 		}
 		if( state.possibleShots == undefined ){
-			state.possibleShots = []
+			state.possibleShots = [];
 		}
 		state.possibleShots.push( shot );
 	}
@@ -350,7 +350,7 @@ function generateGrapth(){
 			continue;
 		}
 		if( shot.possibleStates == undefined ){
-			shot.possibleStates = []
+			shot.possibleStates = [];
 		}
 		shot.possibleStates.push( state );
 	}
@@ -379,6 +379,13 @@ function generateGrapth(){
 		}
 		$("#graph").prepend(g);
 		elementsGraphGeneration(root, 1);
+	}
+	for( var i in statesMap ){
+		state = statesMap[i];
+		if( !state.finalState && (state.possibleShots == undefined || state.possibleShots.length == 0 ) ){
+			console.log("[ERROR]");
+			state.svgElement.attr("style", "stroke-width: 3; stroke: red;");
+		}
 	}
 }
 function drawConnections( elements ){
@@ -427,7 +434,7 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		el = elements[i];
 		var parentId = el.originShotId || el.originStateId;
 		if( parentId != lastParent ){
-			cx += CIRCLE_RADIUS;
+			cx += 4;
 			lastParent = parentId;
 			if( group != undefined ){
 				groupWidth = ( parseInt(circle.attr("cx")) + CIRCLE_RADIUS ) - parseInt(group.attr("x"));
@@ -435,10 +442,10 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 					group.attr("width", groupWidth + marginBetweenGroups);
 					groupsToAppend.push( group );
 				}else{
-					cx -= CIRCLE_RADIUS;
+					cx -= 4;
 				}
 			}else{
-				cx -= CIRCLE_RADIUS;
+				cx -= 4;
 			}
 			group = createGroupOfCircleSVG( h );
 			group.attr("x", cx - ( CIRCLE_RADIUS ) - marginBetweenGroups );
@@ -522,7 +529,7 @@ function drawNodes( elements, h, CIRCLE_SPACE, centerAdjust, sizeMultiplier ){
 		cx += CIRCLE_SPACE;
 		el.svgElement = circle;
 	}
-	var totalWidth = cx;
+	var totalWidth = cx + (groupsToAppend.length * 3);
 	cx -= CIRCLE_SPACE;
 	cx += CIRCLE_RADIUS;
 	if( group != undefined && elements.length > 1 ){
@@ -589,11 +596,16 @@ function elementsGraphGeneration(node, h){
 	var elements = [];
 	var h = 0;
 	var maxTreeHeightPlot = elementInEeachHeight.length;
+	var elementsInThisHeight = 0;
 	//maxTreeHeightPlot = 4;
 	for( var i = 0; i < maxTreeHeightPlot; i++ ){
-		if( elementInEeachHeight[i] != undefined && elementInEeachHeight[i].length > greaterNumberOfElements ){
+		elementsInThisHeight = elementInEeachHeight[i].length;
+		if( i % 2 == 1 ){
+			elementsInThisHeight = parseInt( elementsInThisHeight * 1.1 );
+		}
+		if( elementInEeachHeight[i] != undefined && elementsInThisHeight > greaterNumberOfElements ){
 			elements = elementInEeachHeight[i];
-			greaterNumberOfElements = elements.length;
+			greaterNumberOfElements = elementsInThisHeight;
 			h = i;
 		}
 	}
@@ -610,7 +622,7 @@ function elementsGraphGeneration(node, h){
 			sizeMultiplier = 1.5;
 		}
 		var spaceBeetweenElements = DEFAULT_SPACE + parseInt(totalWidth / (elements.length * DEFAULT_SPACE));
-		spaceBeetweenElements = Math.max( $(document.body).width() / (elements.length), spaceBeetweenElements );
+		spaceBeetweenElements = Math.max( DEFAULT_SPACE, spaceBeetweenElements );
 		drawNodes( elements, j, spaceBeetweenElements, true, sizeMultiplier );
 	}
 	for( var j = 1; j < maxTreeHeightPlot; j++ ){
@@ -624,7 +636,7 @@ function createGroupOfCircleSVG(y){
 	group.attr("y", parseInt(y * SVG_LINE_HEIGHT) + 30);
 	group.attr("width", 0);
 	group.attr("height", (SVG_LINE_HEIGHT - 60) + "px");
-	group.attr("stroke-width", "4");
+	group.attr("stroke-width", "3");
 	group.attr("stroke", "black");
 	if( y % 2 == 0){
 		group.attr("fill", "#EAEAEA");
