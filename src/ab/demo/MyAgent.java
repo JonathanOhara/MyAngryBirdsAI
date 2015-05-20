@@ -606,15 +606,41 @@ public class MyAgent implements Runnable {
 
 	private State getStateIfAlreadyTested(State state, List<State> possibleStates) {
 		State returnState = null;
+		State otherState;
 		
-		int tollerancePoints = 1000;
+		int tollerancePoints = 1500;
 		
-		if( !isLearningMode() ){
-			tollerancePoints = 2500;
+		if( isLearningMode() ){
+			for( int i = 0; i < possibleStates.size(); i++ ){
+				otherState = possibleStates.get(i);
+				if( otherState.getOriginShotId() != state.getOriginShotId() ){
+					System.out.println("[ERROR]Estado com parent invalido.  Actual State "+ otherState.getStateId()+ " Other "+otherState.getStateId());
+					possibleStates.remove(i--);
+				}
+			}
+		}else{
+			tollerancePoints = 4000;
 		}
 		
-		for( State otherState : possibleStates ){
-			if( Math.abs( state.getScore() - otherState.getScore()) <= tollerancePoints && otherState.getOriginShotId() == state.getOriginShotId() ){
+		final State originState = state;
+		Collections.sort( possibleStates, new Comparator<State>() {
+			@Override
+			public int compare(State o1, State o2) {
+				int o1Abs = Math.abs( originState.getScore() - o1.getScore() );
+				int o2Abs = Math.abs( originState.getScore() - o2.getScore() );
+				int comp = Integer.compare(o1Abs, o2Abs);
+				
+//				System.out.println("o1 abs = "+o1Abs+ " o2 abs = "+o2Abs+ " comp: "+comp);
+				return comp;
+			}
+		});
+		
+		if( !possibleStates.isEmpty() ){
+			otherState = possibleStates.get(0);
+			
+			int scoreDiffenrece = ( Math.abs( state.getScore() - otherState.getScore() ) );
+			
+			if( scoreDiffenrece <= tollerancePoints ){
 				System.out.println("State previously reached. Reloading state: "+otherState.getStateId());
 				returnState = otherState;
 				
@@ -631,7 +657,8 @@ public class MyAgent implements Runnable {
 				
 				returnState.setTotalScore( newTotalScore );
 				returnState.setScore( newScore );
-				break;
+			}else{
+				System.out.println("Estado nao encontrado, diferença mais próxima: "+scoreDiffenrece);
 			}
 		}
 		
