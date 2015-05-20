@@ -398,11 +398,9 @@ public class MyAgent implements Runnable {
 				
 				actualShot = chooseOneShot();
 				
-				forceShots= true;
+//				forceShots= true;
 				if( forceShots ){
 //					try{Thread.sleep(10000000);}catch(Exception e){}
-					
-					System.out.println("birdsIndex: "+birdsIndex);
 					int idForced = 0;
 					switch( birdsIndex ){
 					case 0:
