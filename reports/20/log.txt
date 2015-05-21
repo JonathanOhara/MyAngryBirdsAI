@@ -4388,3 +4388,1328 @@ Total Score: 56180
 
 -------------------- Times in this level: 3 of 136--------------------
 
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -579 dy: 190 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 462
+Setting the Score with average of 4425 and 4550 = 4487
+Setting the Total Score with average of 4425 and 4550 = 4487
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 561.0 y: 349.0 dx: -196 dy: 577 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0006691197559041
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1277
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 113  calculated in: 258705 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 580.0 y: 356.0 dx: -207 dy: 573 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0018611986543944
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1278
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 115  calculated in: 264572 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 580.0 y: 346.0 dx: -208 dy: 573 Tap: 70 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0021895247913157
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1279
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 81 DiscardedShots: 46  calculated in: 140710 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 620.0 y: 341.0 dx: -234 dy: 563 Tap: 90 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1280
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 1 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 612.0 y: 298.0 dx: -522 dy: 315 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9970951388259219
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 566
+Setting the Score with average of 6205 and 5970 = 6087
+Setting the Total Score with average of 6205 and 5970 = 6087
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 606.0 y: 317.0 dx: -539 dy: 284 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0181552217698768
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1281
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 21 DiscardedShots: 111  calculated in: 214778 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 633.0 y: 309.0 dx: -530 dy: 300 Tap: 0 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0104746887585407
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1282
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 72 DiscardedShots: 73  calculated in: 158504 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 656.0 y: 334.0 dx: -257 dy: 553 Tap: 90 -> Stone
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1283
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 44650 
+Total Score: 44650
+
+-------------------- Times in this level: 2 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 571.0 y: 325.0 dx: -206 dy: 573 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0073350960171694
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 900
+Setting the Score with average of 5930 and 5340 = 5635
+Setting the Total Score with average of 5930 and 5340 = 5635
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 568.0 y: 349.0 dx: -576 dy: 198 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0073350960171694
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1284
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 114 DiscardedShots: 101  calculated in: 241862 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 603.0 y: 349.0 dx: -217 dy: 569 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1285
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 3 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 564.0 y: 337.0 dx: -199 dy: 576 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0068469157278432
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 33
+Setting the Score with average of 3105 and 3440 = 3272
+Setting the Total Score with average of 3105 and 3440 = 3272
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 615.0 y: 304.0 dx: -239 dy: 561 Tap: 95 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0015634897782273
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1286
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 82  calculated in: 218508 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 621.0 y: 321.0 dx: -242 dy: 559 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0020075562171626
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1287
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 78  calculated in: 189736 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 602.0 y: 342.0 dx: -562 dy: 235 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0020075562171626
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1288
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 102 DiscardedShots: 66  calculated in: 176145 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 588.0 y: 349.0 dx: -210 dy: 572 Tap: 90 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1289
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 4 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 571.0 y: 325.0 dx: -206 dy: 573 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0010784021346073
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 452
+Setting the Score with average of 4230 and 4020 = 4125
+Setting the Total Score with average of 4230 and 4020 = 4125
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 585.0 y: 327.0 dx: -556 dy: 249 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0010784021346073
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1290
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 119  calculated in: 269361 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 590.0 y: 334.0 dx: -216 dy: 570 Tap: 70 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0025585152672392
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1291
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 105 DiscardedShots: 67  calculated in: 184900 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 580.0 y: 345.0 dx: -569 dy: 217 Tap: 70 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0025585152672392
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1292
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 90 DiscardedShots: 66  calculated in: 173970 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 589.0 y: 325.0 dx: -216 dy: 570 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1293
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 5 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 564.0 y: 337.0 dx: -199 dy: 576 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0010151105816223
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 33
+Setting the Score with average of 3272 and 3440 = 3356
+Setting the Total Score with average of 3272 and 3440 = 3356
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 578.0 y: 349.0 dx: -575 dy: 201 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0010151105816223
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1294
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 118  calculated in: 274668 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 591.0 y: 314.0 dx: -542 dy: 279 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 0.9910952579761758
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1295
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 141 DiscardedShots: 87  calculated in: 247727 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 578.0 y: 349.0 dx: -572 dy: 209 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9910952579761758
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1296
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 135 DiscardedShots: 82  calculated in: 239497 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 601.0 y: 342.0 dx: -227 dy: 566 Tap: 90 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1297
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 6 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 571.0 y: 325.0 dx: -206 dy: 573 Tap: 75 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0068221526859895
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 83
+Setting the Score with average of 4280 and 4340 = 4310
+Setting the Total Score with average of 4280 and 4340 = 4310
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 607.0 y: 310.0 dx: -235 dy: 562 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0013039944325852
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1298
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 64  calculated in: 193789 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 656.0 y: 328.0 dx: -532 dy: 297 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0131357139220056
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1299
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 54 DiscardedShots: 79  calculated in: 162767 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 653.0 y: 346.0 dx: -249 dy: 556 Tap: 80 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1300
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 7 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 616.0 y: 284.0 dx: -255 dy: 553 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0071593337035827
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 688
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 564.0 y: 337.0 dx: -568 dy: 221 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0071593337035827
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1301
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 105 DiscardedShots: 91  calculated in: 216299 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 585.0 y: 318.0 dx: -548 dy: 267 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0009922678781327
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1302
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 82  calculated in: 210148 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 634.0 y: 316.0 dx: -530 dy: 300 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0041388975673833
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1303
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 66  calculated in: 171692 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 642.0 y: 324.0 dx: -535 dy: 292 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1304
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 8 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -193 dy: 578 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0009507226150367
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 482
+Setting the Score with average of 1995 and 2060 = 2027
+Setting the Total Score with average of 1995 and 2060 = 2027
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 583.0 y: 325.0 dx: -555 dy: 251 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0009507226150367
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1305
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 127  calculated in: 277247 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 568.0 y: 349.0 dx: -576 dy: 198 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0009507226150367
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1306
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 114 DiscardedShots: 104  calculated in: 248377 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 631.0 y: 295.0 dx: -257 dy: 553 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0020989468484844
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1307
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 104  calculated in: 249792 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 662.0 y: 316.0 dx: -273 dy: 545 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1308
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 9 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 585.0 y: 305.0 dx: -536 dy: 290 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0321480652753088
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 591
+Setting the Score with average of 8220 and 8900 = 8560
+Setting the Total Score with average of 8220 and 8900 = 8560
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 584.0 y: 337.0 dx: -565 dy: 228 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0321480652753088
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1309
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 21 DiscardedShots: 107  calculated in: 171302 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 349.0 dx: -577 dy: 197 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0321480652753088
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1310
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 30 DiscardedShots: 78  calculated in: 140615 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 667.0 y: 311.0 dx: -526 dy: 308 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0103162842812348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1311
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 66 DiscardedShots: 65  calculated in: 151187 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 680.0 y: 323.0 dx: -521 dy: 315 Tap: 80 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1312
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 10 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -579 dy: 190 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0103162842812348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 467
+Setting the Score with average of 5615 and 5620 = 5617
+Setting the Total Score with average of 5615 and 5620 = 5617
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 591.0 y: 337.0 dx: -561 dy: 237 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0103162842812348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1313
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 122  calculated in: 246687 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 591.0 y: 337.0 dx: -563 dy: 232 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0103162842812348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1314
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 78 DiscardedShots: 100  calculated in: 214133 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 611.0 y: 331.0 dx: -554 dy: 253 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0103162842812348
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1315
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 69 DiscardedShots: 64  calculated in: 153277 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 616.0 y: 334.0 dx: -228 dy: 565 Tap: 80 -> Stone
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1316
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 11 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 625.0 y: 258.0 dx: -474 dy: 382 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0027752156624978
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 790
+Setting the Score with average of 3210 and 4170 = 3690
+Setting the Total Score with average of 3210 and 4170 = 3690
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 665.0 y: 334.0 dx: -276 dy: 543 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.002539143914334
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1317
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 117  calculated in: 251601 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 585.0 y: 337.0 dx: -563 dy: 232 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.002539143914334
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1318
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 120 DiscardedShots: 102  calculated in: 250848 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 601.0 y: 335.0 dx: -222 dy: 567 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0029959277052998
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1319
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 97  calculated in: 216975 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 588.0 y: 325.0 dx: -554 dy: 253 Tap: 70 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0029959277052998
+Solve return state: PLAYING
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1320
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 12 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 571.0 y: 325.0 dx: -206 dy: 573 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0018608056093243
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 447
+Setting the Score with average of 3490 and 3330 = 3410
+Setting the Total Score with average of 3490 and 3330 = 3410
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 605.0 y: 304.0 dx: -236 dy: 562 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0015076028672112
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1321
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 123 DiscardedShots: 121  calculated in: 289818 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 576.0 y: 337.0 dx: -565 dy: 228 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0015076028672112
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1322
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 123 DiscardedShots: 101  calculated in: 266199 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 603.0 y: 349.0 dx: -566 dy: 225 Tap: 90 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1323
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 13 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -579 dy: 190 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 467
+Setting the Score with average of 5617 and 5590 = 5603
+Setting the Total Score with average of 5617 and 5590 = 5603
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 581.0 y: 337.0 dx: -209 dy: 573 Tap: 80 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0022014123956287
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1324
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 132 DiscardedShots: 104  calculated in: 257267 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 602.0 y: 315.0 dx: -229 dy: 565 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0027373621001394
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1325
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 126 DiscardedShots: 41  calculated in: 161054 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 648.0 y: 349.0 dx: -251 dy: 555 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0025761349283704
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1326
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 108 DiscardedShots: 37  calculated in: 136552 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 623.0 y: 339.0 dx: -237 dy: 562 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1327
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 14 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 616.0 y: 284.0 dx: -251 dy: 555 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0073540468558457
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 698
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 666.0 y: 323.0 dx: -273 dy: 545 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0035286382846569
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1328
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 105  calculated in: 234997 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 575.0 y: 337.0 dx: -566 dy: 226 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0035286382846569
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1329
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 114 DiscardedShots: 96  calculated in: 234975 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 585.0 y: 335.0 dx: -210 dy: 572 Tap: 70 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0025837201407202
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1330
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 117 DiscardedShots: 53  calculated in: 187369 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 602.0 y: 341.0 dx: -221 dy: 568 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1331
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 15 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -579 dy: 189 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0025837201407202
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 528
+Setting the Score with average of 11300 and 11260 = 11280
+Setting the Total Score with average of 11300 and 11260 = 11280
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 602.0 y: 323.0 dx: -546 dy: 271 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9987630922244373
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1332
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 135 DiscardedShots: 53  calculated in: 186070 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 608.0 y: 336.0 dx: -556 dy: 249 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 0.9987630922244373
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1333
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 141 DiscardedShots: 19  calculated in: 147375 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 654.0 y: 373.0 dx: -566 dy: 225 Tap: 80 -> Pig
+Shooting Completed
+
+scale factor changed to: 0.9987630922244373
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1334
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 126 DiscardedShots: 13  calculated in: 121982 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 652.0 y: 373.0 dx: -567 dy: 224 Tap: 90 -> Pig
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1335
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 16 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 580.0 y: 312.0 dx: -216 dy: 570 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0036929704321658
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 547
+Setting the Score with average of 6565 and 6810 = 6687
+Setting the Total Score with average of 6565 and 6810 = 6687
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 584.0 y: 337.0 dx: -564 dy: 230 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0036929704321658
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1336
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 105 DiscardedShots: 94  calculated in: 219546 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 587.0 y: 349.0 dx: -208 dy: 573 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0017011359441912
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1337
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 87  calculated in: 232071 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 602.0 y: 342.0 dx: -222 dy: 568 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0019312337772572
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1338
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 111 DiscardedShots: 79  calculated in: 210599 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 602.0 y: 342.0 dx: -221 dy: 568 Tap: 90 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1339
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 17 of 136--------------------
+
+ restart the level 
+Zooming out
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 616.0 y: 284.0 dx: -251 dy: 555 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0029436833355245
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 698
+Setting the Score with average of 7550 and 7140 = 7345
+Setting the Total Score with average of 7550 and 7140 = 7345
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 575.0 y: 337.0 dx: -565 dy: 227 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0029436833355245
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1340
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 126 DiscardedShots: 104  calculated in: 263987 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 588.0 y: 349.0 dx: -572 dy: 210 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0029436833355245
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1341
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 162 DiscardedShots: 72  calculated in: 232099 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 624.0 y: 339.0 dx: -237 dy: 561 Tap: 80 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1342
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 18 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 555.0 y: 349.0 dx: -190 dy: 579 Tap: 85 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0048347678440313
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 135
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 583.0 y: 325.0 dx: -214 dy: 571 Tap: 75 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0026946607132154
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1343
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 116  calculated in: 254606 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 571.0 y: 325.0 dx: -207 dy: 573 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0014369724990624
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1344
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 129 DiscardedShots: 93  calculated in: 247700 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 593.0 y: 349.0 dx: -569 dy: 219 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+Generate new state with id = 1345
+MyAgent.writeShotsAandStatesInFile()
+ Level 20 Score: 53920 
+Total Score: 53920
+
+-------------------- Times in this level: 19 of 136--------------------
+
+Loaded Level: 20
+Graph.buildGraph(20)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(0): YellowBird at Point x: 612.0 y: 298.0 dx: -522 dy: 315 Tap: 80 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0080721595295885
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 566
+Setting the Score with average of 6087 and 5970 = 6028
+Setting the Total Score with average of 6087 and 5970 = 6028
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(1): YellowBird at Point x: 583.0 y: 325.0 dx: -555 dy: 252 Tap: 90 -> Stone
+Shooting Completed
+
+scale factor changed to: 1.0080721595295885
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1346
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 99 DiscardedShots: 105  calculated in: 240319 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(2): YellowBird at Point x: 585.0 y: 337.0 dx: -564 dy: 230 Tap: 70 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0080721595295885
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1347
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 96 DiscardedShots: 106  calculated in: 238842 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(3): YellowBird at Point x: 578.0 y: 349.0 dx: -575 dy: 201 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0080721595295885
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 1348
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.findPossibleShots()
+Number of: PossibleShots: 93 DiscardedShots: 88  calculated in: 202414 miliseconds
+MyAgent.chooseOneShot(Random)
+	Counting Unvisited Children...
+	Calculating Minimax...
+Shooting Bird(4): YellowBird at Point x: 640.0 y: 321.0 dx: -252 dy: 555 Tap: 80 -> Wood
+Shooting Completed
+Solve return state: LOST
+LOST.
+MyAgent.calculateShotStats()
+Generate new state with id = 1349
+MyAgent.writeShotsAandStatesInFile()
+
+-------------------- Times in this level: 20 of 136--------------------
+
+ restart the level 
