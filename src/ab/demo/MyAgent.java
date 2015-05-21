@@ -58,7 +58,6 @@ public class MyAgent implements Runnable {
 	
 	private int MAX_LEVEL = 22;
 	
-//	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
 	
@@ -397,41 +396,60 @@ public class MyAgent implements Runnable {
 				}
 				
 				actualShot = chooseOneShot();
-				
+
 //				forceShots= true;
 				if( forceShots ){
 //					try{Thread.sleep(10000000);}catch(Exception e){}
-					int idForced = 0;
 					switch( birdsIndex ){
 					case 0:
-						idForced = 11508;
-						for( MyShot ms : actualState.getPossibleShots() ){
-							if( ms.getShotId() == idForced ){
-								System.out.println("\t\tFound forced id "+idForced);
-								actualShot = ms;	
-								break;
-							}
-						}
+						/*
+						sortPossibleShotsByClosesetPoint(443, 319, 90);
+						actualShot = actualState.getPossibleShots().get(0);
+						 */
+						chooseShotById(138, actualState.getPossibleShots());
 						break;
 					case 1:
-						idForced = 37818;	
-						for( MyShot ms : actualState.getPossibleShots() ){
-							if( ms.getShotId() == idForced ){
-								System.out.println("\t\tFound forced id "+idForced);
-								actualShot = ms;
-								break;
-							}
+						/*
+						sortPossibleShotsByClosesetPoint(506, 310, 0);
+						actualShot = actualState.getPossibleShots().get(0);
+						if( actualState.getStateId() == 182 ){
+							chooseShotById(14411, actualState.getPossibleShots());
+						}else if( actualState.getStateId() == 358 ){
+							idForced = 24669;
+							chooseShotById(24669, actualState.getPossibleShots());
 						}
+						*/
 						break;
-					case 2:
-						idForced = 105718;	
-						for( MyShot ms : actualState.getPossibleShots() ){
-							if( ms.getShotId() == idForced ){
-								System.out.println("\t\tFound forced id "+idForced);
-								actualShot = ms;
-								break;
-							}
-						}
+					case 2:/*
+						idForced = -1;
+						
+						sortPossibleShotsByClosesetPoint(519, 319, 80);
+						actualShot = actualState.getPossibleShots().get(0);
+						*/
+						break;
+					case 3:
+						/*
+						idForced = -1;
+						
+						sortPossibleShotsByClosesetPoint(589, 298, 75);
+						actualShot = actualState.getPossibleShots().get(0);
+						*/
+						break;
+					case 4:
+						/*
+						idForced = -1;
+						
+						sortPossibleShotsByClosesetPoint(508, 329, 0);
+						actualShot = actualState.getPossibleShots().get(0);
+						*/
+						break;
+					case 5:
+						/*
+						idForced = -1;
+						
+						sortPossibleShotsByClosesetPoint(591, 297, 80);
+						actualShot = actualState.getPossibleShots().get(0);
+						*/
 						break;
 					}
 
@@ -498,6 +516,16 @@ public class MyAgent implements Runnable {
 		return state;
 	}
 	
+	private void chooseShotById(int idForced, List<MyShot> possibleShots) {
+		for( MyShot ms : actualState.getPossibleShots() ){
+			if( ms.getShotId() == idForced ){
+				System.out.println("\t\tFound forced id "+idForced);
+				actualShot = ms;	
+				break;
+			}
+		}
+	}
+
 	private void logConfiguration() {
 		try{
 			File reportFile = new File("./reports/" + currentLevel );
@@ -847,6 +875,29 @@ public class MyAgent implements Runnable {
 		calcReleasePoint( theShot.getTarget() );
 		return theShot;
 	}
+	
+	private void sortPossibleShotsByClosesetPoint( final int x, final int y, final int tap) {
+		System.out.println("Ordering by -> x: "+x+" y: "+y+" t: "+tap);
+		
+		Collections.sort(actualState.getPossibleShots(), new Comparator<MyShot>() {
+			@Override
+			public int compare(MyShot o1, MyShot o2) {
+				int compare = 0;
+
+				compare = 
+						Double.compare( 
+							distance(o1.getTarget(), new Point(x, y)),
+							distance(o2.getTarget(), new Point(x, y))
+						);
+				
+				if( compare == 0 ){
+					compare = Integer.compare( Math.abs( tap - o1.getTapInterval() ), Math.abs(tap - o2.getTapInterval()) );
+				}
+				
+				return compare;
+			}
+		});
+	}
 
 	private void sortPossibleShotsByPseudoRandom() {
 		for( MyShot shot: actualState.getPossibleShots() ){
@@ -903,6 +954,10 @@ public class MyAgent implements Runnable {
 				
 				if( compare == 0){
 					compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+				}
+				
+				if( compare == 0 ){
+					compare = Integer.compare(o1.getTapInterval(), o2.getTapInterval()) * -1;
 				}
 				
 				return compare;
