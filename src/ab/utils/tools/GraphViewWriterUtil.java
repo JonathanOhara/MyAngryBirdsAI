@@ -15,7 +15,7 @@ import ab.utils.FileUtil;
 import com.google.gson.Gson;
 
 public class GraphViewWriterUtil {
-	private static int LEVEL = 0;
+	private static int LEVEL = 21;
 	
 	private static boolean IGNORE_NOT_USED_SHOTS = true;
 	

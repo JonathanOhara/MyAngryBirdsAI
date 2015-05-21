@@ -10,8 +10,8 @@ import ab.objects.State;
 import ab.utils.Graph;
 
 public class GraphCutter {
-	private static int LEVEL = 20;
-	private static int MAX_LEVEL = 20;
+	private static int LEVEL = 21;
+	private static int MAX_LEVEL = 21;
 	
 	public static void main(String[] args) throws IOException {
 
