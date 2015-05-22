@@ -399,6 +399,7 @@ public class MyAgent implements Runnable {
 
 //				forceShots= true;
 				if( forceShots ){
+					System.out.println("...............::::::::::::::::::::::: Forcing Shots :::::::::::::::::::::::...............");
 //					try{Thread.sleep(10000000);}catch(Exception e){}
 					switch( birdsIndex ){
 					case 0:
@@ -409,8 +410,8 @@ public class MyAgent implements Runnable {
 						chooseShotById(138, actualState.getPossibleShots());
 						break;
 					case 1:
-						/*
 						sortPossibleShotsByClosesetPoint(506, 310, 0);
+						/*
 						actualShot = actualState.getPossibleShots().get(0);
 						if( actualState.getStateId() == 182 ){
 							chooseShotById(14411, actualState.getPossibleShots());
@@ -644,7 +645,7 @@ public class MyAgent implements Runnable {
 		State returnState = null;
 		State otherState;
 		
-		int tollerancePoints = 1500;
+		int tollerancePoints = 1750;
 		
 		if( isLearningMode() ){
 			for( int i = 0; i < possibleStates.size(); i++ ){
@@ -846,7 +847,7 @@ public class MyAgent implements Runnable {
 			sortPossibleShotsMyMiniMax();
 			
 			theShot = actualState.getPossibleShots().get(0);
-			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId());
+			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case RounRobin:
 			sortPossibleShotsByDistanceOfClosestPig();
