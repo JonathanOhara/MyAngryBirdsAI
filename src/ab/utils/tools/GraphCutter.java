@@ -10,7 +10,7 @@ import ab.objects.State;
 import ab.utils.Graph;
 
 public class GraphCutter {
-	private static int LEVEL = 21;
+	private static int LEVEL = 0;
 	private static int MAX_LEVEL = 21;
 	
 	public static void main(String[] args) throws IOException {
@@ -61,7 +61,7 @@ public class GraphCutter {
 						idsToDelete.add(ms.getShotId());
 					}
 					
-					System.out.println("Final: "+(score / number)+ " id: "+ms.getShotId());
+//					System.out.println("Final: "+(score / number)+ " id: "+ms.getShotId());
 				}
 			}
 		}
