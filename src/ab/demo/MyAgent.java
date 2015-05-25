@@ -407,7 +407,7 @@ public class MyAgent implements Runnable {
 						sortPossibleShotsByClosesetPoint(443, 319, 90);
 						actualShot = actualState.getPossibleShots().get(0);
 						 */
-						chooseShotById(138, actualState.getPossibleShots());
+						chooseShotById(2691, actualState.getPossibleShots());
 						break;
 					case 1:
 						sortPossibleShotsByClosesetPoint(506, 310, 0);
