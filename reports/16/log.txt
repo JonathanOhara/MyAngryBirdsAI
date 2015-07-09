@@ -1,0 +1,95 @@
+Loaded Level: 16
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+No slingshot detected. Please remove pop up or zoom out
+Graph.buildGraph(16)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 5126 with value 50722.137
+Shooting Bird(0): YellowBird at Point x: 565.0 y: 336.0 dx: -218 dy: 471 Tap: 90 -> Wood
+Shooting Completed
+
+scale factor changed to: 1.0074118615835295
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 292
+MyAgent.writeShotsAandStatesInFile()
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 15636 with value 53285.668
+Shooting Bird(1): YellowBird at Point x: 607.0 y: 356.0 dx: -477 dy: 230 Tap: 70 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 293
+Setting the Score with average of 53078 and 53210 = 53144
+Setting the Total Score with average of 66338 and 66470 = 66404
+MyAgent.writeShotsAandStatesInFile()
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+ Level 14 Score: 65640 
+ Level 15 Score: 45260 
+ Level 16 Score: 66470 
+Total Score: 285980
+Changing Level 1/6/2015 - 22:52:39

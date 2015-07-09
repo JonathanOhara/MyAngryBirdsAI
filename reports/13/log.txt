@@ -1,0 +1,21 @@
+Loaded Level: 13
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35 with value 41183.168
+Shooting Bird(0): BlueBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 95 -> Ice
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 209
+Setting the Score with average of 48373 and 48090 = 48231
+Setting the Total Score with average of 48373 and 48090 = 48231
+MyAgent.writeShotsAandStatesInFile()
+ Level 12 Score: 60520 
+ Level 13 Score: 48090 
+Total Score: 108610
+Changing Level 1/6/2015 - 22:43:59
