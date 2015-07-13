@@ -4,7 +4,6 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,7 +17,6 @@ import java.util.Random;
 
 import javax.imageio.ImageIO;
 
-import ab.demo.other.ActionRobot;
 import ab.demo.other.ClientActionRobot;
 import ab.demo.other.ClientActionRobotJava;
 import ab.demo.other.Shot;
@@ -85,17 +83,8 @@ public class MyClientAgent implements Runnable {
 	}
 	
 	public MyClientAgent(LearnType learnType, boolean recalculatePossibleShots, String ip) {
+		System.out.println("..:: CLIENT MODE ::..");
 		System.out.println("Execution starts: "+getDatetimeFormated());
-		
-		if( learnType.equals(LearnType.None) ){
-			System.out.println("..:: EXECUTION MODE ::..");
-		}else{
-			System.out.println("..:: LEARNING MODE ::..");
-			System.out.println("..:: TYPE "+learnType+" ::..");
-			if( recalculatePossibleShots ){
-				System.out.println("Recalculating possible shots");
-			}
-		}
 		
 		LEARN_TYPE = learnType;
 		this.recalculatePossibleShots = recalculatePossibleShots;
@@ -107,8 +96,7 @@ public class MyClientAgent implements Runnable {
 		graph = new Graph();
 //		firstShot = true;
 		randomGenerator = new Random();
-		// --- go to the Poached Eggs episode level selection page ---
-		ActionRobot.GoFromMainMenuToLevelSelection();
+//		ActionRobot.GoFromMainMenuToLevelSelection();
 	}
 
 	private void checkMyScore()
@@ -216,7 +204,8 @@ public class MyClientAgent implements Runnable {
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				ActionRobot.GoFromMainMenuToLevelSelection();
+				aRobot.loadLevel(currentLevel);
+//				ActionRobot.GoFromMainMenuToLevelSelection();
 				
 				loadLevel();
 			} else if (state == GameState.EPISODE_MENU) {
@@ -225,7 +214,8 @@ public class MyClientAgent implements Runnable {
 				numberOfbirds = -1;
 				changeLevelIfNecessary();
 				
-				ActionRobot.GoFromMainMenuToLevelSelection();
+				aRobot.loadLevel(currentLevel);
+//				ActionRobot.GoFromMainMenuToLevelSelection();
 				loadLevel();
 			} else if (state == GameState.UNKNOWN) {
 				System.out.println("Unknow Game state, may the game ends in last shot. CurrentLevel: "+ currentLevel);
@@ -335,7 +325,7 @@ public class MyClientAgent implements Runnable {
  		List<ABObject> birds;
  		
 		// capture Image
-		BufferedImage screenshot = ActionRobot.doScreenShot();
+		BufferedImage screenshot = aRobot.doScreenShot();
 			
 		// process image
 		Vision vision = new Vision(screenshot);
@@ -346,8 +336,8 @@ public class MyClientAgent implements Runnable {
 		// confirm the slingshot
 		while (sling == null && aRobot.checkState() == GameState.PLAYING) {
 			System.out.println("No slingshot detected. Please remove pop up or zoom out");
-			ActionRobot.fullyZoomOut();
-			screenshot = ActionRobot.doScreenShot();
+			aRobot.fullyZoomOut();
+			screenshot = aRobot.doScreenShot();
 			vision = new Vision(screenshot);
 			sling = vision.findSlingshotMBR();
 		}
@@ -406,7 +396,7 @@ public class MyClientAgent implements Runnable {
 					
 					actualState.setPossibleShots( findPossibleShots(new ArrayList<MyShot>()) );
 					
-					actualState.setShotImage( ActionRobot.doScreenShot() );
+					actualState.setShotImage( aRobot.doScreenShot() );
 					
 					graph.allStates.put(actualState.getStateId(), actualState);
 					
@@ -521,8 +511,8 @@ public class MyClientAgent implements Runnable {
 				
 				// check whether the slingshot is changed. the change of the slingshot indicates a change in the scale.
 				{
-					ActionRobot.fullyZoomOut();
-					screenshot = ActionRobot.doScreenShot();
+					aRobot.fullyZoomOut();
+					screenshot = aRobot.doScreenShot();
 					vision = new Vision(screenshot);
 					Rectangle _sling = vision.findSlingshotMBR();
 					
@@ -537,12 +527,12 @@ public class MyClientAgent implements Runnable {
 								actualState = new State();
 								actualState.setOriginShotId( actualShot.getShotId() );
 								birdsIndex++;
-								actualState.setShotImage( ActionRobot.doScreenShot() );
+								actualState.setShotImage( aRobot.doScreenShot() );
 								
 								state = aRobot.checkState();
 								if ( state == GameState.PLAYING )
 								{
-									screenshot = ActionRobot.doScreenShot();
+									screenshot = aRobot.doScreenShot();
 									vision = new Vision(screenshot);
 									List<Point> traj = vision.findTrajPoints();
 									tp.adjustTrajectory(traj, sling, releasePoint);
@@ -1022,7 +1012,7 @@ public class MyClientAgent implements Runnable {
 		long time = System.currentTimeMillis();
 		int discardedShots = 0;
 		
-		BufferedImage screenshot = ActionRobot.doScreenShot();
+		BufferedImage screenshot = aRobot.doScreenShot();
 		Vision vision = new Vision(screenshot);
 		
 		MapState mapState = getMapState(vision);
