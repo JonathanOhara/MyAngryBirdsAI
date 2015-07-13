@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ab.demo.MyAgent;
+import ab.demo.MyClientAgent;
 import ab.objects.LearnType;
 import ab.vision.ShowSeg;
 
@@ -26,6 +27,11 @@ public class MainEntry {
 	public static void main(String args[]){
 		int level = 1;
 		boolean recalculatePossibleShots = false;
+		
+		boolean clientMode = false;
+		String ip = null;
+		int teamId = 0;
+		
 		LearnType learnMode = LearnType.None;
 		
 		if( args == null || args.length == 0 ){
@@ -46,18 +52,41 @@ public class MainEntry {
 			}
 		}
 
-		recalculatePossibleShots = argsList.indexOf("-recalculatePossibleShots") > -1;
-		
-		MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
-
-		na.currentLevel = level;
-		Thread nathre = new Thread(na);
-		nathre.start();
-		if( argsList.contains("-showReal") ){
-			ShowSeg.useRealshape = true;
+		if( !argsList.isEmpty() ){
+			if( argsList.get(0).equals("-nasc") ){
+				clientMode = true;
+				
+				if( argsList.size() > 1 ){
+					ip = argsList.get(1);
+				}
+				if( argsList.size() > 2 ){
+					teamId = Integer.parseInt( argsList.get(2) );
+				}
+				
+			}
+			
+			recalculatePossibleShots = argsList.indexOf("-recalculatePossibleShots") > -1;
 		}
-		Thread thre = new Thread(new ShowSeg());
-		thre.start();
+		
+		if( clientMode ){
+			MyClientAgent na = new MyClientAgent(LearnType.None, recalculatePossibleShots, ip );
+			
+			na.id = teamId;
+			na.run();
+		}else{
+			MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
+			
+			na.currentLevel = level;
+			Thread nathre = new Thread(na);
+			nathre.start();
+			if( argsList.contains("-showReal") ){
+				ShowSeg.useRealshape = true;
+			}
+			Thread thre = new Thread(new ShowSeg());
+			thre.start();
+		}
+
+		
 
 	}
 }
