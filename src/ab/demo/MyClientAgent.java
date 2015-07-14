@@ -39,7 +39,7 @@ public class MyClientAgent implements Runnable {
 
 	private ClientActionRobotJava aRobot;
 	private Random randomGenerator;	
-	public byte currentLevel = 7;
+	public byte currentLevel = 0;
 	public static int time_limit = 12;
 	private Map<Integer,Integer> scores = new LinkedHashMap<Integer,Integer>();
 	TrajectoryPlanner tp;
