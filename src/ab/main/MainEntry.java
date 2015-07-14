@@ -75,16 +75,22 @@ public class MainEntry {
 			na.id = teamId;
 			na.run();
 		}else{
-			MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
-			
-			na.currentLevel = level;
-			Thread nathre = new Thread(na);
-			nathre.start();
-			if( argsList.contains("-showReal") ){
-				ShowSeg.useRealshape = true;
+			if( argsList.contains("-showMbR") || argsList.contains("-showReal") ){
+				MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
+				
+				na.currentLevel = level;
+				Thread nathre = new Thread(na);
+				nathre.start();
+				if( argsList.contains("-showReal") ){
+					ShowSeg.useRealshape = true;
+				}
+				Thread thre = new Thread(new ShowSeg());
+				thre.start();
+			}else{
+				MyAgent na = new MyAgent( learnMode, recalculatePossibleShots );
+				na.currentLevel = level;
+				na.run();
 			}
-			Thread thre = new Thread(new ShowSeg());
-			thre.start();
 		}
 
 		

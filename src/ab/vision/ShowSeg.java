@@ -39,7 +39,7 @@ public class ShowSeg implements Runnable {
 	public  static boolean useRealshape = false;
 	private static VisionRealShape vision;
 	
-	public static ShowSeg instance;
+	public static ShowSeg instance = null;
 	
 	public static List<Point> debugBluePoint = null;
 	public static List<Point> debugCyanPoint = null;

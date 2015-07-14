@@ -36,8 +36,6 @@ import ab.vision.GameStateExtractor.GameState;
 import ab.vision.ShowSeg;
 import ab.vision.Vision;
 
-import com.google.gson.Gson;
-
 //http://www.angrybirdsnest.com/leaderboard/angry-birds/episode/poached-eggs/
 public class MyAgent implements Runnable {
 
@@ -114,7 +112,7 @@ public class MyAgent implements Runnable {
 			GameState state = solve();
 			if (state == GameState.WON) {
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(3000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -273,10 +271,12 @@ public class MyAgent implements Runnable {
 	}
 
 	private void clearDebugsPoints() {
-		ShowSeg.debugGreenPoint.clear();
-		ShowSeg.debugBluePoint.clear();
-		ShowSeg.debugCyanPoint.clear();
-		ShowSeg.debugRedPoint.clear();
+		if( ShowSeg.instance != null ){
+			ShowSeg.debugGreenPoint.clear();
+			ShowSeg.debugBluePoint.clear();
+			ShowSeg.debugCyanPoint.clear();
+			ShowSeg.debugRedPoint.clear();
+		}
 	}
 
 	private double distance(Point p1, Point p2) {
@@ -377,12 +377,13 @@ public class MyAgent implements Runnable {
 					for( MyShot ms : actualState.getPossibleShots() ){
 						Point pt = ms.getTarget();
 //						System.out.println("id: "+ms.getShotId()+ " x: "+ms.getTarget().x+ " y: "+ms.getTarget().y);
-						if( ms.getTimes() > 0 ){
-							ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
-						}else{
-							ShowSeg.debugRedPoint.add( new Point( pt.x, pt.y - 2) );
+						if( ShowSeg.instance != null ){
+							if( ms.getTimes() > 0 ){
+								ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
+							}else{
+								ShowSeg.debugRedPoint.add( new Point( pt.x, pt.y - 2) );
+							}
 						}
-						
 					}
 				}
 				
@@ -455,10 +456,14 @@ public class MyAgent implements Runnable {
 					}
 
 				}else{
-					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
+					if( ShowSeg.instance != null ){
+						ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
+					}
 				}
 				
-				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
+				if( ShowSeg.instance != null ){
+					ShowSeg.debugGreenPoint.add(actualShot.getTarget());
+				}
 				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();
@@ -1100,9 +1105,13 @@ public class MyAgent implements Runnable {
 									possibleShots.add( myShot );
 									
 									graph.allShots.put(myShot.getShotId(), myShot);
-									ShowSeg.debugCyanPoint.add(_tpt);
+									if( ShowSeg.instance != null ){
+										ShowSeg.debugCyanPoint.add(_tpt);
+									}
 								}else{
-									ShowSeg.debugBluePoint.add(_tpt);		
+									if( ShowSeg.instance != null ){
+										ShowSeg.debugBluePoint.add(_tpt);
+									}
 								}
 							}
 							
@@ -1110,12 +1119,16 @@ public class MyAgent implements Runnable {
 						}else{
 //							System.out.println("Nao da pra alcancar");
 							discardedShots++;
-							ShowSeg.debugRedPoint.add(_tpt);
+							if( ShowSeg.instance != null ){
+								ShowSeg.debugRedPoint.add(_tpt);
+							}
 						}
 					}
 				}else{
 //					System.out.println("Tiro parecido ja testado");
-					ShowSeg.debugRedPoint.add(_tpt);
+					if( ShowSeg.instance != null ){
+						ShowSeg.debugRedPoint.add(_tpt);
+					}
 					discardedShots++;
 				}
 			}
