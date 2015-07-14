@@ -404,7 +404,9 @@ public class MyClientAgent implements Runnable {
 					
 					graph.allStates.put(actualState.getStateId(), actualState);
 					
-					writeImageState(1);
+					if( isLearningMode() ){
+						writeImageState(1);
+					}
 				}
 				
 				if( aRobot.checkState() != GameState.PLAYING ){
@@ -755,7 +757,9 @@ public class MyClientAgent implements Runnable {
 
 			graph.allStates.put(state.getStateId(), state);
 			
-			writeImageState( state.getStateId() );
+			if( isLearningMode() ){
+				writeImageState( state.getStateId() );
+			}
 		}
 		
 		return returnState;
