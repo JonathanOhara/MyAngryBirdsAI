@@ -32,7 +32,6 @@ import ab.utils.Graph;
 import ab.vision.ABObject;
 import ab.vision.ABType;
 import ab.vision.GameStateExtractor.GameState;
-import ab.vision.ShowSeg;
 import ab.vision.Vision;
 
 //http://www.angrybirdsnest.com/leaderboard/angry-birds/episode/poached-eggs/
@@ -40,13 +39,14 @@ public class MyClientAgent implements Runnable {
 
 	private ClientActionRobotJava aRobot;
 	private Random randomGenerator;	
-	public byte currentLevel = 1;
+	public byte currentLevel = 7;
 	public static int time_limit = 12;
 	private Map<Integer,Integer> scores = new LinkedHashMap<Integer,Integer>();
 	TrajectoryPlanner tp;
 	
 	
-	public int id = 28888;
+	boolean firstShot = true;
+	public int id = 1;
 	public int[] solved;
 	
 	Rectangle sling;
@@ -94,7 +94,7 @@ public class MyClientAgent implements Runnable {
 		aRobot = new ClientActionRobotJava(ip);
 		tp = new TrajectoryPlanner();
 		graph = new Graph();
-//		firstShot = true;
+		firstShot = true;
 		randomGenerator = new Random();
 //		ActionRobot.GoFromMainMenuToLevelSelection();
 	}
@@ -153,6 +153,8 @@ public class MyClientAgent implements Runnable {
 		currentLevel = (byte)getNextLevel(); 
 		aRobot.loadLevel(currentLevel);
 		
+		System.out.println("Team id = "+id);
+		
 		while (true) {
 			GameState state = solve();
 			if (state == GameState.WON) {
@@ -177,6 +179,8 @@ public class MyClientAgent implements Runnable {
 				
 				loadLevel();
 				tp = new TrajectoryPlanner();
+				
+				firstShot = true;
 				
 			} else if (state == GameState.LOST) {
 				System.out.println("LOST.");
@@ -310,10 +314,10 @@ public class MyClientAgent implements Runnable {
 	}
 
 	private void clearDebugsPoints() {
-		ShowSeg.debugGreenPoint.clear();
-		ShowSeg.debugBluePoint.clear();
-		ShowSeg.debugCyanPoint.clear();
-		ShowSeg.debugRedPoint.clear();
+//		ShowSeg.debugGreenPoint.clear();
+//		ShowSeg.debugBluePoint.clear();
+//		ShowSeg.debugCyanPoint.clear();
+//		ShowSeg.debugRedPoint.clear();
 	}
 
 	private double distance(Point p1, Point p2) {
@@ -411,16 +415,16 @@ public class MyClientAgent implements Runnable {
 				if( actualState.getPossibleShots().isEmpty() || recalculatePossibleShots ){
 					actualState.setPossibleShots( findPossibleShots( actualState.getPossibleShots() ) );
 				}else{
-					for( MyShot ms : actualState.getPossibleShots() ){
-						Point pt = ms.getTarget();
-//						System.out.println("id: "+ms.getShotId()+ " x: "+ms.getTarget().x+ " y: "+ms.getTarget().y);
-						if( ms.getTimes() > 0 ){
-							ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
-						}else{
-							ShowSeg.debugRedPoint.add( new Point( pt.x, pt.y - 2) );
-						}
-						
-					}
+//					for( MyShot ms : actualState.getPossibleShots() ){
+//						Point pt = ms.getTarget();
+////						System.out.println("id: "+ms.getShotId()+ " x: "+ms.getTarget().x+ " y: "+ms.getTarget().y);
+//						if( ms.getTimes() > 0 ){
+//							ShowSeg.debugBluePoint.add( new Point( pt.x, pt.y + 2) );
+//						}else{
+//							ShowSeg.debugRedPoint.add( new Point( pt.x, pt.y - 2) );
+//						}
+//						
+//					}
 				}
 				
 				if( TIMES_IN_EACH_STAGE == Integer.MAX_VALUE ){
@@ -492,10 +496,10 @@ public class MyClientAgent implements Runnable {
 					}
 
 				}else{
-					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
+//					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
 				}
 				
-				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
+//				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
 				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();
@@ -521,7 +525,7 @@ public class MyClientAgent implements Runnable {
 						if(scale_diff < 25)	{
 							if(dx < 0) {
 								//shots.add(new Shot(shot.getX(),shot.getY(),shot.getDx(),shot.getDy(),t_shot));
-								aRobot.shoot(shot.getX(), shot.getY(), shot.getDx(), shot.getDy(), 0, actualShot.getTapInterval(), false);
+								aRobot.shoot(shot.getX(), shot.getY(), shot.getDx(), shot.getDy(), 0, shot.getT_tap(), false);
 								
 								lastState = actualState;
 								actualState = new State();
@@ -536,7 +540,7 @@ public class MyClientAgent implements Runnable {
 									vision = new Vision(screenshot);
 									List<Point> traj = vision.findTrajPoints();
 									tp.adjustTrajectory(traj, sling, releasePoint);
-//									firstShot = false;
+									firstShot = false;
 								}
 							}
 						}
@@ -696,7 +700,7 @@ public class MyClientAgent implements Runnable {
 				}
 			}
 		}else{
-			tollerancePoints = 4000;
+			tollerancePoints = 5000;
 		}
 		
 		final State originState = state;
@@ -878,9 +882,19 @@ public class MyClientAgent implements Runnable {
 
 		switch( LEARN_TYPE ){
 		case None:
-			sortPossibleShotsMyMiniMax();
-			
-			theShot = actualState.getPossibleShots().get(0);
+			Vision vision;
+			do{
+				sortPossibleShotsMyMiniMax();
+				
+				theShot = actualState.getPossibleShots().remove(0);
+				
+				if( firstShot ) break;
+				
+				BufferedImage screenshot = aRobot.doScreenShot();
+				vision = new Vision(screenshot);
+				
+				System.out.println("Testing if shot "+theShot.getShotId()+ " is reachable.");
+			}while( !ABUtil.isReachable(vision, theShot.getTarget(), theShot.getShot() ) );
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case ConfirmBestResults:
@@ -1078,7 +1092,7 @@ public class MyClientAgent implements Runnable {
 						int dy = (int)releasePoint.getY() - refPoint.y;
 						Shot shot = new Shot(refPoint.x, refPoint.y, dx, dy, 0, 0);
 	
-						if( ABUtil.isReachable(vision, _tpt, shot) ){
+						if( !isLearningMode() || ABUtil.isReachable(vision, _tpt, shot) ){
 							List<Integer> tapIntervalList = new ArrayList<Integer>();
 							
 							switch( birdType ){
@@ -1140,9 +1154,9 @@ public class MyClientAgent implements Runnable {
 									possibleShots.add( myShot );
 									
 									graph.allShots.put(myShot.getShotId(), myShot);
-									ShowSeg.debugCyanPoint.add(_tpt);
+//									ShowSeg.debugCyanPoint.add(_tpt);
 								}else{
-									ShowSeg.debugBluePoint.add(_tpt);		
+//									ShowSeg.debugBluePoint.add(_tpt);		
 								}
 							}
 							
@@ -1150,12 +1164,12 @@ public class MyClientAgent implements Runnable {
 						}else{
 //							System.out.println("Nao da pra alcancar");
 							discardedShots++;
-							ShowSeg.debugRedPoint.add(_tpt);
+//							ShowSeg.debugRedPoint.add(_tpt);
 						}
 					}
 				}else{
-//					System.out.println("Tiro parecido ja testado");
-					ShowSeg.debugRedPoint.add(_tpt);
+					System.out.println("Tiro parecido ja testado");
+//					ShowSeg.debugRedPoint.add(_tpt);
 					discardedShots++;
 				}
 			}

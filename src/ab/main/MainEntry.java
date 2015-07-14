@@ -69,6 +69,7 @@ public class MainEntry {
 		}
 		
 		if( clientMode ){
+			System.out.println("Client Mode");
 			MyClientAgent na = new MyClientAgent(LearnType.None, recalculatePossibleShots, ip );
 			
 			na.id = teamId;
