@@ -7,17 +7,17 @@
         <fileset dir="${lib.dir}" includes="**/*.jar"/>
     </path>    
 	<target name="clean">
-        <delete dir="src" includes = "**/*.class"/>
+        <delete dir="bin" includes = "**/*.class"/>
     </target>
 
     <target name="compile">
         <mkdir dir="src"/>
-	 <javac srcdir="src" destdir="src" classpathref="classpath"/>
+	 <javac srcdir="src" destdir="bin" classpathref="classpath"/>
     </target>  
 
 
   <target name="jar">
-        <jar destfile="MyAgent.jar">
+        <jar destfile="UFAngryBirdsC.jar">
             <manifest>
                 <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
                 <attribute name="Rsrc-Main-Class" value="ab.main.MainEntry"/>
@@ -25,7 +25,7 @@
                 <attribute name="Rsrc-Class-Path" value="./ Jama-1.0.2.jar json-simple-1.1.1.jar WebSocket.jar commons-codec-1.7.jar"/>
             </manifest>
             <zipfileset src="external/jar-in-jar-loader.zip"/>
-            <fileset dir="src/"/>
+            <fileset dir="bin/"/>
             <zipfileset dir="external" includes="Jama-1.0.2.jar"/>
             <zipfileset dir="external" includes="json-simple-1.1.1.jar"/>
             <zipfileset dir="external" includes="WebSocket.jar"/>
