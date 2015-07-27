@@ -1,0 +1,31 @@
+ In state:   LEVEL_SELECTION Try reloading...
+Loaded Level: 11
+Graph.buildGraph(11)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1 with value 60672.176
+Shooting Bird(0): RedBird at Point x: 482.0 y: 258.0 dx: -467 dy: 326 Tap: 0 -> Stone
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 67
+Setting the Score with average of 59214 and 59300 = 59257
+Setting the Total Score with average of 59214 and 59300 = 59257
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+ Level 2 Score: 61680 
+ Level 3 Score: 43480 
+ Level 4 Score: 36810 
+ Level 5 Score: 66880 
+ Level 6 Score: 36080 
+ Level 7 Score: 45880 
+ Level 8 Score: 59120 
+ Level 9 Score: 49790 
+ Level 10 Score: 54260 
+ Level 11 Score: 59300 
+Total Score: 545220
+Changing Level 27/6/2015 - 2:11:22

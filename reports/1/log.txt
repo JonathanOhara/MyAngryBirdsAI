@@ -1,0 +1,61 @@
+Loaded Level: 1
+Graph.buildGraph(1)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 27 with value 31954.0
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 18
+Setting the Score with average of 31954 and 32020 = 31987
+Setting the Total Score with average of 31954 and 32020 = 31987
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 32020 
+Total Score: 32020
+Changing Level 27/6/2015 - 0:8:38
+Loaded Level: 1
+Graph.buildGraph(1)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 27 with value 31987.0
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 18
+Setting the Score with average of 31987 and 31940 = 31963
+Setting the Total Score with average of 31987 and 31940 = 31963
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+Total Score: 31940
+Changing Level 27/6/2015 - 0:12:47
+ In state:   LEVEL_SELECTION Try reloading...
+Loaded Level: 1
+Graph.buildGraph(1)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+Cutting Nodes that scores 0 points... 
+MyAgent.chooseOneShot(ConfirmBestResults)
+	Counting Unvisited Children...
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 27 with value 31963.0
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Shooting Completed
+Solve return state: WON
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 18
+Setting the Score with average of 31963 and 31940 = 31951
+Setting the Total Score with average of 31963 and 31940 = 31951
+MyAgent.writeShotsAandStatesInFile()
+ Level 1 Score: 31940 
+Total Score: 31940
+Changing Level 27/6/2015 - 0:37:14
