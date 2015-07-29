@@ -58,7 +58,7 @@ public class MyClientAgent implements Runnable {
 	private boolean recalculatePossibleShots = false;
 	
 	private int MAX_LEVEL = 22;
-	
+
 	private int TIMES_IN_EACH_STAGE = Integer.MAX_VALUE;
 	private int timesInThisStage = 1;
 	
@@ -99,8 +99,7 @@ public class MyClientAgent implements Runnable {
 //		ActionRobot.GoFromMainMenuToLevelSelection();
 	}
 
-	private void checkMyScore()
-	{
+	private void checkMyScore()	{
 		
 		int[] scores = aRobot.checkMyScore();
 		System.out.println(" My score: ");
@@ -114,15 +113,12 @@ public class MyClientAgent implements Runnable {
 		}
 	}
 	
-	public int getNextLevel()
-	{
+	public int getNextLevel(){
 		int level = 0;
 		boolean unsolved = false;
 		//all the level have been solved, then get the first unsolved level
-		for (int i = 0; i < solved.length; i++)
-		{
-			if(solved[i] == 0 )
-			{
+		for (int i = 0; i < solved.length; i++){
+			if(solved[i] == 0 ){
 					unsolved = true;
 					level = i + 1;
 					if(level <= currentLevel && currentLevel < solved.length)
@@ -133,7 +129,7 @@ public class MyClientAgent implements Runnable {
 		}
 		if(unsolved)
 			return level;
-	    level = (currentLevel + 1)%solved.length;
+	    level = (currentLevel + 1) % solved.length;
 		if(level == 0)
 			level = solved.length;
 		return level; 
@@ -141,7 +137,7 @@ public class MyClientAgent implements Runnable {
 	
 	// run the client
 	public void run() {
-
+		boolean retrying = false;
 		byte[] info = aRobot.configure(ClientActionRobot.intToByteArray(id));
 		solved = new int[info[2]];
 		
@@ -156,10 +152,11 @@ public class MyClientAgent implements Runnable {
 		System.out.println("Team id = "+id);
 		
 		while (true) {
-			GameState state = solve();
+			GameState state = solve(retrying);
 			if (state == GameState.WON) {
+				retrying = false;
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(3000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -168,9 +165,7 @@ public class MyClientAgent implements Runnable {
 				
 				int[] scores = aRobot.checkScore();
 				System.out.println("Global best score: ");
-				for (int i = 0; i < scores.length ; i ++)
-				{
-				
+				for (int i = 0; i < scores.length ; i ++){
 					System.out.print( " level " + (i+1) + ": " + scores[i]);
 				}
 				System.out.println();
@@ -183,6 +178,7 @@ public class MyClientAgent implements Runnable {
 				firstShot = true;
 				
 			} else if (state == GameState.LOST) {
+				retrying = true;
 				System.out.println("LOST.");
 				
 				numberOfbirds = -1;
@@ -195,6 +191,7 @@ public class MyClientAgent implements Runnable {
 
 				aRobot.restartLevel();
 			} else if (state == GameState.LEVEL_SELECTION) {
+				retrying = false;
 				System.out.println("Unexpected level selection page, go to the last current level : "+ currentLevel);
 
 				numberOfbirds = -1;
@@ -203,6 +200,7 @@ public class MyClientAgent implements Runnable {
 				loadLevel();
 				
 			} else if (state == GameState.MAIN_MENU) {
+				retrying = false;
 				System.out.println("Unexpected main menu page, go to the last current level : "	+ currentLevel);
 				
 				numberOfbirds = -1;
@@ -213,6 +211,7 @@ public class MyClientAgent implements Runnable {
 				
 				loadLevel();
 			} else if (state == GameState.EPISODE_MENU) {
+				retrying = false;
 				System.out.println("Unexpected episode menu page, go to the last current level : "+ currentLevel);
 				
 				numberOfbirds = -1;
@@ -222,6 +221,7 @@ public class MyClientAgent implements Runnable {
 //				ActionRobot.GoFromMainMenuToLevelSelection();
 				loadLevel();
 			} else if (state == GameState.UNKNOWN) {
+				
 				System.out.println("Unknow Game state, may the game ends in last shot. CurrentLevel: "+ currentLevel);
 				numberOfbirds = -1;
 				
@@ -233,12 +233,14 @@ public class MyClientAgent implements Runnable {
 					reCalculateShotStats(true);
 					
 					if( aRobot.checkState() == GameState.WON ){
+						retrying = false;
 						changeLevelIfNecessary();
 						loadLevel();
 						tp = new TrajectoryPlanner();
 					}else{
 						timesInThisStage++;
 						aRobot.restartLevel();
+						retrying = true;
 					}
 				}else{
 					System.out.println("[ERROR] Unknow error. Restart Level.");
@@ -246,6 +248,18 @@ public class MyClientAgent implements Runnable {
 					aRobot.restartLevel();
 				}
 
+			} if (state == GameState.FORCE_REESTART) {
+				retrying = true;
+				numberOfbirds = -1;
+				
+				timesInThisStage++;
+				
+				if( timesInThisStage < 5 ){
+					aRobot.restartLevel();
+				}else{
+					System.out.println("Too many times in this level. Next level...");
+					changeLevelIfNecessary();
+				}
 			}
 
 		}
@@ -308,7 +322,7 @@ public class MyClientAgent implements Runnable {
 		}else{
 			System.out.println("Changing Level "+getDatetimeFormated());
 			
-			currentLevel++;
+			currentLevel = (byte)getNextLevel();
 			changeLevel();
 		}
 	}
@@ -324,7 +338,7 @@ public class MyClientAgent implements Runnable {
 		return Math.sqrt( (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y) );
 	}
 	
-	public GameState solve(){
+	public GameState solve(boolean retrying){
  		List<ABObject> pigs;
  		List<ABObject> birds;
  		
@@ -361,7 +375,6 @@ public class MyClientAgent implements Runnable {
 				int dx,dy;
 
 				if( numberOfbirds == -1 ){
-					graph = new Graph();
 					actualShot = null;
 					lastState = null;
 					actualState = null;
@@ -370,11 +383,9 @@ public class MyClientAgent implements Runnable {
 					birdsIndex = 0;
 					
 					try {
-						graph.buildGraph( currentLevel );
-						
-						if( isLearningMode() ){
-							System.out.println("Cutting Nodes that scores 0 points... ");
-//							graph.cutNodesWithZeroPoints( graph.rootState );
+						if( !retrying ){
+							graph = new Graph();
+							graph.buildGraph( currentLevel );	
 						}
 						
 					} catch (IOException e) {
@@ -386,7 +397,17 @@ public class MyClientAgent implements Runnable {
 					
 					lastState = actualState = graph.rootState;
 				}else{
-					calculateShotStats(false);
+					boolean forceReestart = calculateShotStats(false);
+					
+					if( forceReestart ){
+						System.out.println("Unexpected state.");
+						if( pigs.size() > 1){
+							System.out.println("The agent will restart and try another strategy");
+							return GameState.FORCE_REESTART;
+						}else{
+							System.out.println("One pig left. Continuing...");
+						}
+					}
 				}
 				
 				clearDebugsPoints();
@@ -400,11 +421,10 @@ public class MyClientAgent implements Runnable {
 					
 					actualState.setPossibleShots( findPossibleShots(new ArrayList<MyShot>()) );
 					
-					actualState.setShotImage( aRobot.doScreenShot() );
-					
 					graph.allStates.put(actualState.getStateId(), actualState);
 					
 					if( isLearningMode() ){
+						actualState.setShotImage( aRobot.doScreenShot() );
 						writeImageState(1);
 					}
 				}
@@ -440,69 +460,6 @@ public class MyClientAgent implements Runnable {
 				
 				actualShot = chooseOneShot();
 
-//				forceShots= true;
-				if( forceShots ){
-					System.out.println("...............::::::::::::::::::::::: Forcing Shots :::::::::::::::::::::::...............");
-//					try{Thread.sleep(10000000);}catch(Exception e){}
-					switch( birdsIndex ){
-					case 0:
-						/*
-						sortPossibleShotsByClosesetPoint(443, 319, 90);
-						actualShot = actualState.getPossibleShots().get(0);
-						 */
-						chooseShotById(2691, actualState.getPossibleShots());
-						break;
-					case 1:
-						sortPossibleShotsByClosesetPoint(506, 310, 0);
-						/*
-						actualShot = actualState.getPossibleShots().get(0);
-						if( actualState.getStateId() == 182 ){
-							chooseShotById(14411, actualState.getPossibleShots());
-						}else if( actualState.getStateId() == 358 ){
-							idForced = 24669;
-							chooseShotById(24669, actualState.getPossibleShots());
-						}
-						*/
-						break;
-					case 2:/*
-						idForced = -1;
-						
-						sortPossibleShotsByClosesetPoint(519, 319, 80);
-						actualShot = actualState.getPossibleShots().get(0);
-						*/
-						break;
-					case 3:
-						/*
-						idForced = -1;
-						
-						sortPossibleShotsByClosesetPoint(589, 298, 75);
-						actualShot = actualState.getPossibleShots().get(0);
-						*/
-						break;
-					case 4:
-						/*
-						idForced = -1;
-						
-						sortPossibleShotsByClosesetPoint(508, 329, 0);
-						actualShot = actualState.getPossibleShots().get(0);
-						*/
-						break;
-					case 5:
-						/*
-						idForced = -1;
-						
-						sortPossibleShotsByClosesetPoint(591, 297, 80);
-						actualShot = actualState.getPossibleShots().get(0);
-						*/
-						break;
-					}
-
-				}else{
-//					ShowSeg.debugRedPoint.add(actualShot.getClosestPig().getCenter());
-				}
-				
-//				ShowSeg.debugGreenPoint.add(actualShot.getTarget());
-				
 				shot = actualShot.getShot();
 				releasePoint = actualShot.getReleasePoint();
 				dx = actualShot.getShot().getDx();
@@ -638,7 +595,8 @@ public class MyClientAgent implements Runnable {
 		}
 	}
 	
-	private void calculateShotStats(boolean finalShot) {
+	private boolean calculateShotStats(boolean finalShot) {
+		boolean forceReestart = false;
 		System.out.println("MyAgent.calculateShotStats()");
 		
 		int score = 0;
@@ -667,6 +625,9 @@ public class MyClientAgent implements Runnable {
 		
 		actualState = getStateIfAlreadyTested( actualState, actualShot.getPossibleStates() ); 
 		
+		if( actualState.isNewState() ){
+			forceReestart = true;
+		}
 		actualState.setActive(true);
 		actualShot.setActive(true);
 		actualState.setBirdIndex( actualShot.getBirdIndex() );
@@ -676,6 +637,7 @@ public class MyClientAgent implements Runnable {
 			
 			graph.writeShotsAandStatesInFile(currentLevel);
 		}
+		return forceReestart;
 	}
 
 
@@ -749,7 +711,9 @@ public class MyClientAgent implements Runnable {
 			returnState = state;
 			
 			if( state.getStateId() == 0 ){
+				actualShot.getPossibleStates().add(state);
 				state.setStateId( graph.getNewStateId() );
+				state.setNewState(true);
 				System.out.println("Generate new state with id = "+state.getStateId());
 			}else{
 				System.err.println("[ERROR] Something Wrong... The state "+state.getStateId()+" was tried to be overwritten by "+(graph.getStateId()+1));
@@ -868,9 +832,11 @@ public class MyClientAgent implements Runnable {
 	private MyShot chooseOneShot() {
 		System.out.println("MyAgent.chooseOneShot("+LEARN_TYPE+")");
 		MyShot theShot = null;
-
-		System.out.println("\tCounting Unvisited Children...");
-		graph.rootState.setUnvisitedChildren( graph.countUnvisitedChildren( graph.rootState ) );
+		
+		if( isLearningMode() ){
+			System.out.println("\tCounting Unvisited Children...");
+			graph.rootState.setUnvisitedChildren( graph.countUnvisitedChildren( graph.rootState ) );
+		}
 		
 		System.out.println("\tCalculating Minimax...");
 		for( MyShot evalShot: actualState.getPossibleShots() ){
@@ -886,19 +852,10 @@ public class MyClientAgent implements Runnable {
 
 		switch( LEARN_TYPE ){
 		case None:
-			Vision vision;
-			do{
-				sortPossibleShotsMyMiniMax();
-				
-				theShot = actualState.getPossibleShots().remove(0);
-				
-				if( firstShot ) break;
-				
-				BufferedImage screenshot = aRobot.doScreenShot();
-				vision = new Vision(screenshot);
-				
-				System.out.println("Testing if shot "+theShot.getShotId()+ " is reachable.");
-			}while( !ABUtil.isReachable(vision, theShot.getTarget(), theShot.getShot() ) );
+			sortPossibleShotsMyMiniMax();
+			
+			theShot = actualState.getPossibleShots().get(0);
+			
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case ConfirmBestResults:
@@ -1233,7 +1190,7 @@ public class MyClientAgent implements Runnable {
 		ArrayList<Point> pts = tp.estimateLaunchPoint(sling, _tpt);
 		
 		if ( pts.isEmpty() ){
-			System.out.println("No release point found for the target. Try a shot with 45 degree");
+//			System.out.println("No release point found for the target. Try a shot with 45 degree");
 			pts.add( tp.findReleasePoint(sling, Math.PI/4) );
 		}
 		

@@ -22,7 +22,7 @@ import javax.imageio.ImageIO;
 public class GameStateExtractor {
 
 	public enum GameState {
-		 UNKNOWN, MAIN_MENU, EPISODE_MENU, LEVEL_SELECTION, LOADING, PLAYING, WON, LOST
+		 UNKNOWN, MAIN_MENU, EPISODE_MENU, LEVEL_SELECTION, LOADING, PLAYING, WON, LOST, FORCE_REESTART
 	}
 
     static int repeatCount = 0;

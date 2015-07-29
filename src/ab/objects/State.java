@@ -28,6 +28,8 @@ public class State implements GraphNode {
 	@Expose(serialize = true, deserialize = false)
 	private float miniMaxValue;
 	
+	private transient boolean newState;
+	
 	private transient List<MyShot> possibleShots;
 	private transient BufferedImage shotImage;
 
@@ -143,6 +145,14 @@ public class State implements GraphNode {
 
 	public void setMiniMaxValue(float miniMaxValue) {
 		this.miniMaxValue = miniMaxValue;
+	}
+
+	public boolean isNewState() {
+		return newState;
+	}
+
+	public void setNewState(boolean newState) {
+		this.newState = newState;
 	}
 	
 	
