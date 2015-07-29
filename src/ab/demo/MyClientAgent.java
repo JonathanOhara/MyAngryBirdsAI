@@ -255,10 +255,12 @@ public class MyClientAgent implements Runnable {
 				timesInThisStage++;
 				
 				if( timesInThisStage < 5 ){
+					aRobot.loadLevel(currentLevel);
 					aRobot.restartLevel();
 				}else{
 					System.out.println("Too many times in this level. Next level...");
 					changeLevelIfNecessary();
+					aRobot.loadLevel(currentLevel);
 				}
 			}
 
