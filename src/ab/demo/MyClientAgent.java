@@ -629,6 +629,7 @@ public class MyClientAgent implements Runnable {
 		
 		if( actualState.isNewState() ){
 			forceReestart = true;
+			actualState.setFinalState(true);
 		}
 		actualState.setActive(true);
 		actualShot.setActive(true);
