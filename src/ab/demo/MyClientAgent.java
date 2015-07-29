@@ -188,6 +188,8 @@ public class MyClientAgent implements Runnable {
 
 				previousScore = 0;
 				timesInThisStage++;
+				
+				firstShot = true;
 
 				aRobot.restartLevel();
 			} else if (state == GameState.LEVEL_SELECTION) {
@@ -225,6 +227,8 @@ public class MyClientAgent implements Runnable {
 				System.out.println("Unknow Game state, may the game ends in last shot. CurrentLevel: "+ currentLevel);
 				numberOfbirds = -1;
 				
+				firstShot = true;
+				
 				if( aRobot.checkState() == GameState.WON || aRobot.checkState() == GameState.LOST ){
 					System.out.println("Updating last Shot Status");
 					
@@ -249,14 +253,14 @@ public class MyClientAgent implements Runnable {
 				}
 
 			} if (state == GameState.FORCE_REESTART) {
-				retrying = true;
+				firstShot = true;
 				numberOfbirds = -1;
 				
 				timesInThisStage++;
 				
 				if( timesInThisStage < 5 ){
+					retrying = true;
 					aRobot.loadLevel(currentLevel);
-					aRobot.restartLevel();
 				}else{
 					System.out.println("Too many times in this level. Next level...");
 					changeLevelIfNecessary();
@@ -403,13 +407,14 @@ public class MyClientAgent implements Runnable {
 					
 					if( forceReestart ){
 						System.out.println("Unexpected state.");
-						if( pigs.size() > 1){
+						if( firstShot ){
 							System.out.println("The agent will restart and try another strategy");
 							return GameState.FORCE_REESTART;
 						}else{
-							System.out.println("One pig left. Continuing...");
+							System.out.println("Not the first shot continuing...");
 						}
 					}
+					firstShot = false;
 				}
 				
 				clearDebugsPoints();
@@ -667,7 +672,7 @@ public class MyClientAgent implements Runnable {
 				}
 			}
 		}else{
-			tollerancePoints = 5000;
+			tollerancePoints = 10000;
 		}
 		
 		final State originState = state;
@@ -829,7 +834,15 @@ public class MyClientAgent implements Runnable {
 		}
 		
 		return multi;
+	}
+	
+	protected double greaterXMultiplier(ABObject closestPig, Point target) {
+		double returnValue = 1;
 		
+		if( target.getX() + 5 > closestPig.getX() ){
+			returnValue = 2;
+		}
+		return returnValue;
 	}
 	
 	private MyShot chooseOneShot() {
@@ -972,7 +985,8 @@ public class MyClientAgent implements Runnable {
 				int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
 				
 				if( compare == 0){
-					compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+					compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier( o1.getAim() ) * greaterXMultiplier( o1.getClosestPig(), o1.getTarget() ), 
+											 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier( o2.getAim() )*  greaterXMultiplier( o1.getClosestPig(), o1.getTarget() ) );
 				}
 				
 				if( compare == 0 ){
@@ -983,7 +997,6 @@ public class MyClientAgent implements Runnable {
 			}
 		});
 	}
-
 
 	private List<MyShot> findPossibleShots(List<MyShot> oldPossibleShots) {
 		System.out.println("MyAgent.findPossibleShots()");
@@ -1028,6 +1041,10 @@ public class MyClientAgent implements Runnable {
 			
 			targetX = object.x;
 			targetY = object.y;
+			
+			if( object.getType().equals(ABType.Pig) ){
+				targetY += 5;
+			}
 			pointsToTry.add(new Point( (int)targetX, (int)targetY ));
 			
 			targetX += BIRDS_SIZE;
