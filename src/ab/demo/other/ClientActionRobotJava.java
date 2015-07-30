@@ -11,12 +11,19 @@ package ab.demo.other;
 
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import javax.imageio.ImageIO;
+
+import ab.server.proxy.message.ProxyScreenshotMessage;
+import ab.utils.StateUtil;
 import ab.vision.ABObject;
 import ab.vision.ABType;
+import ab.vision.GameStateExtractor;
 import ab.vision.GameStateExtractor.GameState;
 import ab.vision.Vision;
 import external.ClientMessageEncoder;
@@ -99,5 +106,37 @@ public class ClientActionRobotJava extends ClientActionRobot {
 			_scores[i] = super.bytesToInt(scores[i * 4], scores[i*4 + 1], scores[i*4 + 2], scores[i*4 + 3]);
 		}
 		return _scores;
+	}
+	
+	public int getScoreInGame() {
+		int score = -1;
+		BufferedImage image = doScreenShot();;
+	    
+        GameStateExtractor gameStateExtractor = new GameStateExtractor();
+        GameState state = gameStateExtractor.getGameState(image);
+        if (state == GameState.PLAYING)
+        	score = gameStateExtractor.getScoreInGame(image);
+        else
+        	if(state == GameState.WON)
+        		score = gameStateExtractor.getScoreEndGame(image);
+       if(score == -1)
+    	   System.out.println(" Game score is unavailable "); 	   
+		return score;
+	}
+
+	public int getScore() {
+		int score = -1;
+		BufferedImage image = doScreenShot();;
+	    
+        GameStateExtractor gameStateExtractor = new GameStateExtractor();
+        GameState state = gameStateExtractor.getGameState(image);
+        if (state == GameState.PLAYING)
+        	score = gameStateExtractor.getScoreInGame(image);
+        else
+        	if(state == GameState.WON)
+        		score = gameStateExtractor.getScoreEndGame(image);
+       if(score == -1)
+    	   System.out.println(" Game score is unavailable "); 	   
+		return score;
 	}
 }

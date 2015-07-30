@@ -583,10 +583,10 @@ public class MyClientAgent implements Runnable {
 			if( aRobot.checkState() == GameState.LOST ){
 				score = previousScore;
 			}else{
-//				score = aRobot.getScore();
+				score = aRobot.getScore();
 			}
 		}else{
-//			score = aRobot.getScoreInGame(); 
+			score = aRobot.getScoreInGame(); 
 		}
 		
 		for( MyShot myShot : actualState.getPossibleShots() ){
@@ -618,10 +618,10 @@ public class MyClientAgent implements Runnable {
 			if( aRobot.checkState() == GameState.LOST ){
 				score = previousScore;
 			}else{
-//				score = aRobot.getScore();
+				score = aRobot.getScore();
 			}
 		}else{
-//			score = aRobot.getScoreInGame(); 
+			score = aRobot.getScoreInGame(); 
 		}
 		
 		actualState.setTotalScore( score );
@@ -675,7 +675,7 @@ public class MyClientAgent implements Runnable {
 				}
 			}
 		}else{
-			tollerancePoints = 10000;
+			tollerancePoints = 20000;
 		}
 		
 		final State originState = state;
