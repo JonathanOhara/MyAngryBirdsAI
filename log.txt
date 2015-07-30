@@ -1,0 +1,293 @@
+Client Mode
+..:: CLIENT MODE ::..
+Execution starts: 29/6/2015 - 21:2:57
+Connected to null in port 2004
+ My score: 
+ level 1  0
+ level 2  0
+ level 3  0
+ level 4  0
+ level 5  0
+ level 6  0
+ level 7  0
+ level 8  0
+ level 9  0
+ level 10  0
+ level 11  0
+ level 12  0
+ level 13  0
+ level 14  0
+ level 15  0
+ level 16  0
+ level 17  0
+ level 18  0
+ level 19  0
+ level 20  0
+ level 21  0
+Team id = 0
+Graph.buildGraph(1)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 27 with value 31951.0
+Shooting Bird(0): RedBird at Point x: 519.0 y: 325.0 dx: -628 dy: 201 Tap: 0 -> Wood
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 31951
+Generate new state with id = 95
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:4:0
+Graph.buildGraph(2)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35 with value 57040.24
+Shooting Bird(0): RedBird at Point x: 514.0 y: 313.0 dx: -550 dy: 183 Tap: 0 -> Pig
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 16185
+Generate new state with id = 363
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:4:56
+Graph.buildGraph(3)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 24 with value 43025.285
+Shooting Bird(0): RedBird at Point x: 619.0 y: 384.0 dx: -523 dy: 199 Tap: 0 -> Pig
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 42440
+Generate new state with id = 114
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:5:46
+Graph.buildGraph(4)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 38 with value 36818.0
+Shooting Bird(0): RedBird at Point x: 529.0 y: 327.0 dx: -584 dy: 205 Tap: 0 -> Ice
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 36818
+Generate new state with id = 381
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:6:38
+Graph.buildGraph(5)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 44 with value 67311.52
+Shooting Bird(0): RedBird at Point x: 575.0 y: 252.0 dx: -438 dy: 363 Tap: 0 -> Ice
+
+scale factor changed to: 1.0084436145467959
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 65421
+Generate new state with id = 286
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:7:30
+Graph.buildGraph(6)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 38 with value 28337.0
+Shooting Bird(0): RedBird at Point x: 537.0 y: 327.0 dx: -535 dy: 222 Tap: 0 -> Ice
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 232
+Setting the Score with average of 7740 and 0 = 3870
+Setting the Total Score with average of 7740 and 0 = 3870
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 3824 with value 28337.0
+Shooting Bird(1): RedBird at Point x: 623.0 y: 296.0 dx: -482 dy: 321 Tap: 0 -> Pig
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 28337
+Generate new state with id = 250
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:8:54
+Graph.buildGraph(7)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1 with value 45880.0
+Shooting Bird(0): RedBird at Point x: 556.0 y: 327.0 dx: -501 dy: 248 Tap: 0 -> Stone
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 45880
+Generate new state with id = 184
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:9:48
+Graph.buildGraph(8)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 32 with value 59120.0
+Shooting Bird(0): RedBird at Point x: 557.0 y: 297.0 dx: -218 dy: 515 Tap: 0 -> Ice
+
+scale factor changed to: 1.002811944179078
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 59120
+Generate new state with id = 150
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:10:53
+Graph.buildGraph(9)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 14 with value 49790.0
+Shooting Bird(0): RedBird at Point x: 549.0 y: 303.0 dx: -465 dy: 252 Tap: 0 -> Wood
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 49790
+Generate new state with id = 368
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:11:48
+Graph.buildGraph(10)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 58695 with value 50040.0
+Shooting Bird(0): BlueBird at Point x: 510.0 y: 315.0 dx: -473 dy: 215 Tap: 90 -> Stone
+
+scale factor changed to: 1.005
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+State previously reached. Reloading state: 669
+Setting the Score with average of 5490 and 0 = 2745
+Setting the Total Score with average of 5490 and 0 = 2745
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 74639 with value 50040.0
+Shooting Bird(1): BlueBird at Point x: 595.0 y: 268.0 dx: -388 dy: 345 Tap: 75 -> Stone
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 48880
+Generate new state with id = 995
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:13:22
+Graph.buildGraph(11)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 1 with value 60695.05
+Shooting Bird(0): RedBird at Point x: 482.0 y: 258.0 dx: -467 dy: 326 Tap: 0 -> Stone
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 59257
+Generate new state with id = 71
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:14:17
+Graph.buildGraph(12)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 154 with value 58940.273
+Shooting Bird(0): BlueBird at Point x: 592.0 y: 328.0 dx: -463 dy: 277 Tap: 85 -> Ice
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 21743
+Generate new state with id = 863
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:15:15
+Graph.buildGraph(13)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 35 with value 41305.69
+Shooting Bird(0): BlueBird at Point x: 560.0 y: 286.0 dx: -474 dy: 315 Tap: 95 -> Ice
+Solve return state: WON
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 11560
+Generate new state with id = 223
+Global best score: 
+ level 1: 0 level 2: 0 level 3: 0 level 4: 0 level 5: 0 level 6: 0 level 7: 0 level 8: 0 level 9: 0 level 10: 0 level 11: 0 level 12: 0 level 13: 0 level 14: 0 level 15: 0 level 16: 0 level 17: 0 level 18: 0 level 19: 0 level 20: 0 level 21: 0
+Changing Level 29/6/2015 - 21:16:5
+Graph.buildGraph(14)
+Loading shots and states from file.
+Graph.buildScenarioGraph()
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 31 with value 50330.0
+Shooting Bird(0): RedBird at Point x: 568.0 y: 380.0 dx: -192 dy: 493 Tap: 0 -> Pig
+
+scale factor changed to: 0.9986234595473821
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Estado nao encontrado, diferença mais próxima: 15310
+Generate new state with id = 120
+Unexpected state.
+Not the first shot continuing...
+MyAgent.findPossibleShots()
+Tiro parecido ja testado
+Tiro parecido ja testado
+Number of: PossibleShots: 65 DiscardedShots: 2  calculated in: 8860 miliseconds
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2803 with value 0.0
+Shooting Bird(1): RedBird at Point x: 498.0 y: 380.0 dx: -519 dy: 27 Tap: 0 -> Pig
+
+scale factor changed to: 0.9986234595473821
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 121
+Unexpected state.
+Not the first shot continuing...
+MyAgent.findPossibleShots()
+Tiro parecido ja testado
+Tiro parecido ja testado
+Number of: PossibleShots: 61 DiscardedShots: 2  calculated in: 10408 miliseconds
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2868 with value 0.0
+Shooting Bird(2): RedBird at Point x: 498.0 y: 380.0 dx: -519 dy: 27 Tap: 0 -> Pig
+
+scale factor changed to: 0.9986234595473821
+Solve return state: PLAYING
+MyAgent.calculateShotStats()
+Generate new state with id = 122
+Unexpected state.
+Not the first shot continuing...
+MyAgent.findPossibleShots()
+Tiro parecido ja testado
+Tiro parecido ja testado
+Tiro parecido ja testado
+Tiro parecido ja testado
+Number of: PossibleShots: 66 DiscardedShots: 4  calculated in: 9153 miliseconds
+MyAgent.chooseOneShot(None)
+	Calculating Minimax...
+ExpectMiniMax Algorithm choose shot with id: 2936 with value 0.0
+Client Mode
+..:: CLIENT MODE ::..
+Execution starts: 30/6/2015 - 11:12:18
+Connected to null in port 2004
