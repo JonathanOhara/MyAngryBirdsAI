@@ -191,6 +191,31 @@ public class MyShot implements GraphNode {
 
 	public void setUnvisitedChildren(int unvisitedChildren) {
 		this.unvisitedChildren = unvisitedChildren;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((shot == null) ? 0 : shot.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		MyShot other = (MyShot) obj;
+		if (shot == null) {
+			if (other.shot != null)
+				return false;
+		} else if (!shot.equals(other.shot))
+			return false;
+		return true;
 	}	
 	
 }

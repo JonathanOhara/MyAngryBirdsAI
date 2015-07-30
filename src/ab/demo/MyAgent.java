@@ -66,6 +66,7 @@ public class MyAgent implements Runnable {
 	private State actualState;
 	private MyShot actualShot;
 	private State lastState;
+	private MyShot lastShot;
 	private boolean forceShots = false;
 	
 	private final int BIRDS_SIZE = 10;
@@ -98,6 +99,7 @@ public class MyAgent implements Runnable {
 		graph = new Graph();
 //		firstShot = true;
 		randomGenerator = new Random();
+		lastShot = null;
 		// --- go to the Poached Eggs episode level selection page ---
 		ActionRobot.GoFromMainMenuToLevelSelection();
 	}
@@ -324,6 +326,7 @@ public class MyAgent implements Runnable {
 					actualShot = null;
 					lastState = null;
 					actualState = null;
+					lastShot = null;
 					
 					previousScore = 0;
 					birdsIndex = 0;
@@ -345,6 +348,7 @@ public class MyAgent implements Runnable {
 					
 					lastState = actualState = graph.rootState;
 				}else{
+					lastShot = actualShot;
 					calculateShotStats(false);
 				}
 				
@@ -846,12 +850,20 @@ public class MyAgent implements Runnable {
 			sortPossibleShotsMyMiniMax();
 			
 			theShot = actualState.getPossibleShots().get(0);
+			
+			if( lastShot != null && lastShot.equals(theShot) ){
+				theShot = actualState.getPossibleShots().get(1);
+			}
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case ConfirmBestResults:
 			sortPossibleShotsMyMiniMax();
 			
 			theShot = actualState.getPossibleShots().get(0);
+			
+			if( lastShot != null && lastShot.equals(theShot) ){
+				theShot = actualState.getPossibleShots().get(1);
+			}
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case RounRobin:
