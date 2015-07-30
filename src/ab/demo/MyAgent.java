@@ -654,7 +654,7 @@ public class MyAgent implements Runnable {
 		State returnState = null;
 		State otherState;
 		
-		int tollerancePoints = 1750;
+		int tollerancePoints = 4000;
 		
 		if( isLearningMode() ){
 			for( int i = 0; i < possibleStates.size(); i++ ){
@@ -665,7 +665,7 @@ public class MyAgent implements Runnable {
 				}
 			}
 		}else{
-			tollerancePoints = 4000;
+			tollerancePoints = 5000;
 		}
 		
 		final State originState = state;
@@ -826,6 +826,15 @@ public class MyAgent implements Runnable {
 		
 	}
 	
+	protected double greaterXMultiplier(ABObject closestPig, Point target) {
+		double returnValue = 1;
+		
+		if( target.getX() + 5 > closestPig.getX() ){
+			returnValue = 2;
+		}
+		return returnValue;
+	}
+	
 	private MyShot chooseOneShot() {
 		System.out.println("MyAgent.chooseOneShot("+LEARN_TYPE+")");
 		MyShot theShot = null;
@@ -852,6 +861,7 @@ public class MyAgent implements Runnable {
 			theShot = actualState.getPossibleShots().get(0);
 			
 			if( lastShot != null && lastShot.equals(theShot) ){
+				System.out.println("Actual Shot equals last shot, getting the next one...");
 				theShot = actualState.getPossibleShots().get(1);
 			}
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
@@ -862,6 +872,7 @@ public class MyAgent implements Runnable {
 			theShot = actualState.getPossibleShots().get(0);
 			
 			if( lastShot != null && lastShot.equals(theShot) ){
+				System.out.println("Actual Shot equals last shot, getting the next one...");
 				theShot = actualState.getPossibleShots().get(1);
 			}
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
@@ -971,7 +982,8 @@ public class MyAgent implements Runnable {
 				int compare = Double.compare(o1.getMiniMaxValue(), o2.getMiniMaxValue()) * -1;
 				
 				if( compare == 0){
-					compare = Double.compare(o1.getDistanceOfClosestPig(), o2.getDistanceOfClosestPig());
+					compare = Double.compare(o1.getDistanceOfClosestPig() * itemTypeDistanceMultiplier( o1.getAim() ) * greaterXMultiplier( o1.getClosestPig(), o1.getTarget() ), 
+											 o2.getDistanceOfClosestPig() * itemTypeDistanceMultiplier( o2.getAim() )*  greaterXMultiplier( o1.getClosestPig(), o1.getTarget() ) );
 				}
 				
 				if( compare == 0 ){

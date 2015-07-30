@@ -69,6 +69,7 @@ public class MyClientAgent implements Runnable {
 	private State actualState;
 	private MyShot actualShot;
 	private State lastState;
+	private MyShot lastShot;
 	private boolean forceShots = false;
 	
 	private final int BIRDS_SIZE = 10;
@@ -383,6 +384,7 @@ public class MyClientAgent implements Runnable {
 				if( numberOfbirds == -1 ){
 					actualShot = null;
 					lastState = null;
+					lastShot = null;
 					actualState = null;
 					
 					previousScore = 0;
@@ -403,6 +405,7 @@ public class MyClientAgent implements Runnable {
 					
 					lastState = actualState = graph.rootState;
 				}else{
+					lastShot = actualShot;
 					boolean forceReestart = calculateShotStats(false);
 					
 					if( forceReestart ){
@@ -872,10 +875,20 @@ public class MyClientAgent implements Runnable {
 			
 			theShot = actualState.getPossibleShots().get(0);
 			
+			if( lastShot != null && lastShot.equals(theShot) ){
+				System.out.println("Actual Shot equals last shot, getting the next one...");
+				theShot = actualState.getPossibleShots().get(1);
+			}
+			
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
 			break;
 		case ConfirmBestResults:
 			sortPossibleShotsMyMiniMax();
+			
+			if( lastShot != null && lastShot.equals(theShot) ){
+				System.out.println("Actual Shot equals last shot, getting the next one...");
+				theShot = actualState.getPossibleShots().get(1);
+			}
 			
 			theShot = actualState.getPossibleShots().get(0);
 			System.out.println("ExpectMiniMax Algorithm choose shot with id: "+theShot.getShotId()+ " with value "+theShot.getMiniMaxValue());
